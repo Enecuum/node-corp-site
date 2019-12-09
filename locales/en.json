@@ -1,0 +1,531 @@
+{
+	"LANGUAGE": "English",
+	"UNITS": {
+		"SECONDS": "seconds",
+		"S": "s",
+		"TPS": "tps",
+		"HOUR": "h"
+	},
+	"MONTHS": {
+		"MAY": "may",
+		"JULY": "July",
+		"DECEMBER": "december"
+	},
+	"ABOUT": "About",
+	"MISSION_AND_PURPOSE": "Mission and purpose",
+	"DOCUMENTATION": "Documentation",
+	"TEAM": "Team",
+	"ROADMAP": "Roadmap",
+	"PARTNERS": "Partners",
+    "NEWS_AND_COMMUNITY": "News and community",
+    "STATS": "Stats",
+    "MARKET_STATS": "Market stats",
+    "NETWORK_STATS": "Network stats",
+    "BLOCKCHAIN_EXPLORER": "Blockchain Explorer",
+    "BUY": "Buy",
+    "EARN": "Earn",
+    "HOLD": "Hold",
+    "SPEND": "Spend",
+    "UTILITY": "Utility",
+    "SWAP": "Swap",
+    "EMISSION_MODEL": "Emission model",
+    "TECHNOLOGY": "Technology",
+    "TRINITY": "Trinity",
+    "BLOCK_DAG": "Block DAG",
+    "NETWORK": "Network",
+    "INFRASTRUCTURE": "Infrastructure",
+    "START_MINING": "Start mining",
+    "HOW_TO_MINE": "How to mine?",
+	"REFERRAL_PROGRAM": "Referral program",
+	"FAQ": "FAQ",
+	"GUIDES": "Guides",
+	"HOW_TO_USE_THE_APP": "How to use the app",
+	"HOW_TO_BUY_ENQ_ON_EXCHANGE": "How to buy ENQ on exchange",
+	"HOW_TO_BUY_ENQ_USING_BANK_CARD": "How to Buy ENQ using bank card",
+	"HOW_TO_SWAP_ENQ": "How to swap ENQ",
+	"HOW_TO_JOIN_THE_REFERRAL_PROGRAM": "How to Join the referral program",
+	"HOW_DOES_ROI_CALCULATOR_WORK": "How does ROI calculator work",
+	"RESEARCH_PAPERS": "Research papers",
+	"WHITEPAPER": "Whitepaper",
+	"TECHPAPER": "Techpaper",
+	"PLAY_VIDEO": "Play video",
+	"EASY_JOIN": "Easy join",
+	"EASY_EARN": "Easy earn",	
+	"ABOUT_S1_TITLE_P1": "Blockchain Mobile Network",
+	"ABOUT_S1_TITLE_P2": "for decentralized application",
+	"ABOUT_S1_P1": "We believe that everyone should have the opportunity to become a part of the blockchain revolution.",
+	"ABOUT_S1_P2": "Currently, we create a decentralized ecosystem able to bring the blockchain and cryptocurrencies to the real mainstream, involving a crowd with regular mobile and desktop devices into the blockchain network, as well as providing the powerful toolkit for the dApps developers to create fast and low cost applications for millions of people.",
+	"ABOUT_S1_P3": "Enecuum allows each smartphone owner to be a part of our global network.",
+	"ABOUT_S2_TITLE": "Token value created by miners",
+	"ABOUT_S2": "Enecuum is the first blockchain in the world to unite millions of smartphones and other mobile devices into a single network. Here each smartphone can become a miner and make Enecuum stronger and more reliable. Simple, safe and fast using our app.",
+	"ABOUT_S3_C1_TITLE_P1": "Extremely",
+	"ABOUT_S3_C1_TITLE_P2": "decentralized network",
+	"ABOUT_S3_C1":"Devices connect to the Enecuum blockchain and share untapped data processing capacity. The more devices connected, the higher the network speed, with uncapped scalability potential. Connecting millions of distributed devices will create a truly decentralized, secure and stable system.",
+	"ABOUT_S3_C2": "The owner of the mobile device just needs to download our app to connect to the cryptocurrencies world, earn coins, make transfers and pay for the goods and services fast, secure and without banking fees. Important! ENQ App will not drain the battery of the mobile device and requires very regular specification of the phone – Android 4.4, 1GHz processor, 1.5 GB of RAM.",
+	"DAPPS_WEB_3_0_ECOSYSTEM_P1": "Dapps web 3.0",
+	"DAPPS_WEB_3_0_ECOSYSTEM_P2": "Ecosystem",
+	"FAST_AND_EASY_PAYMENTS": "Fast & easy payments.",
+	"FLEXIBLE_SYSTEM_STAKES_REWARD": "Flexible system stakes reward.",
+	"DATA_PROTECTION": "Data protection.",
+	"TOKENIZATION_OF_VIRTUAL_ASSETS": "Tokenization of virtual assets.",
+	"DECENTRALISED_FINANCE_INSTRUMENTS": "Decentralised finance instruments.",
+	"MARKETPLACE_FOR_DIGITAL_RESOURCES": "Marketplace for digital resources.",
+	"JOIN_ENECUUM_NETWORK": "Join Enecuum network",
+	"POA_NODES": "PoA nodes",
+	"POW_NODES": "PoW nodes",
+	"POS_NODES": "PoS nodes",
+	"ACCOUNTS": "Accounts",
+	"CURRENT": "Current",
+	"MAX_TPS": "Max TPS",
+	"LAST_BLOCK": "Last block",
+	"TOTAL_NODES": "Total Nodes",
+	"VIEW_BLOCKS_LIVE": "View blocks live at Blockchain Explorer",
+	"EXPLORE_RIGHT": "Explore right now!",
+	"EXCHANGES": "Exchanges",
+	"MEDIA_TITLE": "Enecuum Launches Blockchain Network with Mobile Masternodes",
+	"MEDIA_PREVIEW": "Enecuum, a blockchain mobile network for decentralized applications which is able to bring blockchain and cryptocurrencies to the real mainstream, involves mobile devices users into a blockchain network, and provides a powerful toolkit for the dApps developers to create fast and low cost applications WEB 3.0 for millions of people. Now, Enecuum is starting a scaling community program.",
+	"LEGAL_ADVISOR": "Legal advisor",
+	"WE_ARE_MEMBER_OF": "We are a member of",
+	"WHITEPAPER_DESCR": "This whitepaper contains forward-looking statements that are based on the beliefs of Enecuum HK Limited, a Hong Kong incorporated company (CR: 2562183) (“Company”), as well as certain assumptions made by and information available to the Company.",
+	"TECHPAPER_DESCR": "Currency is to the economy what language is to speech. Its sophistication and usefulness evolve in direct proportion to its user-base, to the volume of “transactions” keeping it alive and to its Darwinistic ability to adapt, proliferate and thrive.",
+	"READ_MORE": "Read more",
+	"RESEARCH_PAPERS_A1_TITLE": "Blockchain Technology for Smartphones and Constrained IoT Devices: A Future Perspective and Implementation",
+	"RESEARCH_PAPERS_A1_ABSTRACT": "The blockchain technology is currently penetrating different sides of modern ICT community. Most of the devices involved in blockchain-related processes are specially designed targeting only the mining aspect. At the same time, the use of wearable and mobile devices may also become a part of blockchain operation, especially during the charging time. The paper considers the possibility of using a large number of constrained devices supporting the operation of the blockchain. The utilization of such devices is expected to improve the efficiency of the system and also to attract a more substantial number of users. Authors propose a novel consensus algorithm based on a combination of Proof-of-Work (PoW), Proof-of-Activity (PoA), and Proof-of-Stake (PoS). The paper first overviews the existing strategies and further describes the developed cryptographic primitives used to build a blockchain involving mobile devices. A brief numerical evaluation of the designed system is also provided in the paper.",
+	"RESEARCH_PAPERS_A1_PUBLISHED": "Proc. of IEEE 21st Conference on Business Informatics (CBI)",
+	"RESEARCH_PAPERS_A1_READ_THE_ARTICLE_ON_ IEEE_XPLORE": "Read the Article on IEEE Xplore",
+	"DATE": "Date",
+	"AUTHORS": "Authors",
+	"ABSTRACT": "Abstract",
+	"PUBLISHED_IN": "Published in",
+	"CORE_TEAM": "Core team",
+	"TEAM_CARDS": {
+		"MIKHAIL_SAYFULLIN": {
+			"NAME": "Mikhail Sayfullin",
+			"DESCR": "Entrepreneur since 2002. Founded and developed a marketing agency that successfully delivered high quality services to the largest international corporations. Since 2014, Mikhail has been successfully working in the IT field launching a popular marketplace in the entertainment sector. One of the founders of Enecuum Limited and our strategic manager since 2017."
+		},
+		"KONSTANTIN_ZHIDANOV": {
+			"NAME": "Konstantin Zhidanov",
+			"DESCR": "Konstantin is a software developer with the skills on low-level programming and applied cryptography. Besides, he teaches computer science related courses at Saint-Petersburg State University of Aerospace Instrumentation.",
+			"QUOTE": "To teach something is the best way to be sure that you really understand it."
+		},
+		"SERGEY_VANURIN": {
+			"NAME": "Sergey Vanurin",
+			"DESCR": "IT specialist with a background in development, support, DevOps and delivery. As a project manager, Sergey developed an online 3D geoinformation system with successful adoption in the city planning department. Interested in mathematics and data science Sergey finds Enecuum as the perfect place for personal growth and the world-changing."
+		},
+		"SERGEY_BEZZATEEV": {
+			"NAME": "Sergey Bezzateev",
+			"DESCR": "Sc.D. in CS, head of the Department of IT Security of the Saint Petersburg State University of Aerospace Instrumentation. Sergey is a renown specialist with over 40 materials published in the field of Information Theory, Coding Theory, InfoSec, and he is one of the leading experts in cryptography."
+		},
+		"ALEKSANDRA_AFANASYEVA": {
+			"NAME": "Aleksandra Afanasyeva",
+			"DESCR": "Assistant professor of the Department of information systems security of the St.Petersburg State University of Aerospace Instrumentation. Aleksandra received her M.Sc. in IT in 2003 and trained in the Nokia Research Center in Helsinki, Finland, on Evidence Based Security and Verification of Cryptographic Protocols. Aleksandra has participated in and led collaborative projects with Samsung, Intel, Dell EMC in InfoSec and Optimization of Resource Management Algorithms in Data Storage Systems."
+		},
+		"ALEKSANDR_OMETOV": {
+			"NAME": "Aleksandr Ometov",
+			"DESCR": "Aleksandr received the D.Sc. (Tech.) and M.Sc. with distinction in Telecommunications from Tampere University of Technology (TUT), Finland, in 2018 and 2016, and the Specialist degree in Information Security from the Saint Petersburg State University of Aerospace Instrumentation, Saint Petersburg, Russia, in 2013. His major research interests are wireless communications, information security, heterogeneous networking, cooperative communications, and machine-to-machine applications."
+		},
+		"HENOK_TEKLE": {
+			"NAME": "Henok \"Hen\" Tekle",
+			"DESCR": "Co-founder and Managing Partner of AlphaChain, a notable blockchain angel investor, advisor, content creator and public speaker. Hen is a passionate advocate for the disruption brought by token economies and blockchain technology, and regularly speaks at conferences worldwide about these topics. Hen’s angel investment activities have delivered substantial capital and strategic value to early-stage companies in promotion of the development and mainstream adoption of blockchain technology."
+		},
+		"BOGDAN_SHELYGIN": {
+			"NAME": "Bogdan Shelygin",
+			"DESCR": "Experienced in IT startup accelerator Ideal Machine and cryptocurrency venture investment fund Matrix. At Enecuum Bogdan is working on analyzing new market segments and developing business plans."
+		},
+		"MIKHAIL_VASILEV": {
+			"NAME": "Mikhail Vasilev",
+			"DESCR": "Mikhail is a software developer who graduated St. Petersburg State University of Aerospace Instrumentation, Information Security Department. Developed and delivered WMS for one of the leading 3PL-operators in Russia."
+		},
+		"ANTON_PRUDANOV": {
+			"NAME": "Anton Prudanov",
+			"DESCR": "Software developer and InfoSec specialist graduated from Saint-Petersburg State University of Aerospace Instrumentation. Anton has a wide range of IT-related skills including fullstack development, IoT solutions, cryptography and system administration. Anton's key focus is ENQ cryptography library."
+		},
+		"YULIA_BARDINOVA": {
+			"NAME": "Yulia Bardinova",
+			"DESCR": "QA Engineer with an Information Security background. In Enecuum, Yulia designs and implements tests to ensure a bug-free experience for every user."
+		},
+		"VLADIMIR_TSAREV": {
+			"NAME": "Vladimir Tsarev",
+			"DESCR": "IT specialist with a background in the development of web applications, automated control systems, and geographic information systems (GIS)."
+		},
+		"STAN_PRIHODKO": {
+			"NAME": "Stan Prihodko",
+			"DESCR_P1": "Stan is head of Crypto asset management in",
+			"DESCR_P2": ", a fund with over $400m AUM. Prior to joining GEM Stan was engaged in trust management of cryptocurrency assets and consultations on investing in ICOs for high net worth individuals."
+		},
+		"ALEXANDER_RUGAEV": {
+			"NAME": "Alexander Rugaev",
+			"DESCR": "Alexander Rugaev is a serial entrepreneur and one of the early blockchain supporters. He has experience in creating industrial grade Bitcoin and Ethereum mining farms. He has 16 years of experience in e-commerce and online marketing."
+		},
+		"SHELLY_HOD_MOYAL": {
+			"NAME": "Shelly Hod Moyal",
+			"DESCR": "Shelly Hod Moyal is an Advisor to iCapital, Portfolio Manager of Juno Capital and Founding Partner of iAngels, a VC platform for high-tech startups, with $140M assets under management in divisions and funds that specialize in several tech industry sectors. Prior to iAngels, Shelly was recognized as a promising analyst at Goldman Sachs Investment Bank. Prior to that, Shelly worked as a Research Analyst at a renowned hedge fund, Avenue Capital, covering banks, insurance, real estate and financial institutions. Shelly earned her MBA at Kellogg, Chicago and holds a degree in Economics (summa cum laude) at Hunter College, New York."
+		},
+		"KELLY_IFALUYI": {
+			"NAME": "Kelly Ifaluyi",
+			"DESCR": "An enthusiastic professional community manager and Brand ambassador with over 2 years experience and comprehensive knowledge of diverse social media channels, strategies and blockchain technology."
+		}
+
+	},
+	"CEO": "CEO",
+	"CTO": "CTO",
+	"PROJECT_MANAGER": "Project manager",
+	"HEAD_OF_RESEARCH": "Head of research",
+	"RESEARCHER": "Researcher",
+	"STRATEGIC_PARTNER": "Strategic partner",
+	"BUSINESS_ANALYST": "Business analyst",
+	"SOFTWARE_DEVELOPER": "Software developer",
+	"SOFTWARE_ENGINEER": "Software engineer",
+	"QA_ENGINEER": "QA engineer",
+	"WEB_DEVELOPER": "Web developer",
+	"ADVISOR": "Advisor",
+	"COMMUNITY_MANAGER": "Community manager",
+	"ROADMAP_CONTENT": {
+		"Q2_2017": { 
+			"Q_NUMBER": "q2",
+			"TASKS": {
+				"T_1": "R&D existing blockchains" 
+			}
+
+		},
+		"Q3_2017": { 
+			"Q_NUMBER": "q3",
+			"TASKS": {
+				"T_1": "Position paper V.1",
+				"T_2": "Describe system architecture"
+			} 
+		},
+		"Q4_2017": { 
+			"Q_NUMBER": "q4",
+			"TASKS": {
+				"T_1": "Assemble the core dev team"
+			} 
+		},
+		"Q1_2018": { 
+			"Q_NUMBER": "q1",
+			"TASKS": {
+				"T_1": "Implement the network protocol"
+			} 
+		},
+		"Q2_2018": { 
+			"Q_NUMBER": "q2",
+			"TASKS": {
+				"T_1": "Implement PoW and PoA nodes"
+			} 
+		},
+		"Q3_2018": { 
+			"Q_NUMBER": "q3",
+			"TASKS": {
+				"T_1": "Launch the test net alpha (Genesis).",
+				"T_2": "PoA rewards tests.",
+				"T_3": "Blockchain explorer.",
+				"T_4": "Airdrop phase 1"
+			} 
+		},
+		"Q4_2018": { 
+			"Q_NUMBER": "q4",
+			"TASKS": {
+				"T_1": "Development prototype for test net beta.",
+				"T_2": "Academical research: Trinity protocol with ID based cryptography and anonymous transactions"
+			} 
+		},
+		"Q1_2019": { 
+			"Q_NUMBER": "q1",
+			"TASKS": {
+				"T_1": "Launch the test net beta (Neuro).",
+				"T_2": "PoW, PoA, PoS rewards.",
+				"T_3": "Trinity consensus algorithm.",
+				"T_4": "Implementation ID based cryptography.",
+				"T_5": "Create first smart contracts use cases for partner Dapps (VPN)"
+			} 
+		},
+		"Q2_2019": { 
+			"Q_NUMBER": "q2",
+			"TASKS": {
+				"T_1": "Publishing cycle of academic papers in peer-reviewed journals (WoS, Scopus).",
+				"T_2": "Staking system for PoA nodes.",
+				"T_3": "Launching an ecosystem scaling program.",
+				"T_4": "Android miner app release.",
+				"T_5": "SWAP ENQ native to ENQ (ERC20).",
+				"T_6": "Web wallet."
+			} 
+		},
+		"Q3_2019": { 
+			"Q_NUMBER": "q3",
+			"TASKS": {
+				"T_1": "Release decentralized referral program.",
+				"T_2": "Collect statistical data.",
+				"T_3": "Optimization PoA algorithm, blockchain explorer, wallets.",
+				"T_4": "Maintaining system health.",
+				"T_5": "Android wallet (Play Market) release.",
+				"T_6": "Integration ENQ(ERC20) token to cold, hot wallets and payments providers.",
+				"T_7": "Finalization and tests of the crypto curve for Trinity protocol."
+			} 
+		},
+		"Q4_2019": { 
+			"Q_NUMBER": "q4",
+			"TASKS": {
+				"T_1": "iOS wallet release.",
+				"T_2": "Release PoW v.1.0 nodes.",
+				"T_3": "Release PoS nodes.",
+				"T_4": "Release main net alpha (Trinity).",
+				"T_5": "Publishing nodes API and documentation.",
+				"T_6": "White paper v2.0."
+			} 
+		},
+		"Q1_2020": { 
+			"Q_NUMBER": "q1",
+			"TASKS": {
+				"T_1": "SHARNELL smart contracts.",
+				"T_2": "Smart staking v1.0 (Alice).",
+				"T_3": "Tokens issue (ENQ standard).",
+				"T_4": "Integration ENQ standard tokens to crypto exchanges.",
+				"T_5": "Start burning ENQ tokens format ERC20."
+			} 
+		},
+		"Q2_2020": { 
+			"Q_NUMBER": "q2",
+			"TASKS": {
+				"T_1": "Release PoW v.2.0 (ASIC resistant).",
+				"T_2": "Developing SDK for Smart contracts.",
+				"T_3": "Mining token issue (ENQ standard).",
+				"T_4": "Smart staking v2.0 (Bob).",
+				"T_5": "Release Enecuum v1.0 (Pulse)."
+			} 
+		},
+		"Q3_2020": { 
+			"Q_NUMBER": "q3",
+			"TASKS": {
+				"T_1": "Payment system for online shops (server less).",
+				"T_2": "Hyper DAG implementation.",
+				"T_3": "Digital resources marketplace solutions (VPN, DEX, storage)."
+			} 
+		},
+		"Q4_2020": { 
+			"Q_NUMBER": "q4",
+			"TASKS": {
+				"T_1": "Publication of the governance model.",
+				"T_2": "Private blockchain solution.",
+				"T_3": "Side-chain Hub test net."
+			} 
+		}				
+	},
+	"BECOME_PARTNER_TITLE": "Do you want to become our partner?",
+	"LEAVE_YOUR_E_MAIL": "Leave your e-mail and name, our manager will contact you",
+	"BECOME_A_PARTNER": "Become a partner",
+	"JOIN_OUR_COMMUNITY": "Join our community",
+	"MARKET_CAP": "Market cap",
+	"VOLUME": "Volume",
+	"PRICE_USD": "Price USD",
+	"PRICE_BTC": "Price BTC",
+	"TRADING_PAIRS": "Trading pairs",
+	"CALCULATOR": "Calculator",
+	"ENQ_CHARTS": "ENQ Charts",
+	"MOBILE_MN_ROI_CALCULATOR": "Mobile masternode ROI Calculator",
+	"ROI_RANGE": "You can stake from 25 to 25000 ENQ on one MN",
+	"IS_REFERRAL": "I’m a referral",
+	"ROI_STAKE_LITE_CALC": "Amount of ENQ to stake",
+	"ANNUAL_ROI": "Annual rate of return",
+	"ROI_STAKE": "How many ENQ do you want to stake?",
+	"INCORRECT_STAKE_RANGE_MESSAGE": "Incorrect value. Please, stake from 25 to 25000 ENQ",
+	"DAILY": "Daily",
+	"WEEKLY": "Weekly",
+	"MONTHLY": "Monthly",
+	"ANNUAL": "Annual",
+	"24H_POW_REWARDS": "24h PoW rewards",
+	"24H_POA_MN_REWARDS": "24h PoA MN rewards",
+	"MN_STAKE": "Coins stake on PoA MN",
+	"CIRC_SUPPLY_SHORT": "Circ. Supply",
+	"OPEN_BE": "Open Blockchain Explorer",
+	"BUY_ENQ": "Buy ENQ",
+	"WAY_TO_BUY": "Choose a convenient way to buy ENQ (ERC 20) or native ENQ",
+	"CURRENT_ENQ_PRICE": "Current ENQ price",
+	"OTC": "OTC",
+	"BANK_CARD_NATIVE": "Bank card (native)",
+	"BUY_COIN_BANK_CARD_P1": "You can",
+	"BUY_COIN_BANK_CARD_P2": "buy a native coin ENQ",
+	"BUY_COIN_BANK_CARD_P3": "using a bank card and immediately start mining",
+	"EARN_ENQ": "Earn ENQ",
+	"TYPES_OF_TOKENS": "We have two types of tokens: ERC20 and native. For mining you need to have native ENQ. You can also buy ERC20 and SWAP it to native.",
+	"POA_MINING": "PoA mining",
+	"POA_MINING_STEPS": {
+		"STEP_1": "Download the app",
+		"STEP_2": "Create an account in the app",
+		"STEP_3": "Deposit at least 25 ENQ following 3a OR 3b steps",		
+		"STEP_3A": "Buy native coins by card",
+		"STEP_3B_P1": "Buy ERC20 tokens",
+		"STEP_3B_P2": "&",
+		"STEP_3B_P3": "swap",
+		"STEP_3B_P4": "them to the native network",
+		"STEP_4": "In the app, tap \"Start activity\""
+	},
+	"KEEP_CALM_AND_START_MINING": "Keep calm and start mining",
+	"SWAP_NATIVE_COINS_TO": "Swap native coins to",
+	"VIDEO": "Video",
+	"HOLD_ENQ": "Hold ENQ",
+	"HOLD_ENQ_DESCR": "Use official Enecuum wallets to operate with native coins or pick one of recommended Ethereum wallets for managing ERC20 tokens",
+	"NATIVE_ENQ": "Native ENQ",
+	"ERC20_WALLETS": "ERC20 wallets",
+	"SPEND_ENQ": "Spend ENQ",
+	"SPEND_ENQ_DESCR": "You can conveniently pay ENQ (ERC 20) all over the world through our partner's network",
+	"SWAP_TO_ERC20": "How to swap native coins to ERC20",
+	"BECOME_MERCHANT_TITLE": "Want to become a merchant?",
+	"PAYMENTS_PROVIDERS": "Payments providers",
+	"PAYMENTS_PROVIDERS_FORM": "Payments providers form",
+	"START_RECEIVING_ENQ_FORM": "Start receiving ENQ form",
+	"COMING_SOON": "Coming soon",
+	"TOKEN_UTILITY": "Token utility",
+	"ENQ_ERC20_TOKENS": "ENQ(ERC-20) tokens",
+	"ENQ_ERC20_TOKENS_DESCR": "It is intended that possession of the ENQ(ERC-20) token grants its holder a future right to exchange it to the ENQ cryptocurrency at the rate of 1:1, if and when the Enecuum adaptive decentralized environment becomes operational. The exchange is proposed to be made through the Enecuum exchange mechanism. Further details about the Enecuum exchange mechanism will be provided in due course. ENQ(ERC-20) is not intended to be a security, regulated product or a financial instrument of any kind.",
+	"ENECUUM_ENVIRONMENT_FUNCTIONALITY": {
+		"PRE": "ENQ is intended to be a utility token. Possession of ENQ is proposed to grant a holder access to the following proposed functionality of the Enecuum adaptive decentralized environment:",
+		"P_A": "accumulate and transfer ENQ subject to the ENQ terms and conditions, and applicable laws;",
+		"P_B": "publish SHARNELL Smart Contracts with a fee for publication to the global Enecuum network (the fee is determined according to the volume of the published byte code);",
+		"P_C": "publish transactions with a reward calculated by the user publishing such transactions to stimulate the miners to validate such block;",
+		"P_D": "access complex computations via the \"heavy\" smart contracts. The reward for such computations is proposed to be dictated by the current market conditions where the user who places the request offers a reward and waits until miners (nodes) with enough computational power to run such “heavy” smart contract agree to it. The user may raise the reward to faster stimulate such miners;",
+		"P_E": "access and generate private ‘ticket’ branches using other nodes on the network (not the user’s). The reward is determined individually by the miner agreeing to service such branches;",
+		"P_F": "and participation in the PoA and PoS mining.",
+		"FURTHER_DETAILS_P1": "See the Enecuum",
+		"FURTHER_DETAILS_P2": "Position Paper",
+		"FURTHER_DETAILS_P3": "or the Enecuum Website for further details."
+	},
+	"DISCLAIMER": "Disclaimer",
+	"COPYRIGHT_INFO_P1": "© 2019 Enecuum HK Limited. Company registration number : 2562183. All rights reserved. Nothing in this document constitutes an offer or advice of any kind. ENQ and the Enecuum adaptive decentralized environment may not be available in all jurisdictions and to all persons. Please see our",
+	"COPYRIGHT_INFO_P2": "Privacy Policy",
+	"COPYRIGHT_INFO_P3": "and",
+	"COPYRIGHT_INFO_P4": "Website Terms and Conditions",
+	"EMISSION_MODEL_PAGE": {
+		"DISCLAIMER": {
+			"S_1": {
+				"P_1": "ENQ, the token sale and the Enecuum adaptive decentralized environment are under development. They may be subject to change. No representation or warranty is given as to the achievement or reasonableness of any plans, future projections or prospects and nothing in this document is or should be relied upon as a promise or representation as to the future.",
+				"P_2": "This document also cross-refers to the disclaimer from the Enecuum’s whitepaper. The disclaimer from the whitepaper is included below to cover emergency cases with the official Enecuum’s site.",
+				"DISCLAIMER_TITLE": "The disclaimer from the above-mentioned Enecuum’s whitepaper.",
+				"DISCLAIMER": "This whitepaper and any other documents published in association with this whitepaper relate to the intended development and use of the Enecuum platform (“Enecuum”). They are for information purposes only and may be subject to change."
+			},
+			"S_2": {
+				"ACCORDION": {
+					"S_1": {
+						"TITLE": "This whitepaper describes a future project",
+						"P_1": "This whitepaper contains forward-looking statements that are based on the beliefs of Enecuum HK Limited, a Hong Kong incorporated company (CR: 2562183) (“Company”), as well as certain assumptions made by and information available to the Company.",
+						"P_2": "Enecuum as envisaged in this whitepaper is under development and is being constantly updated, including but not limited to key governance and technical features. The ENQ token (“ENQ”) involves and relates to the development and use of experimental platforms (software) and technologies that may not come to fruition or achieve the objectives specified in this whitepaper.",
+						"P_3": "If and when Enecuum is completed, it may differ significantly from the network set out in this whitepaper. No representation or warranty is given as to the achievement or reasonableness of any plans, future projections or prospects and nothing in this document is or should be relied upon as a promise or representation as to the future."
+					},
+					"S_2": {
+						"TITLE": "No offer of regulated products",
+						"P_1": "ENQ is not intended to represent a security or any other regulated product in any jurisdiction.",
+						"P_2": "This document does not constitute an offer or solicitation of securities or any other regulated product, nor a promotion, invitation or solicitation for investment purposes. The terms of the purchase are not intended to be a financial service offering document or a prospectus of any sort.",
+						"P_3": "ENQ does not represent equity, shares, units, royalties or rights to capital, profit, returns or income in the platform or software or in the Company or any other company or intellectual property associated with the platform or any other public or private enterprise, corporation, foundation or other entity in any jurisdiction."
+					},
+					"S_3": {
+						"TITLE": "This whitepaper is not advice",
+						"P_1": "This whitepaper does not constitute advice to purchase ENQ. It must not be relied upon in connection with any contract or purchasing decision."
+					},
+					"S_4": {
+						"TITLE": "Risk warning",
+						"P_1": "The purchase of ENQ and participation in Enecuum carries with it significant risks.", 
+						"P_2": "Prior to purchasing ENQ, you should carefully assess and take into account the risks, including those listed in any other documentation."
+					},
+					"S_5": {
+						"TITLE": "Views of the Company",
+						"P_1": "The views and opinions expressed in this whitepaper are those of Enecuum and do not reflect the official policy or position of any government, quasi-government, authority or public body (including but not limited to any regulatory body of any jurisdiction) in any jurisdiction.",
+						"P_2": "Information contained in this whitepaper is based on sources considered reliable by the Company but there is no assurance as to their accuracy or completeness."
+					},
+					"S_6": {
+						"TITLE": "No third party affiliation or endorsements",
+						"P_1": "References in this whitepaper to specific companies and platforms are for illustrative purposes only. The use of any company and/or platform names and trademarks does not imply any affiliation with, or endorsement by, any of those parties."
+					},
+					"S_7": {
+						"TITLE": "You must obtain all necessary professional advice",
+						"P_1": "You must consult a lawyer, accountant, tax professional and/or any other professional advisors as necessary prior to determining whether to purchase ENQ or otherwise participate in the Enecuum network."
+					}
+				}
+			}
+		},
+		"DISTRIBUTION": {
+			"TITLE": "Token distribution and conversion plan",
+			"S_1": {
+				"P_1_1": "As the Enecuum adaptive decentralized environment is still under development, we aim to conduct the ENQ Token Sale on Ethereum using an Ethereum-based",
+				"P_1_2": "smart contract.",
+				"P_1_3": "It is proposed that ENQ(ERC-20) will initially be issued as part of the ENQ Token Sale. The total amount of ENQ(ERC-20) will make 126,880,563.75 ENQ",
+				"P_2": "The upper limit of all ENQ in the system is proposed to be 845,870,425 ENQ. The two stages to the release of ENQ are intended as follows."
+			},
+			"S_2": {
+				"STAGE_1": {
+					"ALLOCATION_ENQ_ERC20": "The allocation of the ENQ(ERC-20) is proposed to be as follows:",
+					"P_A": "33,834,817 ENQ(ERC-20) are proposed to be available for sale under the ENQ Token Sale, which will be subject to the ENQ Token Sale terms and conditions. The price for the sale is proposed to be 1 ENQ(ERC-20) = 0.04 USD until 31.10.2018; 1 ENQ(ERC-20) = 0.05 USD until 30.11.2018 and 1 ENQ(ERC-20) = 0.06 USD until 31.12.2018. It is intended that it will be possible to exchange ENQ(ERC-20) for ENQ at a rate of 1:1, once the Enecuum adaptive decentralized environment is operational;",
+					"P_B": "25,376,112.75 ENQ(ERC-20) are proposed to be reserved for advisers and partners. It is intended that it will be possible to exchange ENQ(ERC-20) for ENQ at a rate of 1:1, once the Enecuum adaptive decentralized environment is operational;",
+					"P_C": "16,917,408.50 ENQ(ERC-20) are proposed to be reserved as a reward in test net and airdrop programme. It is intended that it will be possible to exchange ENQ(ERC-20) for ENQ at a rate of 1:1, once the Enecuum adaptive decentralized environment is operational;",
+					"P_D": "50,752,225.50 ENQ (ERC-20) is proposed to reserve seed investors. It is intended that it will be possible to exchange ENQ(ERC-20) for ENQ at a rate of 1:1, once the Enecuum adaptive decentralized environment is operational."
+				},
+				"STAGE_2": {
+					"DISTRIBUTION_ENQ": "The distribution of ENQ (after the main net will be launched) is proposed as follows:",
+					"P_A": "42,293,521.25 ENQ are proposed to be reserved as a team reward with lock up period of 1 year after the main net will be launched;",
+					"P_B": "169,174,085 ENQ are proposed to be reserved as a reserve fund with lock up period 1 year after main net will be launched;",
+					"P_C": "507,522,255 ENQ is intended to be available to be mined within 25 years after the launch of the main network and as a program of attracting new miners to the network."
+				}
+			}
+		},
+		"EMISSION_MODEL": {
+			"S_1": {
+				"P_1": "The ENQ emission model is proposed to progress in two stages. It is proposed that ENQ emission will grow in a linear progression as shown in Diagram, where the horizontal axis represents years, and the vertical axis represents the percentage of the total ENQ to be generated.",
+				"P_2": "The upper limit of all ENQ in the system is proposed to be 845,870,425 ENQ."
+			},
+			"S_2": {
+				"STAGE_1": {
+					"P_1": "15% of the total emission of ENQ is proposed to be pre-mined as ENQ(ERC20) tokens in Ethereum network by the Enecuum development team in order to create an initial distribution pool. This equates to 126,880,563.75 ENQ.",
+					"P_2": "This initial pool is intended to be used in the future for exchange of ENQ(ERC-20) to ENQ upon the launch of Enecuum adaptive decentralized environment."
+				},
+				"STAGE_2": {
+					"P_1": "During the 25 years following the end of Stage 1, a further 60% of the total ENQ emission is intended to be available to be mined, and 25% of the total ENQ emission will be premined intended to be used for the Enecuum development team and the reserve fund."
+				}
+			}
+		}
+	},
+	"TECHNOLOGY_PAGE": {
+		"TRINITY_CONSENSUS": {			
+			"P_1": "Our Trinity algorithm combines PoA, PoW and PoS. This hybrid approach to consensus provides a high degree of network decentralization, while significantly increasing both network security and transaction execution speed. Network security is further enhanced by our integrated innovative cryptographic solutions.",
+			"P_2": "These consensus mechanisms work simultaneously: Problem Solvers (PoW nodes) create the backbone of the blockchain structure. Publishers (PoA nodes) complete and publish microblocks. Holders (PoS nodes) maintain system efficiency. Through cryptography, nodes may become interchangeable."
+		},
+		"BLOCK_DAG_STRUCTURE": {
+			"P_1": "Each branch grows according to Nakamoto (BFT) consensus.",
+			"P_2": "Maximum number of allowed branches depends on network hashrate.",
+			"P_3": "Branches are cross-linked in a way which allows to arrange macroblocks in chronological order."
+		},
+		"NETWORK_PERFORMANCE_AND_TOPOLOGY": {
+			"P_1": "18 000 tps (test results)",
+			"P_2": "Latency 5 - 30 seconds",
+			"P_3": "Thousands PoW and PoS nodes",
+			"P_4": "Millions of PoA nodes",
+			"P_5": "Flexible smart contract architecture",
+			"P_6": "Dynamic reward system for miners",
+			"P_7": "Chord algorithm",
+			"P_8": "Routing",
+			"P_9": "Sharding"			
+		},
+		"INFRASTRUCTURE_AND_ECOSYSTEM": {
+			"P_1": "PoS nodes (servers)",
+			"P_2": "PoW nodes (computers)",
+			"P_3": "PoA nodes (mobile devices)",
+			"P_4": "dApps (games, payments, dex and others)",
+			"P_5": "Exchanges",
+			"P_6": "Users (mobile, PC)"			
+		}
+	},
+	"TRINITY_CONSENSUS": "Trinity consensus",
+	"BLOCK_DAG_STRUCTURE": "Block-DAG structure",
+	"NETWORK_PERFORMANCE_AND_TOPOLOGY": "Network performance and topology",
+	"NODES": "Nodes",
+	"THROUGHPUT": "Throughput",
+	"LATENCY": "Latency",
+	"PROOF": "Proof",
+	"TEST_NET": "Test net",
+	"SIMULATION": "Simulation",
+	"ANALYTICS": "Analytics",
+	"INFRASTRUCTURE_AND_ECOSYSTEM": "Infrastructure and ecosystem",
+	"DOWNLOAD_ANDROID_MASTERNODE": "Download Android Masternode",
+	"WALLETS": "Wallets",
+	"TERMS_OF_SERVICE": "Terms of service",
+	"PRIVACY_POLICY": "Privacy policy",
+	"STAGE_1": "Stage 1",
+	"STAGE_2": "Stage 2"
+}

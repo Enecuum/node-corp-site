@@ -1,0 +1,36 @@
+<div id="networkStatsTopSection" class="container space-2 space-lg-2">
+ <div class="row justify-content-center">
+  <div class="col-sm-6 col-md-4 mt-4 col-lg-2 mt-lg-0 text-center">
+    <span class="network-stats-icon mdi mdi-cellphone-android" style="font-size: 35px;"></span>
+    <div data-content="poa_count" class="font-weight-bold mb-2">---</div>
+    <div id="poaNodesLabel">{{__ 'POA_NODES'}}</div>
+  </div>
+  <div class="col-sm-6 col-md-4 mt-4 col-lg-2 mt-lg-0 text-center">
+    <span class="network-stats-icon mdi mdi-laptop-chromebook" style="font-size: 35px;"></span>
+    <div data-content="pow_count" class="font-weight-bold mb-2">---</div>
+    <div data-="powNodesLabel">{{__ 'POW_NODES'}}</div>
+  </div>
+  <div class="col-sm-6 col-md-4 mt-4 col-lg-2 mt-lg-0 text-center">
+    <span class="network-stats-icon mdi mdi-server" style="font-size: 35px;"></span>
+    <div data-content="pos_count" class="font-weight-bold mb-2">---</div>
+    <div id="posNodesLabel">{{__ 'POS_NODES'}}</div>
+  </div>
+  <div class="col-sm-6 col-md-4 mt-4 col-lg-2 mt-lg-0 text-center">
+    <span class="network-stats-icon mdi mdi-account-key" style="font-size: 35px;"></span>
+    <div data-content="accounts" class="font-weight-bold mb-2">---</div>
+    <div id="accountsLabel">{{__ 'ACCOUNTS'}}</div>
+  </div>   
+  <div class="col-sm-6 col-md-4 mt-4 col-lg-2 mt-lg-0 text-center">
+    <span class="network-stats-icon mdi mdi-transit-connection-variant" style="font-size: 35px;"></span>
+    <div class="font-weight-bold mb-2">
+      <span data-content="tps">---</span><span>/</span><span data-content="max_tps">---</span>
+    </div>
+    <div id="currentMaxTpsLabel">{{__ 'CURRENT'}}/{{__ 'MAX_TPS'}}</div>
+  </div> 
+  <div class="col-sm-6 col-md-4 mt-4 col-lg-2 mt-lg-0 text-center">
+    <span class="network-stats-icon mdi mdi-cube-send" style="font-size: 35px;"></span>
+    <div data-content="lastBlockValue" class="font-weight-bold mb-2">---</div>
+    <div id="lastBlockLabel">{{__ 'LAST_BLOCK'}}</div>
+  </div> 
+ </div>
+</div>

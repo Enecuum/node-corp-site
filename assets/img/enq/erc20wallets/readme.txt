@@ -1,0 +1,1 @@
+pundix and paytomat logos - in assets\img\enq\partners-logo\ 

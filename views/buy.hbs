@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>{{__ 'BUY_ENQ'}}</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="css/enq.css">
+  <link rel="stylesheet" href="vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="vendor/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="vendor/hs-megamenu/src/hs.megamenu.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138901721-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138901721-4');
+  </script>
+</head>
+
+<body>
+  <header id="headerWithDropdown" class="u-header u-header--abs-top">
+    {{> header}}
+  </header>
+
+  <main id="content" role="main">
+    <div class="enq-top-section dzsparallaxer height-is-based-on-content auto-init use-loading mode-scroll animation-engine-js loaded dzsprx-readyall" data-options="{direction: &quot;normal&quot;}">
+      <!-- Apply your Parallax background image here -->
+      <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(img/enq/enq-header-back-6.jpg); transform: translate3d(0px, -72.4172px, 0px);"></div>
+
+      <!-- Content -->
+    <div class="container position-relative z-index-2 d-flex align-items-center">
+      <div class="w-lg-50 text-center mx-auto pt-5">
+          <h2 class="text-white mb-4">{{__ 'BUY_ENQ'}}</h2>
+          <div class="text-small">{{__ 'WAY_TO_BUY'}}</div>
+        </div>
+      </div>
+      <!-- End Content -->
+    </div>
+
+    <div class="container mt-8" style="display: none;">
+      <div class="text-center m-auto mb-9">
+        <h2 class="h2 font-weight-semi-bold mb-8">{{__ 'CURRENT_ENQ_PRICE'}}</h2>
+      </div>
+      {{> currencyCalculator}}
+    </div>    
+
+    <div class="container space-2 space-lg-2">
+      <div class="text-center m-auto mb-9">
+        <h2 class="h2 mb-8">{{__ 'EXCHANGES'}} (ERC20)</h2>
+      </div>
+      {{> exchangesTable}}
+
+      <div class="row my-10 py-5 text-center justify-content-center">
+        <div class="col-lg-4">
+          <h3 class="mb-4">OTC (ERC20)</h3>
+          <a href="https://swaps.network/" target="_blank">
+            <img src="img/enq/partners-logo/swapsnetwork-logo-color.svg" width="200px">
+          </a>          
+        </div>
+<!--         <div class="col-lg-4">
+          <h3 class="mb-3">P2P (ERC20)</h3>
+          <a href="https://chatex.com/" target="_blank">
+            <img src="img/enq/partners-logo/chatex-logo-color.svg" height="48px">
+          </a>          
+        </div> --> 
+      </div>
+
+      <div class="row mt-10">
+        <div class="col-lg-6">
+          <h3 class="mb-3">{{__ 'BANK_CARD_NATIVE'}}</h3>
+          <h5 class="mb-5">{{__ 'BUY_COIN_BANK_CARD_P1'}} <a href="https://guides.enecuum.com/how-by-card/" target="_blank" class="text-blue">{{__ 'BUY_COIN_BANK_CARD_P2'}}</a> {{__ 'BUY_COIN_BANK_CARD_P3'}}</h5>
+          <a href="https://suex.io/?currency_in=USD&currency_out=ENQ&amount_in=30" target="_blank">
+            <img src="img/enq/partners-logo/suex-logo-blue.svg" height="48px">
+          </a>          
+        </div>
+        <div class="col-12 mt-5 col-md ml-auto text-center mt-lg-0 text-lg-right">
+          <img src="img/enq/bank-cards.png" width="90%" style="max-width: 400px;">          
+        </div>
+
+      </div>      
+    </div>
+
+
+
+
+</main>
+
+<!-- ========== FOOTER ========== -->
+{{> footer}}
+<!-- ========== END FOOTER ========== -->
+
+<div id="cookiesAlert" class="alert cookies-alert bg-light fixed-bottom row rounded-0 mb-0 border-top border-width-2 shadow" role="alert" style="display: none;">
+    <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 offset-xl-2 offset-lg-1 d-flex flex-md-row flex-column justify-content-md-center align-items-center">
+        <div class="mr-0 mr-md-3 text-center ng-binding">By continuing to browse our website, you agree to the use of cookies that ensure correct operation of the website.</div>
+        <div class="d-flex flex-nowrap mt-2 mt-md-0">
+            <button id="cookiesAlertIAgree" type="button" class="btn btn-success mr-1 text-nowrap">I agree</button>
+            <a class="btn btn-primary  text-nowrap" href="https://enecuum.com/docs/privacy.pdf" target="_blank" role="button">Find out more</a>
+        </div>
+    </div>
+</div>
+
+
+  <!-- JS Global Compulsory -->
+  <script src="vendor/jquery/dist/jquery.min.js"></script>
+  <script src="vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="vendor/bootstrap/bootstrap.min.js"></script>
+
+
+  <!-- JS Front -->
+  <script src="js/hs.core.js"></script>
+  <script src="vendor/dzsparallaxer/dzsparallaxer.js"></script>
+  <script src="js/components/hs.slick-carousel.js"></script>
+  <script src="js/components/hs.header.js"></script>
+  <script src="js/components/hs.unfold.js"></script>
+
+
+  <!-- JS Implementing Plugins -->
+<script src="vendor/appear.js"></script>
+<script src="vendor/slick-carousel/slick/slick.js"></script>
+<script src="vendor/hs-megamenu/src/hs.megamenu.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+  $(window).on('load', function () {
+    // initialization of HSMegaMenu component
+    $('.js-mega-menu').HSMegaMenu({
+      event: 'hover',
+      pageContainer: $('.container'),
+      breakpoint: 991.98,
+      hideTimeOut: 0
+    });
+  });
+
+  $(document).on('ready', function () {
+    // initialization of header     
+    $.HSCore.components.HSHeader.init($('#headerWithDropdown'));
+    // initialization of slick carousel
+    $.HSCore.components.HSSlickCarousel.init('#analyticsCarousel');
+    // initialization of unfold component
+    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+
+    //Cookies alert workflow start
+    ENQCookies = {
+      cookieName: 'enecuum-corp-site',
+      cookiesExpirationYears: 10,
+      cookieWidgetSelector: '#cookiesAlert',
+      cookiesIAgreeControlSelector: '#cookiesAlertIAgree',
+      getCookie: function() {
+        var name = this.cookieName + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var cookiesArray = decodedCookie.split(';');
+        for(var i = 0; i < cookiesArray.length; i++) {
+            var cookie = cookiesArray[i];
+            while (cookie.charAt(0) == ' ') {
+                cookie = cookie.substring(1);
+            }
+            if (cookie.indexOf(name) == 0) {
+                return cookie.substring(name.length, cookie.length);
+            }
+        }
+        return "";
+      },
+      cookieExist: function() {
+        return this.getCookie(this.cookieName) === 'true';
+      },
+      setCookies: function() {
+        let that = this;
+        let currentDate = new Date();
+        let expirationDate = new Date(currentDate.setFullYear(currentDate.getFullYear() + that.cookiesExpirationYears)).toUTCString();
+        document.cookie = this.cookieName+"=true; expires=" + expirationDate;
+        $(that.cookieWidgetSelector).remove();
+      },
+      normalFlowExecute: function() {
+        let that = this;
+        if (that.cookieExist() === false) {
+          $(that.cookieWidgetSelector).show();
+          $(that.cookiesIAgreeControlSelector).on('click', function() {
+            that.setCookies();
+          });
+        } else {
+          $(that.cookieWidgetSelector).remove();
+        }
+      }
+    }
+
+    ENQCookies.normalFlowExecute();
+    //Cookies alert workflow end
+
+    $.ajax({
+      method: 'GET',
+      url: "https://api.coingecko.com/api/v3/coins/enq-enecuum?tickers=true&market_data=true&community_data=false&developer_data=false&sparkline=false",
+      async: true,
+    }).success(function(response) {
+      let formatter = new Intl.NumberFormat("en-us", {
+        useGrouping: 'true',
+        maximumFractionDigits: '0'
+      });
+
+      let usdFormatter = new Intl.NumberFormat("en-us", {
+        useGrouping: 'true',
+        maximumFractionDigits: '5'
+      });
+
+      let marketStatsTitles = {
+        market_cap: response.market_data.market_cap.usd,
+        coin_volume: response.market_data.total_volume.usd,
+        price_usd: response.market_data.current_price.usd,
+        price_btc: response.market_data.current_price.btc
+      }
+
+      let tickersArray = response.tickers;
+      let exchange_volume = 0;
+
+      exchangeNamesArray = ['kucoin','graviex','crex24'];
+      let kucoinVolume = 0;
+      let crex24Volume = 0;
+      let graviexVolume = 0;
+
+
+      $.each(tickersArray, function(index, ticker) {
+        switch (ticker.market.identifier) {
+          case 'kucoin':
+            kucoinVolume += ticker.converted_volume.usd;
+            break;
+          case 'graviex':
+            graviexVolume += ticker.converted_volume.usd;
+            break;
+          case 'crex24':
+            crex24Volume += ticker.converted_volume.usd;
+            break;
+        }
+      });
+
+      $("[data-content='market_cap']").text('$'+usdFormatter.format(marketStatsTitles.market_cap));
+      $("[data-content='coin_volume']").text('$'+usdFormatter.format(marketStatsTitles.coin_volume));     
+      $("[data-content='price_usd']").text(marketStatsTitles.price_usd);
+      $("[data-content='price_btc']").text(marketStatsTitles.price_btc);
+
+      $("[data-content='kucoin-volume']").text('$'+usdFormatter.format(kucoinVolume));
+      $("[data-content='graviex-volume']").text('$'+usdFormatter.format(graviexVolume));
+      $("[data-content='crex24-volume']").text('$'+usdFormatter.format(crex24Volume));
+
+    });
+
+
+
+    let validator = {
+      checkValidDigitalValue: function(value) {
+        return (value !== null && value !== undefined && !isNaN(value)) ? true : false;
+      }
+    }
+
+    let currencyExchange = {
+      convertValue: function(value, rate) {
+        return (validator.checkValidDigitalValue(value) && validator.checkValidDigitalValue(rate)) ? value * rate : '---';
+      }
+    }
+
+    let commas = function(num){
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    };
+
+    let scope = {
+
+    };
+
+    // scope.refCheck = $('#refCheck').prop('checked');
+
+    scope.convertValueToUSD = function(value) {
+          return currencyExchange.convertValue(value, scope.stats.cg_usd);
+      }
+
+    scope.convert = function(enq){
+        enq = enq / 1e10;
+        // Add more in future
+        return [
+            {
+                name:'ENQ',
+                value: commas(enq.toFixed(2)) + ' ENQ'
+            },
+            {
+                name:'USD',
+                value: commas((enq * parseFloat(scope.stats.cg_usd)).toFixed(3)) + ' USD'
+            },
+            {
+                name:'ETH',
+                value: (enq * parseFloat(scope.stats.cg_eth)).toFixed(6) + ' ETH'
+            },
+            {
+                name:'BTC',
+                value: (enq * parseFloat(scope.stats.cg_btc)).toFixed(8) + ' BTC'
+            }
+        ]
+    };
+
+    scope.lerp = function(y0, y1, x0, x1, y){
+        return (x0 + ((y - y0) / (y1 - y0)) * (x1 - x0))
+    };
+
+    // scope.getTimestamp = function(unix){
+    //     return (new Date(unix * 1000)).toLocaleString()
+    // };
+
+    scope.calcROI = function(stake){
+        let rois = scope.rois;
+        for (let i = 0; i < rois.length; i++) {
+            if(stake === rois[i].stake){
+                return rois[i].roi;
+            }
+            else if(stake < rois[i].stake){
+                return this.lerp(rois[i-1].stake, rois[i].stake, rois[i-1].roi, rois[i].roi, stake)
+            }
+        }
+        return 0;
+    };
+
+      scope.reloadROI = function(stake) {
+        if(!scope.rois.length )   //|| !scope.stats.$resolved!!!!!!!!
+            return false;
+        scope.isLoaded = true;
+
+        stake = parseFloat(stake);
+        if(isNaN(stake)){
+            return false;
+        }
+        if(stake < 25 || stake > 25000){
+            $.toast({
+                heading: 'Error',
+                text: 'Stake is out of range 25...25,000',
+                icon: 'error',
+                hideAfter: 5000,
+                stack: 3,
+                position: 'top-right',
+                loader: false
+            });
+            return false;
+        }
+
+        scope.translationData.stake = stake;
+        stake = stake * 1e10;
+        let roi = scope.calcROI(stake);
+        let ratio = ((roi - stake) / stake);
+        if($('#refCheck').prop('checked'))
+            ratio += ratio * 0.1;
+        scope.roiData = [
+            {
+                period: "Daily",
+                values: scope.convert((stake * ratio)),
+                roi: "+ " + (ratio * 100).toFixed(2) + " %"
+            },
+            {
+                period: "Weekly",
+                values: scope.convert(stake * ratio * 7),
+                roi: "+ " + (ratio * 7 * 100).toFixed(2) + " %"
+            },
+            {
+                period: "Monthly",
+                values: scope.convert(stake * ratio * 30),
+                roi: "+ " + (ratio * 30 * 100).toFixed(2) + " %"
+            },
+            {
+                period: "Annual",
+                values: scope.convert(stake * ratio * 365),
+                roi: "+ " + (ratio * 365 * 100).toFixed(2) + " %"
+            }
+        ];
+    };
+
+    let incorrectValue = '---';
+    scope.roiValid = true;
+    scope.stake = 25;
+    scope.isLoaded = false;
+    scope.translationData = {
+        stake: 25,
+        min: 25,
+        max: 25000
+    };
+    scope.roiData = [];
+
+    let usdFormatter = new Intl.NumberFormat("en-us", {
+      useGrouping: 'true',
+      maximumFractionDigits: '5'
+    });
+
+    function refreshRoiCalc(stake) {
+
+
+      $.ajax({
+        method: 'GET',
+        url: "https://neuro.enecuum.com/api/v1/roi",
+        async: false,
+      }).success(function(roi) {
+        scope.rois = roi;
+      });
+
+      $.ajax({
+        method: 'GET',
+        url: "https://neuro.enecuum.com/api/v1/stats",
+        async: false,
+      }).success(function(stats) {
+          scope.stats = stats;
+          let statsPropertiesArr = ['total_daily_stake','reward_poa','poa_count','cg_usd','cg_btc'];
+          statsPropertiesArr.forEach(function(item) {
+              scope.stats[item] = (stats.hasOwnProperty(item) && validator.checkValidDigitalValue(stats[item])) ? stats[item] : incorrectValue;
+          });
+          scope.reloadROI(stake);
+          populateRoiElements();
+          $('#roiStakeUSD').text(usdFormatter.format(scope.convertValueToUSD(stake)) + ' USD');
+      });
+    }
+
+    refreshRoiCalc(scope.translationData.stake);
+
+
+    function populateRoiElements() {
+      scope.reloadROI(scope.translationData.stake);
+      $('#roiCalcCards').empty();
+      $.each(scope.roiData, function(index, roiDataItem) {
+        $('#roiCalcCards').append('<div class="col-md-6 col-xl-3 mb-5"><div class="card bg-light border-0"><div class="card-body"><div class="h4 h-bold mb-3">'+roiDataItem.period+'</div><div class="table-responsive-sm"><table class="table table-borderless table-sm table-centered mb-0"><tbody id="enq_'+roiDataItem.period+'"></tbody></table><hr><span class="text-grey h4 mr-3">ROI</span><span class="h-bold h3 text-blue">'+roiDataItem.roi+'</span></div></div></div></div>');
+        $.each(roiDataItem.values, function(index, currency) {
+          $('#enq_'+roiDataItem.period).append('<tr ng-repeat="curr in rec.values"><td><div class="font-weight-bold">'+currency.name+'</div></td><td>'+currency.value+'</td></tr>');
+        });
+      });
+      $('#roiCalcCards td:nth-child(2), #roiCalcCards h3, #roiStakeUSD').css({'opacity': 1});
+      $('#roiStakeErrorMessage').css({'opacity': '0'});
+    }
+
+    $('#roiStake').on('change keyup', function() {
+      let inputStake = $(this).val();
+      if (inputStake >= 25 && inputStake <= 25000) {
+        refreshRoiCalc(inputStake);
+      } else {
+        $('#roiCalcCards td:nth-child(2), #roiCalcCards h3, #roiStakeUSD').css({'opacity': 0.1});
+        $('#roiStakeErrorMessage').css({'opacity': '1'});
+      }
+    });
+
+    $('#refCheck').on('change', function() {
+      let inputStake = $('#roiStake').val();
+      refreshRoiCalc(inputStake);
+    });
+
+    $('.currency-calc-input-wrapper input').on('input', function() {
+      let that = this;
+      let currValue = $(that).val() < 0 ? $(that).val(0) : $(that).val();
+      let fromCurrencyName = $(that).attr('data-currency-name'); 
+      if (validator.checkValidDigitalValue(currValue)) {
+        $.ajax({
+          method: 'GET',
+          url: "https://neuro.enecuum.com/api/v1/stats",
+          async: false,
+        }).success(function(stats) {
+            $('#currencyCalculatorWrapper').parent('.container').show();
+            let rate = fromCurrencyName === "USD"? 1/scope.stats.cg_usd : scope.stats.cg_usd;          
+            let calculatedValue = currencyExchange.convertValue(currValue, rate);
+            $('.currency-calc-input-wrapper input').not(that).val(calculatedValue.toFixed(5));
+        }).error(function(stats) {
+            $('#currencyCalculatorWrapper').parent('.container').remove();
+        });
+      }
+    });
+    $('.currency-calc-input-wrapper input[data-currency-name="ENQ"]').val(1).trigger("input");
+    $('#switchCurrencyInputOrder').on('click', function() {
+      $('#currencyCalculatorWrapper').toggleClass('flex-column flex-md-row');
+      $('#currencyCalculatorWrapper').toggleClass('flex-column-reverse flex-md-row-reverse');    
+      $('.switch-input-order.flex-md-column').toggleClass('switch-input-order-transform-left switch-input-order-transform-right');
+      $('.switch-input-order.d-block').toggleClass('switch-input-order-transform-top switch-input-order-transform-down');
+    });
+    $('#currencyCalculatorWrapper').parent('.container').on('mouseleave', function(e) {
+      $('#switchCurrencyInputOrder').blur();
+    });
+
+
+  });
+
+
+</script>
+</body>
+</html>

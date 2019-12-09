@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>{{__ 'EMISSION_MODEL'}}</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="vendor/animate.css/animate.min.css">  
+  <link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/enq.css">
+  <link rel="stylesheet" href="vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="vendor/hs-megamenu/src/hs.megamenu.css">  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138901721-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138901721-4');
+  </script>
+</head>
+
+<body>
+  <header id="headerWithDropdown" class="u-header u-header--abs-top">
+    {{> header}}
+  </header>
+
+  <main id="content" role="main">
+    <div class="enq-top-section dzsparallaxer height-is-based-on-content auto-init use-loading mode-scroll animation-engine-js loaded dzsprx-readyall" data-options="{direction: &quot;normal&quot;}">
+      <!-- Apply your Parallax background image here -->
+      <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(img/enq/enq-header-back-enq.png); transform: translate3d(0px, -72.4172px, 0px);"></div>
+
+      <!-- Content -->
+    <div class="container position-relative z-index-2 d-flex align-items-center">
+      <div class="text-center mx-auto pt-5">
+          <h2 class="text-white mb-4">{{__ 'EMISSION_MODEL'}}</h2>
+          <div class="d-none d-md-block">
+            <ul class="nav flex-row justify-content-center" id="emissionModelTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="disclaimer-tab" data-toggle="tab" href="#disclaimer" role="tab" aria-controls="disclaimer" aria-selected="true">{{__ 'DISCLAIMER'}}</a>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link" id="conversion-plan-tab" data-toggle="tab" href="#conversion-plan" role="tab" aria-controls="conversion-plan" aria-selected="false">{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.TITLE'}}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="emission-model-tab" data-toggle="tab" href="#emission-model" role="tab" aria-controls="emission-model" aria-selected="false">{{__ 'EMISSION_MODEL'}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Content -->
+    </div>
+
+    <div class="container">
+      <div class="d-block d-md-none card border-0 bg-primary w-65 w-sm-50 mt-5">
+        <ul class="nav flex-column justify-content-center py-3" id="emissionModelTab1" role="tablist">
+          <li class="nav-item ml-0">
+            <a class="nav-link font-weight-bolder py-2 ml-0 active" id="disclaimer-tab-1" data-toggle="tab" href="#disclaimer" role="tab" aria-controls="disclaimer" aria-selected="true">{{__ 'DISCLAIMER'}}</a>
+          </li>
+          <li class="nav-item ml-0">
+            <a class="nav-link font-weight-bolder py-2" id="conversion-plan-tab-1" data-toggle="tab" href="#conversion-plan" role="tab" aria-controls="conversion-plan" aria-selected="false">{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.TITLE'}}</a>
+          </li>
+          <li class="nav-item ml-0">
+            <a class="nav-link font-weight-bolder py-2" id="emission-model-tab-1" data-toggle="tab" href="#emission-model" role="tab" aria-controls="emission-model" aria-selected="false">{{__ 'EMISSION_MODEL'}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane fade show" id="conversion-plan" role="tabpanel" aria-labelledby="conversion-plan-tab">
+        <div class="container space-1 space-md-2" id="conversionPlanPie">          
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                 {{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_1.P_1_1'}} <a href="https://etherscan.io/token/0x16ea01acb4b0bca2000ee5473348b6937ee6f72f" target="_blank">{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_1.P_1_2'}}</a> {{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_1.P_1_3'}}
+              </div>
+              <div class="mb-3">
+                {{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_1.P_2'}}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-light">
+          <div class="container space-1 space-md-2">
+            <div class="col-12">
+              <h5 class="mb-3 h-bolder d-flex">
+                <span class="text-blue mr-3 text-nowrap">{{__ 'STAGE_1'}}</span>
+                <span>{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_2.STAGE_1.ALLOCATION_ENQ_ERC20'}}</span>
+              </h5>
+              <div class="d-flex mb-3">
+                <span class="list-marker-lower-alpha-blue mr-2">a.</span>
+                <span>{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_2.STAGE_1.P_A'}}</span>
+              </div>
+              <div class="d-flex mb-3">
+                <span class="list-marker-lower-alpha-blue mr-2">b.</span>
+                <span>{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_2.STAGE_1.P_B'}}</span>
+              </div>
+              <div class="d-flex mb-3">
+                <span class="list-marker-lower-alpha-blue mr-2">c.</span>
+                <span>{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_2.STAGE_1.P_C'}}</span>
+              </div>
+              <div class="d-flex mb-3">
+                <span class="list-marker-lower-alpha-blue mr-2">d.</span>
+                <span>{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_2.STAGE_1.P_D'}}</span>
+              </div>
+            
+              <h5 class="mb-3 h-bolder mt-5 d-flex ">
+                <span class="text-blue mr-3 text-nowrap">{{__ 'STAGE_2'}}</span>
+                <span>{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_2.STAGE_2.DISTRIBUTION_ENQ'}}</span>
+              </h5>
+              <div class="d-flex mb-3">
+                <span class="list-marker-lower-alpha-blue mr-2">a.</span>
+                <span>{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_2.STAGE_2.P_A'}}</span>
+              </div>
+              <div class="d-flex mb-3">
+                <span class="list-marker-lower-alpha-blue mr-2">b.</span>
+                <span>{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_2.STAGE_2.P_B'}}</span>
+              </div>
+              <div class="d-flex mb-3">
+                <span class="list-marker-lower-alpha-blue mr-2">c.</span>
+                <span>{{__ 'EMISSION_MODEL_PAGE.DISTRIBUTION.S_2.STAGE_2.P_C'}}</span>
+              </div>                
+            </div>      
+          </div>
+        </div>
+      </div> 
+
+      <div class="tab-pane show active" id="disclaimer" role="tabpanel" aria-labelledby="disclaimer-tab">
+        <div class="container space-1 space-md-2" id="disclaimerWhitePaper">          
+          <div class="row">
+            <div class="col-12 col-lg-8 mb-5">
+              <div class="mb-3">
+                {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_1.P_1'}}
+              </div>
+              <div class="mb-3">
+                {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_1.P_2'}}
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 text-left text-lg-center mb-8">
+              <a href="pdf/pp_en.pdf" download target="_blank">
+                <img src="img/enq/whitepaper.svg">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 font-weight-bold small mb-3 text-muted">{{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_1.DISCLAIMER_TITLE'}}</div>
+            <div class="col-12 col-lg-9 border-top-100 small">
+              {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_1.DISCLAIMER'}}
+            </div>
+          </div>
+        </div>
+        <div class="bg-light">
+          <div class="container space-1 space-md-2">
+             <!-- phone Accordion -->
+            <div id="disclaimerAccordion">
+              <!-- Card -->
+              <div class="card mb-3">
+                <div class="card-header card-collapse" id="disclaimerAccordion1">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-btn p-3 collapsed" data-toggle="collapse" data-target="#disclaimerCollapse1" aria-expanded="false" aria-controls="disclaimerCollapse1">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_1.TITLE'}}
+
+                      <span class="card-btn-arrow">
+                        <span class="fas fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="disclaimerCollapse1" class="collapse" aria-labelledby="disclaimerAccordion1" data-parent="#disclaimerAccordion" style="">
+                  <div class="card-body">
+                    <div class="mb-3">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_1.P_1'}}
+                    </div>
+                    <div class="mb-3">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_1.P_2'}}
+                    </div>
+                    <div>
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_1.P_3'}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card mb-3">
+                <div class="card-header card-collapse" id="disclaimerAccordion2">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3" data-toggle="collapse" data-target="#disclaimerCollapse2" aria-expanded="false" aria-controls="disclaimerCollapse2">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_2.TITLE'}}
+
+                      <span class="card-btn-arrow">
+                        <span class="fas fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="disclaimerCollapse2" class="collapse" aria-labelledby="disclaimerAccordion2" data-parent="#disclaimerAccordion">
+                  <div class="card-body">
+                    <div class="mb-3">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_2.P_1'}}
+                    </div>
+                    <div class="mb-3">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_2.P_2'}}
+                    </div>
+                    <div>
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_2.P_3'}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card mb-3">
+                <div class="card-header card-collapse" id="disclaimerAccordion3">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3" data-toggle="collapse" data-target="#disclaimerCollapse3" aria-expanded="false" aria-controls="disclaimerCollapse3">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_3.TITLE'}}
+
+                      <span class="card-btn-arrow">
+                        <span class="fas fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="disclaimerCollapse3" class="collapse" aria-labelledby="disclaimerAccordion3" data-parent="#disclaimerAccordion">
+                  <div class="card-body">
+                    <div>
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_3.P_1'}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card mb-3">
+                <div class="card-header card-collapse" id="disclaimerAccordion4">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3" data-toggle="collapse" data-target="#disclaimerCollapse4" aria-expanded="false" aria-controls="disclaimerCollapse4">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_4.TITLE'}}
+
+                      <span class="card-btn-arrow">
+                        <span class="fas fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="disclaimerCollapse4" class="collapse" aria-labelledby="disclaimerAccordion4" data-parent="#disclaimerAccordion">
+                  <div class="card-body">
+                    <div class="mb-3">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_4.P_1'}}
+                    </div>
+                    <div>
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_4.P_2'}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card mb-3">
+                <div class="card-header card-collapse" id="disclaimerAccordion5">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3" data-toggle="collapse" data-target="#disclaimerCollapse5" aria-expanded="false" aria-controls="disclaimerCollapse5">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_5.TITLE'}}
+
+                      <span class="card-btn-arrow">
+                        <span class="fas fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="disclaimerCollapse5" class="collapse" aria-labelledby="disclaimerAccordion5" data-parent="#disclaimerAccordion">
+                  <div class="card-body">
+                    <div class="mb-3">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_5.P_1'}}
+                    </div>
+                    <div>
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_5.P_2'}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card mb-3">
+                <div class="card-header card-collapse" id="disclaimerAccordion6">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3" data-toggle="collapse" data-target="#disclaimerCollapse6" aria-expanded="false" aria-controls="disclaimerCollapse6">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_6.TITLE'}}
+
+                      <span class="card-btn-arrow">
+                        <span class="fas fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="disclaimerCollapse6" class="collapse" aria-labelledby="disclaimerAccordion6" data-parent="#disclaimerAccordion">
+                  <div class="card-body">
+                    <div>
+                     {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_6.P_1'}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card mb-3">
+                <div class="card-header card-collapse" id="disclaimerAccordion7">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3" data-toggle="collapse" data-target="#disclaimerCollapse7" aria-expanded="false" aria-controls="disclaimerCollapse7">
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_7.TITLE'}}
+
+                      <span class="card-btn-arrow">
+                        <span class="fas fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="disclaimerCollapse7" class="collapse" aria-labelledby="disclaimerAccordion7" data-parent="#disclaimerAccordion">
+                  <div class="card-body">
+                    <div>
+                      {{__ 'EMISSION_MODEL_PAGE.DISCLAIMER.S_2.ACCORDION.S_7.P_1'}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+          </div>
+        </div>    
+      </div>
+
+      <div class="tab-pane fade" id="emission-model" role="tabpanel" aria-labelledby="emission-model-tab">
+        <div class="container space-1 space-md-2" id="emissionModelChart">
+          <div class="row">
+            <div class="col-12 col-lg-7 pt-0 pt-lg-3 mb-3">
+              <div class="mb-3">
+                {{__ 'EMISSION_MODEL_PAGE.EMISSION_MODEL.S_1.P_1'}}                
+              </div>
+              <div class="mb-5">
+                {{__ 'EMISSION_MODEL_PAGE.EMISSION_MODEL.S_1.P_2'}}
+              </div>
+            </div>
+            <div class="col-10 offset-1 col-lg-5 offset-lg-0">
+              <img src="img/enq/token/emission-model.png" width="100%">
+            </div>
+          </div>
+        </div>
+        <div class="bg-light">
+          <div class="container space-1 space-md-2">
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-3">
+                <h2 class="mb-4">{{__ 'STAGE_1'}}</h2>
+                <div class="mb-3">{{__ 'EMISSION_MODEL_PAGE.EMISSION_MODEL.S_2.STAGE_1.P_1'}}</div>
+                <div>{{__ 'EMISSION_MODEL_PAGE.EMISSION_MODEL.S_2.STAGE_1.P_2'}}</div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <h2 class="mb-4">{{__ 'STAGE_2'}}</h2>
+                <div>{{__ 'EMISSION_MODEL_PAGE.EMISSION_MODEL.S_2.STAGE_2.P_1'}}</div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>  
+  </main>
+
+<!-- ========== FOOTER ========== -->
+{{> footer}}
+<!-- ========== END FOOTER ========== -->
+
+<div id="cookiesAlert" class="alert cookies-alert bg-light fixed-bottom row rounded-0 mb-0 border-top border-width-2 shadow" role="alert" style="display: none;">
+    <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 offset-xl-2 offset-lg-1 d-flex flex-md-row flex-column justify-content-md-center align-items-center">
+        <div class="mr-0 mr-md-3 text-center ng-binding">By continuing to browse our website, you agree to the use of cookies that ensure correct operation of the website.</div>
+        <div class="d-flex flex-nowrap mt-2 mt-md-0">
+            <button id="cookiesAlertIAgree" type="button" class="btn btn-success mr-1 text-nowrap">I agree</button>
+            <a class="btn btn-primary  text-nowrap" href="https://enecuum.com/docs/privacy.pdf" target="_blank" role="button">Find out more</a>
+        </div>
+    </div>
+</div>
+
+
+  <!-- JS Global Compulsory -->
+  <script src="vendor/jquery/dist/jquery.min.js"></script>
+  <script src="vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="vendor/bootstrap/bootstrap.min.js"></script>
+
+
+  <!-- JS Front -->
+  <script src="js/hs.core.js"></script>
+  <script src="vendor/dzsparallaxer/dzsparallaxer.js"></script>
+  <script src="js/components/hs.header.js"></script>
+  <script src="js/components/hs.unfold.js"></script>
+
+
+  <!-- JS Implementing Plugins -->
+<script src="vendor/appear.js"></script>
+<script src="vendor/hs-megamenu/src/hs.megamenu.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+  $(window).on('load', function () {
+    // initialization of HSMegaMenu component
+    $('.js-mega-menu').HSMegaMenu({
+      event: 'hover',
+      pageContainer: $('.container'),
+      breakpoint: 991.98,
+      hideTimeOut: 0
+    });
+  });
+
+  $(document).on('ready', function () {
+    // initialization of header
+    $.HSCore.components.HSHeader.init($('#headerWithDropdown'))
+    // initialization of unfold component
+    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+    
+    //Cookies alert workflow start
+    ENQCookies = {
+      cookieName: 'enecuum-corp-site',
+      cookiesExpirationYears: 10,
+      cookieWidgetSelector: '#cookiesAlert',
+      cookiesIAgreeControlSelector: '#cookiesAlertIAgree',
+      getCookie: function() {
+        var name = this.cookieName + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var cookiesArray = decodedCookie.split(';');
+        for(var i = 0; i < cookiesArray.length; i++) {
+            var cookie = cookiesArray[i];
+            while (cookie.charAt(0) == ' ') {
+                cookie = cookie.substring(1);
+            }
+            if (cookie.indexOf(name) == 0) {
+                return cookie.substring(name.length, cookie.length);
+            }
+        }
+        return "";
+      },
+      cookieExist: function() {
+        return this.getCookie(this.cookieName) === 'true';
+      },
+      setCookies: function() {
+        let that = this;
+        let currentDate = new Date();
+        let expirationDate = new Date(currentDate.setFullYear(currentDate.getFullYear() + that.cookiesExpirationYears)).toUTCString();
+        document.cookie = this.cookieName+"=true; expires=" + expirationDate;
+        $(that.cookieWidgetSelector).remove();
+      },
+      normalFlowExecute: function() {
+        let that = this;
+        if (that.cookieExist() === false) {
+          $(that.cookieWidgetSelector).show();
+          $(that.cookiesIAgreeControlSelector).on('click', function() {
+            that.setCookies();
+          });
+        } else {
+          $(that.cookieWidgetSelector).remove();
+        }
+      }
+    }
+
+    ENQCookies.normalFlowExecute();
+    //Cookies alert workflow end
+
+    //fire desired emissionModelTab
+    let emissionModelTabArr = ['#conversion-plan','#disclaimer','#distribution','#emission-model'];
+    $.each(emissionModelTabArr, function(index, tab) {
+      if(window.location.href.includes(tab)) {
+        $('[href='+tab+']').click();
+        return false;
+      }
+    });
+    //add emissionModelTab anchor link to URL
+    $('body').on('click','#emissionModelTab a.nav-link, #emissionModelTab1 a.nav-link', function() {
+      let urlStr  = window.location.href;
+      urlStr = urlStr.split('#')[0];
+      window.location.href = urlStr + $(this).attr('href');      
+    });
+
+
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+      let currentTab = $(this).attr('aria-controls');
+      $('#emissionModelTab a.nav-link[aria-controls!="'+currentTab+'"], #emissionModelTab1 a.nav-link[aria-controls!="'+currentTab+'"]').attr('aria-selected','false').removeClass('active');
+      $('#emissionModelTab a.nav-link[aria-controls="'+currentTab+'"], #emissionModelTab1 a.nav-link[aria-controls="'+currentTab+'"]').attr('aria-selected','true').addClass('active');
+    });
+
+  });
+
+</script>
+</body>
+</html>
