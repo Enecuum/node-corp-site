@@ -55,7 +55,7 @@
   <!-- Content -->
   <div class="container position-relative space-2 space-top-md-3 space-bottom-md-2 z-index-2 d-flex align-items-center">
     <div class="mx-auto pt-5 text-white">
-      <h1 id="aboutTitle" class="mb-4">{{__ 'ABOUT_S1_TITLE_P1'}}</br>{{__ 'ABOUT_S1_TITLE_P2'}}</h1>
+      <h1 id="aboutTitle" class="mb-4">{{__ 'ABOUT_S1_TITLE_P1'}}<br/>{{__ 'ABOUT_S1_TITLE_P2'}}</h1>
       <div class="mt-3 font-size-03 w-xl-75 w-100">
         {{__ 'ABOUT_S1_P1'}}
       </div>
@@ -84,11 +84,6 @@
             <!-- End Fancybox -->
             <span class="ml-2 no-wrap">{{__ 'PLAY_VIDEO'}}</span>
           </div>
-          <!-- SVG Background -->
-          <figure class="position-absolute right-0 bottom-0 left-0">
-            <img class="js-svg-injector" data-parent="#SVGwave1BottomSMShape">
-          </figure>
-          <!-- End SVG Background Section -->
         </div>
         <!-- End Video Content -->
       </div>  
@@ -205,7 +200,7 @@
               <div class="row align-items-center">
                   <label for="roiStake" class="col-12 col-sm-6">{{__ 'ROI_STAKE_LITE_CALC'}}</label>
                   <div class="col-12 col-sm-6 d-flex align-items-center flex-nowrap">
-                      <input type="text" id="roiStake" class="col form-control text-center font-size-03" ng-model="stake" value="25" autocomplete="off">
+                      <input type="text" id="roiStake" class="col form-control text-center font-size-03" value="25" autocomplete="off">
                       <span class="ml-3 font-weight-bolder">ENQ</span>
                   </div>
               </div>
@@ -227,31 +222,31 @@
 
         <div class="text-center text-md-left ">
             <h4 class="mb-5">{{__ 'DOWNLOAD_ANDROID_MASTERNODE'}}</h4>
-            <div class="mb-5"><a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover" href="https://app.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black;"><div class="d-flex align-items-center"style="height: 48px;"><i class="fab fa-android mr-2" style="font-size: 37px;"></i><span class="font-weight-bold font-size-03">Android miner</span></div></a></div>
+            <div class="mb-5"><a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover" href="https://app.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black;"><div class="d-flex align-items-center" style="height: 48px;"><i class="fab fa-android mr-2" style="font-size: 37px;"></i><span class="font-weight-bold font-size-03">Android miner</span></div></a></div>
             <h4 class="mb-2">{{__ 'WALLETS'}}</h4>
 
             <div class="mb-5">
               <div class="d-flex flex-column justify-content-center mx-auto flex-md-row justify-content-md-start">
                 <div class="flex-grow-0 flex-shrink-0 ">
-                <a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover mb-3" href="https://wallet.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center"style="height: 50px;"><i class="fas fa-desktop mr-2"  style="font-size: 20px;"></i><span class="font-weight-bold font-size-03">Web wallet</span></div></a>
+                <a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover mb-3" href="https://wallet.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fas fa-desktop mr-2"  style="font-size: 20px;"></i><span class="font-weight-bold font-size-03">Web wallet</span></div></a>
                 </div>
                 <div class="flex-grow-0 flex-shrink-0 ">
                 <a href="https://play.google.com/store/apps/details?id=com.enecuum.wallet" role="button" class="btn btn-primary p-0 mr-0 mr-md-3 transition-3d-hover mb-3" style="border: 2px solid #a6a6a6; background: black;">
-                  <img src="img/enq/online-app-markets/google-play-badge-1.png" height="50px">
+                  <img src="img/enq/online-app-markets/google-play-badge-1.png" alt="Google play badge" height="50">
                 </a>
                 </div>
                 <div  class="flex-grow-0 flex-shrink-0 ">
-                 <a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover  mb-3" href="https://testflight.apple.com/join/EhGhg78t" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center"style="height: 50px;"><i class="fab fa-apple mr-2" style="font-size: 30px;"></i><span class="font-weight-bold font-size-03">iOS wallet</span></div></a>
+                 <a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover  mb-3" href="https://testflight.apple.com/join/EhGhg78t" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fab fa-apple mr-2" style="font-size: 30px;"></i><span class="font-weight-bold font-size-03">iOS wallet</span></div></a>
                  </div>
               </div>
             </div>
         </div>
 <!--         <h4 class="mb-2">Blockchain Explorer</h4>
-        <div class="mb-5"><a class="btn btn-primary py-0 mr-3 transition-3d-hover" href="#" role="button" style="border: 2px solid #a6a6a6; background: black;"><div class="d-flex align-items-center"style="height: 48px;">Blockchain Explorer</div></a></div> -->
+        <div class="mb-5"><a class="btn btn-primary py-0 mr-3 transition-3d-hover" href="#" role="button" style="border: 2px solid #a6a6a6; background: black;"><div class="d-flex align-items-center" style="height: 48px;">Blockchain Explorer</div></a></div> -->
       </div>
       <div class="col-lg-6 d-none d-lg-flex align-items-center">
         <div class="position-relative ml-auto" id="startMiningMobileColumn">
-          <img src="img/enq/start-mining-mobile.png">
+          <img src="img/enq/start-mining-mobile.png" alt="Start minig mobile">
           <div  id="startMiningBlueMark">{{__ 'START_MINING'}}</div>
           <a href="https://guides.enecuum.com" target="_blank" id="startMiningBlueMarkRing" class="rotating"></a>
         </div>
@@ -268,7 +263,7 @@
 
     <div class="container pb-8 text-center">
       <h3 class="mb-3">{{__ 'VIEW_BLOCKS_LIVE'}}</h3>
-      <a role="button" class="btn btn-primary transition-3d-hover" href="https://neuro.enecuum.com/" target="_blank" role="button">{{__ 'EXPLORE_RIGHT'}}</a>
+      <a role="button" class="btn btn-primary transition-3d-hover" href="https://neuro.enecuum.com/" target="_blank">{{__ 'EXPLORE_RIGHT'}}</a>
     </div>
   </div>
 
@@ -279,17 +274,17 @@
         <div class="d-flex justify-content-center flex-wrap mb-8">
           <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
             <a href="https://www.kucoin.com/trade/ENQ-BTC" target="_blank">
-             <img src="img/enq/exchanges/kucoin-logo-sm-grey.png">
+             <img src="img/enq/exchanges/kucoin-logo-sm-grey.png" alt="Kucoin logo">
             </a>
           </div>
           <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
             <a href="https://crex24.com/exchange/ENQ-BTC?refid=c36hkj32l6utjurdd2wt" target="_blank">
-              <img src="img/enq/exchanges/crex24-logo-sm-grey.png">              
+              <img src="img/enq/exchanges/crex24-logo-sm-grey.png" alt="Crex24 logo">
             </a>
           </div>
           <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
             <a href="https://graviex.net/markets/enqbtc" target="_blank">
-              <img src="img/enq/exchanges/graviex-logo-sm-grey.png">             
+              <img src="img/enq/exchanges/graviex-logo-sm-grey.png" alt="Graviex logo">
             </a>
           </div>          
         </div>
@@ -300,37 +295,37 @@
         <div class="d-flex justify-content-center flex-wrap">
           <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
             <a href="https://www.coingecko.com/en/coins/enecuum" target="_blank">
-             <img src="img/enq/analytics/coingecko-logo-grey-sm.png">
+             <img src="img/enq/analytics/coingecko-logo-grey-sm.png" alt="Coingecko logo">
             </a>
           </div>
           <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
             <a href="https://coinmarketcap.com/currencies/enecuum/" target="_blank">
-              <img src="img/enq/analytics/coinmarketcap-logo-grey-sm.png">              
+              <img src="img/enq/analytics/coinmarketcap-logo-grey-sm.png" alt="Coinmarketcap logo">
             </a>
           </div>
           <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
             <a href="https://www.feixiaohao.com/currencies/enecuum/" target="_blank">
-              <img src="img/enq/analytics/feixiaohao-logo-grey-sm.png">             
+              <img src="img/enq/analytics/feixiaohao-logo-grey-sm.png" alt="Feixiaohao logo">
             </a>
           </div>
           <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
             <a href="https://coinlib.io/coin/ENQ/Enecuum" target="_blank">
-              <img src="img/enq/analytics/coinlib-logo-grey-sm.png">              
+              <img src="img/enq/analytics/coinlib-logo-grey-sm.png" alt="Coinlib logo">
             </a>
           </div>
           <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
             <a href="https://stakingrewards.com/asset/enq" target="_blank">
-              <img src="img/enq/analytics/stakingrewards-logo-grey-sm.png">              
+              <img src="img/enq/analytics/stakingrewards-logo-grey-sm.png" alt="Stakingrewards logo">
             </a>
           </div>
           <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
             <a href="https://masternodes.online/currencies/ENQ-MOBILE" target="_blank">
-              <img src="img/enq/analytics/mno-logo-grey-sm.png">             
+              <img src="img/enq/analytics/mno-logo-grey-sm.png" alt="Masternodes.online logo">
             </a>
           </div>
           <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
             <a href="https://www.mytoken.io/currency/enq/821725756" target="_blank">
-              <img src="img/enq/analytics/mytoken-logo-grey-sm.png">  
+              <img src="img/enq/analytics/mytoken-logo-grey-sm.png" alt="Mytoken logo">
             </a>
           </div>
         </div>
@@ -341,56 +336,56 @@
     <div class="container space-2 space-lg-2 text-white" style="max-width: 1200px;">
       <div class="row">
         <div class="col-12 px-sm-10 col-xl-5 px-xl-0">
-          <img src="img/enq/quotes-white.png">
+          <img src="img/enq/quotes-white.png" alt="quotes">
           <h2>{{__ 'MEDIA_TITLE'}}</h2>
           <div class="mt-3 mb-5">{{__ 'MEDIA_PREVIEW'}}</div>
-          <img src="img/enq/media/ccn-white-logo-white.png">
+          <img src="img/enq/media/ccn-white-logo-white.png" alt="CCN logo">
         </div>
         <div class="col-12 mt-8 col-xl-7 mt-xl-0 pt-4 pl-xl-10">
           <div class="row">
             <div class="col-12 col-sm-6 col-lg-4 py-5 pb-lg-6 d-flex align-items-center justify-content-center">
               <a href="https://ru.ihodl.com/analytics/2019-07-04/enecuum-blokchejn-s-mobilnymi-masternodami/" target="_blank">
-                <img src="img/enq/media/ihodl-white-logo-white.png">
+                <img src="img/enq/media/ihodl-white-logo-white.png" alt="ihodl logo">
               </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 py-5 pb-lg-6 d-flex align-items-center justify-content-center">
               <a href="https://www.ccn.com/enecuum-launch-blockchain-network-with-mobile-masternodes-keep-calm-and-continue-mining/" target="_blank">
-                <img src="img/enq/media/ccn-white-logo-white.png">
+                <img src="img/enq/media/ccn-white-logo-white.png" alt="CCN logo">
               </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 py-5 pb-lg-6 d-flex align-items-center justify-content-center">
               <a href="https://forklog.com/kak-zarabotat-na-smartfone-majning-i-smart-stejking-v-mobilnom-blokchejne-enecuum/" target="_blank">
-                <img src="img/enq/media/forklog-white-logo.svg" style="width: 135px;">
+                <img src="img/enq/media/forklog-white-logo.svg" alt="Forklog logo" style="width: 135px;">
               </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
               <a href="https://cryptocalibur.com/enecuum-ico-review/" target="_blank">
-                <img src="img/enq/media/cryptocalibur-log-white.png">
+                <img src="img/enq/media/cryptocalibur-log-white.png" alt="Cryptocalibur logo">
               </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
               <a href="https://www.youtube.com/watch?v=sgDZDqiQtwU&feature=youtu.be" target="_blank">
-                <img src="img/enq/media/bigcoin-logo-white.png">
+                <img src="img/enq/media/bigcoin-logo-white.png" alt="Bigcoin logo">
               </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
               <a href="https://vc.ru/flood/36523-o-problemah-masshtabirovaniya-vedushchih-blokcheyn-setey-i-ih-resheniyah-v-enecuum" target="_blank">
-                <img src="img/enq/media/vc_ru-logo-white.png">
+                <img src="img/enq/media/vc_ru-logo-white.png" alt="VC logo">
               </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
               <a href="https://www.youtube.com/watch?v=itKthtqmfBw&feature=youtu.be" target="_blank">
-                <img src="img/enq/media/ico-analytics-logo-white.png">
+                <img src="img/enq/media/ico-analytics-logo-white.png" alt="ICO-analytics logo">
               </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
               <a href="https://www.youtube.com/watch?v=5SDKtujTZ38&feature=youtu.be" target="_blank">
-                <img src="img/enq/media/iangels-logo-white.png">
+                <img src="img/enq/media/iangels-logo-white.png" alt="iangels logo">
               </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
               <a href="https://www.youtube.com/watch?v=VoKptIKvt9A&t=3132" target="_blank">
-                <img src="img/enq/media/cnbc-africa-logo-white.png">
+                <img src="img/enq/media/cnbc-africa-logo-white.png" alt="CNBC logo">
               </a>
             </div>                                                                                  
           </div>          
@@ -406,7 +401,7 @@
           {{__ 'LEGAL_ADVISOR'}}
         </h3>
         <a href="https://www.kwm.com/en" target="_blank">
-          <img src="img/enq/legal-advisor/king-and-wood-mallesons-logo-grey.png">
+          <img src="img/enq/legal-advisor/king-and-wood-mallesons-logo-grey.png" alt="King & wood mallesons logo">
         </a>
       </div>
       <div class="ml-md-10 text-center text-md-left">
@@ -414,7 +409,7 @@
          {{__ 'WE_ARE_MEMBER_OF'}}
         </h3>
         <a href="https://ftahk.org/" target="_blank">
-          <img src="img/enq/fintech-association-hk-logo-grey.png">            
+          <img src="img/enq/fintech-association-hk-logo-grey.png" alt="Fintech association of HK logo">
         </a>
       </div>
     </div>
@@ -714,7 +709,7 @@
       $.ajax({
         method: 'GET',
         url: "https://neuro.enecuum.com/api/v1/roi",
-        async: false,
+        async: true,
       }).success(function(roi) {
           scope.rois = roi;
           scope.reloadROI(stake);

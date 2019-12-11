@@ -9,20 +9,20 @@ var path = require('path');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var missionAndPurposeRouter = require('./routes/mission');
+var missionAndPurposeRouter = require('./routes/mission-and-purpose');
 var documentationRouter = require('./routes/documentation');
 var teamRouter = require('./routes/team');
 var roadmapRouter = require('./routes/roadmap');
 var partnersRouter = require('./routes/partners');
-var newsAndCommunityRouter = require('./routes/newsAndCommunity');
-var marketSratsRouter = require('./routes/marketstats');
-var networkStatsRouter = require('./routes/networkstats');
+var newsAndCommunityRouter = require('./routes/news-and-community');
+var marketSratsRouter = require('./routes/market-stats');
+var networkStatsRouter = require('./routes/network-stats');
 var buyRouter = require('./routes/buy');
 var earnRouter = require('./routes/earn');
 var holdRouter = require('./routes/hold');
 var utilityRouter = require('./routes/utility');
 var spendRouter = require('./routes/spend');
-var emissionModelRouter = require('./routes/emissionModel');
+var emissionModelRouter = require('./routes/emission-model');
 var technologyRouter = require('./routes/technology');
 var allowedLocales = ['en', 'ru'];
 
@@ -80,21 +80,22 @@ app.use(function (req, res, next) {
 });
 
 app.use('/', indexRouter);
-app.use('/mission', missionAndPurposeRouter);
+app.use('/mission-and-purpose', missionAndPurposeRouter);
 app.use('/documentation', documentationRouter);
 app.use('/team', teamRouter);
-app.use('/marketstats', marketSratsRouter);
-app.use('/networkstats', networkStatsRouter);
+app.use('/market-stats', marketSratsRouter);
+app.use('/network-stats', networkStatsRouter);
 app.use('/roadmap', roadmapRouter);
 app.use('/partners', partnersRouter);
-app.use('/newsAndCommunity', newsAndCommunityRouter);
+app.use('/news-and-community', newsAndCommunityRouter);
 app.use('/buy', buyRouter);
 app.use('/earn', earnRouter);
 app.use('/hold', holdRouter);
 app.use('/spend', spendRouter);
 app.use('/utility', utilityRouter);
-app.use('/emissionModel', emissionModelRouter);
+app.use('/emission-model', emissionModelRouter);
 app.use('/technology', technologyRouter);
+app.use('/*', indexRouter);
 
 hbs.registerHelper('__', function () {
   return i18n.__.apply(this, arguments);

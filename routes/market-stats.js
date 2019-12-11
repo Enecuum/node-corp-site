@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('emissionModel', { title: 'Express' });
+  res.render('market-stats', { title: 'Express' });
 });
 
 module.exports = router;
