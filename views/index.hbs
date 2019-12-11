@@ -68,7 +68,7 @@
           <a class="btn btn-primary transition-3d-hover mr-3" role="button" href="pdf/tp_en.pdf" target="_blank" style="background: transparent; border: 1px solid white;">{{__ 'TECHPAPER'}}</a>
         </div>
         <!-- Video Content Section -->
-        <div id="SVGwave1BottomSMShape" class="d-inline-block svg-prel1oader position-relative">
+        <div id="SVGwave1BottomSMShape" class="d-inline-block position-relative">
            <div class="d-inline-block text-white mb-0">
          <!-- Fancybox -->
             <a class="js-fancybox d-inline-block u-media-player mb-4 ml-sm-3 ml-md-8" href="javascript:;"
@@ -450,8 +450,6 @@
 
   <!-- JS Implementing Plugins -->
 <script src="vendor/fancybox/jquery.fancybox.min.js"></script>
-<script src="vendor/svg-injector/dist/svg-injector.min.js"></script>
-<script src="js/components/hs.svg-injector.js"></script>
 <script src="vendor/slick-carousel/slick/slick.js"></script>
 <script src="js/components/hs.fancybox.js"></script>
 <script src="js/enq-map/jquery-jvectormap-2.0.3.min.js"></script>
@@ -463,8 +461,6 @@
 <!-- JS Plugins Init. -->
 <script>
   $(window).on('load', function () {
-    // initialization of svg injector module
-    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
     // initialization of HSMegaMenu component
     $('.js-mega-menu').HSMegaMenu({
       event: 'hover',

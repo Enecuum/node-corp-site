@@ -47,7 +47,7 @@
       <div class="w-lg-50 text-center mx-auto pt-5">
         <h2 class="text-white mb-4">{{__ 'ABOUT_S1_TITLE_P1'}} <br/> {{__ 'ABOUT_S1_TITLE_P2'}}</h2>
         <!-- Video Content Section -->
-        <div id="SVGwave1BottomSMShape" class="svg-preloader position-relative">
+        <div id="SVGwave1BottomSMShape" class="position-relative">
           <div class="text-center">
             <!-- Fancybox -->
             <a class="js-fancybox d-inline-block u-media-player mb-4" href="javascript:;"
@@ -64,11 +64,6 @@
             <br>
             <h4 class="d-inline-block text-white mb-0">{{__ 'PLAY_VIDEO'}}</h4>
           </div>
-
-          <!-- SVG Background -->
-          <figure class="position-absolute right-0 bottom-0 left-0">
-            <img class="js-svg-injector" data-parent="#SVGwave1BottomSMShape" alt="SVG">
-          </figure>
           <!-- End SVG Background Section -->
         </div>
         <!-- End Video Content -->
@@ -136,8 +131,6 @@
 
   <!-- JS Implementing Plugins -->
 <script src="vendor/fancybox/jquery.fancybox.min.js"></script>
-<script src="vendor/svg-injector/dist/svg-injector.min.js"></script>
-<script src="js/components/hs.svg-injector.js"></script>
 <script src="js/components/hs.fancybox.js"></script>
 <script src="vendor/hs-megamenu/src/hs.megamenu.js"></script>
 
@@ -145,8 +138,6 @@
 <!-- JS Plugins Init. -->
 <script>
   $(window).on('load', function () {
-    // initialization of svg injector module
-    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
     // initialization of HSMegaMenu component
     $('.js-mega-menu').HSMegaMenu({
       event: 'hover',
