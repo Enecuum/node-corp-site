@@ -52,7 +52,7 @@ app.use(cookieParser());
 app.use(i18n.init);
 
 app.use(function (req, res, next) {
-	let currentLang = null;
+	let currentLang = 'en';
 	let flag = {
 		en: 'gb',
 		ru: 'ru'
@@ -70,8 +70,6 @@ app.use(function (req, res, next) {
 				break;
 			}
 		}
-	} else {
-		currentLang = 'en';
 	}
 
 	res.locals.currentFlag = flag[currentLang];
