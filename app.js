@@ -95,7 +95,8 @@ app.use('/emission-model', emissionModelRouter);
 app.use('/technology', technologyRouter);
 app.use(function (req, res, next) {
 	if ('/robots.txt' === req.url) {
-		res.sendFile(__dirname + '/public/robots.txt')
+		res.type('text/plain');
+		res.sendFile(__dirname + '/public/robots.txt');
 	} else {
 		next();
 	}
@@ -128,7 +129,5 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
-
 
 module.exports = app;
