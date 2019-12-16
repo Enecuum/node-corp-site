@@ -93,6 +93,20 @@ app.use('/spend', spendRouter);
 app.use('/utility', utilityRouter);
 app.use('/emission-model', emissionModelRouter);
 app.use('/technology', technologyRouter);
+app.use(function (req, res, next) {
+	if ('/robots.txt' === req.url) {
+		res.sendFile(__dirname + '/public/robots.txt')
+	} else {
+		next();
+	}
+});
+app.use(function (req, res, next) {
+	if ('/sitemap.xml' === req.url) {
+		res.sendFile(__dirname + '/public/sitemap.xml')
+	} else {
+		next();
+	}
+});
 app.use('/*', indexRouter);
 
 hbs.registerHelper('__', function () {
@@ -114,5 +128,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+
 
 module.exports = app;
