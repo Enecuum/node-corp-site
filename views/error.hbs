@@ -1,1 +1,61 @@
-<h1>Something went wrong</h1>
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Title -->
+    <title>Enecuum | ENQ | Blockchain of tomorrow</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Front Template -->
+    <link rel="stylesheet" href="/css/theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/enq.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138901721-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-138901721-4');
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(56652799, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true,
+            ecommerce:"dataLayer"
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/56652799" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+
+<body>
+    <main id="content" role="main">
+        <div id="errorPage" class="d-flex align-items-center justify-content-center">
+            <div class="error-content d-inline-block p-3">
+                <div class="display-1">{{errorCode}}</div>
+                <div class="h1">{{__ "ERRORS.SOMETHING_WENT_WRONG"}}</div>
+                {{#if_eq errorCode 404}}
+                    <div class="font-size-03">{{__ "ERRORS.ERR_404_DESCR"}}</div>
+                    <div class="font-size-03">{{__ "ERRORS.LETS_GO_TO"}} <a href="/">{{__ "ERRORS.MAIN_PAGE"}}</a></div>
+                {{else}}
+                    <div class="font-size-03">{{__ "ERRORS.ERR_500_DESCR"}}</div>
+                    <div class="font-size-03">{{__ "ERRORS.VISIT_WEBSITE_LATER"}}</a></div>
+                {{/if_eq}}
+            </div>
+        </div>
+    </main>
+</body>

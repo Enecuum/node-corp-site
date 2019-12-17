@@ -11,6 +11,14 @@
 		"JULY": "July",
 		"DECEMBER": "december"
 	},
+	"ERRORS": {
+		"SOMETHING_WENT_WRONG": "Something went wrong...",
+		"ERR_404_DESCR": "Sorry, requested resource cannot be found.",
+		"LETS_GO_TO": "Try to visit website",
+		"MAIN_PAGE": "main page",
+		"ERR_500_DESCR": "An error occurred.",
+		"VISIT_WEBSITE_LATER": "Try to visit website later"
+	},
 	"COOKIES_ALERT_TEXT": "By continuing to browse our website, you agree to the use of cookies that ensure correct operation of the website.",
 	"I_AGREE": "I agree",
 	"MORE_DETAILS": "Find out more",

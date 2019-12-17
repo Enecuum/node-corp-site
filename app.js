@@ -108,10 +108,17 @@ app.use(function (req, res, next) {
 		next();
 	}
 });
-app.use('/*', indexRouter);
 
 hbs.registerHelper('__', function () {
   return i18n.__.apply(this, arguments);
+});
+
+hbs.registerHelper('if_eq', function(a, b, opts) {
+	if (a === b) {
+		return opts.fn(this);
+	} else {
+		return opts.inverse(this);
+	}
 });
 
 // catch 404 and forward to error handler
@@ -127,7 +134,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error', { errorCode: res.statusCode});
 });
 
 module.exports = app;
