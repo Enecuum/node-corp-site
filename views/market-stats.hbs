@@ -507,7 +507,7 @@
       $.ajax({
         method: 'GET',
         url: "https://neuro.enecuum.com/api/v1/roi",
-        async: false,
+        async: true,
       }).success(function(roi) {
         scope.rois = roi;
       }).error(function() {
@@ -517,7 +517,7 @@
       $.ajax({
         method: 'GET',
         url: "https://neuro.enecuum.com/api/v1/stats",
-        async: false,
+        async: true,
       }).success(function(stats) {
           scope.stats = stats;
           let statsPropertiesArr = ['total_daily_stake','reward_poa','poa_count','cg_usd','cg_btc'];
@@ -573,7 +573,7 @@
         $.ajax({
           method: 'GET',
           url: "https://neuro.enecuum.com/api/v1/stats",
-          async: false,
+          async: true,
         }).success(function(stats) {
             $('#currencyCalculatorWrapper').parent('.container').show();
             let rate = fromCurrencyName === "USD"? 1/scope.stats.cg_usd : scope.stats.cg_usd;          
