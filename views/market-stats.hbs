@@ -581,7 +581,7 @@
           async: true,
         }).success(function(stats) {
             $('#currencyCalculatorWrapper').parent('.container').show();
-            let rate = fromCurrencyName === "USD"? 1/scope.stats.cg_usd : scope.stats.cg_usd;          
+            let rate = fromCurrencyName === "USD"? 1/stats.cg_usd : stats.cg_usd;
             let calculatedValue = currencyExchange.convertValue(currValue, rate);
             $('.currency-calc-input-wrapper input').not(that).val(calculatedValue.toFixed(5));
         }).error(function(stats) {
