@@ -50,6 +50,30 @@ body {
 	width: auto;
 }
 
+.go-down {
+	bottom: 0%;
+	left: calc(50% - 48px);
+	transition: all 1s;
+}
+
+.go-down:hover {
+	cursor: pointer;
+	color: #0072FF;
+	padding-bottom: 2.5rem!important;
+}
+
+.height-100vh {
+	height: 100vh;
+}
+
+#enqAdvantages img {
+    height: 65px;
+}
+
+.jump-to-section {
+    cursor: pointer;
+}
+
 @media (min-width: 992px) {
 	[class*="navbar-expand"]:not(.navbar-expand-xl) {
 		-ms-flex-wrap: wrap;
@@ -870,4 +894,8 @@ table.table-to-cards .scope-col {
 
 #ROICalcContainer .custom-switch label:hover {
 	cursor: pointer;
+}
+
+.partners-item.slick-slide {
+	height: 100%!important;
 }

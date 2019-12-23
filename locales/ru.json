@@ -19,6 +19,16 @@
 		"ERR_500_DESCR": "По всей видимости на сервере произошла ошибка.",
 		"VISIT_WEBSITE_LATER": "Попробуйте посетить наш сайт чуть позже"
 	},
+	"PROMO_TITLE_P1": "Мобильный майнинг",
+	"PROMO_TITLE_P2": "для каждого",
+	"ADVANTAGES": {
+		"EASY_TO_JOIN": "Низкий порог входа",
+		"EASY_TO_EARN": "Легко заработать",
+		"EXTREMELY_DECENTRALIZED": "Максимальная децентрализация",
+		"MAXIMUM_PRIVACY": "Приватная сеть",
+		"LOW_BATTERY_CONSUMPTION": "Низкий расход батареи"
+	},
+	"HOW_DOES_IT_WORK": "Как работает сеть Enecuum?",
 	"COOKIES_ALERT_TEXT": "Продолжая использовать наш сайт, вы подтверждаете своё согласие на обработку файлов cookie, которые обеспечивают правильную работу сайта.",
 	"I_AGREE": "Подтверждаю",
 	"MORE_DETAILS": "Подробнее",
@@ -100,6 +110,7 @@
 	"WHITEPAPER_DESCR": "Whitepaper содержит прогнозные заявления, основанные на убеждениях компании Enecuum HK Limited, зарегистрированной в Гонконге, а также определенные предположения и информация, доступные компании.",
 	"TECHPAPER_DESCR": "Валюта для экономики, что язык для речи. Его изощренность и полезность развиваются прямо пропорционально пользовательской базе, объему «транзакций», поддерживающих его, и его дарвинистской способности адаптироваться, размножаться и процветать.",
 	"READ_MORE": "Подробнее",
+	"READ_MORE_ABOUT_TECHNOLOGY": "Узнать больше о технологии Enecuum",
 	"RESEARCH_PAPERS_A1_TITLE": "Blockchain Technology for Smartphones and Constrained IoT Devices: A Future Perspective and Implementation",
 	"RESEARCH_PAPERS_A1_ABSTRACT": "The blockchain technology is currently penetrating different sides of modern ICT community. Most of the devices involved in blockchain-related processes are specially designed targeting only the mining aspect. At the same time, the use of wearable and mobile devices may also become a part of blockchain operation, especially during the charging time. The paper considers the possibility of using a large number of constrained devices supporting the operation of the blockchain. The utilization of such devices is expected to improve the efficiency of the system and also to attract a more substantial number of users. Authors propose a novel consensus algorithm based on a combination of Proof-of-Work (PoW), Proof-of-Activity (PoA), and Proof-of-Stake (PoS). The paper first overviews the existing strategies and further describes the developed cryptographic primitives used to build a blockchain involving mobile devices. A brief numerical evaluation of the designed system is also provided in the paper.",
 	"RESEARCH_PAPERS_A1_PUBLISHED": "Proc. of IEEE 21st Conference on Business Informatics (CBI)",

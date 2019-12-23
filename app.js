@@ -9,6 +9,7 @@ var path = require('path');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
+var promoRouter = require('./routes/promo');
 var missionAndPurposeRouter = require('./routes/mission-and-purpose');
 var documentationRouter = require('./routes/documentation');
 var teamRouter = require('./routes/team');
@@ -78,6 +79,7 @@ app.use(function (req, res, next) {
 });
 
 app.use('/', indexRouter);
+app.use('/promo', promoRouter);
 app.use('/mission-and-purpose', missionAndPurposeRouter);
 app.use('/documentation', documentationRouter);
 app.use('/team', teamRouter);
