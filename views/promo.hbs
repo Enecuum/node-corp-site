@@ -32,6 +32,54 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-138901721-4');
+
+        let controlsArr = [
+            {
+                selector: '.whitepaperButton',
+                event_category: 'Whitepaper'
+            },
+            {
+                selector: '.techpaperButton',
+                event_category: 'Techpaper'
+            },
+            {
+                selector: '.learnmoreButton',
+                event_category: 'Learnmore'
+            },
+            {
+                selector: '.androidminerButton',
+                event_category: 'Androidminer'
+            },
+            {
+                selector: '.webwalletButton',
+                event_category: 'Webwallet'
+            },
+            {
+                selector: '.googleplayWalletButton',
+                event_category: 'Googleplaywallet'
+            },
+            {
+                selector: '.ioswalletButton',
+                event_category: 'Ioswallet'
+            },
+            {
+                selector: '.startminingButton',
+                event_category: 'Startmining'
+            }
+        ];
+
+        document.addEventListener('click', function (event) {
+            for (let i=0; i < controlsArr.length; i++) {
+                if (event.target.matches(controlsArr[i].selector)) {
+                    gtag('event', 'click', {
+                        'event_category': controlsArr[i].event_category
+                    });
+                }
+            }
+        });
+
+
+
   </script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
@@ -116,21 +164,21 @@
 
         <div class="text-center text-md-left ">
             <h4 class="mb-5">{{__ 'DOWNLOAD_ANDROID_MASTERNODE'}}</h4>
-            <div class="mb-5"><a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover" href="https://app.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black;"><div class="d-flex align-items-center" style="height: 48px;"><i class="fab fa-android mr-2" style="font-size: 37px;"></i><span class="font-weight-bold font-size-03">Android miner</span></div></a></div>
+            <div class="mb-5"><a class="androidminerButton btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover" href="https://app.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black;"><div class="d-flex align-items-center" style="height: 48px;"><i class="fab fa-android mr-2" style="font-size: 37px;"></i><span class="font-weight-bold font-size-03">Android miner</span></div></a></div>
             <h4 class="mb-2">{{__ 'WALLETS'}}</h4>
 
             <div class="mb-5">
               <div class="d-flex flex-column justify-content-center mx-auto flex-md-row justify-content-md-start">
                 <div class="flex-grow-0 flex-shrink-0 ">
-                <a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover mb-3" href="https://wallet.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fas fa-desktop mr-2"  style="font-size: 20px;"></i><span class="font-weight-bold font-size-03">Web wallet</span></div></a>
+                <a class="webwalletButton btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover mb-3" href="https://wallet.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fas fa-desktop mr-2"  style="font-size: 20px;"></i><span class="font-weight-bold font-size-03">Web wallet</span></div></a>
                 </div>
                 <div class="flex-grow-0 flex-shrink-0 ">
-                <a href="https://play.google.com/store/apps/details?id=com.enecuum.wallet" role="button" class="btn btn-primary p-0 mr-0 mr-md-3 transition-3d-hover mb-3" style="border: 2px solid #a6a6a6; background: black;">
+                <a href="https://play.google.com/store/apps/details?id=com.enecuum.wallet" role="button" class="googleplayWalletButton btn btn-primary p-0 mr-0 mr-md-3 transition-3d-hover mb-3" style="border: 2px solid #a6a6a6; background: black;">
                   <img src="img/enq/online-app-markets/google-play-badge-1.png" alt="Google play badge" height="50">
                 </a>
                 </div>
                 <div  class="flex-grow-0 flex-shrink-0 ">
-                 <a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover  mb-3" href="https://testflight.apple.com/join/EhGhg78t" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fab fa-apple mr-2" style="font-size: 30px;"></i><span class="font-weight-bold font-size-03">iOS wallet</span></div></a>
+                 <a class="ioswalletButton btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover  mb-3" href="https://testflight.apple.com/join/EhGhg78t" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fab fa-apple mr-2" style="font-size: 30px;"></i><span class="font-weight-bold font-size-03">iOS wallet</span></div></a>
                  </div>
               </div>
             </div>
@@ -142,7 +190,7 @@
         <div class="position-relative ml-auto" id="startMiningMobileColumn">
           <img src="img/enq/start-mining-mobile.png" alt="Start minig mobile">
           <div  id="startMiningBlueMark">{{__ 'START_MINING'}}</div>
-          <a href="https://guides.enecuum.com" target="_blank" id="startMiningBlueMarkRing" class="rotating"></a>
+          <a href="https://guides.enecuum.com" target="_blank" id="startMiningBlueMarkRing" class="startminingButton rotating"></a>
         </div>
       </div>
     </div>
