@@ -70,9 +70,15 @@
 
         document.addEventListener('click', function (event) {
             for (let i=0; i < controlsArr.length; i++) {
-                if (event.target.matches(controlsArr[i].selector)) {
+                if ((event.target.closest('a') !== null && event.target.closest('a').matches(controlsArr[i].selector)) || event.target.matches(controlsArr[i].selector)) {
                     gtag('event', 'click', {
-                        'event_category': controlsArr[i].event_category
+                        'event_category': controlsArr[i].event_category,
+                        'event_callback': function() {
+                            if (i > 2 ) {
+                                let url = event.target.closest('a').href;
+                                window.location = url;
+                            }
+                        }
                     });
                 }
             }
