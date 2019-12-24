@@ -56,12 +56,14 @@ body {
 	bottom: 0%;
 	left: calc(50% - 48px);
 	transition: all 1s;
+    padding-bottom: 3rem;
+    font-size: 6rem;
 }
 
 .go-down:hover {
 	cursor: pointer;
 	color: #0072FF;
-	padding-bottom: 2.5rem!important;
+	padding-bottom: 1rem!important;
 }
 
 #mainTitle {
@@ -72,11 +74,24 @@ body {
 	#mainTitle {
 		font-size: 2rem;
 	}
+
+    .go-down {
+        padding-bottom: 0rem;
+        font-size: 3rem;
+        left: calc(50% - 24px);
+    }
 }
+
 @media (min-width: 768px) and (max-width: 992px) {
 	#mainTitle {
 		font-size: 3.5rem;
 	}
+
+    .go-down {
+        padding-bottom: 2rem;
+        font-size: 5rem;
+        left: calc(50% - 40px);
+    }
 }
 
 .height-100vh {
