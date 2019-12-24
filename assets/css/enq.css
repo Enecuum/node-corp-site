@@ -94,6 +94,19 @@ body {
     }
 }
 
+@media (max-height: 500px) {
+    .go-down {
+        left: calc(100% - 70px);
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-height: 400px) {
+    .go-down {
+        display: none;
+    }
+}
+
 .height-100vh {
 	height: 100vh;
 }
@@ -432,6 +445,15 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	background-size: 40%;
 }
 
+#forProfessionals.active>:nth-child(odd) {
+    background: #f8f9fa!important;
+}
+
+#forProfessionals.active>:nth-child(even) {
+
+    background: transparent!important;
+}
+
 #trinityConsensus {
 	background-image: url(../img/enq/enq-trinity-consensus.png);
 }
@@ -529,25 +551,6 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	margin-bottom: 0px;
 }
 
-/*#joinOurCommunity:after {
-	content: "";
-	display: block;
-	width: 0px;
-	margin: auto;
-	padding: 35% 50%;
-	background: no-repeat;
-	background-image: url(../img/enq/join-our-community.png);
-  	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 100%;
-}*/
-
-@media (min-width: 992px) {
-/*	#joinOurCommunity:after {
-		padding: 20% 30%;
-	}*/
-}
-
 #exchangesTable {
 	font-weight: 400;
 }
@@ -621,7 +624,6 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	background-color: #fff;
     border-color: #fff;
     color: #377dff;
-
 }
 
 .btn-white-text-blue:hover {

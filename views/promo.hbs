@@ -238,8 +238,9 @@
           $('html, body').animate({
               scrollTop: $('#'+targetID).offset().top
           }, 2000, function() {
-              $('#'+targetID).show();
               if (targetID === 'forProfessionals') {
+                  $('#forProfessionals').addClass('active');
+                  $('#'+targetID).show();
                   $(that).hide();
               }
           });
