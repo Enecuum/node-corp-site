@@ -164,6 +164,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	background: rgba(0, 0, 0, 0.28)!important;
 }
 
+#languageDropdownSubmenu.promo {
+	border-top: 0.1875rem solid #377dff;
+	border-bottom-right-radius: 0.3125rem;
+	border-bottom-left-radius: 0.3125rem;
+	box-shadow: 0 8px 20px rgba(55, 125, 255, 0.075);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+#languageDropdownSubmenu.promo .u-header__sub-menu-nav-link {
+	padding-right: 1.75rem;
+	padding-left: 1.75rem;
+	color: #77838f;
+}
+
 .bg-dark {
     background-color: #282A30 !important;
 }
