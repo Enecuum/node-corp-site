@@ -179,6 +179,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color: #77838f;
 }
 
+#languageDropdownSubmenu.promo .u-header__sub-menu-nav-link:hover {
+    color: #377dff!important;
+}
+
 .bg-dark {
     background-color: #282A30 !important;
 }
@@ -465,7 +469,6 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 }
 
 #forProfessionals.active>:nth-child(even) {
-
     background: transparent!important;
 }
 
