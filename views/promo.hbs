@@ -32,6 +32,62 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-138901721-4');
+
+        let controlsArr = [
+            {
+                selector: '.whitepaperButton',
+                event_category: 'Whitepaper'
+            },
+            {
+                selector: '.techpaperButton',
+                event_category: 'Techpaper'
+            },
+            {
+                selector: '.learnmoreButton',
+                event_category: 'Learnmore'
+            },
+            {
+                selector: '.androidminerButton',
+                event_category: 'Androidminer'
+            },
+            {
+                selector: '.webwalletButton',
+                event_category: 'Webwallet'
+            },
+            {
+                selector: '.googleplayWalletButton',
+                event_category: 'Googleplaywallet'
+            },
+            {
+                selector: '.ioswalletButton',
+                event_category: 'Ioswallet'
+            },
+            {
+                selector: '.startminingButton',
+                event_category: 'Startmining'
+            }
+        ];
+
+        document.addEventListener('mousedown', function (event) {
+            if (event.button === 0 || event.button === 1) {
+                for (let i=0; i < controlsArr.length; i++) {
+                    if ((event.target.closest('a') !== null && event.target.closest('a').matches(controlsArr[i].selector)) || event.target.matches(controlsArr[i].selector)) {
+                        gtag('event', 'click', {
+                            'event_category': controlsArr[i].event_category,
+                            'event_callback': function() {
+                                if (i > 2 ) {
+                                    let url = event.target.closest('a').href;
+                                    window.location = url;
+                                }
+                            }
+                        });
+                    }
+                }
+            }
+        });
+
+
+
   </script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
@@ -53,158 +109,38 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/56652799" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
   <header id="mainHeaderWithDropdown" class="u-header u-header--abs-top">
-    {{> header}}
+    {{> headerPromo}}
   </header>
 
 <main id="content" role="main">
 
 <!-- Hero Section -->
-<div class="gradient-overlay-half-primary-video-v1">
+<div id="heroMain" class="gradient-overlay-half-primary-video-v1 height-100vh">
   <!-- Video Background -->
-  <div class="js-bg-video d-none d-md-block position-absolute w-100 h-100"
+  <div class="js-bg-video d-none d-md-block position-absolute w-100 height-100vh"
        data-hs-bgv-path="video/earth"
        data-hs-bgv-loop="1">
   </div>
   <!-- End Video Background -->
   <!-- Content -->
-  <div class="container position-relative space-2 space-top-md-3 space-bottom-md-2 z-index-2 d-flex align-items-center">
-    <div class="mx-auto pt-5 text-white">
-      <h1 id="aboutTitle" class="mb-4">{{__ 'ABOUT_S1_TITLE_P1'}}<br/>{{__ 'ABOUT_S1_TITLE_P2'}}</h1>
-      <div class="mt-3 font-size-03 w-xl-75 w-100">
-        {{__ 'ABOUT_S1_P1'}}
-      </div>
-      <div class="mt-3 font-size-03 w-xl-75 w-100">{{__ 'ABOUT_S1_P2'}}</div>
-      <div class="mt-3 font-size-03 w-xl-75 w-100">{{__ 'ABOUT_S1_P3'}}</div>
-
-      <div class="d-inline-block text-white mb-0 mt-6">
-        <div class="d-inline-block mb-6">
-          <a class="btn btn-primary transition-3d-hover mr-2" role="button" href="pdf/pp_en.pdf" target="_blank" style="background: transparent; border: 1px solid white;">{{__ 'WHITEPAPER'}}</a>
-          <a class="btn btn-primary transition-3d-hover mr-3" role="button" href="pdf/tp_en.pdf" target="_blank" style="background: transparent; border: 1px solid white;">{{__ 'TECHPAPER'}}</a>
-        </div>
-        <!-- Video Content Section -->
-        <div id="SVGwave1BottomSMShape" class="d-inline-block position-relative">
-           <div class="d-inline-block text-white mb-0">
-         <!-- Fancybox -->
-            <a class="js-fancybox d-inline-block u-media-player mb-4 ml-sm-3 ml-md-8" href="javascript:;"
-               data-src="https://youtu.be/GpPAfyFqbAE"
-               data-speed="700"
-               data-animate-in="zoomIn"
-               data-animate-out="zoomOut"
-               data-caption="Enecuum. Open tomorrow">
-              <span class="u-media-player__icon">
-                <span class="fas fa-play u-media-player__icon-inner"></span>
-              </span>
-            </a>
-            <!-- End Fancybox -->
-            <span class="ml-2 no-wrap">{{__ 'PLAY_VIDEO'}}</span>
-          </div>
-        </div>
-        <!-- End Video Content -->
-      </div>  
+  <div class="container position-relative space-2 space-top-md-3 space-bottom-md-2 z-index-2 d-flex align-items-center h-100">
+    <div class="pt-5 text-white">
+        <h1 class="mb-4 text-uppercase" id="mainTitle">
+            <div>{{__ "PROMO_TITLE_P1"}}</div>
+            <div>{{__ "PROMO_TITLE_P2"}}</div>
+        </h1>
+        <span class="arrow-down mdi mdi-chevron-down position-absolute go-down" data-content="enqAdvantages"></span>
     </div>
   <!-- End Content -->
   </div>
 </div>
-
-  <div class="container-fluid px-2 mb-2">
-    <div id="partnersCarousel" class="js-slick-carousel u-slick u-slick--gutters-1" style="max-height: 141px; overflow-y: hidden; display: none;"
-       data-slides-show="7"
-       data-slides-scroll="1"
-       data-autoplay="true"
-       data-autoplay-speed="5000"
-       data-infinite="true"
-       data-responsive='[{
-         "breakpoint": 1366,
-         "settings": {
-           "slidesToShow": 6
-         }
-       },{
-         "breakpoint": 1200,
-         "settings": {
-           "slidesToShow": 5
-         }
-       }, {
-         "breakpoint": 992,
-         "settings": {
-           "slidesToShow": 4
-         }
-       }, {
-         "breakpoint": 768,
-         "settings": {
-           "slidesToShow": 3
-         }
-       }, {
-         "breakpoint": 554,
-         "settings": {
-           "slidesToShow": 2
-         }
-       }]'>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://gem.capital/" target="_blank">
-          <img  src="img/enq/partners-logo/enq-partner-gem.png" alt="Gem crypto">
-        </a>
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://icapital.io/" target="_blank">
-          <img  src="img/enq/partners-logo/enq-partner-icapital.png" alt="iCapital" style="height: 20px;">
-        </a>
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://bitgosu.partners/" target="_blank">
-          <img  src="img/enq/partners-logo/enq-partner-bitgosu.png" alt="Bitgosu Partners">
-        </a>
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://alphachain.com/" target="_blank">
-          <img  src="img/enq/partners-logo/enq-partner-alpha.png" alt="Alpha Chain">
-        </a>
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://hacken.io/" target="_blank">
-          <img  src="img/enq/partners-logo/enq-partner-hacken.png" alt="Hacken" width="31">
-        </a>
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://paytomat.com/" target="_blank">
-          <img  src="img/enq/partners-logo/enq-partner-paytomat-grey.png" alt="Paytomat">
-        </a>
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://suex.io/?currency_in=USD&currency_out=ENQ&amount_in=30" target="_blank">
-          <img  src="img/enq/partners-logo/suex-logo-grey-purple.svg" alt="Suex" height="22">
-        </a>
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://mywish.io/" target="_blank">
-          <img  src="img/enq/partners-logo/enq-partner-mywish.png" alt="Mywish">
-        </a>
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://swaps.network/" target="_blank">
-          <img  src="img/enq/partners-logo/enq-partner-swaps-network.png" alt="Swaps Network">
-        </a>
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://bigcoinvietnam.com/" target="_blank">
-          <img  src="img/enq/partners-logo/enq-partner-bigcoin.png" alt="Bigcoin Vietnam">
-        </a>
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <a href="https://pundix.com/" target="_blank">
-          <img  src="img/enq/partners-logo/pundix-logo-grey.svg" alt="Pundix" height="30">
-        </a>
-      </div>      
-    </div>
+    {{> advantages}}
+  <div class="container">
+    {{> tokenValueCreatedByMinersPromo}}
   </div>
+    {{> howToStart}}
 
-  <div class="container">        
-    {{> tokenValueCreatedByMiners}}
-  </div>
-  
-  <div class="bg-blue text-white">  
-    {{> threeColAdvantages}}
-  </div>
-
+    <div class="bg-light">
   <div class="container" id="startMiningToday">
     <div class="row">
       <div class="col-12 col-lg-6 py-10" >
@@ -236,21 +172,21 @@
 
         <div class="text-center text-md-left ">
             <h4 class="mb-5">{{__ 'DOWNLOAD_ANDROID_MASTERNODE'}}</h4>
-            <div class="mb-5"><a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover" href="https://app.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black;"><div class="d-flex align-items-center" style="height: 48px;"><i class="fab fa-android mr-2" style="font-size: 37px;"></i><span class="font-weight-bold font-size-03">Android miner</span></div></a></div>
+            <div class="mb-5"><a class="androidminerButton btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover" href="https://app.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black;"><div class="d-flex align-items-center" style="height: 48px;"><i class="fab fa-android mr-2" style="font-size: 37px;"></i><span class="font-weight-bold font-size-03">Android miner</span></div></a></div>
             <h4 class="mb-2">{{__ 'WALLETS'}}</h4>
 
             <div class="mb-5">
               <div class="d-flex flex-column justify-content-center mx-auto flex-md-row justify-content-md-start">
                 <div class="flex-grow-0 flex-shrink-0 ">
-                <a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover mb-3" href="https://wallet.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fas fa-desktop mr-2"  style="font-size: 20px;"></i><span class="font-weight-bold font-size-03">Web wallet</span></div></a>
+                <a class="webwalletButton btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover mb-3" href="https://wallet.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fas fa-desktop mr-2"  style="font-size: 20px;"></i><span class="font-weight-bold font-size-03">Web wallet</span></div></a>
                 </div>
                 <div class="flex-grow-0 flex-shrink-0 ">
-                <a href="https://play.google.com/store/apps/details?id=com.enecuum.wallet" role="button" class="btn btn-primary p-0 mr-0 mr-md-3 transition-3d-hover mb-3" style="border: 2px solid #a6a6a6; background: black;">
+                <a href="https://play.google.com/store/apps/details?id=com.enecuum.wallet" role="button" class="googleplayWalletButton btn btn-primary p-0 mr-0 mr-md-3 transition-3d-hover mb-3" style="border: 2px solid #a6a6a6; background: black;">
                   <img src="img/enq/online-app-markets/google-play-badge-1.png" alt="Google play badge" height="50">
                 </a>
                 </div>
                 <div  class="flex-grow-0 flex-shrink-0 ">
-                 <a class="btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover  mb-3" href="https://testflight.apple.com/join/EhGhg78t" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fab fa-apple mr-2" style="font-size: 30px;"></i><span class="font-weight-bold font-size-03">iOS wallet</span></div></a>
+                 <a class="ioswalletButton btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover  mb-3" href="https://testflight.apple.com/join/EhGhg78t" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fab fa-apple mr-2" style="font-size: 30px;"></i><span class="font-weight-bold font-size-03">iOS wallet</span></div></a>
                  </div>
               </div>
             </div>
@@ -262,181 +198,32 @@
         <div class="position-relative ml-auto" id="startMiningMobileColumn">
           <img src="img/enq/start-mining-mobile.png" alt="Start minig mobile">
           <div  id="startMiningBlueMark">{{__ 'START_MINING'}}</div>
-          <a href="https://guides.enecuum.com" target="_blank" id="startMiningBlueMarkRing" class="rotating"></a>
+          <a href="https://guides.enecuum.com" target="_blank" id="startMiningBlueMarkRing" class="startminingButton rotating"></a>
         </div>
-      </div>  
+      </div>
     </div>
   </div>
-
+    </div>
+    <div class="container my-10">
+        <h2 class="mt-4 mb-8 text-center">{{__ "HOW_TO_MINE"}}</h2>
+        {{> miningSteps}}
+    </div>
   <div class="bg-light">
     <div class="container">
       {{> networkStatsTopSection}}
     </div>
 
-    {{> nodesMap}}        
+    {{> nodesMap}}
 
     <div class="container pb-8 text-center">
       <h3 class="mb-3">{{__ 'VIEW_BLOCKS_LIVE'}}</h3>
       <a role="button" class="btn btn-primary transition-3d-hover" href="https://neuro.enecuum.com/" target="_blank">{{__ 'EXPLORE_RIGHT'}}</a>
     </div>
   </div>
-
-    <div class="container-fluid px-2 space-2 space-lg-2">
-
-      <div class="text-center m-auto">
-        <h2 class="h2 font-weight-semi-bold mb-4">{{__ 'EXCHANGES'}}</h2>
-        <div class="d-flex justify-content-center flex-wrap mb-8">
-          <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-            <a href="https://www.kucoin.com/trade/ENQ-BTC" target="_blank">
-             <img src="img/enq/exchanges/kucoin-logo-sm-grey.png" alt="Kucoin logo">
-            </a>
-          </div>
-          <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-            <a href="https://crex24.com/exchange/ENQ-BTC?refid=c36hkj32l6utjurdd2wt" target="_blank">
-              <img src="img/enq/exchanges/crex24-logo-sm-grey.png" alt="Crex24 logo">
-            </a>
-          </div>
-          <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-            <a href="https://graviex.net/markets/enqbtc" target="_blank">
-              <img src="img/enq/exchanges/graviex-logo-sm-grey.png" alt="Graviex logo">
-            </a>
-          </div>          
-        </div>
-      </div>
-
-      <div class="text-center m-auto">
-        <h2 class="h2 font-weight-semi-bold mb-4">{{__ 'ANALYTICS'}}</h2>
-        <div class="d-flex justify-content-center flex-wrap">
-          <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-            <a href="https://www.coingecko.com/en/coins/enecuum" target="_blank">
-             <img src="img/enq/analytics/coingecko-logo-grey-sm.png" alt="Coingecko logo">
-            </a>
-          </div>
-          <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-            <a href="https://coinmarketcap.com/currencies/enecuum/" target="_blank">
-              <img src="img/enq/analytics/coinmarketcap-logo-grey-sm.png" alt="Coinmarketcap logo">
-            </a>
-          </div>
-          <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-            <a href="https://www.feixiaohao.com/currencies/enecuum/" target="_blank">
-              <img src="img/enq/analytics/feixiaohao-logo-grey-sm.svg" alt="Feixiaohao logo" style="width: 120px;">
-            </a>
-          </div>
-          <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-            <a href="https://coinlib.io/coin/ENQ/Enecuum" target="_blank">
-              <img src="img/enq/analytics/coinlib-logo-grey-sm.png" alt="Coinlib logo">
-            </a>
-          </div>
-          <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-            <a href="https://stakingrewards.com/asset/enq" target="_blank">
-              <img src="img/enq/analytics/stakingrewards-logo-grey-sm.png" alt="Stakingrewards logo">
-            </a>
-          </div>
-          <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-            <a href="https://masternodes.online/currencies/ENQ-MOBILE" target="_blank">
-              <img src="img/enq/analytics/mno-logo-grey-sm.png" alt="Masternodes.online logo">
-            </a>
-          </div>
-          <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-            <a href="https://www.mytoken.io/currency/enq/821725756" target="_blank">
-              <img src="img/enq/analytics/mytoken-logo-grey-sm.svg" alt="Mytoken logo" style="width: 140px;">
-            </a>
-          </div>
-            <div class="d-flex justify-content-center align-items-center rounded py-4 px-4">
-                <a href="https://coinpaprika.com/coin/enq-enecuum" target="_blank" style="width: 170px;">
-                    <img src="img/enq/analytics/coinpaprika-logo-grey-sm.svg" alt="Coinpaprika logo" style="width: 190px;">
-                </a>
-            </div>
-        </div>
-      </div>
-    </div>
-
-  <div id="mediaSection" class="bg-dark py-8">
-    <div class="container space-2 space-lg-2 text-white" style="max-width: 1200px;">
-      <div class="row">
-        <div class="col-12 px-sm-10 col-xl-5 px-xl-0">
-          <img src="img/enq/quotes-white.png" alt="quotes">
-          <h2>{{__ 'MEDIA_TITLE'}}</h2>
-          <div class="mt-3 mb-5">{{__ 'MEDIA_PREVIEW'}}</div>
-          <img src="img/enq/media/ccn-white-logo-white.png" alt="CCN logo">
-        </div>
-        <div class="col-12 mt-8 col-xl-7 mt-xl-0 pt-4 pl-xl-10">
-          <div class="row">
-            <div class="col-12 col-sm-6 col-lg-4 py-5 pb-lg-6 d-flex align-items-center justify-content-center">
-              <a href="https://ru.ihodl.com/analytics/2019-07-04/enecuum-blokchejn-s-mobilnymi-masternodami/" target="_blank">
-                <img src="img/enq/media/ihodl-white-logo-white.png" alt="ihodl logo">
-              </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 py-5 pb-lg-6 d-flex align-items-center justify-content-center">
-              <a href="https://www.ccn.com/enecuum-launch-blockchain-network-with-mobile-masternodes-keep-calm-and-continue-mining/" target="_blank">
-                <img src="img/enq/media/ccn-white-logo-white.png" alt="CCN logo">
-              </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 py-5 pb-lg-6 d-flex align-items-center justify-content-center">
-              <a href="https://forklog.com/kak-zarabotat-na-smartfone-majning-i-smart-stejking-v-mobilnom-blokchejne-enecuum/" target="_blank">
-                <img src="img/enq/media/forklog-white-logo.svg" alt="Forklog logo" style="width: 135px;">
-              </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
-              <a href="https://cryptocalibur.com/enecuum-ico-review/" target="_blank">
-                <img src="img/enq/media/cryptocalibur-log-white.png" alt="Cryptocalibur logo">
-              </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
-              <a href="https://www.youtube.com/watch?v=sgDZDqiQtwU&feature=youtu.be" target="_blank">
-                <img src="img/enq/media/bigcoin-logo-white.png" alt="Bigcoin logo">
-              </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
-              <a href="https://vc.ru/flood/36523-o-problemah-masshtabirovaniya-vedushchih-blokcheyn-setey-i-ih-resheniyah-v-enecuum" target="_blank">
-                <img src="img/enq/media/vc_ru-logo-white.png" alt="VC logo">
-              </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
-              <a href="https://www.youtube.com/watch?v=itKthtqmfBw&feature=youtu.be" target="_blank">
-                <img src="img/enq/media/ico-analytics-logo-white.png" alt="ICO-analytics logo">
-              </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
-              <a href="https://www.youtube.com/watch?v=5SDKtujTZ38&feature=youtu.be" target="_blank">
-                <img src="img/enq/media/iangels-logo-white.png" alt="iangels logo">
-              </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 py-5 py-lg-6 d-flex align-items-center justify-content-center">
-              <a href="https://www.youtube.com/watch?v=VoKptIKvt9A&t=3132" target="_blank">
-                <img src="img/enq/media/cnbc-africa-logo-white.png" alt="CNBC logo">
-              </a>
-            </div>                                                                                  
-          </div>          
-        </div>
-      </div>
-    </div> 
-  </div>
-
-  <div class="container space-2 space-lg-2">
-    <div class="d-md-flex flex-column flex-md-row justify-content-center py-5">
-      <div class="mr-md-10 mb-10 mb-md-0 text-center text-md-left">
-        <h3 class="mb-7">
-          {{__ 'LEGAL_ADVISOR'}}
-        </h3>
-        <a href="https://www.kwm.com/en" target="_blank">
-          <img src="img/enq/legal-advisor/king-and-wood-mallesons-logo-grey.png" alt="King & wood mallesons logo">
-        </a>
-      </div>
-      <div class="ml-md-10 text-center text-md-left">
-        <h3>
-         {{__ 'WE_ARE_MEMBER_OF'}}
-        </h3>
-        <a href="https://ftahk.org/" target="_blank">
-          <img src="img/enq/fintech-association-hk-logo-grey.png" alt="Fintech association of HK logo">
-        </a>
-      </div>
-    </div>
-  </div>  
 </main>
 
 <!-- ========== FOOTER ========== -->
-{{> footer}}
+{{> footerPromo}}
 <!-- ========== END FOOTER ========== -->
 
   <!-- JS Global Compulsory -->
@@ -453,6 +240,7 @@
   <script src="js/components/hs.header.js"></script>
   <script src="js/components/hs.unfold.js"></script>
   <script src="js/components/hs.bg-video.js"></script>
+ <script src="js/components/hs.sticky-block.js"></script>
 
 
   <!-- JS Implementing Plugins -->
@@ -464,6 +252,7 @@
 <script src="vendor/hs-megamenu/src/hs.megamenu.js"></script>
 <script src="vendor/hs-bg-video/hs-bg-video.js"></script>
 <script src="vendor/hs-bg-video/vendor/player.min.js"></script>
+<script src="js/components/hs.scroll-nav.js"></script>
 
 <!-- JS Plugins Init. -->
 <script>
@@ -472,13 +261,13 @@
     $('.js-mega-menu').HSMegaMenu({
       event: 'hover',
       pageContainer: $('.container'),
-      breakpoint: 991.98,
+      breakpoint: 0,
       hideTimeOut: 0
     });
   });
 
   $(document).ready(function () {
-    // initialization of header
+    // // initialization of header
     $.HSCore.components.HSHeader.init($('#headerWithDropdown'));
     // initialization of popups
     $.HSCore.components.HSFancyBox.init('.js-fancybox');
@@ -489,6 +278,29 @@
     $('#partnersCarousel').show();
     // initialization of unfold component
     $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+      // initialization of sticky blocks
+      $.HSCore.components.HSStickyBlock.init('.js-sticky-block-faq');
+      // initialization of HSScrollNav component
+      $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
+          duration: 700
+      });
+
+      $('body').on('click', '.arrow-down, .jump-to-section', function(e) {
+          e.preventDefault();
+          let that = this;
+          let targetID = $(that).attr('data-content');
+          $('#'+targetID).show();
+
+          $('html, body').animate({
+              scrollTop: $('#'+targetID).offset().top
+          }, 2000, function() {
+              if (targetID === 'forProfessionals') {
+                  $('#forProfessionals').addClass('active');
+                  $('#'+targetID).show();
+                  $(that).hide();
+              }
+          });
+      });
     
     //Cookies alert workflow start
     ENQCookies = {

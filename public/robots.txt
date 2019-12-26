@@ -23,6 +23,9 @@ Disallow: /privacy.pdf
 Disallow: /javascript;
 Disallow: /javascript;?lang=ru
 Disallow: /javascript;?lang=en
+Disallow: /promo
+Disallow: /promo?lang=ru
+Disallow: /promo?lang=en
 Host: enecuum.com
 Sitemap: https://enecuum.com/sitemap.xml
 
@@ -37,6 +40,9 @@ Disallow: /privacy.pdf
 Disallow: /javascript;
 Disallow: /javascript;?lang=ru
 Disallow: /javascript;?lang=en
+Disallow: /promo
+Disallow: /promo?lang=ru
+Disallow: /promo?lang=en
 Host: enecuum.com
 Sitemap: https://enecuum.com/sitemap.xml
 

@@ -1,0 +1,17 @@
+<div class="bg-blue text-white">
+    <div class="container space-2 space-lg-2">
+        <h2 class="text-center">{{__ "HOW_DOES_IT_WORK"}}</h2>
+    </div>
+</div>
+<div id="forBeginers">
+    {{> techpaperWhitepaper}}
+    <div class="container text-center">
+        <button type="button" class="learnmoreButton btn btn-soft-primary btn-block jump-to-section text-uppercase  mb-8" data-content="forProfessionals">{{__ "READ_MORE_ABOUT_TECHNOLOGY"}}</button>
+    </div>
+</div>
+<div id="forProfessionals" style="display: none;">
+    {{> technologyContent}}
+</div>
+
+
+
