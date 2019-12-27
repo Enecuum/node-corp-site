@@ -542,7 +542,6 @@
 			}
 		}
 	},
-	""
 	"TECHNOLOGY_PAGE": {
 		"TRINITY_CONSENSUS": {			
 			"P_1": "Our Trinity algorithm combines PoA, PoW and PoS. This hybrid approach to consensus provides a high degree of network decentralization, while significantly increasing both network security and transaction execution speed. Network security is further enhanced by our integrated innovative cryptographic solutions.",
