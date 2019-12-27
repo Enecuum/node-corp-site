@@ -58,7 +58,46 @@
     "START_MINING": "Начать майнинг",
     "HOW_TO_MINE": "Как майнить?",
 	"REFERRAL_PROGRAM": "Реферальная программа",
-	"FAQ": "FAQ",
+	"FAQ": {
+		"TITLE": "FAQ",
+		"CONTENT": {
+			"THE_PROJECT": {
+				"TITLE": "The Project ",
+				"QS": {
+					"Q1_TITLE": "What is Enecuum?",
+					"Q1_ANSW_P1": "Enecuum is a blockchain mobile network for decentralized applications. It was created with a purpose to bring the blockchain and cryptocurrencies to the real mainstream, involving a crowd with regular mobile and desktop devices into the blockchain network. Enecuum allows each smartphone owner to be a part of our global network.",
+					"Q2_TITLE": "How does it work?",
+					"Q2_ANSW_P1": "In Enecuum, the consensus is achieved through interaction between the following three mining algorithms: Proof-of-Work (\"PoW\"), Proof-of-Activity (\"PoA\"), and Proof-of-Stake (\"PoS\"). This combination makes it possible to achieve a high degree of network decentralization. Currently, we have deployed the PoA algorithm in our mobile app, and PoW and PoS are available on PC for public testing."
+				}
+			},
+			"START_MINING": {
+				"TITLE": "Start Mining",
+				"QS": {
+					"Q1_TITLE": "How do I mine?",
+					"Q1_ANSW_P1": "All you need to do is to have an Android device, download our app on it and deposit 25 ENQ.",
+					"Q2_TITLE": "How do I get Enecuum's tokens?",
+					"Q2_ANSW_P1": "You can buy ENQ by card or on exchanges (KuCoin, Crex24, Graviex). Note that if you buy ENQ on an exchange, you need to transfer your tokens to an Ethereum wallet first.",
+					"Q3_TITLE": "What devices can I use to mine?",
+					"Q3_ANSW_P1": "You can mine on any mobile device that runs Android (phones, tablets). Though Enecuum primarily aims at smartphones, our community has also managed to mine on IoT devices, TV boxes, and smartwatches!",
+					"Q4_TITLE": "Can I mine on multiple devices?",
+					"Q4_ANSW_P1": "Yes, but you need to create a separate account for every device.",
+					"Q5_TITLE": "Can I mine on an emulated phone?",
+					"Q5_ANSW_P1": "Yes, you can. Currently, we do not have any restrictions on it."
+				}
+			},
+			"IMPACT_ON_DEVICE": {
+				"TITLE": "Impact on Device",
+				"QS": {
+					"Q1_TITLE": "How does mining affect my phone's battery?",
+					"Q1_ANSW_P1_1": "The battery drain is insignificant - the discharge is",
+					"Q1_ANSW_P1_2": "less than 5% faster",
+					"Q1_ANSW_P1_3": "compared to normal device use.",
+					"Q2_TITLE": "What about Internet use?",
+					"Q2_ANSW_P1": "We recommend connecting to Wi-Fi when mining, but generally, the traffic usage is less than that of a messenger or a browser."
+				}
+			}
+		}
+	},
 	"GUIDES": "Руководства",
 	"HOW_TO_USE_THE_APP": "Как пользоваться приложением",
 	"HOW_TO_BUY_ENQ_ON_EXCHANGE": "Как купить ENQ на бирже",
