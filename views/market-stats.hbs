@@ -514,27 +514,28 @@
         url: "https://neuro.enecuum.com/api/v1/roi",
         async: true,
       }).success(function(roi) {
-        scope.rois = roi;
+          scope.rois = roi;
+          $.ajax({
+              method: 'GET',
+              url: "https://neuro.enecuum.com/api/v1/stats",
+              async: true,
+          }).success(function(stats) {
+              scope.stats = stats;
+              let statsPropertiesArr = ['total_daily_stake','reward_poa','poa_count','cg_usd','cg_btc'];
+              statsPropertiesArr.forEach(function(item) {
+                  scope.stats[item] = (stats.hasOwnProperty(item) && validator.checkValidDigitalValue(stats[item])) ? stats[item] : incorrectValue;
+              });
+              scope.reloadROI(stake);
+              populateRoiElements();
+              $('#roiStakeUSD').text(usdFormatter.format(scope.convertValueToUSD(stake)) + ' USD');
+          }).error(function() {
+              $('#ROICalcContainer').remove();
+          });
       }).error(function() {
           $('#ROICalcContainer').remove();
       });
 
-      $.ajax({
-        method: 'GET',
-        url: "https://neuro.enecuum.com/api/v1/stats",
-        async: true,
-      }).success(function(stats) {
-          scope.stats = stats;
-          let statsPropertiesArr = ['total_daily_stake','reward_poa','poa_count','cg_usd','cg_btc'];
-          statsPropertiesArr.forEach(function(item) {
-              scope.stats[item] = (stats.hasOwnProperty(item) && validator.checkValidDigitalValue(stats[item])) ? stats[item] : incorrectValue;
-          });
-          scope.reloadROI(stake);
-          populateRoiElements();
-          $('#roiStakeUSD').text(usdFormatter.format(scope.convertValueToUSD(stake)) + ' USD');
-      }).error(function() {
-          $('#ROICalcContainer').remove();
-      });
+
     }
 
     refreshRoiCalc(scope.translationData.stake);
