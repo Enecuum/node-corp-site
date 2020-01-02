@@ -53,11 +53,38 @@ app.use(cookieParser());
 app.use(i18n.init);
 
 app.use(function (req, res, next) {
+	if (req.path.indexOf('promo') !== -1) {
+		let downloadAndroidAppLinks = {
+			byUtmSource: {
+				yandex: {
+					masternode: 'http://app.enecuum.com/?utm_source=yandex',
+					googlePlay: 'https://enecuum.page.link/8fVd'
+				},
+				google: {
+					masternode: 'http://app.enecuum.com/?utm_source=google',
+					googlePlay: 'https://enecuum.page.link/2MoZ'
+				},
+				social: {
+					masternode: 'http://app.enecuum.com/?utm_source=social',
+					googlePlay: 'https://enecuum.page.link/M3Eb'
+				}
+			},
+			default: {
+				masternode: 'https://app.enecuum.com',
+				googlePlay: 'https://play.google.com/store/apps/details?id=com.enecuum.wallet'
+			}
+		};
+		res.locals.enecuumAppLink = (req.query.utm_source !== undefined && downloadAndroidAppLinks.byUtmSource.hasOwnProperty(req.query.utm_source)) ? downloadAndroidAppLinks.byUtmSource[req.query.utm_source] : downloadAndroidAppLinks.default;
+	}
+	next();
+});
+
+app.use(function (req, res, next) {
 	let currentLang = 'en';
 	let flag = {
 		en: 'gb',
 		ru: 'ru'
-	}
+	};
 
 	if (req.query.lang !== undefined && allowedLocales.indexOf(req.query.lang) !== -1) {
 		currentLang = req.query.lang;
