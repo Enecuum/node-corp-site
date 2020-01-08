@@ -105,23 +105,24 @@ app.use(function (req, res, next) {
 	next();
 });
 
-app.use('/', indexRouter);
-app.use('/promo', promoRouter);
-app.use('/mission-and-purpose', missionAndPurposeRouter);
-app.use('/documentation', documentationRouter);
-app.use('/team', teamRouter);
-app.use('/market-stats', marketSratsRouter);
-app.use('/network-stats', networkStatsRouter);
-app.use('/roadmap', roadmapRouter);
-app.use('/partners', partnersRouter);
-app.use('/news-and-community', newsAndCommunityRouter);
-app.use('/buy', buyRouter);
-app.use('/earn', earnRouter);
-app.use('/hold', holdRouter);
-app.use('/spend', spendRouter);
-app.use('/utility', utilityRouter);
-app.use('/emission-model', emissionModelRouter);
-app.use('/technology', technologyRouter);
+app.use('/{0,}', indexRouter);
+app.use('/index.html', indexRouter);
+app.use('/promo/{0,}', promoRouter);
+app.use(['/mission-and-purpose/{0,}', '/Mission%20and%20purpose.html/{0,}'], missionAndPurposeRouter);
+app.use(['/documentation/{0,}', '/Documentation.html/{0,}'], documentationRouter);
+app.use(['/team/{0,}', '/Team.html/{0,}'], teamRouter);
+app.use(['/market-stats/{0,}', '/Marketstats.html/{0,}'], marketSratsRouter);
+app.use(['/network-stats/{0,}', '/Networkstats.html/{0,}'], networkStatsRouter);
+app.use(['/roadmap/{0,}', '/Roadmap.html/{0,}'], roadmapRouter);
+app.use(['/partners/{0,}', '/Partners.html/{0,}'], partnersRouter);
+app.use(['/news-and-community/{0,}', '/NewsAndCommunity.html/{0,}'], newsAndCommunityRouter);
+app.use(['/buy/{0,}', '/Buy.html/{0,}'], buyRouter);
+app.use(['/earn/{0,}', '/Earn.html/{0,}'], earnRouter);
+app.use(['/hold/{0,}', '/Hold.html/{0,}'], holdRouter);
+app.use(['/spend/{0,}', '/Spend.html/{0,}'], spendRouter);
+app.use(['/utility/{0,}', '/Utility.html/{0,}'], utilityRouter);
+app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}'], emissionModelRouter);
+app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
 app.use(function (req, res, next) {
 	if ('/robots.txt' === req.url) {
 		res.type('text/plain');

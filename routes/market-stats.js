@@ -3,7 +3,11 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('market-stats', { title: 'Express' });
+  let targetResource = 'market-stats';
+  if (req.baseUrl !== '/' + targetResource) {
+    res.redirect('/' + targetResource);
+  }
+  res.render(targetResource, { title: 'Express' });
 });
 
 module.exports = router;
