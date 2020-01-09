@@ -153,6 +153,20 @@ app.use(function (req, res, next) {
 		next();
 	}
 });
+app.use(function (req, res, next) {
+	if ('/files/tp_en.pdf' === req.url) {
+		res.sendFile(__dirname + '/assets/pdf/tp_en.pdf')
+	} else {
+		next();
+	}
+});
+app.use(function (req, res, next) {
+	if ('/files/pp_en.pdf' === req.url) {
+		res.sendFile(__dirname + '/assets/pdf/pp_en.pdf')
+	} else {
+		next();
+	}
+});
 
 hbs.registerHelper('__', function () {
   return i18n.__.apply(this, arguments);
