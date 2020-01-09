@@ -123,6 +123,7 @@ app.use(['/spend/{0,}', '/Spend.html/{0,}'], spendRouter);
 app.use(['/utility/{0,}', '/Utility.html/{0,}'], utilityRouter);
 app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}'], emissionModelRouter);
 app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
+
 app.use(function (req, res, next) {
 	if ('/robots.txt' === req.url) {
 		res.type('text/plain');
@@ -134,6 +135,20 @@ app.use(function (req, res, next) {
 app.use(function (req, res, next) {
 	if ('/sitemap.xml' === req.url) {
 		res.sendFile(__dirname + '/public/sitemap.xml')
+	} else {
+		next();
+	}
+});
+app.use(function (req, res, next) {
+	if ('/docs/privacy.pdf' === req.url) {
+		res.sendFile(__dirname + '/assets/pdf/privacy.pdf')
+	} else {
+		next();
+	}
+});
+app.use(function (req, res, next) {
+	if ('/docs/terms.pdf' === req.url) {
+		res.sendFile(__dirname + '/assets/pdf/terms.pdf')
 	} else {
 		next();
 	}
