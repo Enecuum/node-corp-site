@@ -199,6 +199,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	border-bottom: 1px solid #929292 !important;
 }
 
+footer#footerСommon ul.social-network-list {
+	margin-bottom: 3.5rem;
+}
+
+footer#footerPromo ul.social-network-list {
+	margin-bottom: 2rem;
+}
+
+footer#footerPromo ul.social-network-list .list-inline-item {
+	margin-bottom: 1rem;
+}
+
 footer .btn.btn-soft-secondary {
 	color: white;
 }

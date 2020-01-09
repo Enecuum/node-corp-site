@@ -68,7 +68,7 @@
     </div>
     <!-- End Content -->
   </div>
-  <div class="container pt-8"  id="joinOurCommunity">
+  <div class="container pt-8" id="joinOurCommunity">
     <div class="text-center m-auto mb-9">
       <h2 class="h2 font-weight-semi-bold mb-8">{{__ 'JOIN_OUR_COMMUNITY'}}</h2>
       <!-- Social Networks -->
@@ -135,28 +135,7 @@
           </a>
         </li>
         <li class="list-inline-item position-relative">
-          <a id="telegramMenuInvokerForSection" class="btn btn-lg btn-icon btn-soft-secondary btn-bg-transparent" href="javascript:;" role="button"
-            aria-controls="dropdownTelegramForSection"
-            aria-haspopup="true"
-            aria-expanded="false"
-            data-unfold-target="#dropdownTelegramForSection"
-            data-unfold-type="css-animation"
-            data-unfold-target-is-menu="true"
-            data-unfold-hide-on-blur="true"
-            data-unfold-duration="300"
-            data-unfold-delay="300"
-            data-unfold-hide-on-scroll="false"
-            data-unfold-animation-in="fadeIn"
-            data-unfold-animation-out="fadeOut">
-            <span class="fab fa-telegram-plane btn-icon__inner"></span>
-          </a>
-          <div id="dropdownTelegramForSection" class="dropdown-menu dropdown-unfold border py-0" style="right: 0; left: auto;" aria-labelledby="telegramMenuInvokerForSection">
-            <a class="btn btn-sm btn-soft-secondary btn-bg-transparent d-block" href="https://t.me/Enecuum" target="_blank">Russian</a>
-            <a class="btn btn-sm btn-soft-secondary btn-bg-transparent d-block" href="https://t.me/Enecuum_EN" target="_blank">English</a>
-            <a class="btn btn-sm btn-soft-secondary btn-bg-transparent d-block" href="https://t.me/EnecuumIndonesia" target="_blank">Indonesian</a>
-            <a class="btn btn-sm btn-soft-secondary btn-bg-transparent d-block" href="https://t.me/EnecuumNigeria" target="_blank">Nigerian</a>
-            <a class="btn btn-sm btn-soft-secondary btn-bg-transparent d-block" href="https://t.me/EnecuumVietnam" target="_blank">Vietnamese</a>
-          </div>
+          {{> telegramDropdownForSection}}
         </li>
       </ul>
       <!-- End Social Networks -->
@@ -168,10 +147,6 @@
     </div>
   </div>
 </main>
-
-
-
-
 
 <!-- ========== FOOTER ========== -->
 {{> footer}}
