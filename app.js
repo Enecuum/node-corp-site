@@ -101,6 +101,7 @@ app.use(function (req, res, next) {
 	}
 
 	res.locals.currentFlag = flag[currentLang];
+	res.locals.currentLang = currentLang;
 	res.setLocale(currentLang);
 	next();
 });
