@@ -126,7 +126,7 @@ app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}'], emissionModelRo
 app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
 
 app.use(function (req, res, next) {
-	if ('/robots.txt' === req.url) {
+	if ('/robots.txt' === req.url.str) {
 		res.type('text/plain');
 		res.sendFile(__dirname + '/public/robots.txt');
 	} else {
@@ -135,35 +135,35 @@ app.use(function (req, res, next) {
 });
 app.use(function (req, res, next) {
 	if ('/sitemap.xml' === req.url) {
-		res.sendFile(__dirname + '/public/sitemap.xml')
+		res.sendFile(__dirname + '/public/sitemap.xml');
 	} else {
 		next();
 	}
 });
 app.use(function (req, res, next) {
-	if ('/docs/privacy.pdf' === req.url) {
-		res.sendFile(__dirname + '/assets/pdf/privacy.pdf')
+	if (req.url.indexOf('/privacy.pdf') !== -1) {
+		res.sendFile(__dirname + '/assets/pdf/privacy.pdf');
 	} else {
 		next();
 	}
 });
 app.use(function (req, res, next) {
-	if ('/docs/terms.pdf' === req.url) {
-		res.sendFile(__dirname + '/assets/pdf/terms.pdf')
+	if (req.url.indexOf('/terms.pdf') !== -1) {
+		res.sendFile(__dirname + '/assets/pdf/terms.pdf');
 	} else {
 		next();
 	}
 });
 app.use(function (req, res, next) {
-	if ('/files/tp_en.pdf' === req.url) {
-		res.sendFile(__dirname + '/assets/pdf/tp_en.pdf')
+	if (req.url.indexOf('/tp_en.pdf') !== -1) {
+		res.sendFile(__dirname + '/assets/pdf/tp_en.pdf');
 	} else {
 		next();
 	}
 });
 app.use(function (req, res, next) {
-	if ('/files/pp_en.pdf' === req.url) {
-		res.sendFile(__dirname + '/assets/pdf/pp_en.pdf')
+	if (req.url.indexOf('/pp_en.pdf') !== -1) {
+		res.sendFile(__dirname + '/assets/pdf/pp_en.pdf');
 	} else {
 		next();
 	}
