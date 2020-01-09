@@ -70,8 +70,8 @@ app.use(function (req, res, next) {
 				}
 			},
 			default: {
-				masternode: 'https://app.enecuum.com',
-				googlePlay: 'https://play.google.com/store/apps/details?id=com.enecuum.wallet'
+				masternode: 'https://app.enecuum.com?utm_source=unknown',
+				googlePlay: 'https://play.google.com/store/apps/details?id=com.enecuum.wallet&utm_source=unknown'
 			}
 		};
 		res.locals.enecuumAppLink = (req.query.utm_source !== undefined && downloadAndroidAppLinks.byUtmSource.hasOwnProperty(req.query.utm_source)) ? downloadAndroidAppLinks.byUtmSource[req.query.utm_source] : downloadAndroidAppLinks.default;
