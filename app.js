@@ -126,7 +126,7 @@ app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}'], emissionModelRo
 app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
 
 app.use(function (req, res, next) {
-	if ('/robots.txt' === req.url.str) {
+	if ('/robots.txt' === req.url) {
 		res.type('text/plain');
 		res.sendFile(__dirname + '/public/robots.txt');
 	} else {
