@@ -102,6 +102,7 @@ app.use(function (req, res, next) {
 
 	res.locals.currentFlag = flag[currentLang];
 	res.locals.currentLang = currentLang;
+	res.locals.mobileImpactArticleLink = currentLang === 'ru'? 'https://hub.forklog.com/vliyanie-mobilnogo-majninga-na-batareyu-ustrojstva-sravnitelnyj-analiz-uplexa-mib-i-enecuum/' : 'https://medium.com/@ENQBlockchain/smartphone-mining-on-battery-myth-or-reality-comparing-uplexa-mib-and-enecuum-bc0abc1e40e6';
 	res.setLocale(currentLang);
 	next();
 });
