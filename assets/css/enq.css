@@ -211,6 +211,19 @@ footer#footerPromo ul.social-network-list .list-inline-item {
 	margin-bottom: 1rem;
 }
 
+
+@media (max-height: 500px) {
+	#dropdownTelegramForFooter, #dropdownTelegramForSection {
+		width: 302px;
+	}
+
+	#dropdownTelegramForFooter a, #dropdownTelegramForSection a {
+		width: 150px;
+		float: left;
+	}
+}
+
+
 footer .btn.btn-soft-secondary {
 	color: white;
 }
