@@ -7,7 +7,8 @@ router.get('/', function(req, res, next) {
   if (req.baseUrl !== '/' + targetResource) {
     res.redirect('/' + targetResource);
   }
-  res.render(targetResource, { title: 'Express' });
+
+  res.render(targetResource, { title: 'Express', chartSeriesData: JSON.stringify(__('CHART_SERIES_TITLES'))});
 });
 
 module.exports = router;

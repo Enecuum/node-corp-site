@@ -193,11 +193,11 @@
         <h2 class="h2 font-weight-semi-bold">{{__ 'ENQ_CHARTS'}}</h2>
         <div>
           <div class="toolbar text-right mb-3">
-            <button class="btn btn-outline-primary p-1 chart-switch" type="button" id="one_month">1M</button>
-            <button class="btn btn-outline-primary p-1 chart-switch" type="button" id="six_months">6M</button>
-            <button class="btn btn-outline-primary p-1 chart-switch active" type="button" id="one_year">1Y</button>
-            <button class="btn btn-outline-primary p-1 chart-switch" type="button" id="ytd">YTD</button>
-            <button class="btn btn-outline-primary p-1 chart-switch" type="button" id="all">ALL</button>
+            <button class="btn btn-outline-primary p-1 chart-switch" type="button" id="one_month">1{{__ 'CHART_CONTROLS.M'}}</button>
+            <button class="btn btn-outline-primary p-1 chart-switch" type="button" id="six_months">6{{__ 'CHART_CONTROLS.M'}}</button>
+            <button class="btn btn-outline-primary p-1 chart-switch active" type="button" id="one_year">1{{__ 'CHART_CONTROLS.Y'}}</button>
+            <button class="btn btn-outline-primary p-1 chart-switch" type="button" id="ytd">{{__ 'CHART_CONTROLS.YTD'}}</button>
+            <button class="btn btn-outline-primary p-1 chart-switch" type="button" id="all">{{__ 'CHART_CONTROLS.ALL'}}</button>
           </div>
           <div id="chartPriceWrapper">
             <!-- ENQ Custom Compare Widget -->
@@ -240,7 +240,6 @@
   <script src="/js/apex-charts/apex-charts.js"></script>
 <!--   <script src="/js/apex-charts/enq-apex-chart.js"></script> -->
   <script src="/js/apex-charts/enq-apex-market-charts.js"></script>
-
 
 <!-- JS Plugins Init. -->
 <script>
@@ -309,8 +308,7 @@
 
     ENQCookies.normalFlowExecute();
     //Cookies alert workflow end
-    
-    ENQChart.init();
+    ENQChart.init('{{currentLang}}','{{chartSeriesData}}');
 
     $.ajax({
       method: 'GET',

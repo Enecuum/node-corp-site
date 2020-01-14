@@ -11,6 +11,17 @@
 		"JULY": "Июль",
 		"DECEMBER": "Декабрь"
 	},
+	"CHART_CONTROLS": {
+		"M": "мес",
+		"Y": "год",
+		"YTD": "С нач. года",
+		"ALL": "Всё"
+	},
+	"CHART_SERIES_TITLES": {
+		"ENQ_PRICE_USD": "Цена ENQ (USD)",
+		"BTC_PRICE_USD": "Цена BTC (USD)",
+		"TOTAL_VOLUME_USD": "Объем торгов (USD)"
+	},
 	"ERRORS": {
 		"SOMETHING_WENT_WRONG": "Что-то пошло не так...",
 		"ERR_404_DESCR": "Очень жаль, но запрашиваемый Вами ресурс недоступен.",

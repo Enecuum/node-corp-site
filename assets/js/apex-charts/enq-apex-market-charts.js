@@ -1,4 +1,118 @@
-	let ENQChartsContainerSelector = '#ENQChartsContainer';
+  let locales = [
+    {
+      "name": "ru",
+      "options": {
+        "months": [
+          "Январь",
+          "Февраль",
+          "Март",
+          "Апрель",
+          "Май",
+          "Июнь",
+          "Июль",
+          "Август",
+          "Сентябрь",
+          "Октябрь",
+          "Ноябрь",
+          "Декабрь"
+        ],
+        "shortMonths": [
+          "Янв",
+          "Фев",
+          "Мар",
+          "Апр",
+          "Май",
+          "Июн",
+          "Июл",
+          "Авг",
+          "Сен",
+          "Окт",
+          "Ноя",
+          "Дек"
+        ],
+        "days": [
+          "Воскресенье",
+          "Понедельник",
+          "Вторник",
+          "Среда",
+          "Четверг",
+          "Пятница",
+          "Суббота"
+        ],
+        "shortDays": ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
+        "toolbar": {
+          "exportToSVG": "Сохранить SVG",
+          "exportToPNG": "Сохранить PNG",
+          "exportToCSV": "Сохранить CSV",
+          "menu": "Меню",
+          "selection": "Выбор",
+          "selectionZoom": "Выбор с увеличением",
+          "zoomIn": "Увеличить",
+          "zoomOut": "Уменьшить",
+          "pan": "Перемещение",
+          "reset": "Сбросить увеличение"
+        }
+      },
+
+    },
+    {
+      "name": "en",
+      "options": {
+        "months": [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December"
+        ],
+        "shortMonths": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "shortDays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        "toolbar": {
+          "exportToSVG": "Download SVG",
+          "exportToPNG": "Download PNG",
+          "exportToCSV": "Download CSV",
+          "menu": "Menu",
+          "selection": "Selection",
+          "selectionZoom": "Selection Zoom",
+          "zoomIn": "Zoom In",
+          "zoomOut": "Zoom Out",
+          "pan": "Panning",
+          "reset": "Reset Zoom"
+        }
+      }
+    }
+  ];
+
+  let ENQChartsContainerSelector = '#ENQChartsContainer';
 	let priceChartWrapperSelector = '#chartPriceWrapper';
   let volumeChartWrapperSelector = '#chartVolumeWrapper';
 	let toUSDFormatter = new Intl.NumberFormat("en-us", {
@@ -13,9 +127,12 @@
   let enqUSDData = null;
 
   let chartENQ_BTC_To_USD, chartVolume;
+  let localesData = {};
 
 	let ENQChart = {
-		init: function() {
+		init: function(currentLang, chartSeriesData) {
+    localesData.seriesTitles = JSON.parse(chartSeriesData.replace(/&quot;/gi, '"'));
+    localesData.currentLang = currentLang;
     //timestamp in seconds
     let enqStartTradingDate = Math.trunc(Date.UTC(2019, 6, 9, 0, 0, 0)/1000);    // 9 july (6th month of the year if start from 0) 2019 
     let currentDate = Math.trunc(Date.now()/1000);
@@ -125,6 +242,8 @@
               type: 'line',
               height: 450,
               width: '100%',
+              locales: locales,
+              defaultLocale: localesData.currentLang
             },      
             dataLabels: {
               enabled: false
@@ -132,17 +251,17 @@
             colors: ['#008FFB','#FEB019','rgba(0,0,0,0)'],
             series: [
               {
-                name: 'ENQ price (USD)',
+                name: localesData.seriesTitles.ENQ_PRICE_USD,
                 type: 'line',               
                 data: enqUSDData.pricesArr
               },
               {
-                name: 'BTC price (USD)',
+                name: localesData.seriesTitles.BTC_PRICE_USD,
                 type: 'line',               
                 data: btcUSDData.pricesArr
               },
               {
-                name: 'Total volume (USD)',
+                name: localesData.seriesTitles.TOTAL_VOLUME_USD,
                 type: 'area',
                 data: enqUSDData.totalVolumesArr
               }  
@@ -168,7 +287,7 @@
                   toggleDataSeries: false
               },
               formatter: function(seriesName, opts) {
-                if (seriesName === 'Total volume (USD)')
+                if (seriesName === localesData.seriesTitles.TOTAL_VOLUME_USD)
                   return null
                 else 
                   return [seriesName]
@@ -197,7 +316,7 @@
                   }
                 },
                 title: {
-                  text: "ENQ price (USD)",
+                  text: localesData.seriesTitles.ENQ_PRICE_USD,
                   offsety: '100px',                              
                   style: {
                     color: '#008FFB',
@@ -227,7 +346,7 @@
                   }
                 },
                 title: {
-                  text: "BTC price (USD)",
+                  text: localesData.seriesTitles.BTC_PRICE_USD,
                   offsety: '100px',                              
                   style: {
                     color: '#FEB019',
@@ -329,7 +448,9 @@
               width: '100%',
               toolbar: {
                 show: false
-              }
+              },
+              locales: locales,
+              defaultLocale: localesData.currentLang
             },      
             dataLabels: {
               enabled: false
@@ -347,17 +468,17 @@
             },
             series: [
               {
-                name: 'ENQ price (USD)',
+                name: localesData.seriesTitles.ENQ_PRICE_USD,
                 type: 'line',               
                 data: enqUSDData.pricesArr
               },
               {
-                name: 'BTC price (USD)',
+                name: localesData.seriesTitles.BTC_PRICE_USD,
                 type: 'line',               
                 data: btcUSDData.pricesArr
               },
               {
-                name: 'Total volume (USD)',
+                name: localesData.seriesTitles.TOTAL_VOLUME_USD,
                 type: 'area',
                 data: enqUSDData.totalVolumesArr,     
               },
@@ -379,7 +500,7 @@
                   toggleDataSeries: false
               },
               formatter: function(seriesName, opts) {
-                if (seriesName !== 'Total volume (USD)')
+                if (seriesName !== localesData.seriesTitles.TOTAL_VOLUME_USD)
                   return ''
                 else 
                   return [seriesName]
@@ -412,7 +533,7 @@
                   }
                 },
                 title: {
-                  text: "ENQ price (USD)",
+                  text: localesData.seriesTitles.ENQ_PRICE_USD,
                   offsety: '100px',                              
                   style: {
                     color: 'rgba(0,0,0,0)',
@@ -441,7 +562,7 @@
                   }
                 },
                 title: {
-                  text: "BTC price (USD)",
+                  text: localesData.seriesTitles.BTC_PRICE_USD,
                   offsety: '100px',                              
                   style: {
                     color: 'rgba(0,0,0,0)',
