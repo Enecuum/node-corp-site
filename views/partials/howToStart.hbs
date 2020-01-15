@@ -4,13 +4,13 @@
     </div>
 </div>
 <div id="forBeginers">
+    {{> faq}}
     <div class="bg-light">
-        {{> faq}}
-    </div>
+        {{> techpaperWhitepaper}}
 
-    {{> techpaperWhitepaper}}
-    <div class="container text-center">
-        <button type="button" class="learnmoreButton btn btn-soft-primary btn-block jump-to-section text-uppercase  mb-8" data-content="forProfessionals">{{__ "READ_MORE_ABOUT_TECHNOLOGY"}}</button>
+        <div class="container text-center pb-8">
+            <button type="button" class="learnmoreButton btn btn-soft-primary btn-block jump-to-section text-uppercase" data-content="forProfessionals">{{__ "READ_MORE_ABOUT_TECHNOLOGY"}}</button>
+        </div>
     </div>
 </div>
 <div id="forProfessionals" style="display: none;">
