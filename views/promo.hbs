@@ -297,7 +297,57 @@
 
     ENQCookies.normalFlowExecute();
     //Cookies alert workflow end
-    
+        $.ajax({
+      method: 'GET',
+      url: "https://api.coingecko.com/api/v3/coins/enq-enecuum?tickers=true&market_data=true&community_data=false&developer_data=false&sparkline=false",
+      async: true,
+    }).success(function(response) {
+      let formatter = new Intl.NumberFormat("en-us", {
+        useGrouping: 'true',
+        maximumFractionDigits: '0'
+      });
+
+      let usdFormatter = new Intl.NumberFormat("en-us", {
+        useGrouping: 'true',
+        maximumFractionDigits: '5'
+      });
+
+      let marketStatsTitles = {
+        market_cap: response.market_data.market_cap.usd,
+        coin_volume: response.market_data.total_volume.usd,
+        price_usd: response.market_data.current_price.usd,
+        price_btc: response.market_data.current_price.btc
+      }
+
+      let tickersArray = response.tickers;
+      let exchange_volume = 0;
+
+      exchangeNamesArray = ['kucoin','crex24'];
+      let kucoinVolume = 0;
+      let crex24Volume = 0;
+      let graviexVolume = 0;
+
+
+      $.each(tickersArray, function(index, ticker) {
+        switch (ticker.market.identifier) {
+          case 'kucoin':
+            kucoinVolume += ticker.converted_volume.usd;
+            break;
+          case 'crex24':
+            crex24Volume += ticker.converted_volume.usd;
+            break;
+        }
+      });
+
+      $("[data-content='market_cap']").text('$'+usdFormatter.format(marketStatsTitles.market_cap));
+      $("[data-content='coin_volume']").text('$'+usdFormatter.format(marketStatsTitles.coin_volume));     
+      $("[data-content='price_usd']").text(marketStatsTitles.price_usd);
+      $("[data-content='price_btc']").text(marketStatsTitles.price_btc);
+
+      $("[data-content='kucoin-volume']").text('$'+usdFormatter.format(kucoinVolume));
+      $("[data-content='crex24-volume']").text('$'+usdFormatter.format(crex24Volume));
+
+    });
     $.ajax({
       method: 'GET',
       url: "https://neuro.enecuum.com/api/v1/stats",
