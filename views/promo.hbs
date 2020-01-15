@@ -117,7 +117,7 @@
   <!-- Hero Section -->
   <div id="heroMain" class="gradient-overlay-half-primary-video-v1 height-100vh" style="min-height: 560px;">
     <!-- Video Background -->
-    <div class="js-bg-video d-none d-md-block position-absolute w-100 height-100vh"
+    <div class="js-bg-video d-none d-md-block position-absolute w-100 height-100vh" style="min-height: 560px;"
          data-hs-bgv-path="/video/earth"
          data-hs-bgv-loop="1">
     </div>
@@ -150,7 +150,7 @@
   </div>
 
   <div class="bg-light">
-    {{> joinEnecuumNetwork}}
+    {{> joinEnecuumNetworkPromo}}
   </div>
   <div class="container my-10">
       <h2 class="mt-4 mb-8 text-center">{{__ "HOW_TO_MINE"}}</h2>
@@ -465,60 +465,143 @@
       });
     });
 
+    let validator = {
+      checkValidDigitalValue: function(value) {
+        return (value !== null && value !== undefined && !isNaN(value)) ? true : false;
+      }
+    }
+
+    let currencyExchange = {
+      convertValue: function(value, rate) {
+        return (validator.checkValidDigitalValue(value) && validator.checkValidDigitalValue(rate)) ? value * rate : '---';
+      }
+    }
+
     let commas = function(num){
-      return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     };
 
     let scope = {
 
     };
 
+    // scope.refCheck = $('#refCheck').prop('checked');
+
+    scope.convertValueToUSD = function(value) {
+          return currencyExchange.convertValue(value, scope.stats.cg_usd);
+      }
+
     scope.convert = function(enq){
-      enq = enq / 1e10;
-      return commas(enq.toFixed(2)) + ' ENQ'
+        enq = enq / 1e10;
+        // Add more in future
+        return [
+            {
+                name:'ENQ',
+                value: commas(enq.toFixed(2)) + ' ENQ'
+            },
+            {
+                name:'USD',
+                value: commas((enq * parseFloat(scope.stats.cg_usd)).toFixed(3)) + ' USD'
+            },
+            {
+                name:'ETH',
+                value: (enq * parseFloat(scope.stats.cg_eth)).toFixed(6) + ' ETH'
+            },
+            {
+                name:'BTC',
+                value: (enq * parseFloat(scope.stats.cg_btc)).toFixed(8) + ' BTC'
+            }
+        ]
     };
 
     scope.lerp = function(y0, y1, x0, x1, y){
-      return (x0 + ((y - y0) / (y1 - y0)) * (x1 - x0))
+        return (x0 + ((y - y0) / (y1 - y0)) * (x1 - x0))
     };
+
+    // scope.getTimestamp = function(unix){
+    //     return (new Date(unix * 1000)).toLocaleString()
+    // };
 
     scope.calcROI = function(stake){
-      let rois = scope.rois;
-      for (let i = 0; i < rois.length; i++) {
-        if(stake === rois[i].stake){
-          return rois[i].roi;
+        let rois = scope.rois;
+        for (let i = 0; i < rois.length; i++) {
+            if(stake === rois[i].stake){
+                return rois[i].roi;
+            }
+            else if(stake < rois[i].stake){
+                return this.lerp(rois[i-1].stake, rois[i].stake, rois[i-1].roi, rois[i].roi, stake)
+            }
         }
-        else if(stake < rois[i].stake){
-          return this.lerp(rois[i-1].stake, rois[i].stake, rois[i-1].roi, rois[i].roi, stake)
-        }
-      }
-      return 0;
+        return 0;
     };
 
-    scope.reloadROI = function(stake) {
-      if(!scope.rois.length )   //|| !scope.stats.$resolved!!!!!!!!
-        return false;
+      scope.reloadROI = function(stake) {
+        if(!scope.rois.length )   //|| !scope.stats.$resolved!!!!!!!!
+            return false;
+        scope.isLoaded = true;
 
-      stake = parseFloat(stake);
-      if(isNaN(stake)){
-        return false;
-      }
+        stake = parseFloat(stake);
+        if(isNaN(stake)){
+            return false;
+        }
+        if(stake < 25 || stake > 25000){
+            $.toast({
+                heading: 'Error',
+                text: 'Stake is out of range 25...25,000',
+                icon: 'error',
+                hideAfter: 5000,
+                stack: 3,
+                position: 'top-right',
+                loader: false
+            });
+            return false;
+        }
 
-      scope.translationData.stake = stake;
-      stake = stake * 1e10;
-      let roi = scope.calcROI(stake);
-      let ratio = ((roi - stake) / stake);
-      if($('#refCheck').prop('checked'))
-        ratio += ratio * 0.1;
-      scope.roiData = scope.convert(stake * ratio * 365);
+        scope.translationData.stake = stake;
+        stake = stake * 1e10;
+        let roi = scope.calcROI(stake);
+        let ratio = ((roi - stake) / stake);
+        if($('#refCheck').prop('checked'))
+            ratio += ratio * 0.1;
+        scope.roiData = [
+            {
+                period: "Daily",
+                values: scope.convert((stake * ratio)),
+                roi: "+ " + (ratio * 100).toFixed(2) + " %"
+            },
+            {
+                period: "Weekly",
+                values: scope.convert(stake * ratio * 7),
+                roi: "+ " + (ratio * 7 * 100).toFixed(2) + " %"
+            },
+            {
+                period: "Monthly",
+                values: scope.convert(stake * ratio * 30),
+                roi: "+ " + (ratio * 30 * 100).toFixed(2) + " %"
+            },
+            {
+                period: "Annual",
+                values: scope.convert(stake * ratio * 365),
+                roi: "+ " + (ratio * 365 * 100).toFixed(2) + " %"
+            }
+        ];
     };
 
+    let incorrectValue = '---';
+    scope.roiValid = true;
+    scope.stake = 25;
+    scope.isLoaded = false;
     scope.translationData = {
-      stake: 25,
-      min: 25,
-      max: 25000
+        stake: 25,
+        min: 25,
+        max: 25000
     };
-    scope.roiData = null;
+    scope.roiData = [];
+
+    let usdFormatter = new Intl.NumberFormat("en-us", {
+      useGrouping: 'true',
+      maximumFractionDigits: '5'
+    });
 
     function refreshRoiCalc(stake) {
       $.ajax({
@@ -527,32 +610,150 @@
         async: true,
       }).success(function(roi) {
           scope.rois = roi;
-          scope.reloadROI(stake);
-          $('#roiRecalc').val(scope.roiData.replace(/ ENQ/, ''));
+          $.ajax({
+              method: 'GET',
+              url: "https://neuro.enecuum.com/api/v1/stats",
+              async: true,
+          }).success(function(stats) {
+              scope.stats = stats;
+              let statsPropertiesArr = ['total_daily_stake','reward_poa','poa_count','cg_usd','cg_btc'];
+              statsPropertiesArr.forEach(function(item) {
+                  scope.stats[item] = (stats.hasOwnProperty(item) && validator.checkValidDigitalValue(stats[item])) ? stats[item] : incorrectValue;
+              });
+              scope.reloadROI(stake);
+              populateRoiElements();
+              $('#roiStakeUSD').text(usdFormatter.format(scope.convertValueToUSD(stake)) + ' USD');
+          }).error(function() {
+              $('#ROICalcContainer').remove();
+          });
       }).error(function() {
-        $('#ROICalcContainer').remove();
+          $('#ROICalcContainer').remove();
       });
+
+
     }
 
     refreshRoiCalc(scope.translationData.stake);
 
-    $('#roiStake').on('change keyup', function() {      
-      let inputStake = parseFloat($(this).val());
-      if (isNaN(inputStake)) {
-        inputStake = 25;
+
+    function populateRoiElements() {
+      scope.reloadROI(scope.translationData.stake);
+      $('#roiCalcCards').empty();
+      let periodsArr = ['В день', 'В неделю', 'В месяц', 'В год'];      
+      $.each(scope.roiData, function(index, roiDataItem) {
+        let period = ($('#roiCalcCards').attr('data-content') === 'lang-ru') ? periodsArr[index] : roiDataItem.period;
+        $('#roiCalcCards').append('<div class="col-md-6 col-xl-3 mb-5"><div class="card bg-light border-0"><div class="card-body"><div class="h4 h-bold mb-3">'+period+'</div><div class="table-responsive-sm"><table class="table table-borderless table-sm table-centered mb-0"><tbody id="enq_'+roiDataItem.period+'"></tbody></table><hr><span class="text-grey h4 mr-3">ROI</span><span class="h-bold h3 text-blue">'+roiDataItem.roi+'</span></div></div></div></div>');
+        $.each(roiDataItem.values, function(index, currency) {
+          $('#enq_'+roiDataItem.period).append('<tr ng-repeat="curr in rec.values"><td><div class="font-weight-bold">'+currency.name+'</div></td><td>'+currency.value+'</td></tr>');
+        });
+      });
+      $('#roiCalcCards td:nth-child(2), #roiCalcCards h3, #roiStakeUSD').css({'opacity': 1});
+      $('#roiStakeErrorMessage').css({'opacity': '0'});
+    }
+
+    $('#roiStake').on('change keyup', function() {
+      let inputStake = $(this).val();
+      if (inputStake >= 25 && inputStake <= 25000) {
+        refreshRoiCalc(inputStake);
+      } else {
+        $('#roiCalcCards td:nth-child(2), #roiCalcCards h3, #roiStakeUSD').css({'opacity': 0.1});
+        $('#roiStakeErrorMessage').css({'opacity': '1'});
       }
-      $(this).val(inputStake);
-      if (inputStake < 25 || inputStake > 25000) {
-          inputStake = inputStake < 25 ? 25 : 25000;
-          $('#roiStake').val(inputStake);
-      }
-      refreshRoiCalc(inputStake);
     });
 
     $('#refCheck').on('change', function() {
       let inputStake = $('#roiStake').val();
       refreshRoiCalc(inputStake);
     });
+
+    // let commas = function(num){
+    //   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    // };
+
+    // let scope = {
+
+    // };
+
+    // scope.convert = function(enq){
+    //   enq = enq / 1e10;
+    //   return commas(enq.toFixed(2)) + ' ENQ'
+    // };
+
+    // scope.lerp = function(y0, y1, x0, x1, y){
+    //   return (x0 + ((y - y0) / (y1 - y0)) * (x1 - x0))
+    // };
+
+    // scope.calcROI = function(stake){
+    //   let rois = scope.rois;
+    //   for (let i = 0; i < rois.length; i++) {
+    //     if(stake === rois[i].stake){
+    //       return rois[i].roi;
+    //     }
+    //     else if(stake < rois[i].stake){
+    //       return this.lerp(rois[i-1].stake, rois[i].stake, rois[i-1].roi, rois[i].roi, stake)
+    //     }
+    //   }
+    //   return 0;
+    // };
+
+    // scope.reloadROI = function(stake) {
+    //   if(!scope.rois.length )   //|| !scope.stats.$resolved!!!!!!!!
+    //     return false;
+
+    //   stake = parseFloat(stake);
+    //   if(isNaN(stake)){
+    //     return false;
+    //   }
+
+    //   scope.translationData.stake = stake;
+    //   stake = stake * 1e10;
+    //   let roi = scope.calcROI(stake);
+    //   let ratio = ((roi - stake) / stake);
+    //   if($('#refCheck').prop('checked'))
+    //     ratio += ratio * 0.1;
+    //   scope.roiData = scope.convert(stake * ratio * 365);
+    // };
+
+    // scope.translationData = {
+    //   stake: 25,
+    //   min: 25,
+    //   max: 25000
+    // };
+    // scope.roiData = null;
+
+    // function refreshRoiCalc(stake) {
+    //   $.ajax({
+    //     method: 'GET',
+    //     url: "https://neuro.enecuum.com/api/v1/roi",
+    //     async: true,
+    //   }).success(function(roi) {
+    //       scope.rois = roi;
+    //       scope.reloadROI(stake);
+    //       $('#roiRecalc').val(scope.roiData.replace(/ ENQ/, ''));
+    //   }).error(function() {
+    //     $('#ROICalcContainer').remove();
+    //   });
+    // }
+
+    // refreshRoiCalc(scope.translationData.stake);
+
+    // $('#roiStake').on('change keyup', function() {      
+    //   let inputStake = parseFloat($(this).val());
+    //   if (isNaN(inputStake)) {
+    //     inputStake = 25;
+    //   }
+    //   $(this).val(inputStake);
+    //   if (inputStake < 25 || inputStake > 25000) {
+    //       inputStake = inputStake < 25 ? 25 : 25000;
+    //       $('#roiStake').val(inputStake);
+    //   }
+    //   refreshRoiCalc(inputStake);
+    // });
+
+    // $('#refCheck').on('change', function() {
+    //   let inputStake = $('#roiStake').val();
+    //   refreshRoiCalc(inputStake);
+    // });
 
   });
 
