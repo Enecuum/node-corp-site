@@ -1,0 +1,24 @@
+<div id="ROICalcContainer" class="mb-8">
+    <div class="form-group mb-3 w-100">
+        <div class="row align-items-center">
+            <label for="roiStake" class="col-12 col-sm-6">{{__ 'ROI_STAKE_LITE_CALC'}}</label>
+            <div class="col-12 col-sm-6 d-flex align-items-center flex-nowrap">
+                <input type="text" id="roiStake" class="col form-control text-center font-size-03" value="25" autocomplete="off">
+                <span class="ml-3 font-weight-bolder">ENQ</span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group mb-3 w-100">
+        <div class="row align-items-center">
+            <label class="col-12 col-sm-6">{{__ 'ANNUAL_ROI'}}</label>
+            <div class="col-12 col-sm-6 d-flex align-items-center flex-nowrap">
+                <input type="text" id="roiRecalc" class="form-control font-weight-bolder text-blue text-center font-size-03" disabled>
+                <span class="ml-3 font-weight-bolder">ENQ</span>
+            </div>
+        </div>
+    </div>
+    <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="refCheck" checked>
+        <label class="custom-control-label pt-1 pl-2" for="refCheck">{{__ 'IS_REFERRAL'}}</label>
+    </div>
+</div>
