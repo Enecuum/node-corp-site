@@ -135,26 +135,32 @@
     <!-- End Content -->
     </div>
   </div>
-  <div class="bg-light">
-      {{> advantages}}
-  </div>
 
-  <div class="container pb-11">
+  {{> advantages}}
+
+  <div class="bg-light pt-8 pb-4">
     {{> tokenValueCreatedByMinersPromo}}
-    {{> marketStatsTopSection}}
-
-    <div class="text-center m-auto mb-9">
-      <h2 class="h2 font-weight-semi-bold mb-8">{{__ 'EXCHANGES'}}</h2>
-    </div>
-    {{> exchangesTablePromo}}
   </div>
+
+  <div class="container pt-8">
+    <h2 class="h2 font-weight-semi-bold mb-8 text-center">{{__ 'EXCHANGES'}}</h2>
+    <div class="mb-8">
+      {{> exchangesTablePromo}}
+    </div>
+    {{> marketStatsTopSection}}
+  </div>
+
 
   <div class="bg-light">
     {{> joinEnecuumNetworkPromo}}
   </div>
+
   <div class="container my-10">
-      <h2 class="mt-4 mb-8 text-center">{{__ "HOW_TO_MINE"}}</h2>
+    <h2 class="mt-4 mb-8 text-center">{{__ "HOW_TO_MINE"}}</h2>
+    <div class="mb-10">
       {{> miningSteps}}
+    </div>
+    {{> downloadApplicationsRowOrientation}}
   </div>
   <div class="bg-light">
     <div class="container">
