@@ -672,95 +672,97 @@
       refreshRoiCalc(inputStake);
     });
 
-    // let commas = function(num){
-    //   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    // };
+    
+    (function() {
+        let commas = function(num){
+          return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        };
 
-    // let scope = {
+        let scope = {
 
-    // };
+        };
 
-    // scope.convert = function(enq){
-    //   enq = enq / 1e10;
-    //   return commas(enq.toFixed(2)) + ' ENQ'
-    // };
+        scope.convert = function(enq){
+          enq = enq / 1e10;
+          return commas(enq.toFixed(2)) + ' ENQ'
+        };
 
-    // scope.lerp = function(y0, y1, x0, x1, y){
-    //   return (x0 + ((y - y0) / (y1 - y0)) * (x1 - x0))
-    // };
+        scope.lerp = function(y0, y1, x0, x1, y){
+          return (x0 + ((y - y0) / (y1 - y0)) * (x1 - x0))
+        };
 
-    // scope.calcROI = function(stake){
-    //   let rois = scope.rois;
-    //   for (let i = 0; i < rois.length; i++) {
-    //     if(stake === rois[i].stake){
-    //       return rois[i].roi;
-    //     }
-    //     else if(stake < rois[i].stake){
-    //       return this.lerp(rois[i-1].stake, rois[i].stake, rois[i-1].roi, rois[i].roi, stake)
-    //     }
-    //   }
-    //   return 0;
-    // };
+        scope.calcROI = function(stake){
+          let rois = scope.rois;
+          for (let i = 0; i < rois.length; i++) {
+            if(stake === rois[i].stake){
+              return rois[i].roi;
+            }
+            else if(stake < rois[i].stake){
+              return this.lerp(rois[i-1].stake, rois[i].stake, rois[i-1].roi, rois[i].roi, stake)
+            }
+          }
+          return 0;
+        };
 
-    // scope.reloadROI = function(stake) {
-    //   if(!scope.rois.length )   //|| !scope.stats.$resolved!!!!!!!!
-    //     return false;
+        scope.reloadROI = function(stake) {
+          if(!scope.rois.length )   //|| !scope.stats.$resolved!!!!!!!!
+            return false;
 
-    //   stake = parseFloat(stake);
-    //   if(isNaN(stake)){
-    //     return false;
-    //   }
+          stake = parseFloat(stake);
+          if(isNaN(stake)){
+            return false;
+          }
 
-    //   scope.translationData.stake = stake;
-    //   stake = stake * 1e10;
-    //   let roi = scope.calcROI(stake);
-    //   let ratio = ((roi - stake) / stake);
-    //   if($('#refCheck').prop('checked'))
-    //     ratio += ratio * 0.1;
-    //   scope.roiData = scope.convert(stake * ratio * 365);
-    // };
+          scope.translationData.stake = stake;
+          stake = stake * 1e10;
+          let roi = scope.calcROI(stake);
+          let ratio = ((roi - stake) / stake);
+          if($('#refCheckLight').prop('checked'))
+            ratio += ratio * 0.1;
+          scope.roiData = scope.convert(stake * ratio * 365);
+        };
 
-    // scope.translationData = {
-    //   stake: 25,
-    //   min: 25,
-    //   max: 25000
-    // };
-    // scope.roiData = null;
+        scope.translationData = {
+          stake: 25,
+          min: 25,
+          max: 25000
+        };
+        scope.roiData = null;
 
-    // function refreshRoiCalc(stake) {
-    //   $.ajax({
-    //     method: 'GET',
-    //     url: "https://neuro.enecuum.com/api/v1/roi",
-    //     async: true,
-    //   }).success(function(roi) {
-    //       scope.rois = roi;
-    //       scope.reloadROI(stake);
-    //       $('#roiRecalc').val(scope.roiData.replace(/ ENQ/, ''));
-    //   }).error(function() {
-    //     $('#ROICalcContainer').remove();
-    //   });
-    // }
+        function refreshRoiCalc(stake) {
+          $.ajax({
+            method: 'GET',
+            url: "https://neuro.enecuum.com/api/v1/roi",
+            async: true,
+          }).success(function(roi) {
+              scope.rois = roi;
+              scope.reloadROI(stake);
+              $('#roiRecalcLight').val(scope.roiData.replace(/ ENQ/, ''));
+          }).error(function() {
+            $('#lightROICalcContainer').remove();
+          });
+        }
 
-    // refreshRoiCalc(scope.translationData.stake);
+        refreshRoiCalc(scope.translationData.stake);
 
-    // $('#roiStake').on('change keyup', function() {      
-    //   let inputStake = parseFloat($(this).val());
-    //   if (isNaN(inputStake)) {
-    //     inputStake = 25;
-    //   }
-    //   $(this).val(inputStake);
-    //   if (inputStake < 25 || inputStake > 25000) {
-    //       inputStake = inputStake < 25 ? 25 : 25000;
-    //       $('#roiStake').val(inputStake);
-    //   }
-    //   refreshRoiCalc(inputStake);
-    // });
+        $('#roiStakeLight').on('change keyup', function() {      
+          let inputStake = parseFloat($(this).val());
+          if (isNaN(inputStake)) {
+            inputStake = 25;
+          }
+          $(this).val(inputStake);
+          if (inputStake < 25 || inputStake > 25000) {
+              inputStake = inputStake < 25 ? 25 : 25000;
+              $('#roiStakeLight').val(inputStake);
+          }
+          refreshRoiCalc(inputStake);
+        });
 
-    // $('#refCheck').on('change', function() {
-    //   let inputStake = $('#roiStake').val();
-    //   refreshRoiCalc(inputStake);
-    // });
-
+        $('#refCheckLight').on('change', function() {
+          let inputStake = $('#roiStakeLight').val();
+          refreshRoiCalc(inputStake);
+        });
+    })();
   });
 
 </script>

@@ -630,7 +630,7 @@
       stake = stake * 1e10;
       let roi = scope.calcROI(stake);
       let ratio = ((roi - stake) / stake);
-      if($('#refCheck').prop('checked'))
+      if($('#refCheckLight').prop('checked'))
         ratio += ratio * 0.1;
       scope.roiData = scope.convert(stake * ratio * 365);
     };
@@ -650,15 +650,15 @@
       }).success(function(roi) {
           scope.rois = roi;
           scope.reloadROI(stake);
-          $('#roiRecalc').val(scope.roiData.replace(/ ENQ/, ''));
+          $('#roiRecalcLight').val(scope.roiData.replace(/ ENQ/, ''));
       }).error(function() {
-        $('#ROICalcContainer').remove();
+        $('#lightROICalcContainer').remove();
       });
     }
 
     refreshRoiCalc(scope.translationData.stake);
 
-    $('#roiStake').on('change keyup', function() {
+    $('#roiStakeLight').on('change keyup', function() {
       let inputStake = parseFloat($(this).val());
       if (isNaN(inputStake)) {
         inputStake = 25;
@@ -666,13 +666,13 @@
       $(this).val(inputStake);
       if (inputStake < 25 || inputStake > 25000) {
           inputStake = inputStake < 25 ? 25 : 25000;
-          $('#roiStake').val(inputStake);
+          $('#roiStakeLight').val(inputStake);
       }
       refreshRoiCalc(inputStake);
     });
 
-    $('#refCheck').on('change', function() {
-      let inputStake = $('#roiStake').val();
+    $('#refCheckLight').on('change', function() {
+      let inputStake = $('#roiStakeLight').val();
       refreshRoiCalc(inputStake);
     });
 
