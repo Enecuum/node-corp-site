@@ -88,12 +88,14 @@
 					"Q1_ANSW_P1": "All you need to do is to have an Android device, download our app on it and deposit 25 ENQ.",
 					"Q2_TITLE": "How do I get Enecuum's tokens?",
 					"Q2_ANSW_P1": "You can buy ENQ by card or on exchanges (KuCoin, Crex24, Graviex). Note that if you buy ENQ on an exchange, you need to transfer your tokens to an Ethereum wallet first.",
-					"Q3_TITLE": "What devices can I use to mine?",
-					"Q3_ANSW_P1": "You can mine on any mobile device that runs Android (phones, tablets). Though Enecuum primarily aims at smartphones, our community has also managed to mine on IoT devices, TV boxes, and smartwatches!",
-					"Q4_TITLE": "Can I mine on multiple devices?",
-					"Q4_ANSW_P1": "Yes, but you need to create a separate account for every device.",
-					"Q5_TITLE": "Can I mine on an emulated phone?",
-					"Q5_ANSW_P1": "Yes, you can. Currently, we do not have any restrictions on it."
+					"Q3_TITLE": "How to swap?",
+					"Q3_ANSW_P1": "Depending on the operating system (OS) you have, please use MetaMask (Desktop OS) or Trust Wallet (Mobile OS) Ethereum wallets. This software has been tested by the Enecuum team and the community.  Read more in the",
+					"Q4_TITLE": "What devices can I use to mine?",
+					"Q4_ANSW_P1": "You can mine on any mobile device that runs Android (phones, tablets). Though Enecuum primarily aims at smartphones, our community has also managed to mine on IoT devices, TV boxes, and smartwatches!",
+					"Q5_TITLE": "Can I mine on multiple devices?",
+					"Q5_ANSW_P1": "Yes, but you need to create a separate account for every device.",
+					"Q6_TITLE": "Can I mine on an emulated phone?",
+					"Q6_ANSW_P1": "Yes, you can. Currently, we do not have any restrictions on it."
 				}
 			},
 			"IMPACT_ON_DEVICE": {
