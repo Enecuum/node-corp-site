@@ -130,6 +130,9 @@
               <span class="d-block">{{__ "PROMO_TITLE_P2"}}</span>
           </h1>
           {{> lightROICalc}}
+          <div class="text-center mb-8" style="max-width: 500px;">
+            <button href="javascript:;" class="position-relative btn btn-sm btn-primary transition-3d-hover w-100 w-md-80" data-content="howToMineSteps" style="font-size: 1.5rem;">{{__ "START_MINING"}}</button>
+          </div>
           <!-- <span class="arrow-down mdi mdi-chevron-down position-absolute go-down" data-content="enqAdvantages"></span> -->
       </div>
     <!-- End Content -->
@@ -155,6 +158,7 @@
     {{> joinEnecuumNetworkPromo}}
   </div>
 
+  <div  id="howToMineSteps"></div>
   <div class="container my-10">
     <h2 class="mt-4 mb-8 text-center">{{__ "HOW_TO_MINE"}}</h2>
     <div class="mb-10">
@@ -242,7 +246,7 @@
           duration: 700
       });
 
-      $('body').on('click', '.arrow-down, .jump-to-section', function(e) {
+      $('body').on('click', '.arrow-down, .jump-to-section, [data-content="howToMineSteps"]', function(e) {
           e.preventDefault();
           let that = this;
           let targetID = $(that).attr('data-content');
