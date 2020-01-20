@@ -82,7 +82,7 @@
 				}
 			},
 			"START_MINING": {
-				"TITLE": "Start Mining",
+				"TITLE": "Madenciliği Başlat",
 				"QS": {
 					"Q1_TITLE": "Nasıl benimkini?",
 					"Q1_ANSW_P1": "Tek yapmanız gereken bir Android cihaza sahip olmak, uygulamamızı indirmek ve 25 ENQ yatırmak.",
@@ -102,7 +102,7 @@
 				"TITLE": "Cihaz Üzerindeki Etkisi",
 				"QS": {
 					"Q1_TITLE": "Madencilik telefonumun pilini nasıl etkiler?",
-					"Q1_ANSW_P1_1": "The battery drain is insignificant - the discharge is",
+					"Q1_ANSW_P1_1": "Akü boşalması önemsiz - deşarj",
 					"Q1_ANSW_P1_2": "% 5'ten az daha hızlı",
 					"Q1_ANSW_P1_3": "normal cihaz kullanımına kıyasla.",
 					"Q2_TITLE": "İnternet kullanımı ne olacak?",
@@ -159,7 +159,7 @@
 	"MEDIA_PREVIEW": "Enecuum, a blockchain mobile network for decentralized applications which is able to bring blockchain and cryptocurrencies to the real mainstream, involves mobile devices users into a blockchain network, and provides a powerful toolkit for the dApps developers to create fast and low cost applications WEB 3.0 for millions of people. Now, Enecuum is starting a scaling community program.",
 	"LEGAL_ADVISOR": "Legal advisor",
 	"WE_ARE_MEMBER_OF": "We are a member of",
-	"WHITEPAPER_DESCR": "This whitepaper contains forward-looking statements that are based on the beliefs of Enecuum HK Limited, a Hong Kong incorporated company (CR: 2562183) (“Company”), as well as certain assumptions made by and information available to the Company.",
+	"WHITEPAPER_DESCR": "u tanıtım belgesi, Hong Kong anonim şirketi Enecuum HK Limited'in (CR: 2562183) (“Şirket”) inançlarına ve Şirket tarafından yapılan belirli varsayımlara ve bilgilere dayanan ileriye dönük beyanlar içermektedir.",
 	"TECHPAPER_DESCR": "Para birimi ekonomiye konuşmanın ne dilidir. Gelişmişliği ve kullanışlılığı, kullanıcı tabanıyla, onu canlı tutan “işlemlerin” hacmine ve uyum sağlama, çoğalma ve gelişmeye yönelik Darwinist yeteneğine doğru orantılı olarak gelişir.",
 	"READ_MORE": "Daha fazla oku",
 	"READ_MORE_ABOUT_TECHNOLOGY": "Teknoloji hakkında devamını oku",
