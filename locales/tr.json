@@ -88,7 +88,7 @@
 					"Q1_ANSW_P1": "Tek yapmanız gereken bir Android cihaza sahip olmak, uygulamamızı indirmek ve 25 ENQ yatırmak.",
 					"Q2_TITLE": "Enecuum'un jetonlarını nasıl alabilirim?",
 					"Q2_ANSW_P1": "ENQ'yu kartla veya borsalarda (KuCoin, Crex24, Graviex) satın alabilirsiniz. Bir borsada ENQ satın alırsanız, önce jetonlarınızı bir Ethereum cüzdanına aktarmanız gerektiğini unutmayın.",
-					"Q3_TITLE": "How to swap?",
+					"Q3_TITLE": "Nasıl Değiştirilir?",
 					"Q3_ANSW_P1": "Sahip olduğunuz işletim sistemine (OS) bağlı olarak, lütfen MetaMask (Masaüstü İşletim Sistemi) veya Trust Wallet (Mobil İşletim Sistemi) Ethereum cüzdanlarını kullanın. Bu yazılım Enecuum ekibi ve topluluk tarafından test edilmiştir. Daha fazla bilgiyi SSS bölümünde bulabilirsiniz",
 					"Q4_TITLE": "Benim için hangi cihazları kullanabilirim?",
 					"Q4_ANSW_P1": "Android çalıştıran herhangi bir mobil cihazda (telefonlar, tabletler) madencilik yapabilirsiniz. Enecuum öncelikle akıllı telefonları hedeflese de, topluluğumuz IoT cihazları, TV kutuları ve akıllı saatlerde de madencilik yapmayı başardı!",
