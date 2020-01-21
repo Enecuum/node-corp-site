@@ -146,34 +146,7 @@
     </div>    
 
     <div class="container space-2 space-lg-2">
-      <div id="marketStatsTopSection" class="container mb-10">
-         <div class="row justify-content-center">
-          <div class="col-sm-6 col-md-4 mt-4 col-lg-3 mt-lg-0 text-center">
-            <span style="font-size: 35px;">
-              <img src="/img/enq/market-cap-icon-grey.png" height="35" alt="Market cap icon">
-            </span>
-            <div data-content="market_cap" class="font-weight-bold mb-2">---</div>
-            <div id="poaNodesLabel">{{__ 'MARKET_CAP'}}</div>
-          </div>
-          <div class="col-sm-6 col-md-4 mt-4 col-lg-3 mt-lg-0 text-center">
-            <span style="font-size: 35px;">
-              <img src="/img/enq/volume-icon-grey.png" height="35" alt="Volume icon">
-            </span>
-            <div data-content="coin_volume" class="font-weight-bold mb-2">---</div>
-            <div id="powNodesLabel">{{__ 'VOLUME'}}</div>
-          </div>
-          <div class="col-sm-6 col-md-4 mt-4 col-lg-3 mt-lg-0 text-center">
-            <span class="market-stats-icon mdi mdi-currency-usd" style="font-size: 35px;"></span>
-            <div data-content="price_usd" class="font-weight-bold mb-2">---</div>
-            <div id="posNodesLabel">{{__ 'PRICE_USD'}}</div>
-          </div>
-          <div class="col-sm-6 col-md-4 mt-4 col-lg-3 mt-lg-0 text-center">
-            <span class="market-stats-icon mdi mdi-currency-btc" style="font-size: 35px;"></span>
-            <div data-content="price_btc" class="font-weight-bold mb-2">---</div>
-            <div id="accountsLabel">{{__ 'PRICE_BTC'}}</div>
-          </div>   
-         </div>
-      </div>
+      {{> marketStatsTopSection}}
 
       <div class="text-center m-auto mb-9">
         <h2 class="h2 font-weight-semi-bold mb-8">{{__ 'EXCHANGES'}}</h2>
@@ -542,9 +515,9 @@
     function populateRoiElements() {
       scope.reloadROI(scope.translationData.stake);
       $('#roiCalcCards').empty();
-      let periodsArr = ['В день', 'В неделю', 'В месяц', 'В год'];      
+      let periodsArr = ['{{__ "DAILY"}}', '{{__ "WEEKLY"}}', '{{__ "MONTHLY"}}', '{{__ "ANNUAL"}}']; 
       $.each(scope.roiData, function(index, roiDataItem) {
-        let period = ($('#roiCalcCards').attr('data-content') === 'lang-ru') ? periodsArr[index] : roiDataItem.period;
+        let period = periodsArr[index];
         $('#roiCalcCards').append('<div class="col-md-6 col-xl-3 mb-5"><div class="card bg-light border-0"><div class="card-body"><div class="h4 h-bold mb-3">'+period+'</div><div class="table-responsive-sm"><table class="table table-borderless table-sm table-centered mb-0"><tbody id="enq_'+roiDataItem.period+'"></tbody></table><hr><span class="text-grey h4 mr-3">ROI</span><span class="h-bold h3 text-blue">'+roiDataItem.roi+'</span></div></div></div></div>');
         $.each(roiDataItem.values, function(index, currency) {
           $('#enq_'+roiDataItem.period).append('<tr ng-repeat="curr in rec.values"><td><div class="font-weight-bold">'+currency.name+'</div></td><td>'+currency.value+'</td></tr>');

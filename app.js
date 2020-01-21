@@ -25,10 +25,10 @@ var utilityRouter = require('./routes/utility');
 var spendRouter = require('./routes/spend');
 var emissionModelRouter = require('./routes/emission-model');
 var technologyRouter = require('./routes/technology');
-var allowedLocales = ['en', 'ru'];
+var allowedLocales = ['en', 'ru', 'tr'];
 
 i18n.configure({
-    locales: ['en', 'ru'],
+    locales: ['en', 'ru', 'tr'],
     register: global,
     directory: __dirname + '/locales',
     fallbacks:{'ru': 'en'},
@@ -83,7 +83,8 @@ app.use(function (req, res, next) {
 	let currentLang = 'en';
 	let flag = {
 		en: 'gb',
-		ru: 'ru'
+		ru: 'ru',
+		tr: 'tr'
 	};
 
 	if (req.query.lang !== undefined && allowedLocales.indexOf(req.query.lang) !== -1) {
@@ -98,6 +99,10 @@ app.use(function (req, res, next) {
 				break;
 			}
 		}
+	}
+
+	if (currentLang === 'tr' && req.path !== '/promo') {
+		currentLang = 'en';
 	}
 
 	res.locals.currentFlag = flag[currentLang];

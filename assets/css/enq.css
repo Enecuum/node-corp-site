@@ -29,6 +29,33 @@ body {
 	background: rgba(0,0,0, 0.75);
 }
 
+.enq-mobile-background::before {
+	display: block;
+    content: "";
+    background-image: url(../img/enq/logophonedots.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 1%;
+    bottom: 0;
+    background-size: 50%;
+}
+
+@media (min-width: 900px) and (max-width: 1200px){
+	.enq-mobile-background::before {
+	    background-image: url(../img/enq/mobile-for-everyone.png);
+	    background-size: 30%;
+	    right: 30px;
+	}
+}
+
+@media (max-width: 899.98px) {
+	.enq-mobile-background::before {
+	    background-image: none;
+	}
+}
 
 
 #errorPage .error-content {
@@ -80,6 +107,10 @@ body {
         font-size: 3rem;
         left: calc(50% - 24px);
     }
+
+    .enq-mobile-background::before {
+	    background-image: none;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -256,8 +287,6 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 		height: 250px;
 	}
 }
-
-
 
 .get-documentation, .read-more-container {
 	padding-left: 180px;
