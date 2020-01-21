@@ -4,7 +4,7 @@
     <nav class="js-mega-menu navbar navbar-expand-lg u-header__navbar u-header__navbar--no-space">
       <!-- Logo -->
       <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center py-2" href="/" aria-label="Front">
-        <img src="img/enq/enecuum-logo.svg" alt="Enecuum logo">
+        <img src="/img/enq/enecuum-logo.svg" alt="Enecuum logo">
       </a>
       <!-- End Logo -->
 
@@ -72,7 +72,7 @@
               <li><a class="nav-link u-header__sub-menu-nav-link" href="/hold">{{__ 'HOLD'}}</a></li>
               <li><a class="nav-link u-header__sub-menu-nav-link" href="/spend">{{__ 'SPEND'}}</a></li>
               <li><a class="nav-link u-header__sub-menu-nav-link" href="/utility">{{__ 'UTILITY'}}</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/how-to-swap/">{{__ 'SWAP'}}</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/how-to-swap/">{{__ 'SWAP'}}</a></li>
               <li><a class="nav-link u-header__sub-menu-nav-link" href="/emission-model">{{__ 'EMISSION_MODEL'}}</a></li>
             </ul>
             <!-- End Dropdown - Submenu -->
@@ -104,9 +104,9 @@
             <a id="startMiningDropdownNav" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="startMiningDropdownSubmenu">{{__ 'START_MINING'}}</a>
             <!-- Dropdown - Submenu -->
             <ul id="startMiningDropdownSubmenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="startMiningDropdownNav" style="min-width: 230px;">
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/">{{__ 'HOW_TO_MINE'}}</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/referral/">{{__ 'REFERRAL_PROGRAM'}}</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/faq/">{{__ 'FAQ'}}</a></li>                                     
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/">{{__ 'HOW_TO_MINE'}}</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/referral/">{{__ 'REFERRAL_PROGRAM'}}</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/faq/">{{__ 'FAQ.TITLE'}}</a></li>
             </ul>
             <!-- End Dropdown - Submenu -->
           </li>
@@ -120,14 +120,14 @@
             <a id="guidesDropdownNav" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="guidesDropdownSubmenu">{{__ 'GUIDES'}}</a>
             <!-- Dropdown - Submenu -->
             <ul id="guidesDropdownSubmenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="guidesDropdownNav" style="min-width: 280px;">
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/faq">{{__ 'FAQ'}}</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/how-to-use">{{__ 'HOW_TO_USE_THE_APP'}}</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/how-to-buy">{{__ 'HOW_TO_BUY_ENQ_ON_EXCHANGE'}}</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/how-by-card">{{__ 'HOW_TO_BUY_ENQ_USING_BANK_CARD'}}</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/how-to-swap">{{__ 'HOW_TO_SWAP_ENQ'}}</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/referral">{{__ 'HOW_TO_JOIN_THE_REFERRAL_PROGRAM'}}</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/how-does-roi-work">{{__ 'HOW_DOES_ROI_CALCULATOR_WORK'}}</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="https://guides.enecuum.com/research">{{__ 'RESEARCH_PAPERS'}}</a></li>                        
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/faq">{{__ 'FAQ.TITLE'}}</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/how-to-use">{{__ 'HOW_TO_USE_THE_APP'}}</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/how-to-buy">{{__ 'HOW_TO_BUY_ENQ_ON_EXCHANGE'}}</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/how-by-card">{{__ 'HOW_TO_BUY_ENQ_USING_BANK_CARD'}}</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/how-to-swap">{{__ 'HOW_TO_SWAP_ENQ'}}</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/referral">{{__ 'HOW_TO_JOIN_THE_REFERRAL_PROGRAM'}}</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/how-does-roi-work">{{__ 'HOW_DOES_ROI_CALCULATOR_WORK'}}</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="{{guidesLink}}/research">{{__ 'RESEARCH_PAPERS'}}</a></li>                        
             </ul>
             <!-- End Dropdown - Submenu -->
           </li>
@@ -139,13 +139,13 @@
               data-animation-in="fadeIn"
               data-animation-out="fadeOut">
             <a id="languageDropdownInvoker" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="languageDropdownSubmenu">
-              <img class="dropdown-item-icon" src="vendor/flag-icon-css/flags/4x3/{{currentFlag}}.svg" alt="SVG">
+              <img class="dropdown-item-icon" src="/vendor/flag-icon-css/flags/4x3/{{currentFlag}}.svg" alt="SVG">
               <span class="d-inline-block">{{__ 'LANGUAGE'}}</span>
             </a>
             <!-- Dropdown - Submenu -->
             <ul id="languageDropdownSubmenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="languageDropdownInvoker" style="min-width: 150px;">
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="?lang=ru"><img class="dropdown-item-icon" src="vendor/flag-icon-css/flags/4x3/ru.svg" alt="Russian Federation flag SVG">Русский</a></li>
-              <li><a class="nav-link u-header__sub-menu-nav-link" href="?lang=en"><img class="dropdown-item-icon" src="vendor/flag-icon-css/flags/4x3/gb.svg" alt="UK flag SVG">English</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="?lang=ru"><img class="dropdown-item-icon" src="/vendor/flag-icon-css/flags/4x3/ru.svg" alt="Russian Federation flag SVG">Русский</a></li>
+              <li><a class="nav-link u-header__sub-menu-nav-link" href="?lang=en"><img class="dropdown-item-icon" src="/vendor/flag-icon-css/flags/4x3/gb.svg" alt="UK flag SVG">English</a></li>
             </ul>
             <!-- End Dropdown - Submenu -->
           </li>

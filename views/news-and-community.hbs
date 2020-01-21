@@ -1,24 +1,24 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{currentLang}}">
 <head>
   <!-- Title -->
   <title>{{__ 'NEWS_AND_COMMUNITY'}}</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="shortcut icon" href="/img/favicon.ico">
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- CSS Front Template -->
-  <link rel="stylesheet" href="css/theme.css">
-  <link rel="stylesheet" href="vendor/animate.css/animate.min.css">
-  <link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="/vendor/font-awesome/css/fontawesome-all.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/enq.css">
-  <link rel="stylesheet" href="vendor/dzsparallaxer/dzsparallaxer.css">
-  <link rel="stylesheet" href="vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="/css/enq.css">
+  <link rel="stylesheet" href="/vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="/vendor/hs-megamenu/src/hs.megamenu.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138901721-4"></script>
   <script>
@@ -58,7 +58,7 @@
 
   <div class="enq-top-section dzsparallaxer height-is-based-on-content auto-init use-loading mode-scroll animation-engine-js loaded dzsprx-readyall" data-options="{direction: &quot;normal&quot;}">
     <!-- Apply your Parallax background image here -->
-    <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(img/enq/enq-header-back-5.jpg); transform: translate3d(0px, -72.4172px, 0px);"></div>
+    <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(/img/enq/enq-header-back-5.jpg); transform: translate3d(0px, -72.4172px, 0px);"></div>
 
     <!-- Content -->
     <div class="container position-relative z-index-2 d-flex align-items-center">
@@ -68,7 +68,7 @@
     </div>
     <!-- End Content -->
   </div>
-  <div class="container pt-8"  id="joinOurCommunity">
+  <div class="container pt-8" id="joinOurCommunity">
     <div class="text-center m-auto mb-9">
       <h2 class="h2 font-weight-semi-bold mb-8">{{__ 'JOIN_OUR_COMMUNITY'}}</h2>
       <!-- Social Networks -->
@@ -135,28 +135,7 @@
           </a>
         </li>
         <li class="list-inline-item position-relative">
-          <a id="telegramMenuInvokerForSection" class="btn btn-lg btn-icon btn-soft-secondary btn-bg-transparent" href="javascript:;" role="button"
-            aria-controls="dropdownTelegramForSection"
-            aria-haspopup="true"
-            aria-expanded="false"
-            data-unfold-target="#dropdownTelegramForSection"
-            data-unfold-type="css-animation"
-            data-unfold-target-is-menu="true"
-            data-unfold-hide-on-blur="true"
-            data-unfold-duration="300"
-            data-unfold-delay="300"
-            data-unfold-hide-on-scroll="false"
-            data-unfold-animation-in="fadeIn"
-            data-unfold-animation-out="fadeOut">
-            <span class="fab fa-telegram-plane btn-icon__inner"></span>
-          </a>
-          <div id="dropdownTelegramForSection" class="dropdown-menu dropdown-unfold border py-0" style="right: 0; left: auto;" aria-labelledby="telegramMenuInvokerForSection">
-            <a class="btn btn-sm btn-soft-secondary btn-bg-transparent d-block" href="https://t.me/Enecuum" target="_blank">Russian</a>
-            <a class="btn btn-sm btn-soft-secondary btn-bg-transparent d-block" href="https://t.me/Enecuum_EN" target="_blank">English</a>
-            <a class="btn btn-sm btn-soft-secondary btn-bg-transparent d-block" href="https://t.me/EnecuumIndonesia" target="_blank">Indonesian</a>
-            <a class="btn btn-sm btn-soft-secondary btn-bg-transparent d-block" href="https://t.me/EnecuumNigeria" target="_blank">Nigerian</a>
-            <a class="btn btn-sm btn-soft-secondary btn-bg-transparent d-block" href="https://t.me/EnecuumVietnam" target="_blank">Vietnamese</a>
-          </div>
+          {{> telegramDropdownForSection}}
         </li>
       </ul>
       <!-- End Social Networks -->
@@ -169,31 +148,27 @@
   </div>
 </main>
 
-
-
-
-
 <!-- ========== FOOTER ========== -->
 {{> footer}}
 <!-- ========== END FOOTER ========== -->
 
   <!-- JS Global Compulsory -->
-  <script src="vendor/jquery/dist/jquery.min.js"></script>
-  <script src="vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/vendor/bootstrap/bootstrap.min.js"></script>
 
 
   <!-- JS Front -->
-  <script src="js/hs.core.js"></script>
-  <script src="vendor/dzsparallaxer/dzsparallaxer.js"></script>
-  <script src="js/components/hs.header.js"></script>
-  <script src="js/components/hs.unfold.js"></script>  
+  <script src="/js/hs.core.js"></script>
+  <script src="/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+  <script src="/js/components/hs.header.js"></script>
+  <script src="/js/components/hs.unfold.js"></script>
 
 
   <!-- JS Implementing Plugins -->
-<script src="vendor/appear.js"></script>
-<script src="vendor/hs-megamenu/src/hs.megamenu.js"></script>
+<script src="/vendor/appear.js"></script>
+<script src="/vendor/hs-megamenu/src/hs.megamenu.js"></script>
 
 <!-- JS Plugins Init. -->
 <script>

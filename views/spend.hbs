@@ -1,25 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{currentLang}}">
 <head>
   <!-- Title -->
   <title>{{__ 'SPEND_ENQ'}}</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="shortcut icon" href="/img/favicon.ico">
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- CSS Front Template -->
-  <link rel="stylesheet" href="css/theme.css">
-  <link rel="stylesheet" href="vendor/animate.css/animate.min.css">  
-  <link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="/vendor/font-awesome/css/fontawesome-all.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/enq.css">
-  <link rel="stylesheet" href="vendor/dzsparallaxer/dzsparallaxer.css">
-  <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css">
-  <link rel="stylesheet" href="vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="/css/enq.css">
+  <link rel="stylesheet" href="/vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="/vendor/hs-megamenu/src/hs.megamenu.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138901721-4"></script>
   <script>
@@ -55,7 +55,7 @@
   <main id="content" role="main">
     <div class="enq-top-section dzsparallaxer height-is-based-on-content auto-init use-loading mode-scroll animation-engine-js loaded dzsprx-readyall" data-options="{direction: &quot;normal&quot;}">
       <!-- Apply your Parallax background image here -->
-      <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(img/enq/enq-header-back-enq.png); transform: translate3d(0px, -72.4172px, 0px);"></div>
+      <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(/img/enq/enq-header-back-enq.png); transform: translate3d(0px, -72.4172px, 0px);"></div>
 
       <!-- Content -->
       <div class="container position-relative d-flex align-items-center z-index-2">
@@ -73,7 +73,7 @@
           <div class="col-12 col-md-6 px-md-8 px-md-1 px-lg-7 mb-10 my-md-3">
             <div class="card bg-light border-0 px-2 py-7 px-sm-7 mb-8">
               <a href="https://xwallet.pundix.com/" target="_blank" class="text-center">
-                <img src="img/enq/partners-logo/pundix-logo-black.png" height="25" alt="Pundix">
+                <img src="/img/enq/partners-logo/pundix-logo-black.png" height="25" alt="Pundix">
               </a>
             </div>
             <iframe src="https://www.google.com/maps/d/embed?mid=1LRgwhieU2xz-5E7kjAcqzMunt_u1p6jA" class="w-100" height="280"></iframe>
@@ -81,7 +81,7 @@
           <div class="col-12 col-md-6 px-md-8 px-md-1 px-lg-7 my-md-3">
             <div class="card bg-light border-0 px-2 py-7 px-sm-7 mb-8">
               <a href="https://paytomat.com/en/" target="_blank" class="text-center">
-                <img src="img/enq/partners-logo/paytomat-logo-original.svg" height="25" alt="Paytomat">
+                <img src="/img/enq/partners-logo/paytomat-logo-original.svg" height="25" alt="Paytomat">
               </a>
             </div>
             <div id="paytomatMap" class="d-flex justify-content-center align-items-center border" style="width: 100%; height: 280px">
@@ -97,7 +97,7 @@
       <h2 class="mt-4 mb-4 text-center">{{__ 'SWAP_TO_ERC20'}}</h2>
       <div class="my-5 d-flex mx-auto justify-content-center flex-column flex-md-row">
         <div class="m-3 text-center">
-          <a href="https://guides.enecuum.com/how-to-swap/" class="btn btn-sm btn-primary transition-3d-hover" style="font-size: 1.5rem; width: 220px;" target="_blank">{{__ 'GUIDES'}} <i class="fas fa-info-circle"></i></a>
+          <a href="{{guidesLink}}/how-to-swap/" class="btn btn-sm btn-primary transition-3d-hover" style="font-size: 1.5rem; width: 220px;" target="_blank">{{__ 'GUIDES'}} <i class="fas fa-info-circle"></i></a>
         </div>
           <div class="m-3 text-center">
             <a class="btn btn-sm btn-primary transition-3d-hover js-fancybox"  style="font-size: 1.5rem; width: 220px;"
@@ -146,24 +146,24 @@
 <!-- ========== END FOOTER ========== -->
 
   <!-- JS Global Compulsory -->
-  <script src="vendor/jquery/dist/jquery.min.js"></script>
-  <script src="vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/vendor/bootstrap/bootstrap.min.js"></script>
 
 
   <!-- JS Front -->
-  <script src="js/hs.core.js"></script>
-  <script src="vendor/dzsparallaxer/dzsparallaxer.js"></script>
-  <script src="js/components/hs.header.js"></script>
-  <script src="js/components/hs.unfold.js"></script>
+  <script src="/js/hs.core.js"></script>
+  <script src="/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+  <script src="/js/components/hs.header.js"></script>
+  <script src="/js/components/hs.unfold.js"></script>
 
 
   <!-- JS Implementing Plugins -->
-<script src="vendor/appear.js"></script>
-<script src="vendor/hs-megamenu/src/hs.megamenu.js"></script>
-<script src="vendor/fancybox/jquery.fancybox.min.js"></script>
-<script src="js/components/hs.fancybox.js"></script>
+<script src="/vendor/appear.js"></script>
+<script src="/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+<script src="/vendor/fancybox/jquery.fancybox.min.js"></script>
+<script src="/js/components/hs.fancybox.js"></script>
 
 <!-- JS Plugins Init. -->
 <script>

@@ -53,11 +53,38 @@ app.use(cookieParser());
 app.use(i18n.init);
 
 app.use(function (req, res, next) {
+	if (req.path.indexOf('promo') !== -1) {
+		let downloadAndroidAppLinks = {
+			byUtmSource: {
+				yandex: {
+					masternode: 'http://app.enecuum.com/?utm_source=yandex',
+					googlePlay: 'https://enecuum.page.link/8fVd'
+				},
+				google: {
+					masternode: 'http://app.enecuum.com/?utm_source=google',
+					googlePlay: 'https://enecuum.page.link/2MoZ'
+				},
+				social: {
+					masternode: 'http://app.enecuum.com/?utm_source=social',
+					googlePlay: 'https://enecuum.page.link/M3Eb'
+				}
+			},
+			default: {
+				masternode: 'https://app.enecuum.com?utm_source=unknown',
+				googlePlay: 'https://play.google.com/store/apps/details?id=com.enecuum.wallet&utm_source=unknown'
+			}
+		};
+		res.locals.enecuumAppLink = (req.query.utm_source !== undefined && downloadAndroidAppLinks.byUtmSource.hasOwnProperty(req.query.utm_source)) ? downloadAndroidAppLinks.byUtmSource[req.query.utm_source] : downloadAndroidAppLinks.default;
+	}
+	next();
+});
+
+app.use(function (req, res, next) {
 	let currentLang = 'en';
 	let flag = {
 		en: 'gb',
 		ru: 'ru'
-	}
+	};
 
 	if (req.query.lang !== undefined && allowedLocales.indexOf(req.query.lang) !== -1) {
 		currentLang = req.query.lang;
@@ -74,27 +101,39 @@ app.use(function (req, res, next) {
 	}
 
 	res.locals.currentFlag = flag[currentLang];
+	res.locals.currentLang = currentLang;
+
+	if (currentLang === 'ru') {
+		res.locals.mobileImpactArticleLink = 'https://hub.forklog.com/vliyanie-mobilnogo-majninga-na-batareyu-ustrojstva-sravnitelnyj-analiz-uplexa-mib-i-enecuum/';
+		res.locals.guidesLink = 'https://guides.enecuum.com/ru';
+	} else {
+		res.locals.mobileImpactArticleLink = 'https://medium.com/@ENQBlockchain/smartphone-mining-on-battery-myth-or-reality-comparing-uplexa-mib-and-enecuum-bc0abc1e40e6';
+		res.locals.guidesLink = 'https://guides.enecuum.com';
+	}
+
 	res.setLocale(currentLang);
 	next();
 });
 
-app.use('/', indexRouter);
-app.use('/promo', promoRouter);
-app.use('/mission-and-purpose', missionAndPurposeRouter);
-app.use('/documentation', documentationRouter);
-app.use('/team', teamRouter);
-app.use('/market-stats', marketSratsRouter);
-app.use('/network-stats', networkStatsRouter);
-app.use('/roadmap', roadmapRouter);
-app.use('/partners', partnersRouter);
-app.use('/news-and-community', newsAndCommunityRouter);
-app.use('/buy', buyRouter);
-app.use('/earn', earnRouter);
-app.use('/hold', holdRouter);
-app.use('/spend', spendRouter);
-app.use('/utility', utilityRouter);
-app.use('/emission-model', emissionModelRouter);
-app.use('/technology', technologyRouter);
+app.use('/{0,}', indexRouter);
+app.use('/index.html', indexRouter);
+app.use('/promo/{0,}', promoRouter);
+app.use(['/mission-and-purpose/{0,}', '/Mission%20and%20purpose.html/{0,}'], missionAndPurposeRouter);
+app.use(['/documentation/{0,}', '/Documentation.html/{0,}'], documentationRouter);
+app.use(['/team/{0,}', '/Team.html/{0,}'], teamRouter);
+app.use(['/market-stats/{0,}', '/Marketstats.html/{0,}'], marketSratsRouter);
+app.use(['/network-stats/{0,}', '/Networkstats.html/{0,}'], networkStatsRouter);
+app.use(['/roadmap/{0,}', '/Roadmap.html/{0,}'], roadmapRouter);
+app.use(['/partners/{0,}', '/Partners.html/{0,}'], partnersRouter);
+app.use(['/news-and-community/{0,}', '/NewsAndCommunity.html/{0,}'], newsAndCommunityRouter);
+app.use(['/buy/{0,}', '/Buy.html/{0,}'], buyRouter);
+app.use(['/earn/{0,}', '/Earn.html/{0,}'], earnRouter);
+app.use(['/hold/{0,}', '/Hold.html/{0,}'], holdRouter);
+app.use(['/spend/{0,}', '/Spend.html/{0,}'], spendRouter);
+app.use(['/utility/{0,}', '/Utility.html/{0,}'], utilityRouter);
+app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}'], emissionModelRouter);
+app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
+
 app.use(function (req, res, next) {
 	if ('/robots.txt' === req.url) {
 		res.type('text/plain');
@@ -105,7 +144,35 @@ app.use(function (req, res, next) {
 });
 app.use(function (req, res, next) {
 	if ('/sitemap.xml' === req.url) {
-		res.sendFile(__dirname + '/public/sitemap.xml')
+		res.sendFile(__dirname + '/public/sitemap.xml');
+	} else {
+		next();
+	}
+});
+app.use(function (req, res, next) {
+	if (req.url.indexOf('/privacy.pdf') !== -1) {
+		res.sendFile(__dirname + '/assets/pdf/privacy.pdf');
+	} else {
+		next();
+	}
+});
+app.use(function (req, res, next) {
+	if (req.url.indexOf('/terms.pdf') !== -1) {
+		res.sendFile(__dirname + '/assets/pdf/terms.pdf');
+	} else {
+		next();
+	}
+});
+app.use(function (req, res, next) {
+	if (req.url.indexOf('/tp_en.pdf') !== -1) {
+		res.sendFile(__dirname + '/assets/pdf/tp_en.pdf');
+	} else {
+		next();
+	}
+});
+app.use(function (req, res, next) {
+	if (req.url.indexOf('/pp_en.pdf') !== -1) {
+		res.sendFile(__dirname + '/assets/pdf/pp_en.pdf');
 	} else {
 		next();
 	}

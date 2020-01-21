@@ -1,29 +1,29 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{currentLang}}">
 <head>
   <!-- Title -->
   <title>Enecuum | ENQ | Blockchain of tomorrow</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="shortcut icon" href="/img/favicon.ico">
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
   <!-- CSS Front Template -->
-  <link rel="stylesheet" href="css/theme.css">
-  <link rel="stylesheet" href="vendor/animate.css/animate.min.css">  
-  <link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="/vendor/font-awesome/css/fontawesome-all.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/enq.css">
-  <link rel="stylesheet" href="vendor/dzsparallaxer/dzsparallaxer.css">
-  <link rel="stylesheet" href="vendor/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="/css/enq.css">
+  <link rel="stylesheet" href="/vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="/vendor/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css">
-  <link rel="stylesheet" type="text/css" href="css/enq-map/jquery-jvectormap-2.0.3.css">
-  <link rel="stylesheet" href="vendor/hs-megamenu/src/hs.megamenu.css">
-  <link rel="stylesheet" href="vendor/hs-bg-video/hs-bg-video.css">
+  <link rel="stylesheet" type="text/css" href="/css/enq-map/jquery-jvectormap-2.0.3.css">
+  <link rel="stylesheet" href="/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="/vendor/hs-bg-video/hs-bg-video.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138901721-4"></script>
   <script>
@@ -118,7 +118,7 @@
 <div id="heroMain" class="gradient-overlay-half-primary-video-v1 height-100vh">
   <!-- Video Background -->
   <div class="js-bg-video d-none d-md-block position-absolute w-100 height-100vh"
-       data-hs-bgv-path="video/earth"
+       data-hs-bgv-path="/video/earth"
        data-hs-bgv-loop="1">
   </div>
   <!-- End Video Background -->
@@ -126,8 +126,8 @@
   <div class="container position-relative space-2 space-top-md-3 space-bottom-md-2 z-index-2 d-flex align-items-center h-100">
     <div class="pt-5 text-white">
         <h1 class="mb-4 text-uppercase" id="mainTitle">
-            <div>{{__ "PROMO_TITLE_P1"}}</div>
-            <div>{{__ "PROMO_TITLE_P2"}}</div>
+            <span class="d-block">{{__ "PROMO_TITLE_P1"}}</span>
+            <span class="d-block">{{__ "PROMO_TITLE_P2"}}</span>
         </h1>
         <span class="arrow-down mdi mdi-chevron-down position-absolute go-down" data-content="enqAdvantages"></span>
     </div>
@@ -141,68 +141,7 @@
     {{> howToStart}}
 
     <div class="bg-light">
-  <div class="container" id="startMiningToday">
-    <div class="row">
-      <div class="col-12 col-lg-6 py-10" >
-        <h2 class="mb-8 text-center text-md-left">{{__ 'JOIN_ENECUUM_NETWORK'}}</h2>
-        <div id="ROICalcContainer" class="mb-8">
-          <div class="form-group mb-3 w-100">
-              <div class="row align-items-center">
-                  <label for="roiStake" class="col-12 col-sm-6">{{__ 'ROI_STAKE_LITE_CALC'}}</label>
-                  <div class="col-12 col-sm-6 d-flex align-items-center flex-nowrap">
-                      <input type="text" id="roiStake" class="col form-control text-center font-size-03" value="25" autocomplete="off">
-                      <span class="ml-3 font-weight-bolder">ENQ</span>
-                  </div>
-              </div>
-          </div>
-          <div class="form-group mb-3 w-100">
-              <div class="row align-items-center">
-                  <label class="col-12 col-sm-6">{{__ 'ANNUAL_ROI'}}</label>
-                  <div class="col-12 col-sm-6 d-flex align-items-center flex-nowrap">
-                      <input type="text" id="roiRecalc" class="form-control font-weight-bolder text-blue text-center font-size-03" disabled>
-                      <span class="ml-3 font-weight-bolder">ENQ</span>
-                  </div>
-              </div>
-          </div>
-          <div class="custom-control custom-switch">
-              <input type="checkbox" class="custom-control-input" id="refCheck">
-              <label class="custom-control-label pt-1 pl-2" for="refCheck">{{__ 'IS_REFERRAL'}}</label>
-          </div>
-        </div>
-
-        <div class="text-center text-md-left ">
-            <h4 class="mb-5">{{__ 'DOWNLOAD_ANDROID_MASTERNODE'}}</h4>
-            <div class="mb-5"><a class="androidminerButton btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover" href="https://app.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black;"><div class="d-flex align-items-center" style="height: 48px;"><i class="fab fa-android mr-2" style="font-size: 37px;"></i><span class="font-weight-bold font-size-03">Android miner</span></div></a></div>
-            <h4 class="mb-2">{{__ 'WALLETS'}}</h4>
-
-            <div class="mb-5">
-              <div class="d-flex flex-column justify-content-center mx-auto flex-md-row justify-content-md-start">
-                <div class="flex-grow-0 flex-shrink-0 ">
-                <a class="webwalletButton btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover mb-3" href="https://wallet.enecuum.com" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fas fa-desktop mr-2"  style="font-size: 20px;"></i><span class="font-weight-bold font-size-03">Web wallet</span></div></a>
-                </div>
-                <div class="flex-grow-0 flex-shrink-0 ">
-                <a href="https://play.google.com/store/apps/details?id=com.enecuum.wallet" role="button" class="googleplayWalletButton btn btn-primary p-0 mr-0 mr-md-3 transition-3d-hover mb-3" style="border: 2px solid #a6a6a6; background: black;">
-                  <img src="img/enq/online-app-markets/google-play-badge-1.png" alt="Google play badge" height="50">
-                </a>
-                </div>
-                <div  class="flex-grow-0 flex-shrink-0 ">
-                 <a class="ioswalletButton btn btn-primary py-0 mr-0 mr-md-3 transition-3d-hover  mb-3" href="https://testflight.apple.com/join/EhGhg78t" role="button" style="border: 2px solid #a6a6a6; background: black; width: 174px;"><div class="d-flex align-items-center" style="height: 50px;"><i class="fab fa-apple mr-2" style="font-size: 30px;"></i><span class="font-weight-bold font-size-03">iOS wallet</span></div></a>
-                 </div>
-              </div>
-            </div>
-        </div>
-<!--         <h4 class="mb-2">Blockchain Explorer</h4>
-        <div class="mb-5"><a class="btn btn-primary py-0 mr-3 transition-3d-hover" href="#" role="button" style="border: 2px solid #a6a6a6; background: black;"><div class="d-flex align-items-center" style="height: 48px;">Blockchain Explorer</div></a></div> -->
-      </div>
-      <div class="col-lg-6 d-none d-lg-flex align-items-center">
-        <div class="position-relative ml-auto" id="startMiningMobileColumn">
-          <img src="img/enq/start-mining-mobile.png" alt="Start minig mobile">
-          <div  id="startMiningBlueMark">{{__ 'START_MINING'}}</div>
-          <a href="https://guides.enecuum.com" target="_blank" id="startMiningBlueMarkRing" class="startminingButton rotating"></a>
-        </div>
-      </div>
-    </div>
-  </div>
+      {{> joinEnecuumNetwork}}
     </div>
     <div class="container my-10">
         <h2 class="mt-4 mb-8 text-center">{{__ "HOW_TO_MINE"}}</h2>
@@ -227,32 +166,32 @@
 <!-- ========== END FOOTER ========== -->
 
   <!-- JS Global Compulsory -->
-  <script src="vendor/jquery/dist/jquery.min.js"></script>
-  <script src="vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/vendor/bootstrap/bootstrap.min.js"></script>
 
 
   <!-- JS Front -->
-  <script src="js/hs.core.js"></script>
-  <script src="vendor/dzsparallaxer/dzsparallaxer.js"></script>
-  <script src="js/components/hs.slick-carousel.js"></script>
-  <script src="js/components/hs.header.js"></script>
-  <script src="js/components/hs.unfold.js"></script>
-  <script src="js/components/hs.bg-video.js"></script>
- <script src="js/components/hs.sticky-block.js"></script>
+  <script src="/js/hs.core.js"></script>
+  <script src="/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+  <script src="/js/components/hs.slick-carousel.js"></script>
+  <script src="/js/components/hs.header.js"></script>
+  <script src="/js/components/hs.unfold.js"></script>
+  <script src="/js/components/hs.bg-video.js"></script>
+ <script src="/js/components/hs.sticky-block.js"></script>
 
 
   <!-- JS Implementing Plugins -->
-<script src="vendor/fancybox/jquery.fancybox.min.js"></script>
-<script src="vendor/slick-carousel/slick/slick.js"></script>
-<script src="js/components/hs.fancybox.js"></script>
-<script src="js/enq-map/jquery-jvectormap-2.0.3.min.js"></script>
-<script src="js/enq-map/jquery-jvectormap-world-mill.js"></script>
-<script src="vendor/hs-megamenu/src/hs.megamenu.js"></script>
-<script src="vendor/hs-bg-video/hs-bg-video.js"></script>
-<script src="vendor/hs-bg-video/vendor/player.min.js"></script>
-<script src="js/components/hs.scroll-nav.js"></script>
+<script src="/vendor/fancybox/jquery.fancybox.min.js"></script>
+<script src="/vendor/slick-carousel/slick/slick.js"></script>
+<script src="/js/components/hs.fancybox.js"></script>
+<script src="/js/enq-map/jquery-jvectormap-2.0.3.min.js"></script>
+<script src="/js/enq-map/jquery-jvectormap-world-mill.js"></script>
+<script src="/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+<script src="/vendor/hs-bg-video/hs-bg-video.js"></script>
+<script src="/vendor/hs-bg-video/vendor/player.min.js"></script>
+<script src="/js/components/hs.scroll-nav.js"></script>
 
 <!-- JS Plugins Init. -->
 <script>
@@ -536,8 +475,11 @@
 
     refreshRoiCalc(scope.translationData.stake);
 
-    $('#roiStake').on('change keyup', function() {
+    $('#roiStake').on('change keyup', function() {      
       let inputStake = parseFloat($(this).val());
+      if (isNaN(inputStake)) {
+        inputStake = 25;
+      }
       $(this).val(inputStake);
       if (inputStake < 25 || inputStake > 25000) {
           inputStake = inputStake < 25 ? 25 : 25000;
