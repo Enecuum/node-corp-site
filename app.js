@@ -53,28 +53,38 @@ app.use(cookieParser());
 app.use(i18n.init);
 
 app.use(function (req, res, next) {
-	if (req.path.indexOf('promo') !== -1) {
-		let downloadAndroidAppLinks = {
-			byUtmSource: {
-				yandex: {
-					masternode: 'http://app.enecuum.com/?utm_source=yandex',
-					googlePlay: 'https://enecuum.page.link/8fVd'
-				},
-				google: {
-					masternode: 'http://app.enecuum.com/?utm_source=google',
-					googlePlay: 'https://enecuum.page.link/2MoZ'
-				},
-				social: {
-					masternode: 'http://app.enecuum.com/?utm_source=social',
-					googlePlay: 'https://enecuum.page.link/M3Eb'
-				}
+	let downloadAndroidAppLinks = {
+		byUtmSource: {
+			yandex: {
+				masternode: 'http://app.enecuum.com/?utm_source=yandex',
+				googlePlay: 'https://enecuum.page.link/8fVd'
 			},
-			default: {
-				masternode: 'https://app.enecuum.com?utm_source=unknown',
-				googlePlay: 'https://play.google.com/store/apps/details?id=com.enecuum.wallet&utm_source=unknown'
+			google: {
+				masternode: 'http://app.enecuum.com/?utm_source=google',
+				googlePlay: 'https://enecuum.page.link/2MoZ'
+			},
+			social: {
+				masternode: 'http://app.enecuum.com/?utm_source=social',
+				googlePlay: 'https://enecuum.page.link/M3Eb'
+			},
+			uzmancoin: {
+				masternode: 'https://app.enecuum.com/?utm_source=uzmancoin',
+				googlePlay: 'https://enecuum.page.link/hg69'
 			}
-		};
-		res.locals.enecuumAppLink = (req.query.utm_source !== undefined && downloadAndroidAppLinks.byUtmSource.hasOwnProperty(req.query.utm_source)) ? downloadAndroidAppLinks.byUtmSource[req.query.utm_source] : downloadAndroidAppLinks.default;
+		},
+		defaultUtmSource: {
+			masternode: 'https://app.enecuum.com?utm_source=unknown',
+			googlePlay: 'https://play.google.com/store/apps/details?id=com.enecuum.wallet&utm_source=unknown'
+		},
+		defaultNoUtm: {
+			masternode: 'https://app.enecuum.com',
+			googlePlay: 'https://play.google.com/store/apps/details?id=com.enecuum.wallet'
+		}
+	};
+	if (req.path.indexOf('promo') !== -1) {
+		res.locals.enecuumAppLink = (req.query.utm_source !== undefined && downloadAndroidAppLinks.byUtmSource.hasOwnProperty(req.query.utm_source)) ? downloadAndroidAppLinks.byUtmSource[req.query.utm_source] : downloadAndroidAppLinks.defaultUtmSource;
+	} else {
+		res.locals.enecuumAppLink = downloadAndroidAppLinks.defaultNoUtm;
 	}
 	next();
 });
