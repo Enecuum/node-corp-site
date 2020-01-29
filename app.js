@@ -66,6 +66,10 @@ app.use(function (req, res, next) {
 			social: {
 				masternode: 'http://app.enecuum.com/?utm_source=social',
 				googlePlay: 'https://enecuum.page.link/M3Eb'
+			},
+			uzmancoin: {
+				masternode: 'https://app.enecuum.com/?utm_source=uzmancoin',
+				googlePlay: 'https://enecuum.page.link/hg69'
 			}
 		},
 		defaultUtmSource: {
