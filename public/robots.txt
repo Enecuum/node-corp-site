@@ -9,7 +9,7 @@ Disallow: /privacy.pdf
 Disallow: /javascript;
 Disallow: /javascript;?lang=ru
 Disallow: /javascript;?lang=en
-Host: enecuum.com
+Host: https://enecuum.com
 Sitemap: https://enecuum.com/sitemap.xml
 
 User-agent: Yandex
@@ -26,7 +26,7 @@ Disallow: /javascript;?lang=en
 Disallow: /promo
 Disallow: /promo?lang=ru
 Disallow: /promo?lang=en
-Host: enecuum.com
+Host: https://enecuum.com
 Sitemap: https://enecuum.com/sitemap.xml
 
 User-agent: YandexBot
@@ -43,7 +43,7 @@ Disallow: /javascript;?lang=en
 Disallow: /promo
 Disallow: /promo?lang=ru
 Disallow: /promo?lang=en
-Host: enecuum.com
+Host: https://enecuum.com
 Sitemap: https://enecuum.com/sitemap.xml
 
 User-agent: Googlebot
@@ -57,5 +57,5 @@ Disallow: /privacy.pdf
 Disallow: /javascript;
 Disallow: /javascript;?lang=ru
 Disallow: /javascript;?lang=en
-Host: enecuum.com
+Host: https://enecuum.com
 Sitemap: https://enecuum.com/sitemap.xml
