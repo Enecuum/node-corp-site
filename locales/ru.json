@@ -235,7 +235,29 @@
 			"NAME": "Kelly Ifaluyi",
 			"DESCR": "Профессиональный коммьюнити-менеджер и посол бренда с более чем 2-летним опытом работы и всесторонним знанием различных социальных сетей, стратегий и технологий блокчейн."
 		}
-
+	},
+	"AMBASSADORS": "Ambassadors",
+	"AMBASSADORS_CARDS": {
+		"HAL_NKRUMAH": {
+			"NAME": "Hal Nkrumah",
+			"LANGUAGE": "English and Twi",
+			"COUNTRY": "Ghana"
+		},
+		"AZEEZ_OLANREWAJU_ABDULFATTAH": {
+			"NAME": "Azeez Olanrewaju Abdulfattáh",
+			"LANGUAGE": "English",
+			"COUNTRY": "Nigeria"
+		},
+		"ABDULWAHAB": {
+			"NAME": "Abdulwahab",
+			"LANGUAGE": "English",
+			"COUNTRY": "Nigeria"
+		}		
+	},
+	"AMBASSADORS_ATTRIBUTES": {
+		"NAME": "Name",
+		"LANGUAGE": "Language",
+		"COUNTRY": "Country"
 	},
 	"CEO": "Исполнительный директор",
 	"CTO": "Технический директор",

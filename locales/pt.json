@@ -235,7 +235,29 @@
 			"NAME": "Kelly Ifaluyi",
 			"DESCR": "An enthusiastic professional community manager and Brand ambassador with over 2 years experience and comprehensive knowledge of diverse social media channels, strategies and blockchain technology."
 		}
-
+	},
+	"AMBASSADORS": "Ambassadors",
+	"AMBASSADORS_CARDS": {
+		"HAL_NKRUMAH": {
+			"NAME": "Hal Nkrumah",
+			"LANGUAGE": "English and Twi",
+			"COUNTRY": "Ghana"
+		},
+		"AZEEZ_OLANREWAJU_ABDULFATTAH": {
+			"NAME": "Azeez Olanrewaju Abdulfattáh",
+			"LANGUAGE": "English",
+			"COUNTRY": "Nigeria"
+		},
+		"ABDULWAHAB": {
+			"NAME": "Abdulwahab",
+			"LANGUAGE": "English",
+			"COUNTRY": "Nigeria"
+		}		
+	},
+	"AMBASSADORS_ATTRIBUTES": {
+		"NAME": "Name",
+		"LANGUAGE": "Language",
+		"COUNTRY": "Country"
 	},
 	"CEO": "CEO",
 	"CTO": "CTO",
