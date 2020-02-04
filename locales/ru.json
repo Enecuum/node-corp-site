@@ -236,27 +236,27 @@
 			"DESCR": "Профессиональный коммьюнити-менеджер и посол бренда с более чем 2-летним опытом работы и всесторонним знанием различных социальных сетей, стратегий и технологий блокчейн."
 		}
 	},
-	"AMBASSADORS": "Ambassadors",
+	"AMBASSADORS": "Представители",
 	"AMBASSADORS_CARDS": {
 		"HAL_NKRUMAH": {
 			"NAME": "Hal Nkrumah",
-			"LANGUAGE": "English and Twi",
-			"COUNTRY": "Ghana"
+			"LANGUAGE": "Английский, Чви",
+			"COUNTRY": "Га́на"
 		},
 		"AZEEZ_OLANREWAJU_ABDULFATTAH": {
 			"NAME": "Azeez Olanrewaju Abdulfattáh",
-			"LANGUAGE": "English",
-			"COUNTRY": "Nigeria"
+			"LANGUAGE": "Английский",
+			"COUNTRY": "Нигерия"
 		},
 		"ABDULWAHAB": {
 			"NAME": "Abdulwahab",
-			"LANGUAGE": "English",
-			"COUNTRY": "Nigeria"
+			"LANGUAGE": "Английский",
+			"COUNTRY": "Нигерия"
 		}		
 	},
 	"AMBASSADORS_ATTRIBUTES": {
 		"NAME": "Name",
-		"LANGUAGE": "Language",
+		"LANGUAGE": "Язык",
 		"COUNTRY": "Country"
 	},
 	"CEO": "Исполнительный директор",
@@ -271,6 +271,7 @@
 	"QA_ENGINEER": "Инженер по тестированию",
 	"WEB_DEVELOPER": "Веб разрабочик",
 	"ADVISOR": "Консультант",
+	"AMBASSADOR": "Представитель",
 	"COMMUNITY_MANAGER": "Коммьюнити менеджер",
 	"ROADMAP_CONTENT": {
 		"Q2_2017": { 
