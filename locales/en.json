@@ -241,7 +241,7 @@
 	"AMBASSADORS_CARDS": {
 		"HAL_NKRUMAH": {
 			"NAME": "Hal Nkrumah",
-			"LANGUAGE": "English and Twi",
+			"LANGUAGE": "English, Twi",
 			"COUNTRY": "Ghana"
 		},
 		"AZEEZ_OLANREWAJU_ABDULFATTAH": {
@@ -249,8 +249,23 @@
 			"LANGUAGE": "English",
 			"COUNTRY": "Nigeria"
 		},
-		"ABDULWAHAB": {
-			"NAME": "Abdulwahab",
+		"ABDULWAHAB_MAYOWA": {
+			"NAME": "Abdulwahab Mayowa",
+			"LANGUAGE": "English",
+			"COUNTRY": "Nigeria"
+		},
+		"BARINEKA_MAAGBO": {
+			"NAME": "Barineka Maagbo",
+			"LANGUAGE": "English",
+			"COUNTRY": "Nigeria"
+		},
+		"RAFAEL_AREVALO": {
+			"NAME": "Rafael Arevalo",
+			"LANGUAGE": "English, Spanish",
+			"COUNTRY": "Colombia"
+		},
+		"EMMANUEL_OMISADE": {
+			"NAME": "Emmanuel Omisade",
 			"LANGUAGE": "English",
 			"COUNTRY": "Nigeria"
 		}		

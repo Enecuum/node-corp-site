@@ -248,8 +248,23 @@
 			"LANGUAGE": "Английский",
 			"COUNTRY": "Нигерия"
 		},
-		"ABDULWAHAB": {
-			"NAME": "Abdulwahab",
+		"ABDULWAHAB_MAYOWA": {
+			"NAME": "Abdulwahab Mayowa",
+			"LANGUAGE": "Английский",
+			"COUNTRY": "Нигерия"
+		},
+		"BARINEKA_MAAGBO": {
+			"NAME": "Barineka Maagbo",
+			"LANGUAGE": "Английский",
+			"COUNTRY": "Нигерия"
+		},
+		"RAFAEL_AREVALO": {
+			"NAME": "Rafael Arevalo",
+			"LANGUAGE": "Английский, Испанский",
+			"COUNTRY": "Колумбия"
+		},
+		"EMMANUEL_OMISADE": {
+			"NAME": "Emmanuel Omisade",
 			"LANGUAGE": "Английский",
 			"COUNTRY": "Нигерия"
 		}		
