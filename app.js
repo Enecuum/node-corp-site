@@ -25,7 +25,7 @@ var utilityRouter = require('./routes/utility');
 var spendRouter = require('./routes/spend');
 var emissionModelRouter = require('./routes/emission-model');
 var technologyRouter = require('./routes/technology');
-var allowedLocales = ['en', 'ru', 'tr', 'es', 'pt', 'sp']; //sp - uncorrect value for es (spanish)
+var allowedLocales = ['en', 'ru', 'tr', 'es', 'pt'];
 
 i18n.configure({
     locales: allowedLocales,
@@ -89,6 +89,14 @@ app.use(function (req, res, next) {
 	next();
 });
 
+
+app.use(function (req, res, next) {
+		if (req.query.lang === 'sp') {
+			res.status(301).redirect('?lang=es');
+		}
+		next();
+});
+
 app.use(function (req, res, next) {
 	let currentLang = 'en';
 	let flag = {
@@ -100,9 +108,6 @@ app.use(function (req, res, next) {
 	};
 
 	if (req.query.lang !== undefined && allowedLocales.indexOf(req.query.lang) !== -1) {
-		if (req.query.lang === 'sp') {
-			req.query.lang = 'es';
-		}
 		currentLang = req.query.lang;
 		res.cookie('preferredLocale', currentLang, { maxAge: 3600000*24*365*10, httpOnly: true });				
 	} else if (req.cookies.preferredLocale !== undefined && allowedLocales.indexOf(req.cookies.preferredLocale) !== -1) {
