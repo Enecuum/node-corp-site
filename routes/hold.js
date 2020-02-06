@@ -5,9 +5,10 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   let targetResource = 'hold';
   if (req.baseUrl !== '/' + targetResource) {
-    res.redirect('/' + targetResource);
+    res.redirect(301, '/' + targetResource);
+  } else {
+  	res.render(targetResource, { title: 'Express' });
   }
-  res.render(targetResource, { title: 'Express' });
 });
 
 module.exports = router;
