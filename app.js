@@ -89,55 +89,56 @@ app.use(function (req, res, next) {
 	next();
 });
 
-
 app.use(function (req, res, next) {
-		if (req.query.lang === 'sp') {
-			res.status(301).redirect('?lang=es');
+	if (req.query.lang !== undefined && req.query.lang === 'sp') {
+		let paramsString = '?lang=es';
+		for (param in req.query) {
+			if (param !== 'lang')
+				paramsString += '&' + param + '=' + req.query[param];
 		}
-		next();
-});
+		res.redirect(301, paramsString);
+	} else {
+		let currentLang = 'en';
+		let flag = {
+			en: 'gb',
+			ru: 'ru',
+			tr: 'tr',
+			es: 'es',
+			pt: 'pt'
+		};
 
-app.use(function (req, res, next) {
-	let currentLang = 'en';
-	let flag = {
-		en: 'gb',
-		ru: 'ru',
-		tr: 'tr',
-		es: 'es',
-		pt: 'pt'
-	};
-
-	if (req.query.lang !== undefined && allowedLocales.indexOf(req.query.lang) !== -1) {
-		currentLang = req.query.lang;
-		res.cookie('preferredLocale', currentLang, { maxAge: 3600000*24*365*10, httpOnly: true });				
-	} else if (req.cookies.preferredLocale !== undefined && allowedLocales.indexOf(req.cookies.preferredLocale) !== -1) {
-		currentLang = req.cookies.preferredLocale;
-	} else if (req.acceptsLanguages() !== false) {
-		for (let i = 0; i < req.acceptsLanguages().length; i++) {
-			if (allowedLocales.indexOf(req.acceptsLanguages()[i]) !== -1) {
-				currentLang =  req.acceptsLanguages()[i];
-				break;
+		if (req.query.lang !== undefined && allowedLocales.indexOf(req.query.lang) !== -1) {
+			currentLang = req.query.lang;
+			res.cookie('preferredLocale', currentLang, { maxAge: 3600000*24*365*10, httpOnly: true });				
+		} else if (req.cookies.preferredLocale !== undefined && allowedLocales.indexOf(req.cookies.preferredLocale) !== -1) {
+			currentLang = req.cookies.preferredLocale;
+		} else if (req.acceptsLanguages() !== false) {
+			for (let i = 0; i < req.acceptsLanguages().length; i++) {
+				if (allowedLocales.indexOf(req.acceptsLanguages()[i]) !== -1) {
+					currentLang =  req.acceptsLanguages()[i];
+					break;
+				}
 			}
 		}
-	}
 
-	if (allowedLocales.indexOf(currentLang) > 1 && req.path !== '/promo') {
-		currentLang = 'en';
-	}
+		if (allowedLocales.indexOf(currentLang) > 1 && req.path !== '/promo') {
+			currentLang = 'en';
+		}
 
-	res.locals.currentFlag = flag[currentLang];
-	res.locals.currentLang = currentLang;
+		res.locals.currentFlag = flag[currentLang];
+		res.locals.currentLang = currentLang;
 
-	if (currentLang === 'ru') {
-		res.locals.mobileImpactArticleLink = 'https://hub.forklog.com/vliyanie-mobilnogo-majninga-na-batareyu-ustrojstva-sravnitelnyj-analiz-uplexa-mib-i-enecuum/';
-		res.locals.guidesLink = 'https://guides.enecuum.com/ru';
-	} else {
-		res.locals.mobileImpactArticleLink = 'https://medium.com/@ENQBlockchain/smartphone-mining-on-battery-myth-or-reality-comparing-uplexa-mib-and-enecuum-bc0abc1e40e6';
-		res.locals.guidesLink = 'https://guides.enecuum.com';
-	}
+		if (currentLang === 'ru') {
+			res.locals.mobileImpactArticleLink = 'https://hub.forklog.com/vliyanie-mobilnogo-majninga-na-batareyu-ustrojstva-sravnitelnyj-analiz-uplexa-mib-i-enecuum/';
+			res.locals.guidesLink = 'https://guides.enecuum.com/ru';
+		} else {
+			res.locals.mobileImpactArticleLink = 'https://medium.com/@ENQBlockchain/smartphone-mining-on-battery-myth-or-reality-comparing-uplexa-mib-and-enecuum-bc0abc1e40e6';
+			res.locals.guidesLink = 'https://guides.enecuum.com';
+		}
 
-	res.setLocale(currentLang);
-	next();
+		res.setLocale(currentLang);
+		next();
+	}	
 });
 
 app.use('/{0,}', indexRouter);
