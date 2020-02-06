@@ -258,21 +258,24 @@
 			"LANGUAGE": "Английский",
 			"COUNTRY": "Нигерия"
 		},
+		"EMMANUEL_OMISADE": {
+			"NAME": "Emmanuel Omisade",
+			"LANGUAGE": "Английский",
+			"COUNTRY": "Нигерия"
+		},
 		"RAFAEL_AREVALO": {
 			"NAME": "Rafael Arevalo",
 			"LANGUAGE": "Английский, Испанский",
 			"COUNTRY": "Колумбия"
 		},
-		"EMMANUEL_OMISADE": {
-			"NAME": "Emmanuel Omisade",
-			"LANGUAGE": "Английский",
-			"COUNTRY": "Нигерия"
+		"MARK_TUT": {
+			"NAME": "Mark Tut",
+			"LANGUAGE": "Русский, Белорусский, Английский",
+			"COUNTRY": "Белоруссия"
 		}		
 	},
 	"AMBASSADORS_ATTRIBUTES": {
-		"NAME": "Name",
-		"LANGUAGE": "Язык",
-		"COUNTRY": "Country"
+		"LANGUAGE": "Язык"
 	},
 	"CEO": "Исполнительный директор",
 	"CTO": "Технический директор",

@@ -268,12 +268,15 @@
 			"NAME": "Emmanuel Omisade",
 			"LANGUAGE": "English",
 			"COUNTRY": "Nigeria"
+		},
+		"MARK_TUT": {
+			"NAME": "Mark Tut",
+			"LANGUAGE": "Russian, Belarusian, English",
+			"COUNTRY": "Belarus"
 		}		
 	},
 	"AMBASSADORS_ATTRIBUTES": {
-		"NAME": "Name",
-		"LANGUAGE": "Language",
-		"COUNTRY": "Country"
+		"LANGUAGE": "Language"
 	},	
 	"CEO": "CEO",
 	"CTO": "CTO",
