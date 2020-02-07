@@ -1005,3 +1005,9 @@ table.table-to-cards .scope-col {
 .partners-item.slick-slide {
 	height: 100%!important;
 }
+
+.team-member-flag {
+	width: 1.6rem;
+	height: 1.2rem;
+    margin-right: .5rem;
+}
