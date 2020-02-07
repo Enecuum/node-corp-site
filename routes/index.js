@@ -4,9 +4,10 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   if (req.baseUrl !== '') {
-    res.redirect('/');
-  }
-  res.render('index', { title: 'Express' });
+    res.redirect(301, '/');
+  } else {
+  	res.render('index', { title: 'Express' });
+  }  
 });
 
 module.exports = router;
