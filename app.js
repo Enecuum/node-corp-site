@@ -81,11 +81,16 @@ app.use(function (req, res, next) {
 			googlePlay: 'https://play.google.com/store/apps/details?id=com.enecuum.wallet'
 		}
 	};
-	if (req.path.indexOf('promo') !== -1) {
-		res.locals.enecuumAppLink = (req.query.utm_source !== undefined && downloadAndroidAppLinks.byUtmSource.hasOwnProperty(req.query.utm_source)) ? downloadAndroidAppLinks.byUtmSource[req.query.utm_source] : downloadAndroidAppLinks.defaultUtmSource;
-	} else {
-		res.locals.enecuumAppLink = downloadAndroidAppLinks.defaultNoUtm;
+
+	res.locals.enecuumAppLink = downloadAndroidAppLinks.defaultNoUtm;
+
+	if (req.query.utm_source !== undefined && downloadAndroidAppLinks.byUtmSource.hasOwnProperty(req.query.utm_source)) {
+		res.locals.enecuumAppLink = downloadAndroidAppLinks.byUtmSource[req.query.utm_source];
+		res.cookie('downloadAndroidAppUTM_Source', downloadAndroidAppLinks.byUtmSource[req.query.utm_source], { maxAge: 3600000*24*30, httpOnly: true });
+	} else if (req.cookies.downloadAndroidAppUTM_Source !== undefined) {
+		res.locals.enecuumAppLink = req.cookies.downloadAndroidAppUTM_Source;
 	}
+	
 	next();
 });
 
