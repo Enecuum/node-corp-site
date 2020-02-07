@@ -157,7 +157,7 @@ app.use(['/earn/{0,}', '/Earn.html/{0,}'], earnRouter);
 app.use(['/hold/{0,}', '/Hold.html/{0,}'], holdRouter);
 app.use(['/spend/{0,}', '/Spend.html/{0,}'], spendRouter);
 app.use(['/utility/{0,}', '/Utility.html/{0,}'], utilityRouter);
-app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}'], emissionModelRouter);
+app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}', '/emission.html/{0,}'], emissionModelRouter);
 app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
 
 app.use(function (req, res, next) {
