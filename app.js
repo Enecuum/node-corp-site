@@ -74,21 +74,17 @@ app.use(function (req, res, next) {
 		},
 		defaultUtmSource: {
 			masternode: 'https://app.enecuum.com?utm_source=unknown',
-			googlePlay: 'https://play.google.com/store/apps/details?id=com.enecuum.wallet&utm_source=unknown'
-		},
-		defaultNoUtm: {
-			masternode: 'https://app.enecuum.com',
-			googlePlay: 'https://play.google.com/store/apps/details?id=com.enecuum.wallet'
+			googlePlay: 'https://enecuum.page.link/nQyi'
 		}
 	};
 
-	res.locals.enecuumAppLink = downloadAndroidAppLinks.defaultNoUtm;
+	res.locals.enecuumAppLink = downloadAndroidAppLinks.defaultUtmSource;
 
 	if (req.query.utm_source !== undefined && downloadAndroidAppLinks.byUtmSource.hasOwnProperty(req.query.utm_source)) {
 		res.locals.enecuumAppLink = downloadAndroidAppLinks.byUtmSource[req.query.utm_source];
-		res.cookie('downloadAndroidAppUTM_Source', downloadAndroidAppLinks.byUtmSource[req.query.utm_source], { maxAge: 3600000*24*30, httpOnly: true });
+		res.cookie('downloadAndroidAppUTM_Source', req.query.utm_source, { maxAge: 3600000*24*30, httpOnly: true });
 	} else if (req.cookies.downloadAndroidAppUTM_Source !== undefined) {
-		res.locals.enecuumAppLink = req.cookies.downloadAndroidAppUTM_Source;
+		res.locals.enecuumAppLink = downloadAndroidAppLinks.byUtmSource[req.cookies.downloadAndroidAppUTM_Source];
 	}
 	
 	next();
