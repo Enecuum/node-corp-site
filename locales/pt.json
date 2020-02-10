@@ -78,7 +78,7 @@
 					"Q1_TITLE": "O que é Enecuum?",
 					"Q1_ANSW_P1": "Enecuum é uma rede móvel em cadeia de bloqueios para aplicações descentralizadas. Foi criado com o propósito de trazer a cadeia de bloqueios e as moedas criptográficas para o real mainstream, envolvendo uma multidão com dispositivos móveis e desktop regulares para a rede da cadeia de bloqueios. O Enecuum permite que cada proprietário de smartphone faça parte da nossa rede global.",
 					"Q2_TITLE": "Como funciona?",
-					"Q2_ANSW_P1": "No Enecuum, o consenso é alcançado através da interação entre os três algoritmos de mineração a seguir: Prova de Trabalho (\"PoW\"), Prova de Actividade (\"PoA\"), e Prova de Consumo (\"PoS\"). Esta combinação torna possível alcançar um alto grau de descentralização da rede. Atualmente, nós implantamos o algoritmo PoA em nosso aplicativo móvel, e PoW e PoS estão disponíveis no PC para testes públicos."
+					"Q2_ANSW_P1": "No Enecuum, o consenso é alcançado através da interação entre os três algoritmos de mineração a seguir: Prova de Trabalho (\"PoW\"), Prova de Actividade (\"PoA\"), e Prova de Participação (\"PoS\"). Esta combinação torna possível alcançar um alto grau de descentralização da rede. Atualmente, nós implantamos o algoritmo PoA em nosso aplicativo móvel, e PoW e PoS estão disponíveis no PC para testes públicos."
 				}
 			},
 			"START_MINING": {
