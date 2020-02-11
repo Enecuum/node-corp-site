@@ -78,7 +78,7 @@
 					"Q1_TITLE": "Enecuum nedir?",
 					"Q1_ANSW_P1": "Enecuum merkezi olmayan uygulamalar için bir blockchain mobil ağıdır. Blockchain ve kripto para birimlerini, normal mobil ve masaüstü cihazlara sahip bir kalabalığın blockchain ağına dahil ettiği gerçek ana akıma getirmek amacıyla oluşturuldu. Enecuum her akıllı telefon sahibinin küresel ağımızın bir parçası olmasını sağlar.",
 					"Q2_TITLE": "O nasıl çalışır?",
-					"Q2_ANSW_P1": "Enecuum'da fikir birliği, aşağıdaki üç madencilik algoritması arasındaki etkileşim yoluyla elde edilir: İş Kanıtı (\"PoW\"), Faaliyet Kanıtı (\"PoA\") ve Kanıt Kanıtı (\"PoS\"). Bu kombinasyon, yüksek derecede ağ ademi merkeziyetinin elde edilmesini mümkün kılar. Şu anda, PoA algoritmasını mobil uygulamamıza yerleştirdik ve PoW ve PoS herkese açık testler için PC'de mevcut."
+					"Q2_ANSW_P1": "Enecuum'da fikir birliği, aşağıdaki üç madencilik algoritması arasındaki etkileşim yoluyla elde edilir: İş Kanıtı (\"PoW\"), Faaliyet Kanıtı (\"PoA\") ve Bahis Kanıtı (\"PoS\"). Bu kombinasyon, yüksek derecede ağ ademi merkeziyetinin elde edilmesini mümkün kılar. Şu anda, PoA algoritmasını mobil uygulamamıza yerleştirdik ve PoW ve PoS herkese açık testler için PC'de mevcut."
 				}
 			},
 			"START_MINING": {
@@ -450,7 +450,7 @@
 		"STEP_3B_P2": "&",
 		"STEP_3B_P3": "takas",
 		"STEP_3B_P4": "onları yerel ağa",
-		"STEP_4": "Uygulamada, \"Etkinliği başlat\" a hafifçe vurun"
+		"STEP_4": "Uygulamada, \"Aktiviteyi başlat\" a hafifçe vurun"
 	},
 	"KEEP_CALM_AND_START_MINING": "Sakin olun ve madenciliğe başlayın",
 	"SWAP_NATIVE_COINS_TO": "Swap native coins to",
