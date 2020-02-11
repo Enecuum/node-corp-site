@@ -182,6 +182,10 @@
 			"DESCR": "Konstantin is a software developer with the skills on low-level programming and applied cryptography. Besides, he teaches computer science related courses at Saint-Petersburg State University of Aerospace Instrumentation.",
 			"QUOTE": "To teach something is the best way to be sure that you really understand it."
 		},
+		"ROMAN_BASHLAEV": {
+			"NAME": "Roman Bashlaev",
+			"DESCR": "In marketing and advertising since 2014. Extensive experience in promoting companies in online marketing. In addition, Roman was engaged in three-dimensional modeling for GIS. Patented a set of classifiers of three-dimensional data for geoinformation system."
+		},
 		"SERGEY_VANURIN": {
 			"NAME": "Sergey Vanurin",
 			"DESCR": "IT specialist with a background in development, support, DevOps and delivery. As a project manager, Sergey developed an online 3D geoinformation system with successful adoption in the city planning department. Interested in mathematics and data science Sergey finds Enecuum as the perfect place for personal growth and the world-changing."
@@ -231,11 +235,14 @@
 			"NAME": "Shelly Hod Moyal",
 			"DESCR": "Shelly Hod Moyal is an Advisor to iCapital, Portfolio Manager of Juno Capital and Founding Partner of iAngels, a VC platform for high-tech startups, with $140M assets under management in divisions and funds that specialize in several tech industry sectors. Prior to iAngels, Shelly was recognized as a promising analyst at Goldman Sachs Investment Bank. Prior to that, Shelly worked as a Research Analyst at a renowned hedge fund, Avenue Capital, covering banks, insurance, real estate and financial institutions. Shelly earned her MBA at Kellogg, Chicago and holds a degree in Economics (summa cum laude) at Hunter College, New York."
 		},
+		"MAXIM_SHULTE": {
+			"NAME": "Maxim Shulte",
+			"DESCR": "A writer. A successful trader. A cryptocurrency enthusiast. In the cryptocurrency industry since 2015."
+		},
 		"KELLY_IFALUYI": {
 			"NAME": "Kelly Ifaluyi",
 			"DESCR": "An enthusiastic professional community manager and Brand ambassador with over 2 years experience and comprehensive knowledge of diverse social media channels, strategies and blockchain technology."
 		}
-
 	},
 	"AMBASSADORS": "Ambassadors",
 	"AMBASSADORS_CARDS": {
@@ -280,6 +287,7 @@
 	},	
 	"CEO": "CEO",
 	"CTO": "CTO",
+	"CMO": "CMO",
 	"PROJECT_MANAGER": "Project manager",
 	"HEAD_OF_RESEARCH": "Head of research",
 	"RESEARCHER": "Researcher",
