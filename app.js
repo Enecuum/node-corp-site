@@ -70,7 +70,16 @@ app.use(function (req, res, next) {
 			uzmancoin: {
 				masternode: 'https://app.enecuum.com/?utm_source=uzmancoin',
 				googlePlay: 'https://enecuum.page.link/hg69'
+			},
+			pt: {
+				masternode: 'https://app.enecuum.com/?utm_source=pt',
+				googlePlay: 'https://enecuum.page.link/e87D'
+			},
+			es: {
+				masternode: 'https://app.enecuum.com/?utm_source=es',
+				googlePlay: 'https://enecuum.page.link/AxG1'
 			}
+			
 		},
 		defaultUtmSource: {
 			masternode: 'https://app.enecuum.com?utm_source=unknown',
