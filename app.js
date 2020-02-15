@@ -78,6 +78,10 @@ app.use(function (req, res, next) {
 			es: {
 				masternode: 'https://app.enecuum.com/?utm_source=es',
 				googlePlay: 'https://enecuum.page.link/AxG1'
+			},
+			newsbtc: {
+				masternode: 'https://app.enecuum.com/?utm_source=newsbtc',
+				googlePlay: 'https://enecuum.page.link/Xnov'
 			}
 			
 		},
