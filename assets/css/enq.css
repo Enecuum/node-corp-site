@@ -1046,3 +1046,74 @@ table.table-to-cards .scope-col {
 	height: 1.2rem;
     margin-right: .5rem;
 }
+
+.token-feature-ico {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 50%;
+	width: 30px;
+	height: 30px;
+}
+
+#tokenMachineAccordion .collapsed .card-btn-arrow {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+#tokenMachineAccordion ul {
+	padding-left: 0px!important;
+}
+
+
+
+.t-crowdfunding-ico {
+	background-image: url(../img/enq/technology/features-ico/crowdfunding.png);
+}
+.t-cryptocurrencies-ico {
+	background-image: url(../img/enq/technology/features-ico/cryptocurrencies.png);
+}
+.t-in-game-points-ico {
+	background-image: url(../img/enq/technology/features-ico/in-game-points.png);
+}
+.t-stable-coins-ico {
+	background-image: url(../img/enq/technology/features-ico/stable-coins.png);
+}
+.t-system-credits-ico {
+	background-image: url(../img/enq/technology/features-ico/system-credits.png);
+}
+
+
+.t-in-game-items-ico {
+	background-image: url(../img/enq/technology/features-ico/in-game-items.png);
+}
+.t-supply-chain-ico {
+	background-image: url(../img/enq/technology/features-ico/supply-chain.png);
+}
+.t-real-estate-ico {
+	background-image: url(../img/enq/technology/features-ico/real-estate.png);
+}
+.t-identity-ico {
+	background-image: url(../img/enq/technology/features-ico/identity.png);
+}
+.t-certifications-ico {
+	background-image: url(../img/enq/technology/features-ico/certifications.png);
+}
+.t-collectables-ico {
+	background-image: url(../img/enq/technology/features-ico/collectables.png);
+}
+.t-gift-cards-ico {
+	background-image: url(../img/enq/technology/features-ico/gift-cards.png);
+}
+
+.t-loyalty-points-ico {
+	background-image: url(../img/enq/technology/features-ico/loyalty-points.png);
+}
+.t-marketing-ico {
+	background-image: url(../img/enq/technology/features-ico/marketing.png);
+}
+.t-community-building-ico {
+	background-image: url(../img/enq/technology/features-ico/community-building.png);
+}
+.t-defi-staking-ico {
+	background-image: url(../img/enq/technology/features-ico/defi-staking.png);
+}

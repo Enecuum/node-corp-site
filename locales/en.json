@@ -649,6 +649,44 @@
 		"POW_NODE": {
 			"H_1": "PoW нода",
 			"P_1": "PoW (Proof-of-Work) узлы генерируют k-блоки, которые составляют структуру нашего блокчейна, используя мощность процессора вашего ПК. ASIC resistance."
+		},
+		"TOKEN_MACHINE": {
+			"H_1": "Enecuum Token Machine",
+			"H_2":"Удобный и быстрый интерфейс по созданию токенов",
+			"FUNGIBLE_TOKENS": {
+				"TITLE": "FUNGIBLE TOKENS",
+				"DESCR": "Настрой индивидуальную комиссию, в качестве оплаты с пользователей токена",
+				"FEATURES": {
+					"F_1": "In Game Points",
+					"F_2":"Stable Coins",
+					"F_3":"Crowdfunding",
+					"F_4":"System Credits",
+					"F_5":"Cryptocurrencies"
+				}
+			},
+			"NON_FUNGIBLE_TOKENS": {
+				"TITLE": "NON FUNGIBLE TOKENS",
+				"DESCR": "Задавай уникальную стоимость для каждого токена",
+				"FEATURES": {
+					"F_1": "In Game Items",
+					"F_2": "Supply Chain",
+					"F_3": "Real Estate",
+					"F_4": "Identity",
+					"F_5": "Certifications",
+					"F_6": "Collectables",
+					"F_7": "Gift cards"
+				}
+			},
+			"MINABLE": {
+				"TITLE": "MINABLE",
+				"DESCR": "Установи размер стейка для запуска майнинга собственного токена",
+				"FEATURES": {
+					"F_1": "Loyalty Points",
+					"F_2": "Marketing",
+					"F_3": "Community building",
+					"F_4": "DeFi staking"
+				}
+			} 							         
 		}
 	},
 	"TRINITY_CONSENSUS111": "Trinity consensus",

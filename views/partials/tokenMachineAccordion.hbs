@@ -1,0 +1,73 @@
+<div id="tokenMachineAccordion">
+  <!-- Card -->
+  <div class="card mb-3">
+    <div class="card-header card-collapse" id="tokenMachineAccordion1">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-block card-btn p-3 collapsed" data-toggle="collapse" data-target="#tokenMachineCollapse1" aria-expanded="false" aria-controls="tokenMachineCollapse1">
+        	<div>
+	        	<h3 class="h5">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.FUNGIBLE_TOKENS.TITLE'}}</h3>
+				<span class="card-btn-arrow ml-0">
+					<span class="fas fa-chevron-up"></span>
+				</span>
+        	</div>
+
+			<p class="mb-0">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.FUNGIBLE_TOKENS.DESCR'}}</p>
+        </button>
+      </h5>
+    </div>
+    <div id="tokenMachineCollapse1" class="collapse" aria-labelledby="tokenMachineAccordion1" data-parent="#tokenMachineAccordion" style="">
+		<div class="card-body bg-blue text-white">
+			{{> fungibleTokensFeaturesList}}
+		</div>
+    </div>
+  </div>
+  <!-- End Card -->
+  <!-- Card -->
+  <div class="card mb-3">
+    <div class="card-header card-collapse" id="tokenMachineAccordion2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-block card-btn p-3 collapsed" data-toggle="collapse" data-target="#tokenMachineCollapse2" aria-expanded="false" aria-controls="tokenMachineCollapse2">
+        	<div>
+	        	<h3 class="h5">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.NON_FUNGIBLE_TOKENS.TITLE'}}</h3>
+				<span class="card-btn-arrow ml-0">
+					<span class="fas fa-chevron-up"></span>
+				</span>
+        	</div>
+
+			<p class="mb-0">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.NON_FUNGIBLE_TOKENS.DESCR'}}</p>
+        </button>
+      </h5>
+    </div>
+    <div id="tokenMachineCollapse2" class="collapse" aria-labelledby="tokenMachineAccordion2" data-parent="#tokenMachineAccordion" style="">
+		<div class="card-body bg-blue text-white">
+			{{> nonFungibleTokensFeaturesList}}
+		</div>
+    </div>
+  </div>
+  <!-- End Card -->
+  <!-- Card -->
+  <div class="card mb-3">
+    <div class="card-header card-collapse" id="tokenMachineAccordion3">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-block card-btn p-3 collapsed" data-toggle="collapse" data-target="#tokenMachineCollapse3" aria-expanded="false" aria-controls="tokenMachineCollapse3">
+        	<div>
+	        	<h3 class="h5">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.MINABLE.TITLE'}}</h3>
+				<span class="card-btn-arrow ml-0">
+					<span class="fas fa-chevron-up"></span>
+				</span>
+        	</div>
+
+			<p class="mb-0">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.MINABLE.DESCR'}}</p>
+        </button>
+      </h5>
+    </div>
+    <div id="tokenMachineCollapse3" class="collapse" aria-labelledby="tokenMachineAccordion3" data-parent="#tokenMachineAccordion" style="">
+		<div class="card-body bg-blue text-white">
+			{{> minableFeaturesList}}
+		</div>
+    </div>
+  </div>
+  <!-- End Card -->    
+</div>
+
+<a href="https://guides.enecuum.com" class="get-documentation-download-link btn btn-primary transition-3d-hover mt-5">{{__ 'READ_MORE'}}</a>

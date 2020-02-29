@@ -54,7 +54,7 @@
   <main id="content" role="main">
     <div class="enq-top-section dzsparallaxer height-is-based-on-content auto-init use-loading mode-scroll animation-engine-js loaded dzsprx-readyall" data-options="{direction: &quot;normal&quot;}">
       <!-- Apply your Parallax background image here -->
-      <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(/img/enq/enq-header-back-enq.png); transform: translate3d(0px, -72.4172px, 0px);"></div>
+      <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(/img/enq/enq-header-back-technology.png); transform: translate3d(0px, -72.4172px, 0px);"></div>
 
       <!-- Content -->
     <div class="container position-relative z-index-2 d-flex align-items-center">
@@ -118,7 +118,22 @@
           <a href="https://guides.enecuum.com/how-to-mine-bit.html#how-to-run-pow" class="get-documentation-download-link btn btn-primary transition-3d-hover">{{__ 'READ_MORE'}}</a>          
         </div>
       </div>
-    </div>    
+    </div>
+    <div class="bg-light">
+      <div class="container py-8" id="technologyTokenMachine">
+        <div class="mb-8">
+          <h2 class="text-center mb-3">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.H_1'}}</h2>
+          <h3 class="h4 text-center mb-4">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.H_2'}}</h3>          
+        </div>
+        <div class="row d-none d-lg-flex">
+          {{> tokenMachineTabs}}
+        </div>
+        <div class="d-block d-lg-none">
+          {{> tokenMachineAccordion}}
+        </div>
+      </div>       
+    </div>
+   
     <!-- <div class="container space-2 space-md-3" id="trinityConsensus">
       <h2 class="mb-4">{{__ 'TRINITY_CONSENSUS'}}</h2>
       <div class="row">
