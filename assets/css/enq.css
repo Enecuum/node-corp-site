@@ -527,7 +527,7 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 }
 
 
-#trinityProtocol .get-documentation-content {
+#technologyTrinityProtocol .get-documentation-content {
 
 }
 
@@ -566,18 +566,36 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	background-position-x: left;
 }
 
-#trinityProtocol .img-container {
+#technologyTrinityProtocol .img-container {
 	background-image: url(../img/enq/technology/trinity-protocol.png);
+}
+#technologyPOAMasternode .img-container {
+	background-image: url(../img/enq/technology/poa-masternode-mobile.png);
+}
+
+#technologyPOSNode .img-container {
+	background-image: url(../img/enq/technology/pos-node.png);
+}
+
+#technologyPOWNode .img-container {
+	background-image: url(../img/enq/technology/pow-videocard.png);
+}
+
+#technologyTrinityProtocol .img-container,
+#technologyPOAMasternode .img-container,
+#technologyPOSNode .img-container,
+#technologyPOWNode .img-container {
 	background-position-x: 50%;
 	background-position-y: 50%;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
-
-
 @media (max-width: 991.98px) {
-	#trinityProtocol .img-container {
+	#technologyTrinityProtocol .img-container,
+	#technologyPOAMasternode .img-container,
+	#technologyPOSNode .img-container,
+	#technologyPOWNode .img-container {
 		padding-top: 30%;
 		padding-bottom: 30%;
 	}
