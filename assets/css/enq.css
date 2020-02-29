@@ -526,6 +526,11 @@ nav.js-sticky-block-faq .list-group .list-group-item {
     background: transparent!important;
 }
 
+
+#trinityProtocol .get-documentation-content {
+
+}
+
 #trinityConsensus {
 	background-image: url(../img/enq/enq-trinity-consensus.png);
 }
@@ -561,9 +566,21 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	background-position-x: left;
 }
 
+#trinityProtocol .img-container {
+	background-image: url(../img/enq/technology/trinity-protocol.png);
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
 
 
 @media (max-width: 991.98px) {
+	#trinityProtocol .img-container {
+		padding-top: 30%;
+		padding-bottom: 30%;
+	}
 
 	#mainHeaderWithDropdown .u-header__section.bg-dark, #mainHeaderWithDropdown  .navbar-expand-lg .u-header__nav-link, #mainHeaderWithDropdown  .navbar-expand-lg .u-header__sub-menu-nav-link,
 	#mainHeaderWithDropdown .navbar-expand-lg .u-header__nav-link, #mainHeaderWithDropdown  .navbar-expand-lg .u-header__sub-menu-nav-link, #mainHeaderWithDropdown .navbar-expand-lg .u-header__sub-menu:not(.u-header__promo) {
