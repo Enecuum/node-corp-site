@@ -581,10 +581,15 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	background-image: url(../img/enq/technology/pow-videocard.png);
 }
 
+#technologySmartContracts .img-container {
+	background-image: url(../img/enq/technology/code-blur.png);
+}
+
 #technologyTrinityProtocol .img-container,
 #technologyPOAMasternode .img-container,
 #technologyPOSNode .img-container,
-#technologyPOWNode .img-container {
+#technologyPOWNode .img-container,
+#technologySmartContracts .img-container {
 	background-position-x: 50%;
 	background-position-y: 50%;
 	background-repeat: no-repeat;
@@ -595,7 +600,8 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	#technologyTrinityProtocol .img-container,
 	#technologyPOAMasternode .img-container,
 	#technologyPOSNode .img-container,
-	#technologyPOWNode .img-container {
+	#technologyPOWNode .img-container,
+	#technologySmartContracts .img-container {
 		padding-top: 30%;
 		padding-bottom: 30%;
 	}
@@ -1062,6 +1068,17 @@ table.table-to-cards .scope-col {
 
 #tokenMachineAccordion ul {
 	padding-left: 0px!important;
+}
+
+#technologySmartContracts li:before {
+	content: "";
+	margin-right: 1rem;
+	display: block;
+	width: 14px;
+	height: 14px;
+	background-image: url(../img/enq/technology/check.png);
+	background-size: contain;
+	background-position: 50% 50%;
 }
 
 
