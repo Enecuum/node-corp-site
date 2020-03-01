@@ -1048,12 +1048,40 @@ table.table-to-cards .scope-col {
     margin-right: .5rem;
 }
 
+#tokenMahineTabWrapper .token-feature-category-ico {
+	opacity: 0;
+}
+
+#tokenMahineTabWrapper .nav-link.active .token-feature-category-ico,
+#tokenMahineTabWrapper .nav-link:hover .token-feature-category-ico {
+	opacity: 1;
+}
+
+.token-feature-category-ico {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 50%;
+	flex-basis: 0px!important;
+	height: 0px!important;
+	flex-grow: 0;
+	flex-shrink: 0px;
+	padding: 30px;
+}
+
 .token-feature-ico {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: 50% 50%;
 	width: 30px;
 	height: 30px;
+}
+
+#tokenMahineTabWrapper .tab-pane {	
+	min-height: 350px;
+}
+
+#tokenMahineTabWrapper .nav-box .nav-link:hover {
+	background-color: #f8f9fa!important;
 }
 
 #tokenMachineAccordion .collapsed .card-btn-arrow {
@@ -1076,6 +1104,15 @@ table.table-to-cards .scope-col {
 	background-position: 50% 50%;
 }
 
+.t-fingible-token-ico {
+	background-image: url(../img/enq/technology/features-ico/fungible-tokens-ico.png);	
+}
+.t-non-fingible-token-ico {
+	background-image: url(../img/enq/technology/features-ico/non-fungible-tokens-ico.png);	
+}
+.t-minable-ico {
+	background-image: url(../img/enq/technology/features-ico/minable-ico.png);	
+}
 
 
 .t-crowdfunding-ico {

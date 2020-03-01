@@ -143,9 +143,14 @@
           <h2 class="text-center mb-3">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.H_1'}}</h2>
           <h3 class="h4 text-center mb-4">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.H_2'}}</h3>          
         </div>
-        <div class="row d-none d-lg-flex">
+        <div class="row d-none d-lg-flex" id="tokenMahineTabWrapper">
           {{> tokenMachineTabs}}
         </div>
+        <div class="row d-none d-lg-flex">
+          <div class="col-12 col-md-7 pl-8 offset-md-5">
+            <a href="https://guides.enecuum.com" class="get-documentation-download-link btn btn-primary transition-3d-hover" style="margin-left: 110px;">{{__ 'READ_MORE'}}</a>               
+          </div>
+        </div> 
         <div class="d-block d-lg-none">
           {{> tokenMachineAccordion}}
         </div>
