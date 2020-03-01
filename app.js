@@ -25,6 +25,7 @@ var utilityRouter = require('./routes/utility');
 var spendRouter = require('./routes/spend');
 var emissionModelRouter = require('./routes/emission-model');
 var technologyRouter = require('./routes/technology');
+var productsRouter = require('./routes/products');
 var allowedLocales = ['en', 'ru', 'tr', 'es', 'pt'];
 
 i18n.configure({
@@ -173,6 +174,7 @@ app.use(['/spend/{0,}', '/Spend.html/{0,}'], spendRouter);
 app.use(['/utility/{0,}', '/Utility.html/{0,}'], utilityRouter);
 app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}', '/emission.html/{0,}'], emissionModelRouter);
 app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
+app.use('/products/{0,}', productsRouter);
 
 app.use(function (req, res, next) {
 	if ('/robots.txt' === req.url) {

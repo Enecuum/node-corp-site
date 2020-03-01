@@ -68,6 +68,7 @@
     "INFRASTRUCTURE": "Infrastructure",
     "START_MINING": "Start mining",
     "HOW_TO_MINE": "How to mine",
+    "PRODUCTS": "Products",    
 	"REFERRAL_PROGRAM": "Referral program",
 	"FAQ": {
 		"TITLE": "FAQ",
@@ -706,6 +707,32 @@
 			}
 		}
 	},
+	"PRODUCTS_PAGE": {
+		"ANDROID_MASTERNODE": {
+			"H_1":"Android Enecuum masternode",		
+			"P_1": "Команда Enecuum разработала специальное Android приложение для PoA майнинга."			
+		},
+		"MOBILE_WALLET": {
+			"H_1":"Мобильный кошелек Enecuum",		
+			"P_1": "Удобное приложение для контроля баланса и перевода токенов Enecuum. Доступна для Android и iOS."			
+		},
+		"WEB_WALLET": {
+			"H_1":"Веб кошелек Enecuum",		
+			"P_1": "Используйте Веб версию кошелька Enecuum чтобы получить доступ к своим токенам используя браузер"			
+		},		
+		"BLOCKCHAIN_EXPLORER": {
+			"H_1":"Блокчейн эксплорер",		
+			"P_1": "Позволяет: посмотреть статус сети, последний блок, пропускную способность, проверить транзакцию или кошелек, изучить карту активных нод."			
+		},
+		"SWAP_SERVICE": {
+			"H_1":"Сервис SWAP",		
+			"P_1": "Для того чтобы перевести ERC-20 ENQ в приложение или продать купленные ENQ, необходимо произвести своп (конвертацию). Своп обязателен, т.к. Enecuum - проект на стадии тестирования (тестнет), в котором используются тестнет монеты ENQ, которыми нельзя торговать. Для совершения свопа необходимо иметь Ethereum кошелёк и ETH для комиссии за газ."			
+		},
+		"MOBILE_MULTIMINER": {
+			"H_1":"Мобильный мультимайнер",		
+			"P_1": "Приложение для Android, которое будет включать в себя функционал: майнинг ENQ и пользовательских токенов, выпуск токенов (fungible, non-fungible, minable), Делегирование и Валидация токенов (smart staking), Переводы токенов, История транзакций, Блокчеин эксплорер."			
+		}
+	},
 	"TRINITY_CONSENSUS111": "Trinity consensus",
 	"BLOCK_DAG_STRUCTURE": "Block-DAG structure",
 	"NETWORK_PERFORMANCE_AND_TOPOLOGY": "Network performance and topology",
@@ -720,6 +747,9 @@
 	"DOWNLOAD_ANDROID_MASTERNODE": "Download Android Masternode",
 	"ANDROID_MASTERNODE": "Android Masternode",
 	"WALLETS": "Wallets",
+	"DOWNLOAD_APPLICATION": "Загрузить приложение",
+	"HOW_TO_START_MINING": "Как начать майнинг",
+	"WEB_WALLET": "Веб кошелек",	
 	"TERMS_OF_SERVICE": "Terms of service",
 	"PRIVACY_POLICY": "Privacy policy",
 	"STAGE_1": "Stage 1",

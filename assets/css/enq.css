@@ -566,45 +566,40 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	background-position-x: left;
 }
 
-#technologyTrinityProtocol .img-container {
-	background-image: url(../img/enq/technology/trinity-protocol.png);
-}
-#technologyPOAMasternode .img-container {
-	background-image: url(../img/enq/technology/poa-masternode-mobile.png);
+#technologyPOAMasternode .img-container img {
+	width: 100%;
+	max-width: 460px;
 }
 
-#technologyPOSNode .img-container {
-	background-image: url(../img/enq/technology/pos-node.png);
+#technologyPOWNode .img-container img,
+#technologySmartContracts  .img-container img {
+	width: 100%;
+	max-width: 540px;
 }
 
-#technologyPOWNode .img-container {
-	background-image: url(../img/enq/technology/pow-videocard.png);
+#technologyTrinityProtocol .img-container img,
+#technologyPOSNode .img-container img {
+	width: 100%;
+	max-width: 430px;
 }
 
-#technologySmartContracts .img-container {
-	background-image: url(../img/enq/technology/code-blur.png);
+#productsAndroidMN .img-container img,
+#productsMobileWallet .img-container img {
+	max-width: 300px;
 }
 
-#technologyTrinityProtocol .img-container,
-#technologyPOAMasternode .img-container,
-#technologyPOSNode .img-container,
-#technologyPOWNode .img-container,
-#technologySmartContracts .img-container {
-	background-position-x: 50%;
-	background-position-y: 50%;
-	background-repeat: no-repeat;
-	background-size: contain;
+#productsBlockchainExplorer .img-container img,
+#productsWebWallet .img-container img {
+	width: 100%;
+	max-width: 530px;
+}
+
+#productsMultiMiner .img-container img {
+	width: 100%;
+	max-width: 500px;
 }
 
 @media (max-width: 991.98px) {
-	#technologyTrinityProtocol .img-container,
-	#technologyPOAMasternode .img-container,
-	#technologyPOSNode .img-container,
-	#technologyPOWNode .img-container,
-	#technologySmartContracts .img-container {
-		padding-top: 30%;
-		padding-bottom: 30%;
-	}
 
 	#mainHeaderWithDropdown .u-header__section.bg-dark, #mainHeaderWithDropdown  .navbar-expand-lg .u-header__nav-link, #mainHeaderWithDropdown  .navbar-expand-lg .u-header__sub-menu-nav-link,
 	#mainHeaderWithDropdown .navbar-expand-lg .u-header__nav-link, #mainHeaderWithDropdown  .navbar-expand-lg .u-header__sub-menu-nav-link, #mainHeaderWithDropdown .navbar-expand-lg .u-header__sub-menu:not(.u-header__promo) {
