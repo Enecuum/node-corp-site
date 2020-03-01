@@ -634,29 +634,29 @@
 	},
 	"TECHNOLOGY_PAGE": {
 		"TRINITY_PROTOCOL": {
-			"H_1":"Протокол Trinity",
-			"H_2":"(Гибридный алгоритм консенсуса BFT)",			
-			"P_1": "Команда Enecuum разработала специальное Android приложение для PoA майнинга."			
+			"H_1":"Protocol Trinity",
+			"H_2":"(BFT Hybrid Consensus Algorithm)",			
+			"P_1": "Our Trinity algorithm combines PoA, PoW and PoS. This hybrid approach to consensus provides a high degree of network decentralization, while significantly increasing both network security and transaction execution speed. Network security is further enhanced by our integrated innovative cryptographic solutions."			
 		},
 		"POA_MOBILE_MASTERNODE": {
-			"H_1": "PoA мобильная мастернода",
-			"P_1": "PoA (Proof-of-Activity) узлы вносят свой вклад в сеть, валидируя m-блоки, в которых хранится информация о транзакциях. Микроблоки содержат в себе транзакции. PoA проверяется PoS лидером."
+			"H_1": "PoA mobile mastermind",
+			"P_1": "PoA (Proof-of-Activity) nodes contribute to the network by validating m-blocks where transaction information is stored. Microblocks contain transactions. PoA is validated by the PoS leader."
 		},
 		"POS_NODE": {
-			"H_1":"PoS нода",
-			"H_2":"(Делегирование/Валидация)",			
-			"P_1": "PoS (smart staking) узлы получают вознаграждения за участие в голосовании PoS-лидера, который публикует макроблоки.Кандидат на роль PoS ноды должен входить в топ 100 кошельков по балансу и получить секретную долю ключа от коалиции PoS'ов согласно соответствующему протоколу из Trinity."			
+			"H_1":"PoS node",
+			"H_2":"(Delegating / Validating)",			
+			"P_1": "PoS (smart stacking) nodes are rewarded for voting by a PoS Leader who publishes macroblocks. The candidate for the role of a PoS node must be in the top 100 wallets of the balance and receive a secret key share from the PoS coalition according to the relevant Trinity protocol."			
 		},
 		"POW_NODE": {
-			"H_1": "PoW нода",
-			"P_1": "PoW (Proof-of-Work) узлы генерируют k-блоки, которые составляют структуру нашего блокчейна, используя мощность процессора вашего ПК. ASIC resistance."
+			"H_1": "PoW node",
+			"P_1": "PoW (Proof-of-Work) nodes generate k-blocks that make up the structure of our blockchain using the CPU power of your PC. ASIC resistance."
 		},
 		"TOKEN_MACHINE": {
 			"H_1": "Enecuum Token Machine",
-			"H_2":"Удобный и быстрый интерфейс по созданию токенов",
+			"H_2":"User-friendly and fast interface for creating tokens.",
 			"FUNGIBLE_TOKENS": {
 				"TITLE": "FUNGIBLE TOKENS",
-				"DESCR": "Настрой индивидуальную комиссию, в качестве оплаты с пользователей токена",
+				"DESCR": "Set up an individual fee, as a payment from token users",
 				"FEATURES": {
 					"F_1": "In Game Points",
 					"F_2":"Stable Coins",
@@ -667,7 +667,7 @@
 			},
 			"NON_FUNGIBLE_TOKENS": {
 				"TITLE": "NON FUNGIBLE TOKENS",
-				"DESCR": "Задавай уникальную стоимость для каждого токена",
+				"DESCR": "Set a unique value for each token",
 				"FEATURES": {
 					"F_1": "In Game Items",
 					"F_2": "Supply Chain",
@@ -680,7 +680,7 @@
 			},
 			"MINABLE": {
 				"TITLE": "MINABLE",
-				"DESCR": "Установи размер стейка для запуска майнинга собственного токена",
+				"DESCR": "Set the stack size to start molding your own token",
 				"FEATURES": {
 					"F_1": "Loyalty Points",
 					"F_2": "Marketing",
@@ -690,13 +690,13 @@
 			} 							         
 		},
 		"FEE_PRINCIPLE": {
-			"H_1": "Принцип работы комиссии"
+			"H_1": "Fee principles"
 		},
 		"SMART_CONTRACTS": {
-			"TITLE": "Смарт контракты",
-			"DESCR": "Smart контракты основываются на сильно-типизированном, Тьюринг не полном функциональном языке программирования с использованием бизнес-ориентированной логики SHARNELL. Данная логика сводит к минимуму вероятность потенциальной ошибки",
+			"TITLE": "Smart contracts",
+			"DESCR": "Smart contracts are based on a strongly-typified, Turing not complete functional programming language using business oriented SHARNELL logic. This logic minimizes the potential for error.",
 			"USE_CASES": {
-				"TITLE": "Кейсы использования:",
+				"TITLE": "Use cases:",
 				"F_1": "Payments",
 				"F_2": "Gambling",
 				"F_3": "DeFi",
@@ -710,27 +710,27 @@
 	"PRODUCTS_PAGE": {
 		"ANDROID_MASTERNODE": {
 			"H_1":"Android Enecuum masternode",		
-			"P_1": "Команда Enecuum разработала специальное Android приложение для PoA майнинга."			
+			"P_1": "The Enecuum team developed a special Android application for PoA mining."			
 		},
 		"MOBILE_WALLET": {
-			"H_1":"Мобильный кошелек Enecuum",		
-			"P_1": "Удобное приложение для контроля баланса и перевода токенов Enecuum. Доступна для Android и iOS."			
+			"H_1":"Enecuum mobile wallet",		
+			"P_1": "A handy application for controlling balance and making Enecuum token transfers. Available for Android and iOS."			
 		},
 		"WEB_WALLET": {
-			"H_1":"Веб кошелек Enecuum",		
-			"P_1": "Используйте Веб версию кошелька Enecuum чтобы получить доступ к своим токенам используя браузер"			
+			"H_1":"Enecuum Web Wallet",		
+			"P_1": "Use web version of the Enecuum wallet to access your tokens via any browser."			
 		},		
 		"BLOCKCHAIN_EXPLORER": {
-			"H_1":"Блокчейн эксплорер",		
-			"P_1": "Позволяет: посмотреть статус сети, последний блок, пропускную способность, проверить транзакцию или кошелек, изучить карту активных нод."			
+			"H_1":"Blockchain Explorer",		
+			"P_1": "Allows: to see network status, last block, bandwidth, check transaction or purse, examine active nodes map."			
 		},
 		"SWAP_SERVICE": {
-			"H_1":"Сервис SWAP",		
-			"P_1": "Для того чтобы перевести ERC-20 ENQ в приложение или продать купленные ENQ, необходимо произвести своп (конвертацию). Своп обязателен, т.к. Enecuum - проект на стадии тестирования (тестнет), в котором используются тестнет монеты ENQ, которыми нельзя торговать. Для совершения свопа необходимо иметь Ethereum кошелёк и ETH для комиссии за газ."			
+			"H_1":"SWAP service",		
+			"P_1": "In order to transfer the ERC-20 ENQ to an application or sell the ENQ, a swap (conversion) must be made. Swap is obligatory, because Enecuum is a project at the testing stage (testnet), which uses test ENQ coins that cannot be traded. To swap, you must have an Ethereum Wallet and ETH for gas fee."			
 		},
 		"MOBILE_MULTIMINER": {
-			"H_1":"Мобильный мультимайнер",		
-			"P_1": "Приложение для Android, которое будет включать в себя функционал: майнинг ENQ и пользовательских токенов, выпуск токенов (fungible, non-fungible, minable), Делегирование и Валидация токенов (smart staking), Переводы токенов, История транзакций, Блокчеин эксплорер."			
+			"H_1":"Mobile multiminer",		
+			"P_1": "Android application, which will include the following functionalities: ENQ and custom tokens mining, token issue (fungible, non-fungible, minable), Token Delegating and Validating (smart staking), Token Transfers, Transaction History, Block Explorer."			
 		}
 	},
 	"TRINITY_CONSENSUS111": "Trinity consensus",
@@ -747,9 +747,9 @@
 	"DOWNLOAD_ANDROID_MASTERNODE": "Download Android Masternode",
 	"ANDROID_MASTERNODE": "Android Masternode",
 	"WALLETS": "Wallets",
-	"DOWNLOAD_APPLICATION": "Загрузить приложение",
-	"HOW_TO_START_MINING": "Как начать майнинг",
-	"WEB_WALLET": "Веб кошелек",	
+	"DOWNLOAD_APPLICATION": "Download app",
+	"HOW_TO_START_MINING": "How to start mining",
+	"WEB_WALLET": "Web wallet",	
 	"TERMS_OF_SERVICE": "Terms of service",
 	"PRIVACY_POLICY": "Privacy policy",
 	"STAGE_1": "Stage 1",
