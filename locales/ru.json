@@ -753,5 +753,10 @@
 	"TERMS_OF_SERVICE": "Условия использования",
 	"PRIVACY_POLICY": "Политика конфиденциальности",
 	"STAGE_1": "Этап 1",
-	"STAGE_2": "Этап 2"
+	"STAGE_2": "Этап 2",
+	"LINKS": {
+		"WHAT_IS_POA": "что-такое-poa",
+		"HOW_TO_RUN_POS":"как-запустить-pos",
+		"HOW_TO_RUN_POW":"как-запустить-pow"
+	}
 }

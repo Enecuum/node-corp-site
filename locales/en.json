@@ -639,7 +639,7 @@
 			"P_1": "Our Trinity algorithm combines PoA, PoW and PoS. This hybrid approach to consensus provides a high degree of network decentralization, while significantly increasing both network security and transaction execution speed. Network security is further enhanced by our integrated innovative cryptographic solutions."			
 		},
 		"POA_MOBILE_MASTERNODE": {
-			"H_1": "PoA mobile mastermind",
+			"H_1": "PoA mobile masternode",
 			"P_1": "PoA (Proof-of-Activity) nodes contribute to the network by validating m-blocks where transaction information is stored. Microblocks contain transactions. PoA is validated by the PoS leader."
 		},
 		"POS_NODE": {
@@ -753,5 +753,10 @@
 	"TERMS_OF_SERVICE": "Terms of service",
 	"PRIVACY_POLICY": "Privacy policy",
 	"STAGE_1": "Stage 1",
-	"STAGE_2": "Stage 2"
+	"STAGE_2": "Stage 2",
+	"LINKS": {
+		"WHAT_IS_POA": "what-is-poa",
+		"HOW_TO_RUN_POS":"how-to-run-pos",
+		"HOW_TO_RUN_POW":"how-to-run-pow"
+	}
 }
