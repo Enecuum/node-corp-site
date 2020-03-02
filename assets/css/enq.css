@@ -1102,6 +1102,8 @@ table.table-to-cards .scope-col {
 	background-image: url(../img/enq/technology/check.png);
 	background-size: contain;
 	background-position: 50% 50%;
+	flex-grow: 0;
+	flex-shrink: 0;
 }
 
 .t-fingible-token-ico {
