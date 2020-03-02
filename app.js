@@ -83,6 +83,10 @@ app.use(function (req, res, next) {
 			newsbtc: {
 				masternode: 'https://app.enecuum.com/?utm_source=newsbtc',
 				googlePlay: 'https://enecuum.page.link/Xnov'
+			},
+			brcointelegraph: {
+				masternode: 'https://app.enecuum.com/?utm_source=br.cointelegraph',
+				googlePlay: 'https://enecuum.page.link/UT4s'
 			}
 			
 		},
