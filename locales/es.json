@@ -444,7 +444,8 @@
 	"POA_MINING_STEPS": {
 		"STEP_1": "Descargue la aplicación",
 		"STEP_2": "Crear una cuenta en la aplicación",
-		"STEP_3": "Deposite al menos 25 ENQ siguiendo los pasos 3a o 3b",		
+		"STEP_3_OLD": "Deposite al menos 25 ENQ siguiendo los pasos 3a o 3b",
+		"STEP_3": "Deposite al menos 25 ENQ.",		
 		"STEP_3A": "Comprar monedas nativas por tarjeta",
 		"STEP_3B_P1": "Compra fichas ERC20",
 		"STEP_3B_P2": "e",

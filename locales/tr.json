@@ -444,7 +444,8 @@
 	"POA_MINING_STEPS": {
 		"STEP_1": "Uygulamayı indirin:",
 		"STEP_2": "Uygulamada bir hesap oluşturun",
-		"STEP_3": "3a VEYA 3b adımlarından sonra en az 25 ENQ biriktirin",		
+		"STEP_3_OLD": "3a VEYA 3b adımlarından sonra en az 25 ENQ biriktirin",
+		"STEP_3": "25 ENQ biriktirin.",		
 		"STEP_3A": "Kartla yerli paraları satın al",
 		"STEP_3B_P1": "ERC20 belirteçleri satın al",
 		"STEP_3B_P2": "&",
