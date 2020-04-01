@@ -526,6 +526,11 @@ nav.js-sticky-block-faq .list-group .list-group-item {
     background: transparent!important;
 }
 
+
+#technologyTrinityProtocol .get-documentation-content {
+
+}
+
 #trinityConsensus {
 	background-image: url(../img/enq/enq-trinity-consensus.png);
 }
@@ -561,7 +566,38 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	background-position-x: left;
 }
 
+#technologyPOAMasternode .img-container img {
+	width: 100%;
+	max-width: 460px;
+}
 
+#technologyPOWNode .img-container img,
+#technologySmartContracts  .img-container img {
+	width: 100%;
+	max-width: 540px;
+}
+
+#technologyTrinityProtocol .img-container img,
+#technologyPOSNode .img-container img {
+	width: 100%;
+	max-width: 430px;
+}
+
+#productsAndroidMN .img-container img,
+#productsMobileWallet .img-container img {
+	max-width: 300px;
+}
+
+#productsBlockchainExplorer .img-container img,
+#productsWebWallet .img-container img {
+	width: 100%;
+	max-width: 530px;
+}
+
+#productsMultiMiner .img-container img {
+	width: 100%;
+	max-width: 500px;
+}
 
 @media (max-width: 991.98px) {
 
@@ -1010,4 +1046,125 @@ table.table-to-cards .scope-col {
 	width: 1.6rem;
 	height: 1.2rem;
     margin-right: .5rem;
+}
+
+#tokenMahineTabWrapper .token-feature-category-ico {
+	opacity: 0;
+}
+
+#tokenMahineTabWrapper .nav-link.active .token-feature-category-ico,
+#tokenMahineTabWrapper .nav-link:hover .token-feature-category-ico {
+	opacity: 1;
+}
+
+.token-feature-category-ico {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 50%;
+	flex-basis: 0px!important;
+	height: 0px!important;
+	flex-grow: 0;
+	flex-shrink: 0px;
+	padding: 30px;
+}
+
+.token-feature-ico {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50% 50%;
+	width: 30px;
+	height: 30px;
+}
+
+#tokenMahineTabWrapper .tab-pane {	
+	min-height: 350px;
+}
+
+#tokenMahineTabWrapper .nav-box .nav-link:hover {
+	background-color: #f8f9fa!important;
+}
+
+#tokenMachineAccordion .collapsed .card-btn-arrow {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+#tokenMachineAccordion ul {
+	padding-left: 0px!important;
+}
+
+#technologySmartContracts li:before {
+	content: "";
+	margin-right: 1rem;
+	display: block;
+	width: 14px;
+	height: 14px;
+	background-image: url(../img/enq/technology/check.png);
+	background-size: contain;
+	background-position: 50% 50%;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+.t-fingible-token-ico {
+	background-image: url(../img/enq/technology/features-ico/fungible-tokens-ico.png);	
+}
+.t-non-fingible-token-ico {
+	background-image: url(../img/enq/technology/features-ico/non-fungible-tokens-ico.png);	
+}
+.t-minable-ico {
+	background-image: url(../img/enq/technology/features-ico/minable-ico.png);	
+}
+
+
+.t-crowdfunding-ico {
+	background-image: url(../img/enq/technology/features-ico/crowdfunding.png);
+}
+.t-cryptocurrencies-ico {
+	background-image: url(../img/enq/technology/features-ico/cryptocurrencies.png);
+}
+.t-in-game-points-ico {
+	background-image: url(../img/enq/technology/features-ico/in-game-points.png);
+}
+.t-stable-coins-ico {
+	background-image: url(../img/enq/technology/features-ico/stable-coins.png);
+}
+.t-system-credits-ico {
+	background-image: url(../img/enq/technology/features-ico/system-credits.png);
+}
+
+
+.t-in-game-items-ico {
+	background-image: url(../img/enq/technology/features-ico/in-game-items.png);
+}
+.t-supply-chain-ico {
+	background-image: url(../img/enq/technology/features-ico/supply-chain.png);
+}
+.t-real-estate-ico {
+	background-image: url(../img/enq/technology/features-ico/real-estate.png);
+}
+.t-identity-ico {
+	background-image: url(../img/enq/technology/features-ico/identity.png);
+}
+.t-certifications-ico {
+	background-image: url(../img/enq/technology/features-ico/certifications.png);
+}
+.t-collectables-ico {
+	background-image: url(../img/enq/technology/features-ico/collectables.png);
+}
+.t-gift-cards-ico {
+	background-image: url(../img/enq/technology/features-ico/gift-cards.png);
+}
+
+.t-loyalty-points-ico {
+	background-image: url(../img/enq/technology/features-ico/loyalty-points.png);
+}
+.t-marketing-ico {
+	background-image: url(../img/enq/technology/features-ico/marketing.png);
+}
+.t-community-building-ico {
+	background-image: url(../img/enq/technology/features-ico/community-building.png);
+}
+.t-defi-staking-ico {
+	background-image: url(../img/enq/technology/features-ico/defi-staking.png);
 }

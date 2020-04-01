@@ -67,7 +67,7 @@
     "NETWORK": "Network",
     "INFRASTRUCTURE": "Infrastructure",
     "START_MINING": "Iniciar Mineração",
-    "HOW_TO_MINE": "Como fazer a minha?",
+    "HOW_TO_MINE": "Como fazer a minha",
 	"REFERRAL_PROGRAM": "Referral program",
 	"FAQ": {
 		"TITLE": "FAQ",
@@ -443,7 +443,8 @@
 	"POA_MINING_STEPS": {
 		"STEP_1": "Faça o download do aplicativo",
 		"STEP_2": "Criar uma conta no aplicativo",
-		"STEP_3": "Depositar pelo menos 25 ENQ seguindo os passos 3a OU 3b",		
+		"STEP_3_OLD": "Depositar pelo menos 25 ENQ seguindo os passos 3a OU 3b",
+		"STEP_3": "Depositar pelo menos 25 ENQ.",		
 		"STEP_3A": "Comprar moedas nativas por cartão",
 		"STEP_3B_P1": "Compre fichas ERC20",
 		"STEP_3B_P2": "e",

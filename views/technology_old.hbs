@@ -2,11 +2,11 @@
 <html lang="{{currentLang}}">
 <head>
   <!-- Title -->
-  <title>{{__ 'EARN_ENQ'}}</title>
-  <link rel="canonical" href="https://enecuum.com/earn"/>
+  <title>{{__ 'TECHNOLOGY'}}</title>
+
   <!-- Favicon -->
   <link rel="shortcut icon" href="/img/favicon.ico">
-
+  <link rel="canonical" href="https://enecuum.com/technology"/>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +18,6 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/enq.css">
   <link rel="stylesheet" href="/vendor/dzsparallaxer/dzsparallaxer.css">
-  <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css">
   <link rel="stylesheet" href="/vendor/hs-megamenu/src/hs.megamenu.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138901721-4"></script>
@@ -55,61 +54,120 @@
   <main id="content" role="main">
     <div class="enq-top-section dzsparallaxer height-is-based-on-content auto-init use-loading mode-scroll animation-engine-js loaded dzsprx-readyall" data-options="{direction: &quot;normal&quot;}">
       <!-- Apply your Parallax background image here -->
-      <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(/img/enq/enq-header-back-enq.png); transform: translate3d(0px, -72.4172px, 0px); "></div>
+      <div class="divimage dzsparallaxer--target" style="height: 120%; background-image: url(/img/enq/enq-header-back-enq.png); transform: translate3d(0px, -72.4172px, 0px);"></div>
 
       <!-- Content -->
-      <div class="container position-relative d-flex align-items-center z-index-2" style="height: 330px;">
-        <div class="w-lg-50 text-center pt-5 mx-auto">
-          <h2 class="text-white mb-4">{{__ 'EARN_ENQ'}}</h2>
-          <div class="text-small">{{__ 'TYPES_OF_TOKENS'}}</div>
+    <div class="container position-relative z-index-2 d-flex align-items-center">
+      <div class="w-lg-50 text-center mx-auto pt-5">
+          <h2 class="text-white mb-4">{{__ 'TECHNOLOGY'}}</h2>
+
         </div>
       </div>
       <!-- End Content -->
     </div>
 
-
-
-
-    <div class="container my-10">
-      <h2 class="mt-4 mb-8 text-center">{{__ 'POA_MINING'}}</h2>
-      {{> miningSteps}}
+    <div class="container space-2 space-md-3" id="trinityConsensus">
+      <h2 class="mb-4">{{__ 'TRINITY_CONSENSUS'}}</h2>
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="mb-5">
+            {{__ 'TECHNOLOGY_PAGE.TRINITY_CONSENSUS.P_1'}}
+          </div>
+          <div>
+            {{__ 'TECHNOLOGY_PAGE.TRINITY_CONSENSUS.P_2'}}
+          </div>
+        </div>
+      </div>
     </div>
+
+
     <div class="bg-light">
-      <div class="container space-2 space-lg-2">
+      <div class="container space-2 space-md-3" id="blockDagStructure">
         <div class="row">
-          <div class="col-12 col-lg-6 text-center" >
-            <h2 class="mt-4 mb-4 text-center">{{__ 'DOWNLOAD_ANDROID_MASTERNODE'}}</h2>
-              <div class="my-5 d-flex mx-auto justify-content-center flex-column flex-md-row">
-            <div class="m-3">
-              <a class="btn btn-sm btn-primary transition-3d-hover" href="{{enecuumAppLink.masternode}}" role="button" style="font-size: 1.5rem; background: black;">
-                <i class="fab fa-android mr-2" style="font-size: 30px;"></i><span class="font-weight-bold font-size-03">Android miner</span>
-              </a>
+          <h2 class="col-12 offset-0 col-lg-6 offset-lg-6 mb-4">{{__ 'BLOCK_DAG_STRUCTURE'}}</h2>
+          <div class="col-12 offset-0 col-lg-6 offset-lg-6">
+            <div class="mb-3">
+              {{__ 'TECHNOLOGY_PAGE.BLOCK_DAG_STRUCTURE.P_1'}}
+            </div>
+            <div class="mb-3">
+              {{__ 'TECHNOLOGY_PAGE.BLOCK_DAG_STRUCTURE.P_2'}}
+            </div>
+            <div>
+              {{__ 'TECHNOLOGY_PAGE.BLOCK_DAG_STRUCTURE.P_3'}}
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container space-2 space-md-3" id="networkPerformance">
+      <h2 class="mb-4">{{__ 'NETWORK_PERFORMANCE_AND_TOPOLOGY'}}</h2>
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="mb-5">
+            <ul>
+              <li>{{__ 'TECHNOLOGY_PAGE.NETWORK_PERFORMANCE_AND_TOPOLOGY.P_1'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.NETWORK_PERFORMANCE_AND_TOPOLOGY.P_2'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.NETWORK_PERFORMANCE_AND_TOPOLOGY.P_3'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.NETWORK_PERFORMANCE_AND_TOPOLOGY.P_4'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.NETWORK_PERFORMANCE_AND_TOPOLOGY.P_5'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.NETWORK_PERFORMANCE_AND_TOPOLOGY.P_6'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.NETWORK_PERFORMANCE_AND_TOPOLOGY.P_7'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.NETWORK_PERFORMANCE_AND_TOPOLOGY.P_8'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.NETWORK_PERFORMANCE_AND_TOPOLOGY.P_9'}}.</li>
+            </ul>
+          </div>       
+        </div>
+        <div class="col-12 col-lg-7">
+          <table class="table table-to-cards">
+            <thead>
+              <tr>
+                <th class="text-muted">{{__ 'NODES'}} (Pos/Pow + PoA)</th>
+                <th class="text-muted">{{__ 'THROUGHPUT'}}/{{__ 'LATENCY'}}</th>
+                <th class="text-muted">{{__ 'PROOF'}}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="scope-col">{{__ 'NODES'}} (Pos/Pow + PoA)</span>100 + 3000</td>
+                <td><span class="scope-col">{{__ 'THROUGHPUT'}}/{{__ 'LATENCY'}}</span>9000 tps/ 5 {{__ 'UNITS.S'}}</td>
+                <td><span class="scope-col">{{__ 'PROOF'}}</span>{{__ 'TEST_NET'}}</td>
+              </tr>
+            <tr>
+                <td><span class="scope-col">{{__ 'NODES'}} (Pos/Pow + PoA)</span>2 000 + 25 000</td>
+                <td><span class="scope-col">{{__ 'THROUGHPUT'}}/{{__ 'LATENCY'}}</span>12000 tps/ 9 {{__ 'UNITS.S'}}</td>
+                <td><span class="scope-col">{{__ 'PROOF'}}</span>9 {{__ 'UNITS.S'}} {{__ 'SIMULATION'}}</td>
+              </tr>
+            <tr>
+                <td><span class="scope-col">{{__ 'NODES'}} (Pos/Pow + PoA)</span>5 000 + 15 000 000</td>
+                <td><span class="scope-col">{{__ 'THROUGHPUT'}}/{{__ 'LATENCY'}}</span>18000 tps/ 25 {{__ 'UNITS.S'}}</td>
+                <td><span class="scope-col">{{__ 'PROOF'}}</span>25 {{__ 'UNITS.S'}} {{__ 'ANALYTICS'}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>   
+      </div>
+    </div>
+
+    <div class="bg-light pt-4 pb-8">
+      <div class="container space-2 space-md-3" id="infrastructureAndEcosystem">
+        <div class="row">
+          <h2 class="col-12 offset-0 col-lg-6 offset-lg-6 mb-4">{{__ 'INFRASTRUCTURE_AND_ECOSYSTEM'}}</h2>
+          <div class="col-12 offset-0 col-lg-6 offset-lg-6">
+            <ul>
+              <li>{{__ 'TECHNOLOGY_PAGE.INFRASTRUCTURE_AND_ECOSYSTEM.P_1'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.INFRASTRUCTURE_AND_ECOSYSTEM.P_2'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.INFRASTRUCTURE_AND_ECOSYSTEM.P_3'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.INFRASTRUCTURE_AND_ECOSYSTEM.P_4'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.INFRASTRUCTURE_AND_ECOSYSTEM.P_5'}};</li>
+              <li>{{__ 'TECHNOLOGY_PAGE.INFRASTRUCTURE_AND_ECOSYSTEM.P_6'}}.</li>
+            </ul>
           </div>
-          <div class="col-12 col-lg-6 text-center" >
-            <h2 class="mt-4 mb-4 text-center">{{__ 'SWAP_NATIVE_COINS_TO'}} ERC20</h2>
-            <div class="my-5 d-flex mx-auto justify-content-center flex-column flex-md-row">
-              <div class="m-3 text-center">
-                <a href="{{guidesLink}}/how-to-swap/" class="btn btn-sm btn-primary transition-3d-hover" style="font-size: 1.5rem; width: 220px;" target="_blank">{{__ 'GUIDES'}} <i class="fas fa-info-circle"></i></a>
-              </div>
-              <div class="m-3 text-center">
-                <a class="btn btn-sm btn-primary transition-3d-hover js-fancybox"  style="font-size: 1.5rem; width: 220px;"
-                   href="javascript:;"
-                    data-src="https://youtu.be/2SOaK6xQFGQ"
-                    data-speed="700"
-                    data-animate-in="zoomIn"
-                    data-animate-out="zoomOut"
-                    data-caption="Enecuum Swap Guide">
-                  {{__ 'VIDEO'}} <i class="far fa-play-circle"></i>
-                </a>  
-              </div>
-            </div>
-          </div>
-        </div>  
-      </div>     
+        </div>
+      </div>
     </div>
   </main>
+
 <!-- ========== FOOTER ========== -->
 {{> footer}}
 <!-- ========== END FOOTER ========== -->
@@ -131,8 +189,7 @@
   <!-- JS Implementing Plugins -->
 <script src="/vendor/appear.js"></script>
 <script src="/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-<script src="/vendor/fancybox/jquery.fancybox.min.js"></script>
-<script src="/js/components/hs.fancybox.js"></script>
+
 
 <!-- JS Plugins Init. -->
 <script>
@@ -143,17 +200,15 @@
       pageContainer: $('.container'),
       breakpoint: 991.98,
       hideTimeOut: 0
-    });    
+    });
   });
 
   $(document).on('ready', function () {
     // initialization of header
     $.HSCore.components.HSHeader.init($('#headerWithDropdown'));
-    // initialization of fancybox
-    $.HSCore.components.HSFancyBox.init('.js-fancybox');
     // initialization of unfold component
     $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
+    
     //Cookies alert workflow start
     ENQCookies = {
       cookieName: 'enecuum-corp-site',
@@ -200,6 +255,7 @@
 
     ENQCookies.normalFlowExecute();
     //Cookies alert workflow end
+    
   });
 
 </script>

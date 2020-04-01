@@ -67,7 +67,8 @@
     "NETWORK": "Network",
     "INFRASTRUCTURE": "Infrastructure",
     "START_MINING": "Start mining",
-    "HOW_TO_MINE": "How to mine?",
+    "HOW_TO_MINE": "How to mine",
+    "PRODUCTS": "Products",    
 	"REFERRAL_PROGRAM": "Referral program",
 	"FAQ": {
 		"TITLE": "FAQ",
@@ -471,7 +472,8 @@
 	"POA_MINING_STEPS": {
 		"STEP_1": "Download the app",
 		"STEP_2": "Create an account in the app",
-		"STEP_3": "Deposit at least 25 ENQ following 3a OR 3b steps",		
+		"STEP_3_OLD": "Deposit at least 25 ENQ following 3a OR 3b steps",
+		"STEP_3": "Deposit at least 25 ENQ.",		
 		"STEP_3A": "Buy native coins by card",
 		"STEP_3B_P1": "Buy ERC20 tokens",
 		"STEP_3B_P2": "&",
@@ -601,37 +603,138 @@
 			}
 		}
 	},
-	"TECHNOLOGY_PAGE": {
+	"TECHNOLOGY_PAGE111": {
 		"TRINITY_CONSENSUS": {			
-			"P_1": "Our Trinity algorithm combines PoA, PoW and PoS. This hybrid approach to consensus provides a high degree of network decentralization, while significantly increasing both network security and transaction execution speed. Network security is further enhanced by our integrated innovative cryptographic solutions.",
-			"P_2": "These consensus mechanisms work simultaneously: Problem Solvers (PoW nodes) create the backbone of the blockchain structure. Publishers (PoA nodes) complete and publish microblocks. Holders (PoS nodes) maintain system efficiency. Through cryptography, nodes may become interchangeable."
+			"P_1": "Наш тройной алгоритм Trinity совмещает в себе PoA, PoW и PoS. Такой гибридный подход к консенсусу обеспечивает высокую степень децентрализации сети, одновременно значительно увеличивая как безопасность сети, так и скорость исполнения транзакций. Безопасность сети дополнительно усилена встроенными в алгоритм инновационным криптографическим решениям.",
+			"P_2": "Эти согласованные механизмы работают одновременно: доказательство выполнения работы осуществляется узлами PoW, которые создают основу для структуры цепочки блоков. Публикаторы (узлы PoA) завершают и публикуют микроблоки. На основе алгоритма доказательства доли владения узлы PoS поддерживают эффективность системы. С помощью криптографии узлы могут стать взаимозаменяемыми."
 		},
 		"BLOCK_DAG_STRUCTURE": {
-			"P_1": "Each branch grows according to Nakamoto (BFT) consensus.",
-			"P_2": "Maximum number of allowed branches depends on network hashrate.",
-			"P_3": "Branches are cross-linked in a way which allows to arrange macroblocks in chronological order."
+			"P_1": "Каждая ветка растет в соответствии с консенсусом Накамото (BFT).",
+			"P_2": "Максимальное количество разрешенных веток зависит от мощности хэширования сети.",
+			"P_3": "Ветви перекликаются так, чтобы можно было выстроить макроблоки в хронологическом порядке."
 		},
 		"NETWORK_PERFORMANCE_AND_TOPOLOGY": {
-			"P_1": "18 000 tps (test results)",
-			"P_2": "Latency 5 - 30 seconds",
-			"P_3": "Thousands PoW and PoS nodes",
-			"P_4": "Millions of PoA nodes",
-			"P_5": "Flexible smart contract architecture",
-			"P_6": "Dynamic reward system for miners",
-			"P_7": "Chord algorithm",
-			"P_8": "Routing",
-			"P_9": "Sharding"			
+			"P_1": "18 000 транзакций в секунду (по результатам тестов)",
+			"P_2": "Задержка от 5 до 30 секунд",
+			"P_3": "Тысячи узлов PoW и PoS",
+			"P_4": "Миллионы узлов PoA",
+			"P_5": "Гибкая архитектура смарт-контрактов",
+			"P_6": "Динамическая система вознаграждений для майнеров",
+			"P_7": "Хордовый алгоритм",
+			"P_8": "Маршрутизация",
+			"P_9": "Шардинг"			
 		},
 		"INFRASTRUCTURE_AND_ECOSYSTEM": {
-			"P_1": "PoS nodes (servers)",
-			"P_2": "PoW nodes (computers)",
-			"P_3": "PoA nodes (mobile devices)",
-			"P_4": "dApps (games, payments, dex and others)",
-			"P_5": "Exchanges",
-			"P_6": "Users (mobile, PC)"			
+			"P_1": "PoS ноды (сервера)",
+			"P_2": "PoW ноды (компьютеры)",
+			"P_3": "PoA ноды (мобильные устройства)",
+			"P_4": "dApps (игры, платежи и прочее)",
+			"P_5": "Биржи",
+			"P_6": "Пользователи (мобильные и ПК)"			
 		}
 	},
-	"TRINITY_CONSENSUS": "Trinity consensus",
+	"TECHNOLOGY_PAGE": {
+		"TRINITY_PROTOCOL": {
+			"H_1":"Protocol Trinity",
+			"H_2":"(BFT Hybrid Consensus Algorithm)",			
+			"P_1": "Our Trinity algorithm combines PoA, PoW and PoS. This hybrid approach to consensus provides a high degree of network decentralization, while significantly increasing both network security and transaction execution speed. Network security is further enhanced by our integrated innovative cryptographic solutions."			
+		},
+		"POA_MOBILE_MASTERNODE": {
+			"H_1": "PoA mobile masternode",
+			"P_1": "PoA (Proof-of-Activity) nodes contribute to the network by validating m-blocks where transaction information is stored. Microblocks contain transactions. PoA is validated by the PoS leader."
+		},
+		"POS_NODE": {
+			"H_1":"PoS node",
+			"H_2":"(Delegating / Validating)",			
+			"P_1": "PoS (smart stacking) nodes are rewarded for voting by a PoS Leader who publishes macroblocks. The candidate for the role of a PoS node must be in the top 100 wallets of the balance and receive a secret key share from the PoS coalition according to the relevant Trinity protocol."			
+		},
+		"POW_NODE": {
+			"H_1": "PoW node",
+			"P_1": "PoW (Proof-of-Work) nodes generate k-blocks that make up the structure of our blockchain using the CPU power of your PC. ASIC resistance."
+		},
+		"TOKEN_MACHINE": {
+			"H_1": "Enecuum Token Machine",
+			"H_2":"User-friendly and fast interface for creating tokens.",
+			"FUNGIBLE_TOKENS": {
+				"TITLE": "FUNGIBLE TOKENS",
+				"DESCR": "Set up an individual fee, as a payment from token users",
+				"FEATURES": {
+					"F_1": "In Game Points",
+					"F_2":"Stable Coins",
+					"F_3":"Crowdfunding",
+					"F_4":"System Credits",
+					"F_5":"Cryptocurrencies"
+				}
+			},
+			"NON_FUNGIBLE_TOKENS": {
+				"TITLE": "NON FUNGIBLE TOKENS",
+				"DESCR": "Set a unique value for each token",
+				"FEATURES": {
+					"F_1": "In Game Items",
+					"F_2": "Supply Chain",
+					"F_3": "Real Estate",
+					"F_4": "Identity",
+					"F_5": "Certifications",
+					"F_6": "Collectables",
+					"F_7": "Gift cards"
+				}
+			},
+			"MINABLE": {
+				"TITLE": "MINABLE",
+				"DESCR": "Set the stack size to start molding your own token",
+				"FEATURES": {
+					"F_1": "Loyalty Points",
+					"F_2": "Marketing",
+					"F_3": "Community building",
+					"F_4": "DeFi staking"
+				}
+			} 							         
+		},
+		"FEE_PRINCIPLE": {
+			"H_1": "Fee principles"
+		},
+		"SMART_CONTRACTS": {
+			"TITLE": "Smart contracts",
+			"DESCR": "Smart contracts are based on a strongly-typified, Turing not complete functional programming language using business oriented SHARNELL logic. This logic minimizes the potential for error.",
+			"USE_CASES": {
+				"TITLE": "Use cases:",
+				"F_1": "Payments",
+				"F_2": "Gambling",
+				"F_3": "DeFi",
+				"F_4": "Games",
+				"F_5": "Crowdfunding",
+				"F_6": "VPN",
+				"F_7": "DEX"
+			}
+		}
+	},
+	"PRODUCTS_PAGE": {
+		"ANDROID_MASTERNODE": {
+			"H_1":"Android Enecuum masternode",		
+			"P_1": "The Enecuum team developed a special Android application for PoA mining."			
+		},
+		"MOBILE_WALLET": {
+			"H_1":"Enecuum mobile wallet",		
+			"P_1": "A handy application for controlling balance and making Enecuum token transfers. Available for Android and iOS."			
+		},
+		"WEB_WALLET": {
+			"H_1":"Enecuum Web Wallet",		
+			"P_1": "Use web version of the Enecuum wallet to access your tokens via any browser."			
+		},		
+		"BLOCKCHAIN_EXPLORER": {
+			"H_1":"Blockchain Explorer",		
+			"P_1": "Allows: to see network status, last block, bandwidth, check transaction or purse, examine active nodes map."			
+		},
+		"SWAP_SERVICE": {
+			"H_1":"SWAP service",		
+			"P_1": "In order to transfer the ERC-20 ENQ to an application or sell the ENQ, a swap (conversion) must be made. Swap is obligatory, because Enecuum is a project at the testing stage (testnet), which uses test ENQ coins that cannot be traded. To swap, you must have an Ethereum Wallet and ETH for gas fee."			
+		},
+		"MOBILE_MULTIMINER": {
+			"H_1":"Mobile multiminer",		
+			"P_1": "Android application, which will include the following functionalities: ENQ and custom tokens mining, token issue (fungible, non-fungible, minable), Token Delegating and Validating (smart staking), Token Transfers, Transaction History, Block Explorer."			
+		}
+	},
+	"TRINITY_CONSENSUS111": "Trinity consensus",
 	"BLOCK_DAG_STRUCTURE": "Block-DAG structure",
 	"NETWORK_PERFORMANCE_AND_TOPOLOGY": "Network performance and topology",
 	"NODES": "Nodes",
@@ -645,8 +748,16 @@
 	"DOWNLOAD_ANDROID_MASTERNODE": "Download Android Masternode",
 	"ANDROID_MASTERNODE": "Android Masternode",
 	"WALLETS": "Wallets",
+	"DOWNLOAD_APPLICATION": "Download app",
+	"HOW_TO_START_MINING": "How to start mining",
+	"WEB_WALLET": "Web wallet",	
 	"TERMS_OF_SERVICE": "Terms of service",
 	"PRIVACY_POLICY": "Privacy policy",
 	"STAGE_1": "Stage 1",
-	"STAGE_2": "Stage 2"
+	"STAGE_2": "Stage 2",
+	"LINKS": {
+		"WHAT_IS_POA": "what-is-poa",
+		"HOW_TO_RUN_POS":"how-to-run-pos",
+		"HOW_TO_RUN_POW":"how-to-run-pow"
+	}
 }

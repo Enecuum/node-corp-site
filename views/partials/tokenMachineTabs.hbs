@@ -1,0 +1,57 @@
+<div class="col-12 col-md-5 text-white py-6" style="overflow-x: visible;">
+  <div class="tab-content bg-blue h-100 d-flex align-items-center" style="width: 130%;">
+    <div class="tab-pane fade active show py-6" id="token-machine-fungible-features" role="tabpanel" aria-labelledby="token-machine-fungible-tab">
+      {{> fungibleTokensFeaturesList}}
+    </div>
+    <div class="tab-pane fade py-6" id="token-machine-nonfungible-features" role="tabpanel" aria-labelledby="token-machine-nonfungible-tab">
+      {{> nonFungibleTokensFeaturesList}}
+    </div>
+    <div class="tab-pane fade py-6" id="token-machine-minable-features" role="tabpanel" aria-labelledby="token-machine-minable-tab">
+      {{> minableFeaturesList}}
+    </div>
+  </div>
+</div>
+<div class="col-12 col-md-7 pl-8 d-flex align-items-center">
+  <ul class="nav nav-box" role="tablist">
+    <li class="nav-item w-100 mx-0 mb-3">
+      <a class="nav-link py-3 pl-3 active rounded-0" id="token-machine-fungible-tab" data-toggle="pill" href="#token-machine-fungible-features" role="tab" aria-controls="token-machine-fungible-features" aria-selected="true">
+        <div class="media">
+          <div class="media-body d-flex align-items-center">
+            <div class="mr-5 token-feature-category-ico t-fingible-token-ico"></div>
+            <div>
+              <h3 class="h5">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.FUNGIBLE_TOKENS.TITLE'}}</h3>
+              <p class="mb-0">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.FUNGIBLE_TOKENS.DESCR'}}</p>                
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="nav-item w-100 mx-0 mb-3">
+      <a class="nav-link py-3 pl-3 rounded-0" id="token-machine-nonfungible-tab" data-toggle="pill" href="#token-machine-nonfungible-features" role="tab" aria-controls="token-machine-nonfungible-features" aria-selected="false">
+        <div class="media">                    
+          <div class="media-body d-flex align-items-center">
+            <div class="mr-5 token-feature-category-ico t-non-fingible-token-ico"></div>
+            <div>
+              <h3 class="h5">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.NON_FUNGIBLE_TOKENS.TITLE'}}</h3>
+              <p class="mb-0">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.NON_FUNGIBLE_TOKENS.DESCR'}}</p>
+            </div>
+
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="nav-item w-100 mx-0">
+      <a class="nav-link py-3 pl-3 rounded-0" id="token-machine-minable-tab" data-toggle="pill" href="#token-machine-minable-features" role="tab" aria-controls="token-machine-minable-features" aria-selected="false">
+        <div class="media">                    
+          <div class="media-body d-flex align-items-center">
+            <div class="mr-5 token-feature-category-ico t-minable-ico"></div>
+            <div>
+              <h3 class="h5">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.MINABLE.TITLE'}}</h3>
+              <p class="mb-0">{{__ 'TECHNOLOGY_PAGE.TOKEN_MACHINE.MINABLE.DESCR'}}</p>                
+            </div>
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
