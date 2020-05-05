@@ -575,7 +575,7 @@
 			}
 		}
 	},
-	"TECHNOLOGY_PAGE": {
+	"TECHNOLOGY_PAGE_PROMO": {
 		"TRINITY_CONSENSUS": {			
 			"P_1": "Trinity algoritmamız PoA, PoW ve PoS'yi birleştirir. Konsensüse bu hibrit yaklaşım, hem ağ güvenliğini hem de işlem yürütme hızını önemli ölçüde artırırken, yüksek derecede ağ merkezsizliği sağlar. Ağ güvenliği, entegre yenilikçi kriptografik çözümlerimizle daha da geliştirildi.",
 			"P_2": "Bu fikir birliği mekanizmaları aynı anda çalışır: Problem Çözenler (PoW düğümleri) blockchain yapısının omurgasını oluşturur. Yayıncılar (PoA nodes) mikro blokları tamamlar ve yayınlar. Tutucular (PoS düğümleri) sistem verimliliğini korur. Kriptografi ile düğümler değiştirilebilir hale gelebilir."
