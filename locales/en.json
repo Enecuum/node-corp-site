@@ -603,34 +603,34 @@
 			}
 		}
 	},
-	"TECHNOLOGY_PAGE111": {
+	"TECHNOLOGY_PAGE_PROMO": {
 		"TRINITY_CONSENSUS": {			
-			"P_1": "Наш тройной алгоритм Trinity совмещает в себе PoA, PoW и PoS. Такой гибридный подход к консенсусу обеспечивает высокую степень децентрализации сети, одновременно значительно увеличивая как безопасность сети, так и скорость исполнения транзакций. Безопасность сети дополнительно усилена встроенными в алгоритм инновационным криптографическим решениям.",
-			"P_2": "Эти согласованные механизмы работают одновременно: доказательство выполнения работы осуществляется узлами PoW, которые создают основу для структуры цепочки блоков. Публикаторы (узлы PoA) завершают и публикуют микроблоки. На основе алгоритма доказательства доли владения узлы PoS поддерживают эффективность системы. С помощью криптографии узлы могут стать взаимозаменяемыми."
+			"P_1": "Our Trinity algorithm combines PoA, PoW and PoS. This hybrid approach to consensus provides a high degree of network decentralization, while significantly increasing both network security and transaction execution speed. Network security is further enhanced by our integrated innovative cryptographic solutions.",
+			"P_2": "These consensus mechanisms work simultaneously: Problem Solvers (PoW nodes) create the backbone of the blockchain structure. Publishers (PoA nodes) complete and publish microblocks. Holders (PoS nodes) maintain system efficiency. Through cryptography, nodes may become interchangeable."
 		},
 		"BLOCK_DAG_STRUCTURE": {
-			"P_1": "Каждая ветка растет в соответствии с консенсусом Накамото (BFT).",
-			"P_2": "Максимальное количество разрешенных веток зависит от мощности хэширования сети.",
-			"P_3": "Ветви перекликаются так, чтобы можно было выстроить макроблоки в хронологическом порядке."
+			"P_1": "Each branch grows according to Nakamoto (BFT) consensus.",
+			"P_2": "Maximum number of allowed branches depends on network hashrate.",
+			"P_3": "Branches are cross-linked in a way which allows to arrange macroblocks in chronological order."
 		},
 		"NETWORK_PERFORMANCE_AND_TOPOLOGY": {
-			"P_1": "18 000 транзакций в секунду (по результатам тестов)",
-			"P_2": "Задержка от 5 до 30 секунд",
-			"P_3": "Тысячи узлов PoW и PoS",
-			"P_4": "Миллионы узлов PoA",
-			"P_5": "Гибкая архитектура смарт-контрактов",
-			"P_6": "Динамическая система вознаграждений для майнеров",
-			"P_7": "Хордовый алгоритм",
-			"P_8": "Маршрутизация",
-			"P_9": "Шардинг"			
+			"P_1": "18 000 tps (test results)",
+			"P_2": "Latency 5 - 30 seconds",
+			"P_3": "Thousands PoW and PoS nodes",
+			"P_4": "Millions of PoA nodes",
+			"P_5": "Flexible smart contract architecture",
+			"P_6": "Dynamic reward system for miners",
+			"P_7": "Chord algorithm",
+			"P_8": "Routing",
+			"P_9": "Sharding"			
 		},
 		"INFRASTRUCTURE_AND_ECOSYSTEM": {
-			"P_1": "PoS ноды (сервера)",
-			"P_2": "PoW ноды (компьютеры)",
-			"P_3": "PoA ноды (мобильные устройства)",
-			"P_4": "dApps (игры, платежи и прочее)",
-			"P_5": "Биржи",
-			"P_6": "Пользователи (мобильные и ПК)"			
+			"P_1": "PoS nodes (servers)",
+			"P_2": "PoW nodes (computers)",
+			"P_3": "PoA nodes (mobile devices)",
+			"P_4": "dApps (games, payments, dex and others)",
+			"P_5": "Exchanges",
+			"P_6": "Users (mobile, PC)"			
 		}
 	},
 	"TECHNOLOGY_PAGE": {
@@ -734,7 +734,7 @@
 			"P_1": "Android application, which will include the following functionalities: ENQ and custom tokens mining, token issue (fungible, non-fungible, minable), Token Delegating and Validating (smart staking), Token Transfers, Transaction History, Block Explorer."			
 		}
 	},
-	"TRINITY_CONSENSUS111": "Trinity consensus",
+	"TRINITY_CONSENSUS": "Trinity consensus",
 	"BLOCK_DAG_STRUCTURE": "Block-DAG structure",
 	"NETWORK_PERFORMANCE_AND_TOPOLOGY": "Network performance and topology",
 	"NODES": "Nodes",

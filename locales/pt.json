@@ -574,7 +574,7 @@
 			}
 		}
 	},
-	"TECHNOLOGY_PAGE": {
+	"TECHNOLOGY_PAGE_PROMO": {
 		"TRINITY_CONSENSUS": {			
 			"P_1": "O nosso algoritmo Trinity combina PoA, PoW e PoS. Esta abordagem híbrida ao consenso proporciona um alto grau de descentralização da rede, enquanto aumenta significativamente tanto a segurança da rede quanto a velocidade de execução das transações. A segurança de rede é ainda melhorada por nossas soluções criptográficas inovadoras integradas.",
 			"P_2": "Estes mecanismos de consenso funcionam simultaneamente: Os solucionadores de problemas (nós PoW) criam a espinha dorsal da estrutura da cadeia de bloqueios. Os editores (nós PoA) completam e publicam microblocos. Os detentores (nós PoA) mantêm a eficiência do sistema. Através da criptografia, os nós podem se tornar intercambiáveis."
