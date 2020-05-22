@@ -3,12 +3,8 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  let targetResource = 'emission-model';
-  if (req.baseUrl !== '/' + targetResource) {
-    res.redirect(301, '/' + targetResource);
-  } else {
-  	res.render(targetResource, { title: 'Express' });
-  }
+	let link = res.locals.guidesLink + res.locals.emissionModel;
+   	res.redirect(301, link);
 });
 
 module.exports = router;
