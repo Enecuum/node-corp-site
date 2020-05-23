@@ -146,6 +146,7 @@ app.use(function (req, res, next) {
 
 		res.locals.currentFlag = flag[currentLang];
 		res.locals.currentLang = currentLang;
+		res.locals.emissionModel = '/enq/emission-model';
 
 		if (currentLang === 'ru') {
 			res.locals.mobileImpactArticleLink = 'https://hub.forklog.com/vliyanie-mobilnogo-majninga-na-batareyu-ustrojstva-sravnitelnyj-analiz-uplexa-mib-i-enecuum/';
