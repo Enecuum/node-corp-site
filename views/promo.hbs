@@ -753,8 +753,12 @@
           let inputStake = parseFloat($(this).val());
           if (isNaN(inputStake) || inputStake === undefined || inputStake < 25 || inputStake > 25000) {
               $('#roiRecalcLight').val('- - -');
-          } else
+              $('#refCheckLight').attr('disabled', 'disabled');
+          } else {
+            $('#refCheckLight').removeAttr('disabled');
             refreshRoiCalc(inputStake);
+          }
+
         });
 
         $('#refCheckLight').on('change', function() {
