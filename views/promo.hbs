@@ -749,17 +749,12 @@
 
         refreshRoiCalc(scope.translationData.stake);
 
-        $('#roiStakeLight').on('change keyup', function() {      
+        $('#roiStakeLight').on('change keyup', function() {
           let inputStake = parseFloat($(this).val());
-          if (isNaN(inputStake)) {
-            inputStake = 25;
-          }
-          $(this).val(inputStake);
-          if (inputStake < 25 || inputStake > 25000) {
-              inputStake = inputStake < 25 ? 25 : 25000;
-              $('#roiStakeLight').val(inputStake);
-          }
-          refreshRoiCalc(inputStake);
+          if (isNaN(inputStake) || inputStake === undefined || inputStake < 25 || inputStake > 25000) {
+              $('#roiRecalcLight').val('- - -');
+          } else
+            refreshRoiCalc(inputStake);
         });
 
         $('#refCheckLight').on('change', function() {
