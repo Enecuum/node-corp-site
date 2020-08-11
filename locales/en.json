@@ -679,8 +679,8 @@
 					"F_7": "Gift cards"
 				}
 			},
-			"MINABLE": {
-				"TITLE": "MINABLE",
+			"MINEABLE": {
+				"TITLE": "MINEABLE",
 				"DESCR": "Set the stack size to start molding your own token",
 				"FEATURES": {
 					"F_1": "Loyalty Points",
@@ -731,7 +731,7 @@
 		},
 		"MOBILE_MULTIMINER": {
 			"H_1":"Mobile multiminer",		
-			"P_1": "Android application, which will include the following functionalities: ENQ and custom tokens mining, token issue (fungible, non-fungible, minable), Token Delegating and Validating (smart staking), Token Transfers, Transaction History, Block Explorer."			
+			"P_1": "Android application, which will include the following functionalities: ENQ and custom tokens mining, token issue (fungible, non-fungible, mineable), Token Delegating and Validating (smart staking), Token Transfers, Transaction History, Block Explorer."			
 		}
 	},
 	"TRINITY_CONSENSUS": "Trinity consensus",
