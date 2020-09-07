@@ -22,7 +22,6 @@ var buyRouter = require('./routes/buy');
 var earnRouter = require('./routes/earn');
 var holdRouter = require('./routes/hold');
 var utilityRouter = require('./routes/utility');
-var spendRouter = require('./routes/spend');
 var emissionModelRouter = require('./routes/emission-model');
 var technologyRouter = require('./routes/technology');
 var productsRouter = require('./routes/products');
@@ -175,7 +174,6 @@ app.use(['/news-and-community/{0,}', '/NewsAndCommunity.html/{0,}'], newsAndComm
 app.use(['/buy/{0,}', '/Buy.html/{0,}'], buyRouter);
 app.use(['/earn/{0,}', '/Earn.html/{0,}'], earnRouter);
 app.use(['/hold/{0,}', '/Hold.html/{0,}'], holdRouter);
-app.use(['/spend/{0,}', '/Spend.html/{0,}'], spendRouter);
 app.use(['/utility/{0,}', '/Utility.html/{0,}'], utilityRouter);
 app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}', '/emission.html/{0,}'], emissionModelRouter);
 app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
