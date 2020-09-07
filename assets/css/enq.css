@@ -1168,3 +1168,11 @@ table.table-to-cards .scope-col {
 .t-defi-staking-ico {
 	background-image: url(../img/enq/technology/features-ico/defi-staking.png);
 }
+
+.social-network-list .list-inline-item:not(:last-child) {
+    margin-right: 0.1rem;
+}
+
+#joinOurCommunity .list-inline-item:not(:last-child) {
+    margin-right: 0rem;
+}
