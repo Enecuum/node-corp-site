@@ -493,7 +493,7 @@
       $('#nodesMapWrapper').remove();
     })
     .success(function(response) {
-      let marker_style = [{r: 3, fill:'blue'}, {r: 3, fill:'blue'}, {r: 3, fill:'red'}];
+      let marker_style = [{r: 3, fill:'black'}, {r: 3, fill:'blue'}, {r: 3, fill:'red'}, {r: 3, fill:'green'}];
       let markers = response.filter((el)=> (el.lat !== null && el.lon !== null))
             .map((el) => {return {latLng:[el.lat, el.lon], name:el.count.toString(), style: marker_style[el.type] }});
       $(function(){
