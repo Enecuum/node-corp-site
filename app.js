@@ -9,7 +9,7 @@ var path = require('path');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var promoRouter = require('./routes/index'); //tmp solution
+var promoRouter = require('./routes/promo');
 var missionAndPurposeRouter = require('./routes/mission-and-purpose');
 var documentationRouter = require('./routes/documentation');
 var teamRouter = require('./routes/team');
