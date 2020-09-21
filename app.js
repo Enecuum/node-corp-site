@@ -235,6 +235,10 @@ hbs.registerHelper('if_eq', function(a, b, opts) {
 	}
 });
 
+hbs.registerHelper('tradingViewWidget', function(lang = 'en') {
+	return lang === 'ru' ? 'tradingViewWidget_ru' : 'tradingViewWidget';
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
