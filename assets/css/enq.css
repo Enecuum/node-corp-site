@@ -338,6 +338,10 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	}
 }
 
+#teamCardsContainer .team-card {
+	min-height: 380px;
+}
+
 
 .team-card-about-person {
 	position: relative;
