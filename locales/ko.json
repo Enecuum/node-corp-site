@@ -495,6 +495,18 @@
     "START_RECEIVING_ENQ_FORM": "ENQ 양식 받기 시작",
     "COMING_SOON": "출시 예정",
     "TOKEN_UTILITY": "토큰 유틸리티",
+    "ENECUUM_ENVIRONMENT_FUNCTIONALITY": {
+        "PRE": "ENQ is intended to be a utility token. Possession of ENQ is proposed to grant a holder access to the following proposed functionality of the Enecuum adaptive decentralized environment:",
+        "P_A": "accumulate and transfer ENQ subject to the ENQ terms and conditions, and applicable laws;",
+        "P_B": "publish SHARNELL Smart Contracts with a fee for publication to the global Enecuum network (the fee is determined according to the volume of the published byte code);",
+        "P_C": "publish transactions with a reward calculated by the user publishing such transactions to stimulate the miners to validate such block;",
+        "P_D": "access complex computations via the \"heavy\" smart contracts. The reward for such computations is proposed to be dictated by the current market conditions where the user who places the request offers a reward and waits until miners (nodes) with enough computational power to run such “heavy” smart contract agree to it. The user may raise the reward to faster stimulate such miners;",
+        "P_E": "access and generate private ‘ticket’ branches using other nodes on the network (not the user’s). The reward is determined individually by the miner agreeing to service such branches;",
+        "P_F": "and participation in the PoA and PoS mining.",
+        "FURTHER_DETAILS_P1": "See the Enecuum",
+        "FURTHER_DETAILS_P2": "Position Paper",
+        "FURTHER_DETAILS_P3": "or the Enecuum Website for further details."
+    },    
     "DISCLAIMER": "면책조항",
     "COPYRIGHT_INFO_P1": "© 2019 Enecuum HK Limited. 사업자 등록 번호: 2562183. All rights reserved. 이 문서의 어떤 내용도 어떤 종류의 제안이나 조언을 구성하지 않습니다. ENQ 및 Enecuum 적응형 분산 환경은 모든 관할권과 모든 사람이 사용할 수 있는 것은 아닙니다.",
     "COPYRIGHT_INFO_P2": "개인 정보 보호 정책",
