@@ -1,0 +1,660 @@
+{
+    "LANGUAGE": "한국어",
+    "UNITS": {
+        "SECONDS": "초",
+        "S": "s",
+        "TPS": "tps",
+        "HOUR": "시간"
+    },
+    "MONTHS": {
+        "MAY": "5월",
+        "JULY": "7월",
+        "DECEMBER": "12월"
+    },
+    "CHART_CONTROLS": {
+        "M": "월",
+        "Y": "년",
+        "YTD": "YTD",
+        "ALL": "모두"
+    },
+    "CHART_SERIES_TITLES": {
+        "ENQ_PRICE_USD": "ENQ 가격 (USD)",
+        "BTC_PRICE_USD": "BTC 가격 (USD)",
+        "TOTAL_VOLUME_USD": "총 거래량 (USD)"
+    },
+    "ERRORS": {
+        "SOMETHING_WENT_WRONG": "문제가 발생했습니다...",
+        "ERR_404_DESCR": "죄송합니다, 요청한 리소스를 찾을 수 없습니다.",
+        "LETS_GO_TO": "웹사이트를 방문하십시오",
+        "MAIN_PAGE": "메인 페이지",
+        "ERR_500_DESCR": "오류가 발생하였습니다.",
+        "VISIT_WEBSITE_LATER": "나중에 웹 사이트를 방문하십시오"
+    },
+    "PROMO_TITLE_P1": "모바일 채굴",
+    "PROMO_TITLE_P2": "모두를 위한",
+    "ADVANTAGES": {
+        "EASY_TO_JOIN": "가입하기 쉬운",
+        "EASY_TO_EARN": "쉽게 적립하는",
+        "EXTREMELY_DECENTRALIZED": "극도로 분산된",
+        "MAXIMUM_PRIVACY": "최대의 프라이버시",
+        "LOW_BATTERY_CONSUMPTION": "낮은 배터리 소모"
+    },
+    "HOW_DOES_IT_WORK": "어떻게 작동하나요?",
+    "COOKIES_ALERT_TEXT": "당사 웹사이트를 계속 탐색하면 웹사이트의 올바른 작동을 보장하는 쿠키 사용에 동의합니다.",
+    "I_AGREE": "동의합니다",
+    "MORE_DETAILS": "더 알아보기",
+    "ABOUT": "정보",
+    "MISSION_AND_PURPOSE": "미션 및 목적",
+    "DOCUMENTATION": "문서",
+    "TEAM": "팀",
+    "ROADMAP": "로드맵",
+    "PARTNERS": "파트너",
+    "NEWS_AND_COMMUNITY": "뉴스와 커뮤니티",
+    "STATS": "통계",
+    "MARKET_STATS": "시장 통계",
+    "NETWORK_STATS": "네트워크 통계",
+    "BLOCKCHAIN_EXPLORER": "블록체인 탐색기",
+    "BUY": "구매",
+    "EARN": "벌기",
+    "HOLD": "보유하기",
+    "SPEND": "소비",
+    "UTILITY": "유틸리티",
+    "SWAP": "스왑",
+    "EMISSION_MODEL": "배출 모델",
+    "TECHNOLOGY": "기술",
+    "TRINITY": "삼위일치",
+    "BLOCK_DAG": "블록 DAG",
+    "NETWORK": "네트워크",
+    "INFRASTRUCTURE": "인프라",
+    "START_MINING": "채굴 시작",
+    "HOW_TO_MINE": "채굴 방법",
+    "PRODUCTS": "제품",
+    "REFERRAL_PROGRAM": "추천인 프로그램",
+    "FAQ": {
+        "TITLE": "FAQ",
+        "CONTENT": {
+            "THE_PROJECT": {
+                "TITLE": "프로젝트",
+                "QS": {
+                    "Q1_TITLE": "Enecuum이란 무엇인가요?",
+                    "Q1_ANSW_P1": "Enecuum은 분산형 애플리케이션을 위한 블록체인 모바일 네트워크입니다. 일반 모바일 및 데스크톱 장치를 사용하는 이들을 블록체인 네트워크에 포함하여 블록체인과 암호화폐를 실제 주류로 가져 오는 목적으로 만들어졌습니다. Enecuum을 통해 각 스마트폰 소유자는 글로벌 네트워크의 일부가 될 수 있습니다.",
+                    "Q2_TITLE": "어떻게 작동하나요?",
+                    "Q2_ANSW_P1": "Enecuum에서 합의는 작업증명 (\"PoW\"), 활동증명 (\"PoA\") 및 지분증명 (\"PoS\")의 세 가지 채굴 알고리즘 간의 상호 작용을 통해 이루어집니다. 이 조합을 통해 높은 수준의 네트워크 분산화를 달성할 수 있습니다. 현재 우리는 모바일 앱에 PoA 알고리즘을 배포했으며, 공개 테스트를 위해 PC에서 PoW 및 PoS를 사용할 수 있습니다."
+                }
+            },
+            "START_MINING": {
+                "TITLE": "채굴 시작",
+                "QS": {
+                    "Q1_TITLE": "어떻게 채굴하나요?",
+                    "Q1_ANSW_P1": "당신이 해야 할 일은 안드로이드 기기를 가지고 우리의 앱을 다운로드하고 25 ENQ를 입금하는 것입니다.",
+                    "Q2_TITLE": "Enecuum의 토큰은 어떻게 얻나요?",
+                    "Q2_ANSW_P1": "ENQ는 카드 또는 거래소 (KuCoin, Crex24, Graviex)로 구매할 수 있습니다. 거래소에서 ENQ를 구매하는 경우 먼저 당신의 토큰을 이더리움 지갑으로 전송해야 합니다.",
+                    "Q3_TITLE": "어떻게 스왑하나요?",
+                    "Q3_ANSW_P1": "보유하고 있는 운영 체제 (OS)에 따라 메타마스크 (데스크탑 OS) 또는 트러스트 월렛 (모바일 OS) 이더리움 지갑을 사용하십시오. 이 소프트웨어는 Enecuum 팀과 커뮤니티에서 테스트되었습니다. 자세한 내용",
+                    "Q4_TITLE": "채굴에 사용할 수 있는 장치는 무엇인가요?",
+                    "Q4_ANSW_P1": "안드로이드에서 실행되는 모든 모바일 장치 (휴대폰, 태블릿)에서 채굴할 수 있습니다. Enecuum은 주로 스마트폰을 목표로 하지만 우리 커뮤니티는 IoT 장치, TV 박스 및 스마트 워치에서도 채굴을 관리했습니다!",
+                    "Q5_TITLE": "여러 장치에서 채굴할 수 있나요?",
+                    "Q5_ANSW_P1": "예, 하지만 모든 장치에 대해 별도의 계정을 만들어야 합니다.",
+                    "Q6_TITLE": "에뮬레이트 된 휴대폰에서 채굴할 수 있나요?",
+                    "Q6_ANSW_P1": "네, 가능합니다. 현재로서는 어떠한 제한도 없습니다."
+                }
+            },
+            "IMPACT_ON_DEVICE": {
+                "TITLE": "장치에 미치는 영향",
+                "QS": {
+                    "Q1_TITLE": "채굴이 제 휴대폰 배터리에 어떤 영향을 미치나요?",
+                    "Q1_ANSW_P1_1": "배터리 소모는 미미합니다 - 일반적인",
+                    "Q1_ANSW_P1_2": "기기 사용에 비해",
+                    "Q1_ANSW_P1_3": "방전 속도가 5% 미만입니다.",
+                    "Q2_TITLE": "인터넷 사용은 어떤가요?",
+                    "Q2_ANSW_P1": "채굴시 와이파이 연결을 권장하지만 일반적으로 메신저나 브라우저보다 트래픽 사용량이 적습니다."
+                }
+            }
+        }
+    },
+    "GUIDES": "안내",
+    "HOW_TO_USE_THE_APP": "앱 사용 방법",
+    "HOW_TO_BUY_ENQ_ON_EXCHANGE": "거래소에서 ENQ를 구매 방법",
+    "HOW_TO_BUY_ENQ_USING_BANK_CARD": "은행 카드로 ENQ를 구매하는 방법",
+    "HOW_TO_SWAP_ENQ": "ENQ 스왑 방법",
+    "HOW_TO_JOIN_THE_REFERRAL_PROGRAM": "추천인 프로그램 참여 방법",
+    "HOW_DOES_ROI_CALCULATOR_WORK": "ROI 계산기 작동 방식",
+    "RESEARCH_PAPERS": "연구 논문",
+    "WHITEPAPER": "백서",
+    "TECHPAPER": "기술 문서",
+    "PLAY_VIDEO": "동영상 플레이",
+    "EASY_JOIN": "쉽게 참여",
+    "EASY_EARN": "쉽게 벌기",
+    "ABOUT_S1_TITLE_P1": "분산형 애플리케이션을 위한",
+    "ABOUT_S1_TITLE_P2": "블록체인 모바일 네트워크",
+    "ABOUT_S1_P1": "우리는 모든 사람이 블록체인 혁명의 일부가 될 기회를 가져야 한다고 믿습니다.",
+    "ABOUT_S1_P2": "현재 우리는 일반 모바일 및 데스크톱 장치를 사용하는 이들을 블록체인 네트워크에 포함하여 블록체인 및 암호화폐를 실제 주류로 가져올 수 있는 분산형 생태계를 만들뿐만 아니라 dApp 개발자가 수백만 명의 사람들을 위한 빠르고 저렴한 애플리케이션을 만들 수 있는 강력한 툴킷을 제공합니다.",
+    "ABOUT_S1_P3": "Enecuum을 통해 각 스마트폰 소유자는 글로벌 네트워크의 일부가 될 수 있습니다.",
+    "ABOUT_S2_TITLE": "채굴자가 생성한 토큰의 가치",
+    "ABOUT_S2": "Enecuum은 수백만 대의 스마트폰 및 기타 모바일 장치를 단일 네트워크로 통합한 세계 최초의 블록체인입니다. 여기에서 각 스마트폰은 채굴자가 될 수 있으며 Enecuum을 더 강력하고 안정적으로 만들 수 있습니다. 우리 앱을 사용하면 간단하고 안전하며 빠릅니다.",
+    "ABOUT_S3_C1_TITLE_P1": "극도로",
+    "ABOUT_S3_C1_TITLE_P2": "분산된 네트워크",
+    "ABOUT_S3_C1": "장치는 Enecuum 블록체인에 연결되고 미개발 데이터 처리 용량을 공유합니다. 더 많은 장치가 연결될수록 네트워크 속도가 빨라지고 확장 가능성은 제한되지 않습니다. 수백만 개의 분산 장치를 연결하면 진정으로 분산되고 안전하며 안정적인 시스템이 생성됩니다.",
+    "ABOUT_S3_C2": "모바일 장치 소유자는 앱을 다운로드하여 암호화폐 세계에 연결하고, 코인을 벌고, 송금하고, 상품과 서비스를 빠르고 안전하게 결제하고 은행 수수료 없이 지불하면 됩니다. 중요합니다! ENQ 앱은 모바일 장치의 배터리를 소모하지 않으며 Android 4.4, 1GHz 프로세서, 1.5GB RAM과 같은 매우 일반적인 휴대폰 사양이 필요합니다.",
+    "DAPPS_WEB_3_0_ECOSYSTEM_P1": "Dapps 웹 3.0",
+    "DAPPS_WEB_3_0_ECOSYSTEM_P2": "생태계",
+    "FAST_AND_EASY_PAYMENTS": "빠르고 & 쉬운 지불.",
+    "FLEXIBLE_SYSTEM_STAKES_REWARD": "유연한 시스템 스테이크 보상.",
+    "DATA_PROTECTION": "데이터 보호.",
+    "TOKENIZATION_OF_VIRTUAL_ASSETS": "가상 자산의 토큰화.",
+    "DECENTRALISED_FINANCE_INSTRUMENTS": "분산형 금융 상품.",
+    "MARKETPLACE_FOR_DIGITAL_RESOURCES": "디지털 자원을 위한 시장.",
+    "JOIN_ENECUUM_NETWORK": "Enecuum 네트워크 참여",
+    "POA_NODES": "PoA 노드",
+    "POW_NODES": "PoW 노드",
+    "POS_NODES": "PoS 노드",
+    "ACCOUNTS": "계정",
+    "CURRENT": "현재",
+    "MAX_TPS": "최대 TPS",
+    "LAST_BLOCK": "마지막 블록",
+    "TOTAL_NODES": "총 노드",
+    "VIEW_BLOCKS_LIVE": "블록체인 탐색기에서 실시간 블록 보기",
+    "EXPLORE_RIGHT": "지금 탐색하세요!",
+    "EXCHANGES": "거래소",
+    "MEDIA_TITLE": "Enecuum, 모바일 마스터 노드로 블록체인 네트워크 출시",
+    "MEDIA_PREVIEW": "블록체인과 암호화폐를 실제 주류로 가져올 수 있는 분산형 애플리케이션용 블록체인 모바일 네트워크인 Enecuum은 모바일 장치 사용자를 블록체인 네트워크에 참여시키고 dApp 개발자가 수백만 명의 사람들을 위한 빠르고 저렴한 애플리케이션 WEB 3.0을 만들 수 있는 강력한 툴킷을 제공합니다. 이제 Enecuum은 스케일링 커뮤니티 프로그램을 시작합니다.",
+    "LEGAL_ADVISOR": "법률 고문",
+    "WE_ARE_MEMBER_OF": "우리는 회원입니다",
+    "WHITEPAPER_DESCR": "이 백서에는 홍콩 법인 (CR: 2562183) (\"회사\") 인 Enecuum HK Limited의 신념과 회사에서 제공한 특정 가정 및 정보를 바탕으로 한 미래 예측 진술이 포함되어 있습니다.",
+    "TECHPAPER_DESCR": "통화는 언어가 말하는 것과 경제에 있습니다. 그 정교함과 유용성은 사용자 기반, 이를 유지하는 \"트랜잭션\"의 양, 적응, 급증 및 번영하는 다윈주의적 능력에 정비례하여 진화합니다.",
+    "READ_MORE": "더 읽기",
+    "READ_MORE_ABOUT_TECHNOLOGY": "기술에 대해 더 읽기",
+    "RESEARCH_PAPERS_A1_TITLE": "스마트폰 및 제한된 IoT 장치를 위한 블록체인 기술 : 미래 관점 및 구현",
+    "RESEARCH_PAPERS_A1_ABSTRACT": "블록체인 기술은 현재 현대 ICT 커뮤니티의 여러 측면을 관통하고 있습니다. 블록체인 관련 프로세스에 관련된 대부분의 장치는 채굴 측면만을 대상으로 특별히 설계되었습니다. 동시에, 웨어러블 및 모바일 장치의 사용은 특히 충전 시간 동안 블록체인 운영의 일부가 될 수 있습니다. 이 논문은 블록체인의 운영을 지원하는 다수의 제한된 장치를 사용할 가능성을 고려합니다. 이러한 장치의 활용은 시스템의 효율성을 향상시키고 더 많은 사용자를 끌어들일 것으로 예상됩니다. 저자는 작업증명 (PoW), 활동증명 (PoA) 및 지분증명 (PoS)의 조합을 기반으로 새로운 합의 알고리즘을 제안합니다. 이 백서는 먼저 기존 전략을 개괄하고 모바일 장치와 관련된 블록체인을 구축하는 데 사용되는 개발된 암호화 기본 요소를 추가로 설명합니다. 디자인 된 시스템에 대한 간단한 수치 평가도 논문에서 제공됩니다.",
+    "RESEARCH_PAPERS_A1_PUBLISHED": "Proc. IEEE 21차 비즈니스 정보 컨퍼런스 (CBI)",
+    "RESEARCH_PAPERS_A1_READ_THE_ARTICLE_ON_ IEEE_XPLORE": "IEEE Xplore에서 기사 읽기",
+    "DATE": "날짜",
+    "AUTHORS": "저자",
+    "ABSTRACT": "요약",
+    "PUBLISHED_IN": "게시되었습니다",
+    "CORE_TEAM": "핵심 팀",
+    "TEAM_CARDS": {
+        "MIKHAIL_SAYFULLIN": {
+            "NAME": "Mikhail Sayfullin",
+            "DESCR": "2002년부터 기업가. 국제 최대 기업에 고품질 서비스를 성공적으로 제공하는 마케팅 대행사를 설립 및 개발했습니다. 2014년부터 Mikhail은 엔터테인먼트 부문에서 인기 있는 시장을 시작하는 IT 분야에서 성공적으로 일하고 있습니다. Enecuum Limited의 창립자 중 한 명이자 2017년부터 우리의 전략 관리자입니다."
+        },
+        "KONSTANTIN_ZHIDANOV": {
+            "NAME": "Konstantin Zhidanov",
+            "DESCR": "Konstantin은 저수준 프로그래밍 및 응용 암호화 기술을 보유한 소프트웨어 개발자입니다. 또한 그는 Saint-Petersburg State University of Aerospace Instrumentation에서 컴퓨터 과학 관련 과정을 가르치고 있습니다.",
+            "QUOTE": "무언가를 가르치는 것은 당신이 그것을 정말로 이해하고 있는지 확인하는 가장 좋은 방법입니다."
+        },
+        "ROMAN_BASHLAEV": {
+            "NAME": "Roman Bashlaev",
+            "DESCR": "2014년부터 마케팅 및 광고 분야. 온라인 마케팅에서 회사 홍보에 대한 광범위한 경험. 또한 Roman은 GIS를 위한 3차원 모델링에 참여했습니다. 지리 정보 시스템용 3차원 데이터 분류기 세트 특허 획득."
+        },
+        "SERGEY_VANURIN": {
+            "NAME": "Sergey Vanurin",
+            "DESCR": "개발, 지원, DevOps 및 배달에 대한 배경 지식이 있는 IT 전문가. 프로젝트 관리자로서 Sergey는 도시 계획 부서에서 성공적으로 채택된 온라인 3D 지리 정보 시스템을 개발했습니다. 수학 및 데이터 과학에 관심이있는 Sergey는 Enecuum이 개인 성장과 세상 변화를 위한 완벽한 장소라고 생각합니다."
+        },
+        "SERGEY_BEZZATEEV": {
+            "NAME": "Sergey Bezzateev",
+            "DESCR": "Sc.D. CS에서 Saint Petersburg State University of Aerospace Instrumentation의 IT 보안 부서장. Sergey는 정보 이론, 코딩 이론, InfoSec 분야에서 출판된 40개 이상의 자료를 보유한 저명한 전문가이며, 암호화 분야의 선도적인 전문가 중 한 명입니다."
+        },
+        "ALEKSANDRA_AFANASYEVA": {
+            "NAME": "Aleksandra Afanasyeva",
+            "DESCR": "St. Petersburg State University of Aerospace Instrumentation의 정보 시스템 보안과 조교수로 Aleksandra는 그녀의 M.Sc. 2003년 IT를 전공했고 핀란드 헬싱키에 있는 Nokia Research Center에서 증거 기반 보안 및 암호화 프로토콜 검증에 대해 교육을 받았습니다. Aleksandra는 InfoSec 및 데이터 스토리지 시스템의 리소스 관리 알고리즘 최적화 분야에서 삼성, 인텔, 델 EMC와 함께 공동 프로젝트에 참여하고 주도했습니다."
+        },
+        "ALEKSANDR_OMETOV": {
+            "NAME": "Aleksandr Ometov",
+            "DESCR": "Aleksandr는 D.Sc. (Tech.) 및 M.Sc. 2018년과 2016년에 핀란드의 Tampere University of Technology (TUT)에서 통신 분야에서 우수했으며 2013년에는 러시아 상트페테르부르크에 있는 Saint Petersburg State University of Aerospace Instrumentation에서 정보 보안 전문가 학위를 받았습니다. 그의 주요 연구 관심 분야는 무선 통신, 정보 보안, 이기종 네트워킹, 협력 통신 및 기계 대 기계 애플리케이션입니다."
+        },
+        "HENOK_TEKLE": {
+            "NAME": "Henok \"Hen\" Tekle",
+            "DESCR": "저명한 블록체인 엔젤 투자자, 고문, 콘텐츠 제작자 및 대중 연설자인 AlphaChain의 공동 창립자 및 관리 파트너. Hen은 토큰 경제와 블록체인 기술이 가져온 혼란에 대한 열정적인 옹호자이며 이러한 주제에 대해 전 세계 컨퍼런스에서 정기적으로 연설합니다. Hen의 엔젤 투자 활동은 블록체인 기술의 개발 및 주류 채택을 촉진하는 데 있어 초기 단계 회사에 상당한 자본과 전략적 가치를 제공했습니다."
+        },
+        "MIKHAIL_VASILEV": {
+            "NAME": "Mikhail Vasilev",
+            "DESCR": "Mikhail은 St. Petersburg State University of Aerospace Instrumentation, Information Security Department를 졸업한 소프트웨어 개발자입니다. 러시아의 주요 3PL 운영 업체 중 하나를 위해 WMS를 개발하고 제공했습니다."
+        },
+        "ANTON_PRUDANOV": {
+            "NAME": "Anton Prudanov",
+            "DESCR": "소프트웨어 개발자이자 InfoSec 전문가로 Saint-Petersburg State University of Aerospace Instrumentation을 졸업했습니다. Anton은 풀 스택 개발, IoT 솔루션, 암호화 및 시스템 관리를 비롯한 다양한 IT 관련 기술을 보유하고 있습니다. Anton의 핵심 초점은 ENQ 암호화 라이브러리입니다."
+        },
+        "YULIA_BARDINOVA": {
+            "NAME": "Yulia Bardinova",
+            "DESCR": "정보 보안 배경이 있는 QA 엔지니어. Enecuum에서 Yulia는 모든 사용자에게 버그 없는 경험을 보장하기 위해 테스트를 설계하고 구현합니다."
+        },
+        "VLADIMIR_TSAREV": {
+            "NAME": "Vladimir Tsarev",
+            "DESCR": "웹 애플리케이션, 자동 제어 시스템 및 지리 정보 시스템 (GIS) 개발에 대한 배경 지식이 있는 IT 전문가."
+        },
+        "STAN_PRIHODKO": {
+            "NAME": "Stan Prihodko",
+            "DESCR_P1": "Stan은 다음의 Crypto 자산 관리 책임자입니다",
+            "DESCR_P2": ", AUM 4억 달러 이상의 펀드. GEM에 합류하기 전에 Stan은 암호화폐 자산의 신뢰 관리 및 높은 순자산가를 위한 ICO 투자에 대한 상담에 참여했습니다."
+        },
+        "ALEXANDER_RUGAEV": {
+            "NAME": "Alexander Rugaev",
+            "DESCR": "Alexander Rugaev는 일련의 창업가이자 초기 블록체인 지지자 중 한 명입니다. 그는 산업 등급의 비트코인 및 이더리움 마이닝 팜을 만든 경험이 있습니다. 그는 전자 상거래 및 온라인 마케팅 분야에서 16년의 경력을 보유하고 있습니다."
+        },
+        "SHELLY_HOD_MOYAL": {
+            "NAME": "Shelly Hod Moyal",
+            "DESCR": "Shelly Hod Moyal은 Juno Capital의 포트폴리오 관리자이자 하이테크 스타트업을 위한 VC 플랫폼인 iAngels의 창립 파트너인 iCapital의 고문으로, 여러 기술 산업 분야를 전문으로 하는 부서 및 펀드에서 1억 4천만 달러의 자산을 관리하고 있습니다. iAngels 이전에 Shelly는 Goldman Sachs Investment Bank에서 유망한 분석가로 인정받았습니다. 그 전에 Shelly는 은행, 보험, 부동산 및 금융 기관을 다루는 유명한 헤지 펀드인 Avenue Capital에서 연구 분석가로 일했습니다. Shelly는 시카고의 Kellogg에서 MBA를 취득하고 뉴욕의 Hunter College에서 경제학 학위 (우등)를 받았습니다."
+        },
+        "MAXIM_SHULTE": {
+            "NAME": "Maxim Shulte",
+            "DESCR": "작가. 성공적인 트레이더. 암호화폐 애호가. 2015년부터 암호화폐 업계."
+        },
+        "KELLY_IFALUYI": {
+            "NAME": "Kelly Ifaluyi",
+            "DESCR": "2년 이상의 경험과 다양한 소셜 미디어 채널, 전략 및 블록체인 기술에 대한 포괄적인 지식을 갖춘 열정적인 전문 커뮤니티 관리자이자 브랜드 앰배서더입니다."
+        }
+    },
+    "AMBASSADORS": "앰버서더",
+    "AMBASSADORS_CARDS": {
+        "HAL_NKRUMAH": {
+            "NAME": "Hal Nkrumah",
+            "LANGUAGE": "영어, Twi",
+            "COUNTRY": "가나"
+        },
+        "AZEEZ_OLANREWAJU_ABDULFATTAH": {
+            "NAME": "Azeez Olanrewaju Abdulfattáh",
+            "LANGUAGE": "영어",
+            "COUNTRY": "나이지리아"
+        },
+        "ABDULWAHAB_MAYOWA": {
+            "NAME": "Abdulwahab Mayowa",
+            "LANGUAGE": "영어",
+            "COUNTRY": "나이지리아"
+        },
+        "BARINEKA_MAAGBO": {
+            "NAME": "Barineka Maagbo",
+            "LANGUAGE": "영어",
+            "COUNTRY": "나이지리아"
+        },
+        "RAFAEL_AREVALO": {
+            "NAME": "Rafael Arevalo",
+            "LANGUAGE": "영어, 스페인어",
+            "COUNTRY": "콜롬비아"
+        },
+        "EMMANUEL_OMISADE": {
+            "NAME": "Emmanuel Omisade",
+            "LANGUAGE": "영어",
+            "COUNTRY": "나이지리아"
+        },
+        "MARK_TUT": {
+            "NAME": "Mark Tut",
+            "LANGUAGE": "러시아어, 벨로루시어, 영어",
+            "COUNTRY": "벨라루스"
+        }
+    },
+    "AMBASSADORS_ATTRIBUTES": {
+        "LANGUAGE": "언어"
+    },
+    "CEO": "CEO",
+    "CTO": "CTO",
+    "CMO": "CMO",
+    "PROJECT_MANAGER": "프로젝트 매니저",
+    "HEAD_OF_RESEARCH": "연구 책임자",
+    "RESEARCHER": "연구원",
+    "STRATEGIC_PARTNER": "전략적 파트너",
+    "BUSINESS_ANALYST": "비즈니스 분석가",
+    "SOFTWARE_DEVELOPER": "소프트웨어 개발자",
+    "SOFTWARE_ENGINEER": "소프트웨어 엔지니어",
+    "QA_ENGINEER": "QA 엔지니어",
+    "WEB_DEVELOPER": "웹 개발자",
+    "ADVISOR": "고문",
+    "AMBASSADOR": "앰버서더",
+    "COMMUNITY_MANAGER": "커뮤니티 매니저",
+    "ROADMAP_CONTENT": {
+        "Q2_2017": {
+            "Q_NUMBER": "2분기",
+            "TASKS": {
+                "T_1": "R&D 기존 블록체인"
+            }
+        },
+        "Q3_2017": {
+            "Q_NUMBER": "3분기",
+            "TASKS": {
+                "T_1": "성명서 V.1",
+                "T_2": "시스템 아키텍처 설명"
+            }
+        },
+        "Q4_2017": {
+            "Q_NUMBER": "4분기",
+            "TASKS": {
+                "T_1": "핵심 개발 팀 구성"
+            }
+        },
+        "Q1_2018": {
+            "Q_NUMBER": "1분기",
+            "TASKS": {
+                "T_1": "네트워크 프로토콜 구현"
+            }
+        },
+        "Q2_2018": {
+            "Q_NUMBER": "2분기",
+            "TASKS": {
+                "T_1": "PoW 및 PoA 노드 구현"
+            }
+        },
+        "Q3_2018": {
+            "Q_NUMBER": "3분기",
+            "TASKS": {
+                "T_1": "테스트넷 알파 (제네시스) 시작.",
+                "T_2": "PoA 보상 테스트.",
+                "T_3": "블록체인 탐색기.",
+                "T_4": "1단계 에어드랍"
+            }
+        },
+        "Q4_2018": {
+            "Q_NUMBER": "4분기",
+            "TASKS": {
+                "T_1": "테스트넷 베타용 개발 프로토 타입.",
+                "T_2": "학술 연구: ID 기반 암호화 및 익명 트랜잭션을 사용하는 Trinity 프로토콜"
+            }
+        },
+        "Q1_2019": {
+            "Q_NUMBER": "1분기",
+            "TASKS": {
+                "T_1": "테스트넷 베타 (Neuro) 시작.",
+                "T_2": "PoW, PoA, PoS 보상.",
+                "T_3": "Trinity 합의 알고리즘.",
+                "T_4": "구현 ID 기반 암호화.",
+                "T_5": "파트너 Dapp (VPN)에 대한 첫 번째 스마트 계약 사용 사례 생성"
+            }
+        },
+        "Q2_2019": {
+            "Q_NUMBER": "2분기",
+            "TASKS": {
+                "T_1": "동료가 심사하는 저널 (WoS, Scopus)에 학술 논문 출판 주기.",
+                "T_2": "PoA 노드용 스테이킹 시스템.",
+                "T_3": "생태계 확장 프로그램 시작.",
+                "T_4": "안드로이드 채굴자 앱 출시.",
+                "T_5": "ENQ 네이티브를 ENQ (ERC20)으로 스왑.",
+                "T_6": "웹 지갑."
+            }
+        },
+        "Q3_2019": {
+            "Q_NUMBER": "3분기",
+            "TASKS": {
+                "T_1": "분산형 추천인 프로그램 출시.",
+                "T_2": "통계 데이터 수집.",
+                "T_3": "최적화 PoA 알고리즘, 블록체인 탐색기, 지갑.",
+                "T_4": "시스템 상태 유지.",
+                "T_5": "안드로이드 지갑 (플레이 마켓) 출시.",
+                "T_6": "ENQ (ERC20) 토큰을 콜드, 핫 월렛 및 결제 제공 업체에 통합.",
+                "T_7": "Trinity 프로토콜에 대한 암호화 곡선의 마무리 및 테스트."
+            }
+        },
+        "Q4_2019": {
+            "Q_NUMBER": "4분기",
+            "TASKS": {
+                "T_1": "iOS 지갑 출시.",
+                "T_2": "PoW v.1.0 노드 출시.",
+                "T_3": "PoS 노드 출시.",
+                "T_4": "메인넷 알파 (Trinity) 출시.",
+                "T_5": "노드 API 및 문서 게시.",
+                "T_6": "백서 v2.0."
+            }
+        },
+        "Q1_2020": {
+            "Q_NUMBER": "1분기",
+            "TASKS": {
+                "T_1": "SHARNELL 스마트 계약.",
+                "T_2": "스마트 스테이킹 v1.0 (Alice).",
+                "T_3": "토큰 발행 (ENQ 표준).",
+                "T_4": "ENQ 표준 토큰을 크립토 거래소에 통합.",
+                "T_5": "ENQ 토큰 형식 ERC20 소각 시작."
+            }
+        },
+        "Q2_2020": {
+            "Q_NUMBER": "2분기",
+            "TASKS": {
+                "T_1": "PoW v.2.0 출시 (ASIC 저항).",
+                "T_2": "스마트 계약용 SDK 개발.",
+                "T_3": "채굴 토큰 발행 (ENQ 표준).",
+                "T_4": "스마트 스테이킹 v2.0 (Bob).",
+                "T_5": "Enecuum v1.0 (Pulse)이 출시."
+            }
+        },
+        "Q3_2020": {
+            "Q_NUMBER": "3분기",
+            "TASKS": {
+                "T_1": "온라인 상점을 위한 결제 시스템 (server less).",
+                "T_2": "Hyper DAG 구현.",
+                "T_3": "디지털 자원 시장 솔루션 (VPN, DEX, 스토리지)."
+            }
+        },
+        "Q4_2020": {
+            "Q_NUMBER": "4분기",
+            "TASKS": {
+                "T_1": "거버넌스 모델 발표.",
+                "T_2": "프라이빗 블록체인 솔루션.",
+                "T_3": "사이드-체인 허브 테스트넷."
+            }
+        }
+    },
+    "BECOME_PARTNER_TITLE": "파트너가 되고 싶나요?",
+    "LEAVE_YOUR_E_MAIL": "이메일과 이름을 남겨주시면 관리자가 연락을 드립니다",
+    "BECOME_A_PARTNER": "파트너 되기",
+    "JOIN_OUR_COMMUNITY": "커뮤니티 참여",
+    "MARKET_CAP": "시가 총액",
+    "VOLUME": "거래량",
+    "PRICE_USD": "가격 USD",
+    "PRICE_BTC": "가격 BTC",
+    "TRADING_PAIRS": "거래 쌍",
+    "CALCULATOR": "계산기",
+    "ENQ_CHARTS": "ENQ 차트",
+    "MOBILE_MN_ROI_CALCULATOR": "모바일 마스터 노드 ROI 계산기",
+    "ROI_RANGE": "하나의 MN에 25에서 25000 ENQ를 스테이크 할 수 있습니다.",
+    "IS_REFERRAL": "저는 추천인입니다",
+    "ROI_STAKE_LITE_CALC": "스테이크 할 ENQ 양",
+    "ANNUAL_ROI": "연간 수익률",
+    "ROI_STAKE": "얼마나 많은 ENQ를 스테이크 하시겠습니까?",
+    "INCORRECT_STAKE_RANGE_MESSAGE": "값이 잘못되었습니다. 25에서 25000 ENQ를 스테이크 하십시오",
+    "DAILY": "일일",
+    "WEEKLY": "주간",
+    "MONTHLY": "월간",
+    "ANNUAL": "연간",
+    "24H_POW_REWARDS": "24시간 PoW 보상",
+    "24H_POA_MN_REWARDS": "24시간 PoA MN 보상",
+    "MN_STAKE": "PoA MN에 코인 스테이크",
+    "CIRC_SUPPLY_SHORT": "순환 수량",
+    "OPEN_BE": "블록체인 탐색기 열기",
+    "BUY_ENQ": "ENQ 구매",
+    "WAY_TO_BUY": "ENQ 구매를 위한 편리한 방법 선택",
+    "CURRENT_ENQ_PRICE": "현재 ENQ 가격",
+    "OTC": "OTC",
+    "BANK_CARD_NATIVE": "은행 카드 (네이티브)",
+    "BUY_COIN_BANK_CARD_P1": "당신은 할 수 있습니다",
+    "BUY_COIN_BANK_CARD_P2": "네이티브 코인 ENQ 구매",
+    "BUY_COIN_BANK_CARD_P3": "은행 카드를 사용하고 즉시 채굴 시작",
+    "EARN_ENQ": "ENQ 적립",
+    "TYPES_OF_TOKENS": "토큰에는 ERC20과 네이티브의 두 가지 유형이 있습니다. 채굴을 위해서는 네이티브 ENQ가 필요합니다. ERC20을 구입하여 기본으로 바꿀 수도 있습니다.",
+    "POA_MINING": "PoA 채굴",
+    "POA_MINING_STEPS": {
+        "STEP_1": "앱 다운로드",
+        "STEP_2": "앱에서 계정 생성",
+        "STEP_3_OLD": "3a 또는 3b 단계에 따라 최소 25 ENQ 입금",
+        "STEP_3": "최소 25 ENQ를 입금하십시오.",
+        "STEP_3A": "카드로 네이티브 코인 구매",
+        "STEP_3B_P2": "&",
+        "STEP_3B_P3": "스왑",
+        "STEP_3B_P4": "네이티브 네트워크로",
+        "STEP_4": "앱에서 '활동 시작'을 탭"
+    },
+    "KEEP_CALM_AND_START_MINING": "침착하게 채굴 시작",
+    "SWAP_NATIVE_COINS_TO": "네이티브 코인을 다음으로 스왑",
+    "VIDEO": "동영상",
+    "HOLD_ENQ": "ENQ 홀딩",
+    "HOLD_ENQ_DESCR": "공식 Enecuum 지갑 사용",
+    "NATIVE_ENQ": "네이티브 ENQ",
+    "ERC20_WALLETS": "ERC20 지갑",
+    "SPEND_ENQ": "ENQ 사용",
+    "SPEND_ENQ_DESCR": "파트너 네트워크를 통해 전세계 ENQ (ERC 20)를 편리하게 결제할 수 있습니다.",
+    "SWAP_TO_ERC20": "네이티브 코인을 ERC20으로 스왑하는 방법",
+    "BECOME_MERCHANT_TITLE": "상인이 되고 싶으신가요?",
+    "PAYMENTS_PROVIDERS": "결제 제공 업체",
+    "PAYMENTS_PROVIDERS_FORM": "결제 제공 업체 양식",
+    "START_RECEIVING_ENQ_FORM": "ENQ 양식 받기 시작",
+    "COMING_SOON": "출시 예정",
+    "TOKEN_UTILITY": "토큰 유틸리티",
+    "DISCLAIMER": "면책조항",
+    "COPYRIGHT_INFO_P1": "© 2019 Enecuum HK Limited. 사업자 등록 번호: 2562183. All rights reserved. 이 문서의 어떤 내용도 어떤 종류의 제안이나 조언을 구성하지 않습니다. ENQ 및 Enecuum 적응형 분산 환경은 모든 관할권과 모든 사람이 사용할 수 있는 것은 아닙니다.",
+    "COPYRIGHT_INFO_P2": "개인 정보 보호 정책",
+    "COPYRIGHT_INFO_P3": "및",
+    "COPYRIGHT_INFO_P4": "웹 사이트 이용 약관을 참조하십시오.",
+    "TECHNOLOGY_PAGE_PROMO": {
+        "TRINITY_CONSENSUS": {
+            "P_1": "우리의 Trinity 알고리즘은 PoA, PoW 및 PoS를 결합합니다. 합의에 대한 이러한 하이브리드 접근 방식은 높은 수준의 네트워크 분산화를 제공하는 동시에 네트워크 보안 및 트랜잭션 실행 속도를 크게 향상시킵니다. 네트워크 보안은 통합된 혁신적인 암호화 솔루션으로 더욱 강화됩니다.",
+            "P_2": "이러한 합의 메커니즘은 동시에 작동합니다: 문제 해결자 (PoW 노드)는 블록체인 구조의 중추를 만듭니다. 퍼블리셔 (PoA 노드)는 마이크로 블록을 완성하고 게시합니다. 홀더 (PoS 노드)는 시스템 효율성을 유지합니다. 암호화를 통해 노드는 상호 교환 할 수 있습니다."
+        },
+        "BLOCK_DAG_STRUCTURE": {
+            "P_1": "각 지점은 Nakamoto (BFT) 합의에 따라 성장합니다.",
+            "P_2": "허용되는 최대 분기 수는 네트워크 해시 속도에 따라 다릅니다.",
+            "P_3": "분기는 시간순으로 매크로 블록을 배열할 수 있는 방식으로 교차 연결됩니다."
+        },
+        "NETWORK_PERFORMANCE_AND_TOPOLOGY": {
+            "P_1": "18,000 tps (테스트 결과)",
+            "P_2": "지연 시간 5-30초",
+            "P_3": "수천의 PoW 및 PoS 노드",
+            "P_4": "수백만의 PoA 노드",
+            "P_5": "유연한 스마트 계약 아키텍처",
+            "P_6": "채굴자를 위한 동적 보상 시스템",
+            "P_7": "Chord 알고리즘",
+            "P_8": "라우팅",
+            "P_9": "샤딩"
+        },
+        "INFRASTRUCTURE_AND_ECOSYSTEM": {
+            "P_1": "PoS 노드 (서버)",
+            "P_2": "PoW 노드 (컴퓨터)",
+            "P_3": "PoA 노드 (모바일 장치)",
+            "P_4": "dApp (게임, 결제, 덱스 및 기타)",
+            "P_5": "거래소",
+            "P_6": "사용자 (모바일, PC)"
+        }
+    },
+    "TECHNOLOGY_PAGE": {
+        "TRINITY_PROTOCOL": {
+            "H_1": "프로토콜 Trinity",
+            "H_2": "(BFT 하이브리드 합의 알고리즘)",
+            "P_1": "우리의 Trinity 알고리즘은 PoA, PoW 및 PoS를 결합합니다. 합의에 대한 이러한 하이브리드 접근 방식은 높은 수준의 네트워크 분산화를 제공하는 동시에 네트워크 보안 및 트랜잭션 실행 속도를 크게 향상시킵니다. 네트워크 보안은 통합된 혁신적인 암호화 솔루션으로 더욱 강화됩니다."
+        },
+        "POA_MOBILE_MASTERNODE": {
+            "H_1": "PoA 모바일 마스터 노드",
+            "P_1": "PoA (활동증명) 노드는 트랜잭션 정보가 저장된 m-블록을 검증하여 네트워크에 기여합니다. 마이크로블록은 거래를 포함합니다. PoA는 PoS 리더가 검증합니다."
+        },
+        "POS_NODE": {
+            "H_1": "PoS 노드",
+            "H_2": "(위임 / 검증)",
+            "P_1": "PoS (smart stacking) 노드는 매크로 블록을 게시하는 PoS 리더의 투표에 대한 보상을 받습니다. PoS 노드 역할 후보는 잔액의 상위 100 지갑에 들어야 하며 관련 Trinity 프로토콜에 따라 PoS 연합으로부터 비밀 키 공유를 받아야 합니다."
+        },
+        "POW_NODE": {
+            "H_1": "PoW 노드",
+            "P_1": "PoW (작업증명) 노드는 PC의 CPU 성능을 사용하여 블록체인의 구조를 구성하는 k-블록을 생성합니다. ASIC 저항."
+        },
+        "TOKEN_MACHINE": {
+            "H_1": "Enecuum 토큰 머신",
+            "H_2": "토큰 생성을 위한 사용자 친화적이고 빠른 인터페이스.",
+            "FUNGIBLE_TOKENS": {
+                "TITLE": "대체 가능한 토큰",
+                "DESCR": "토큰 사용자의 지불로 개별 수수료 설정",
+                "FEATURES": {
+                    "F_1": "게임 내 포인트",
+                    "F_2": "스테이블 코인",
+                    "F_3": "크라우드 펀딩",
+                    "F_4": "시스템 크레딧",
+                    "F_5": "암호화폐"
+                }
+            },
+            "NON_FUNGIBLE_TOKENS": {
+                "TITLE": "대체 불가능한 토큰",
+                "DESCR": "각 토큰에 고유한 값 설정",
+                "FEATURES": {
+                    "F_1": "게임 아이템",
+                    "F_2": "공급망",
+                    "F_3": "부동산",
+                    "F_4": "신분",
+                    "F_5": "인증",
+                    "F_6": "수집품",
+                    "F_7": "기프트 카드"
+                }
+            },
+            "MINEABLE": {
+                "TITLE": "채굴 가능",
+                "DESCR": "자신의 토큰 몰딩을 시작하기 위해 스택 크기 설정",
+                "FEATURES": {
+                    "F_1": "로열티 포인트",
+                    "F_2": "마케팅",
+                    "F_3": "커뮤니티 구축",
+                    "F_4": "DeFi 스테이킹"
+                }
+            }
+        },
+        "FEE_PRINCIPLE": {
+            "H_1": "수수료 원칙"
+        },
+        "SMART_CONTRACTS": {
+            "TITLE": "스마트 계약",
+            "DESCR": "스마트 계약은 비즈니스 지향 SHARNELL 논리를 사용하는 완전한 기능적 프로그래밍 언어가 아닌 강력한 형식의 Turing을 기반으로 합니다. 이 논리는 오류 가능성을 최소화 합니다.",
+            "USE_CASES": {
+                "TITLE": "사용 사례:",
+                "F_1": "지불",
+                "F_2": "겜블링",
+                "F_3": "DeFi",
+                "F_4": "게임",
+                "F_5": "크라우드 펀딩",
+                "F_6": "VPN",
+                "F_7": "DEX"
+            }
+        }
+    },
+    "PRODUCTS_PAGE": {
+        "ANDROID_MASTERNODE": {
+            "H_1": "안드로이드 Enecuum 마스터 노드",
+            "P_1": "Enecuum 팀은 PoA 채굴을 위한 특별한 안드로이드 애플리케이션을 개발했습니다."
+        },
+        "MOBILE_WALLET": {
+            "H_1": "Enecuum 모바일 지갑",
+            "P_1": "잔액을 제어하고 Enecuum 토큰을 전송하는 편리한 응용 프로그램입니다. 안드로이드 및 iOS에서 사용할 수 있습니다."
+        },
+        "WEB_WALLET": {
+            "H_1": "Enecuum 웹 지갑",
+            "P_1": "Enecuum 지갑의 웹 버전을 사용하여 모든 브라우저를 통해 토큰에 액세스하십시오."
+        },
+        "BLOCKCHAIN_EXPLORER": {
+            "H_1": "블록체인 탐색기",
+            "P_1": "다음을 허용해줍니다: 네트워크 상태, 마지막 블록, 대역폭 확인, 트랜잭션 또는 지갑 확인, 활성 노드 맵 검사."
+        },
+        "SWAP_SERVICE": {
+            "H_1": "SWAP 서비스",
+            "P_1": "ERC-20 ENQ를 애플리케이션으로 이전하거나 ENQ를 판매하려면 스왑 (변환)이 이루어져야 합니다. Enecuum은 거래 할 수 없는 테스트 ENQ 코인을 사용하는 테스트 단계 (테스트넷)의 프로젝트이기 때문에 스왑은 필수입니다. 스왑하려면 이더리움 지갑과 ETH 가스 요금이 있어야 합니다."
+        },
+        "MOBILE_MULTIMINER": {
+            "H_1": "모바일 다중 채굴자",
+            "P_1": "다음 기능이 포함될 안드로이드 애플리케이션: ENQ 및 사용자 지정 토큰 채굴, 토큰 발행 (대체 가능, 대체 불가능, 채굴 가능), 토큰 위임 및 검증 (스마트 스테이킹), 토큰 전송, 거래 내역, 블록 탐색기."
+        }
+    },
+    "TRINITY_CONSENSUS": "Trinity 합의",
+    "BLOCK_DAG_STRUCTURE": "블록-DAG 구조",
+    "NETWORK_PERFORMANCE_AND_TOPOLOGY": "네트워크 성능 및 토폴로지",
+    "NODES": "노드",
+    "THROUGHPUT": "처리량",
+    "LATENCY": "지연 시간",
+    "PROOF": "증명",
+    "TEST_NET": "테스트넷",
+    "SIMULATION": "시뮬레이션",
+    "ANALYTICS": "애널리틱스",
+    "INFRASTRUCTURE_AND_ECOSYSTEM": "인프라 및 생태계",
+    "DOWNLOAD_ANDROID_MASTERNODE": "안드로이드 마스터노드 다운로드",
+    "ANDROID_MASTERNODE": "안드로이드 마스터노드",
+    "WALLETS": "지갑",
+    "DOWNLOAD_APPLICATION": "앱 다운로드",
+    "HOW_TO_START_MINING": "채굴 시작 방법",
+    "WEB_WALLET": "웹 지갑",
+    "TERMS_OF_SERVICE": "서비스 약관",
+    "PRIVACY_POLICY": "개인 정보 정책",
+    "STAGE_1": "스테이지 1",
+    "STAGE_2": "스테이지 2",
+    "LINKS": {
+        "WHAT_IS_POA": "what-is-poa",
+        "HOW_TO_RUN_POS": "how-to-run-pos",
+        "HOW_TO_RUN_POW": "how-to-run-pow"
+    }
+}
