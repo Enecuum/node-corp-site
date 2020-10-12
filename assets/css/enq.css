@@ -1180,3 +1180,7 @@ table.table-to-cards .scope-col {
 #joinOurCommunity .list-inline-item:not(:last-child) {
     margin-right: 0rem;
 }
+
+#startMiningBlueMark.start-mining-ko {
+	padding-top: 45px!important;	
+}
