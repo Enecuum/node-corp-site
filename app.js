@@ -152,6 +152,8 @@ app.use(function (req, res, next) {
 		if (currentLang === 'ru') {
 			res.locals.mobileImpactArticleLink = 'https://hub.forklog.com/vliyanie-mobilnogo-majninga-na-batareyu-ustrojstva-sravnitelnyj-analiz-uplexa-mib-i-enecuum/';
 			res.locals.guidesLink = 'https://guides.enecuum.com/ru';
+		} else if (currentLang === 'ko') {			
+			res.locals.guidesLink = 'https://guides.enecuum.com/ko';
 		} else {
 			res.locals.mobileImpactArticleLink = 'https://medium.com/@ENQBlockchain/smartphone-mining-on-battery-myth-or-reality-comparing-uplexa-mib-and-enecuum-bc0abc1e40e6';
 			res.locals.guidesLink = 'https://guides.enecuum.com';
