@@ -45,6 +45,10 @@ body {
 	font-size: 104px;
 }
 
+.fs-48 {
+	font-size: 48px;
+}
+
 .fs-40 {
 	font-size: 40px;
 }
@@ -79,6 +83,14 @@ body {
 
 .ff-monts-medium {
 	font-weight: 500;
+}
+
+.ff-monts-semi-bold {
+	font-weight: 600;
+}
+
+.ff-monts-extra-bold {
+	font-weight: 800;
 }
 
 .text-blue {
@@ -174,4 +186,47 @@ body {
 		font-size: 58px!important;
 		line-height: 58px!important;
 	}
+}
+
+.smart-obj {
+	position: absolute;
+	z-index: -1;
+}
+
+#presentationSmartContractsDescr span {
+	line-height: 40px;
+}
+
+#smartObjWrapper_2 {
+	height: 600px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 270px;
+	overflow: hidden;
+}
+
+#smartObj_1 {
+	top: -165px;
+	left: 0px;
+}
+
+#smartObj_2 {
+	top: -15px;
+	left: -230px;
+}
+
+#smartObj_3 {
+	top: 133px;
+	left: 0px;
+}
+
+#smartObj_4 {
+	right: calc(50% - 300px);
+	top: 15px;
+}
+
+#smartObj_5 {
+	top: 0px;
+	right: calc(50% - 850px);
 }
