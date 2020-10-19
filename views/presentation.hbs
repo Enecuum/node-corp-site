@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="{{currentLang}}">
+<head>
+  <!-- Title -->
+  <title>Presentation</title>
+  <link rel="canonical" href="https://enecuum.com/presentation"/>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/img/favicon.ico">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css">
+  <link href = "fonts/montserrat/stylesheet.css" rel = "stylesheet" type = "text/css" />
+  <link rel="stylesheet" href="/css/enq.css">
+  <link rel="stylesheet" href="/css/presentation.css">
+  <link rel="stylesheet" href="/vendor/dzsparallaxer/dzsparallaxer.css">
+  <link rel="stylesheet" href="/vendor/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="/vendor/hs-megamenu/src/hs.megamenu.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138901721-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138901721-4');
+  </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(56652799, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true,
+            ecommerce:"dataLayer"
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/56652799" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+
+<body>
+  <main id="content" role="main">
+    <div class="text-white mx-auto" id="presentationTop">
+      <div class="presentation-top-gradient"></div>
+      <div class="container text-center presentation-top-content">
+        <img class="presentation-logo mx-auto mt-10" src="/img/enq/presentation/presentation-logo.png">
+        <div class="text-uppercase pt-8 mt-8 ff-monts-black fs-40">{{__ 'PRESENTATION.TOP.TITLE.P1'}}</div>
+        <div class="text-uppercase ff-monts-bold fs-36">{{__ 'PRESENTATION.TOP.TITLE.P2'}}</div>
+      </div>      
+    </div>
+
+    <div class="container text-white py-8" id="presentationTrinity">
+      <div class="float-lg-right mx-auto" style="max-width: 520px;">
+        <img src="/img/enq/presentation/trinity.png" class="w-100">
+      </div>
+      <div class="ff-monts-black fs-40 text-uppercase" id="trinityTitle">{{__ 'PRESENTATION.TRINITY.TITLE'}}</div>
+      <div class="fs-34 monts-medium">
+        <span>{{__ 'PRESENTATION.TRINITY.P1.p1'}}</span>
+        <span class="ff-monts-black fs-34 text-blue">{{__ 'PRESENTATION.TRINITY.P1.p2'}}</span>
+        <span>{{__ 'PRESENTATION.TRINITY.P1.p3'}}</span>
+      </div>
+      <div class="fs-34 monts-medium pt-3">
+        <span>{{__ 'PRESENTATION.TRINITY.P2.p1'}}</span>
+        <span class="ff-monts-black fs-34 text-blue">{{__ 'PRESENTATION.TRINITY.P2.p2'}}</span>.
+        <span>{{__ 'PRESENTATION.TRINITY.P2.p3'}}</span>
+      </div>      
+    </div>
+    <div class="container text-white py-8" id="tokenTypes">
+      <div class="ff-monts-black fs-40 text-uppercase text-center mb-8">{{__ 'PRESENTATION.TOKEN_TYPES.TITLE'}}</div>
+      <div class="row px-xl-8">        
+        <div class="col-12 col-lg-4 text-center mb-8">
+          <img src="/img/enq/presentation/token.png" class="mb-5">
+          <div class="ff-monts-medium fs-34">{{__ 'PRESENTATION.TOKEN_TYPES.REISSUABLE'}}</div>
+        </div>
+        <div class="col-12 col-lg-4 text-center mb-8">
+          <img src="/img/enq/presentation/token.png" class="mb-5">
+          <div class="ff-monts-medium fs-34">{{__ 'PRESENTATION.TOKEN_TYPES.NON_REISSUABLE'}}</div>
+        </div>
+        <div class="col-12 col-lg-4 text-center mb-8">
+          <img src="/img/enq/presentation/token.png" class="mb-5">
+          <div class="ff-monts-medium fs-34">{{__ 'PRESENTATION.TOKEN_TYPES.MINEABLE'}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-8" id="nodesTypes">
+      <div class="ff-monts-black fs-40 text-uppercase text-center mb-8 pb-4 text-white">{{__ 'PRESENTATION.NODES_TYPES.TITLE'}}</div>
+      <div class="row">        
+        <div class="col-12 col-lg-4 text-center mb-8 d-flex align-items-center">
+          <div class="card p-4" id="presentationPOACard">
+            <div class="position-relative">
+              <img src="/img/enq/technology/poa-masternode-mobile.png" id="presentationPOAImage" alt="pow masternode screen">
+            </div>            
+            <div class="ff-monts-black fs-22" style="padding-top: 200px;">{{__ 'PRESENTATION.NODES_TYPES.POA.TITLE'}}</div>
+            <div class="ff-monts-black fs-22 text-blue">{{__ 'PRESENTATION.NODES_TYPES.POA.SUBTITLE'}}</div>
+            <div class="separator-grey w-40 mx-auto mt-4 mb-2"></div>
+            <div class="ff-monts-medium fs-19">{{__ 'PRESENTATION.NODES_TYPES.POA.DESCR'}}</div>
+          </div>  
+        </div>
+        <div class="col-12 col-lg-4 text-center mb-8 d-flex align-items-center">
+          <div class="card p-4" id="presentationPOSCard">
+            <div class="position-relative">
+              <img src="/img/enq/technology/pos-node.png" id="presentationPOSImage" alt="pos node server">
+            </div>
+            <div class="ff-monts-black fs-22" style="padding-top: 216px;">{{__ 'PRESENTATION.NODES_TYPES.POS.TITLE'}}</div>
+            <div class="ff-monts-black fs-22 text-blue">{{__ 'PRESENTATION.NODES_TYPES.POS.SUBTITLE'}}</div>
+            <div class="separator-grey w-40 mx-auto mt-4 mb-2"></div>
+            <div class="ff-monts-medium fs-19">{{__ 'PRESENTATION.NODES_TYPES.POS.DESCR'}}</div>
+          </div>  
+        </div>
+        <div class="col-12 col-lg-4 text-center mb-8 d-flex align-items-center">
+          <div class="card p-4"  id="presentationPOWCard">
+            <div class="position-relative">
+              <img src="/img/enq/technology/pow-videocard.png" id="presentationPOWImage" alt="pow node videocard">
+            </div>            
+            <div class="ff-monts-black fs-22" style="padding-top: 200px;">{{__ 'PRESENTATION.NODES_TYPES.POW.TITLE'}}</div>
+            <div class="ff-monts-black fs-22 text-blue">{{__ 'PRESENTATION.NODES_TYPES.POW.SUBTITLE'}}</div>
+            <div class="separator-grey w-40 mx-auto mt-4 mb-2"></div>
+            <div class="ff-monts-medium fs-19">{{__ 'PRESENTATION.NODES_TYPES.POW.DESCR'}}</div>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="text-white mx-auto" id="presentationFeatures">
+      <img class="presentation-logo w-100 mt-4" src="/img/enq/presentation/presentation-features.png">
+      <div class="container px-md-5 px-lg-10">        
+        <div class="text-uppercase ff-monts-black fs-40 text-left text-lg-center mx-auto" id="presentationFeaturesTitles">{{__ 'PRESENTATION.FEATURES.TITLE'}}</div>
+        <div class="row">
+          <div class="col-md-8 col-lg-4 mb-8 pr-0 pr-sm-10">
+            <div class="presentation-feature-number ff-monts-black text-blue">
+              {{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_01.N'}}
+            </div>
+            <div class="presentation-feature-descr fs-23">
+              <span class="ff-monts-medium fs-23">{{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_01.DESCR.P1'}}</span>
+              <span class="ff-monts-black fs-23 d-lg-block">{{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_01.DESCR.P2'}}</span>
+            </div>
+          </div>
+          <div class="col-md-8 offset-md-4 offset-lg-0 col-lg-4 mb-8 pr-0 pr-sm-10">
+            <div class="presentation-feature-number ff-monts-black 4 text-blue">
+              {{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_02.N'}}
+            </div>
+            <div class="presentation-feature-descr fs-23">
+              <span class="ff-monts-medium fs-23">{{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_02.DESCR'}}</span>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-4 mb-8 pr-0 pr-sm-10">
+            <div class="presentation-feature-number ff-monts-black text-blue">
+              {{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_03.N'}}
+            </div>
+            <div class="presentation-feature-descr fs-23">
+              <span class="ff-monts-medium fs-23">{{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_03.DESCR'}}</span>
+            </div>
+          </div>
+          <div class="col-md-8 offset-md-4 offset-lg-0 col-lg-4 mb-8 pr-0 pr-sm-10 ">
+            <div class="presentation-feature-number ff-monts-black text-blue">
+              {{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_04.N'}}
+            </div>
+            <div class="presentation-feature-descr fs-23">
+              <span class="ff-monts-medium fs-23">{{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_04.DESCR.P1'}}</span>
+              <span class="ff-monts-black fs-23">{{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_04.DESCR.P2'}}</span>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-4 mb-8 pr-0 pr-sm-10">
+            <div class="presentation-feature-number ff-monts-black text-blue">
+              {{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_05.N'}}
+            </div>
+            <div class="presentation-feature-descr fs-23">
+              <span class="ff-monts-medium fs-23">{{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_05.DESCR.P1'}}</span>
+              <span class="ff-monts-black fs-23 text-blue">{{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_05.DESCR.P2'}}</span>
+              <span class="ff-monts-medium fs-23">{{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_05.DESCR.P3'}}</span>
+            </div>
+          </div>
+          <div class="col-md-8 offset-md-4 offset-lg-0 col-lg-4 mb-8 pr-0 pr-sm-10">
+            <div class="presentation-feature-number ff-monts-black text-blue">
+              {{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_06.N'}}
+            </div>
+            <div class="presentation-feature-descr fs-23">
+              <span class="ff-monts-medium fs-23">{{__ 'PRESENTATION.FEATURES.ORDERED_LIST.F_06.DESCR'}}</span>
+            </div>
+          </div>                                        
+        </div>
+      </div>      
+    </div>      
+
+
+
+<!--   
+<img src="/img/enq/technology/poa-masternode-mobile.png" alt="poa masternode screen">
+<img src="/img/enq/technology/pos-node.png" alt="pos node server">
+<img src="/img/enq/technology/pow-videocard.png" alt="pow node videocard">
+
+  <div class="w-100 presentation-wide-container mx-auto" id="presentationTop">
+      <div class="presentation-top-gradient"></div>
+      <div class="presentation-top-content text-center">
+        <img class="presentation-logo mx-auto mt-10" src="/img/enq/presentation/presentation-logo.png">
+        <div class="text-uppercase pt-8 mt-8 ff-monts-black fs-40">{{__ 'PRESENTATION.TOP.TITLE.P1'}}</div>
+        <div class="text-uppercase ff-monts-bold fs-36">{{__ 'PRESENTATION.TOP.TITLE.P2'}}</div>         
+      </div>
+    </div> -->
+<!--     <div class="container presentation-wide-container mx-auto" id="presentationTrinity"> -->
+<!--  -->
+
+    </div>  
+  </main>
+
+<!-- ========== FOOTER ========== -->
+
+<!-- ========== END FOOTER ========== -->
+
+  <!-- JS Global Compulsory -->
+  <script src="/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/vendor/bootstrap/bootstrap.min.js"></script>
+
+
+  <!-- JS Front -->
+  <script src="/js/hs.core.js"></script>
+  <script src="/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+  <script src="/js/components/hs.slick-carousel.js"></script>
+  <script src="/js/components/hs.header.js"></script>
+  <script src="/js/components/hs.unfold.js"></script>
+
+
+  <!-- JS Implementing Plugins -->
+<script src="/vendor/appear.js"></script>
+<script src="/vendor/slick-carousel/slick/slick.js"></script>
+<script src="/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+  $(window).on('load', function () {
+    // initialization of HSMegaMenu component
+    $('.js-mega-menu').HSMegaMenu({
+      event: 'hover',
+      pageContainer: $('.container'),
+      breakpoint: 991.98,
+      hideTimeOut: 0
+    });
+  });
+
+  $(document).on('ready', function () {
+    // initialization of header     
+    $.HSCore.components.HSHeader.init($('#headerWithDropdown'));
+    // initialization of slick carousel
+    $.HSCore.components.HSSlickCarousel.init('#analyticsCarousel');
+    // initialization of unfold component
+    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+
+    //Cookies alert workflow start
+    ENQCookies = {
+      cookieName: 'enecuum-corp-site',
+      cookiesExpirationYears: 10,
+      cookieWidgetSelector: '#cookiesAlert',
+      cookiesIAgreeControlSelector: '#cookiesAlertIAgree',
+      getCookie: function() {
+        var name = this.cookieName + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var cookiesArray = decodedCookie.split(';');
+        for(var i = 0; i < cookiesArray.length; i++) {
+            var cookie = cookiesArray[i];
+            while (cookie.charAt(0) == ' ') {
+                cookie = cookie.substring(1);
+            }
+            if (cookie.indexOf(name) == 0) {
+                return cookie.substring(name.length, cookie.length);
+            }
+        }
+        return "";
+      },
+      cookieExist: function() {
+        return this.getCookie(this.cookieName) === 'true';
+      },
+      setCookies: function() {
+        let that = this;
+        let currentDate = new Date();
+        let expirationDate = new Date(currentDate.setFullYear(currentDate.getFullYear() + that.cookiesExpirationYears)).toUTCString();
+        document.cookie = this.cookieName+"=true; expires=" + expirationDate;
+        $(that.cookieWidgetSelector).remove();
+      },
+      normalFlowExecute: function() {
+        let that = this;
+        if (that.cookieExist() === false) {
+          $(that.cookieWidgetSelector).show();
+          $(that.cookiesIAgreeControlSelector).on('click', function() {
+            that.setCookies();
+          });
+        } else {
+          $(that.cookieWidgetSelector).remove();
+        }
+      }
+    }
+
+    ENQCookies.normalFlowExecute();
+    //Cookies alert workflow end
+
+    $.ajax({
+      method: 'GET',
+      url: "https://api.coingecko.com/api/v3/coins/enq-enecuum?tickers=true&market_data=true&community_data=false&developer_data=false&sparkline=false",
+      async: true,
+    }).success(function(response) {
+      let formatter = new Intl.NumberFormat("en-us", {
+        useGrouping: 'true',
+        maximumFractionDigits: '0'
+      });
+
+      let usdFormatter = new Intl.NumberFormat("en-us", {
+        useGrouping: 'true',
+        maximumFractionDigits: '5'
+      });
+
+      let marketStatsTitles = {
+        market_cap: response.market_data.market_cap.usd,
+        coin_volume: response.market_data.total_volume.usd,
+        price_usd: response.market_data.current_price.usd,
+        price_btc: response.market_data.current_price.btc
+      }
+
+      let tickersArray = response.tickers;
+      let exchange_volume = 0;
+
+      exchangeNamesArray = ['kucoin','graviex','crex24'];
+      let kucoinVolume = 0;
+      let crex24Volume = 0;
+      let graviexVolume = 0;
+
+
+      $.each(tickersArray, function(index, ticker) {
+        switch (ticker.market.identifier) {
+          case 'kucoin':
+            kucoinVolume += ticker.converted_volume.usd;
+            break;
+          case 'graviex':
+            graviexVolume += ticker.converted_volume.usd;
+            break;
+          case 'crex24':
+            crex24Volume += ticker.converted_volume.usd;
+            break;
+        }
+      });
+
+      $("[data-content='market_cap']").text('$'+usdFormatter.format(marketStatsTitles.market_cap));
+      $("[data-content='coin_volume']").text('$'+usdFormatter.format(marketStatsTitles.coin_volume));     
+      $("[data-content='price_usd']").text(marketStatsTitles.price_usd);
+      $("[data-content='price_btc']").text(marketStatsTitles.price_btc);
+
+      $("[data-content='kucoin-volume']").text('$'+usdFormatter.format(kucoinVolume));
+      $("[data-content='graviex-volume']").text('$'+usdFormatter.format(graviexVolume));
+      $("[data-content='crex24-volume']").text('$'+usdFormatter.format(crex24Volume));
+
+    });
+
+
+
+    let validator = {
+      checkValidDigitalValue: function(value) {
+        return (value !== null && value !== undefined && !isNaN(value)) ? true : false;
+      }
+    }
+
+    let currencyExchange = {
+      convertValue: function(value, rate) {
+        return (validator.checkValidDigitalValue(value) && validator.checkValidDigitalValue(rate)) ? value * rate : '---';
+      }
+    }
+
+    let commas = function(num){
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    };
+
+    let scope = {
+
+    };
+
+    // scope.refCheck = $('#refCheck').prop('checked');
+
+    scope.convertValueToUSD = function(value) {
+          return currencyExchange.convertValue(value, scope.stats.cg_usd);
+      }
+
+    scope.convert = function(enq){
+        enq = enq / 1e10;
+        // Add more in future
+        return [
+            {
+                name:'ENQ',
+                value: commas(enq.toFixed(2)) + ' ENQ'
+            },
+            {
+                name:'USD',
+                value: commas((enq * parseFloat(scope.stats.cg_usd)).toFixed(3)) + ' USD'
+            },
+            {
+                name:'ETH',
+                value: (enq * parseFloat(scope.stats.cg_eth)).toFixed(6) + ' ETH'
+            },
+            {
+                name:'BTC',
+                value: (enq * parseFloat(scope.stats.cg_btc)).toFixed(8) + ' BTC'
+            }
+        ]
+    };
+
+    scope.lerp = function(y0, y1, x0, x1, y){
+        return (x0 + ((y - y0) / (y1 - y0)) * (x1 - x0))
+    };
+
+    // scope.getTimestamp = function(unix){
+    //     return (new Date(unix * 1000)).toLocaleString()
+    // };
+
+    scope.calcROI = function(stake){
+        let rois = scope.rois;
+        for (let i = 0; i < rois.length; i++) {
+            if(stake === rois[i].stake){
+                return rois[i].roi;
+            }
+            else if(stake < rois[i].stake){
+                return this.lerp(rois[i-1].stake, rois[i].stake, rois[i-1].roi, rois[i].roi, stake)
+            }
+        }
+        return 0;
+    };
+
+      scope.reloadROI = function(stake) {
+        if(!scope.rois.length )   //|| !scope.stats.$resolved!!!!!!!!
+            return false;
+        scope.isLoaded = true;
+
+        stake = parseFloat(stake);
+        if(isNaN(stake)){
+            return false;
+        }
+        if(stake < 25 || stake > 25000){
+            $.toast({
+                heading: 'Error',
+                text: 'Stake is out of range 25...25,000',
+                icon: 'error',
+                hideAfter: 5000,
+                stack: 3,
+                position: 'top-right',
+                loader: false
+            });
+            return false;
+        }
+
+        scope.translationData.stake = stake;
+        stake = stake * 1e10;
+        let roi = scope.calcROI(stake);
+        let ratio = ((roi - stake) / stake);
+        if($('#refCheck').prop('checked'))
+            ratio += ratio * 0.1;
+        scope.roiData = [
+            {
+                period: "Daily",
+                values: scope.convert((stake * ratio)),
+                roi: "+ " + (ratio * 100).toFixed(2) + " %"
+            },
+            {
+                period: "Weekly",
+                values: scope.convert(stake * ratio * 7),
+                roi: "+ " + (ratio * 7 * 100).toFixed(2) + " %"
+            },
+            {
+                period: "Monthly",
+                values: scope.convert(stake * ratio * 30),
+                roi: "+ " + (ratio * 30 * 100).toFixed(2) + " %"
+            },
+            {
+                period: "Annual",
+                values: scope.convert(stake * ratio * 365),
+                roi: "+ " + (ratio * 365 * 100).toFixed(2) + " %"
+            }
+        ];
+    };
+
+    let incorrectValue = '---';
+    scope.roiValid = true;
+    scope.stake = 25;
+    scope.isLoaded = false;
+    scope.translationData = {
+        stake: 25,
+        min: 25,
+        max: 25000
+    };
+    scope.roiData = [];
+
+    let usdFormatter = new Intl.NumberFormat("en-us", {
+      useGrouping: 'true',
+      maximumFractionDigits: '5'
+    });
+
+    function refreshRoiCalc(stake) {
+
+
+      $.ajax({
+        method: 'GET',
+        url: "https://neuro.enecuum.com/api/v1/roi",
+        async: false,
+      }).success(function(roi) {
+        scope.rois = roi;
+      });
+
+      $.ajax({
+        method: 'GET',
+        url: "https://neuro.enecuum.com/api/v1/stats",
+        async: false,
+      }).success(function(stats) {
+          scope.stats = stats;
+          let statsPropertiesArr = ['total_daily_stake','reward_poa','poa_count','cg_usd','cg_btc'];
+          statsPropertiesArr.forEach(function(item) {
+              scope.stats[item] = (stats.hasOwnProperty(item) && validator.checkValidDigitalValue(stats[item])) ? stats[item] : incorrectValue;
+          });
+          scope.reloadROI(stake);
+          populateRoiElements();
+          $('#roiStakeUSD').text(usdFormatter.format(scope.convertValueToUSD(stake)) + ' USD');
+      });
+    }
+
+    refreshRoiCalc(scope.translationData.stake);
+
+
+    function populateRoiElements() {
+      scope.reloadROI(scope.translationData.stake);
+      $('#roiCalcCards').empty();
+      $.each(scope.roiData, function(index, roiDataItem) {
+        $('#roiCalcCards').append('<div class="col-md-6 col-xl-3 mb-5"><div class="card bg-light border-0"><div class="card-body"><div class="h4 h-bold mb-3">'+roiDataItem.period+'</div><div class="table-responsive-sm"><table class="table table-borderless table-sm table-centered mb-0"><tbody id="enq_'+roiDataItem.period+'"></tbody></table><hr><span class="text-grey h4 mr-3">ROI</span><span class="h-bold h3 text-blue">'+roiDataItem.roi+'</span></div></div></div></div>');
+        $.each(roiDataItem.values, function(index, currency) {
+          $('#enq_'+roiDataItem.period).append('<tr ng-repeat="curr in rec.values"><td><div class="font-weight-bold">'+currency.name+'</div></td><td>'+currency.value+'</td></tr>');
+        });
+      });
+      $('#roiCalcCards td:nth-child(2), #roiCalcCards h3, #roiStakeUSD').css({'opacity': 1});
+      $('#roiStakeErrorMessage').css({'opacity': '0'});
+    }
+
+    $('#roiStake').on('change keyup', function() {
+      let inputStake = $(this).val();
+      if (inputStake >= 25 && inputStake <= 25000) {
+        refreshRoiCalc(inputStake);
+      } else {
+        $('#roiCalcCards td:nth-child(2), #roiCalcCards h3, #roiStakeUSD').css({'opacity': 0.1});
+        $('#roiStakeErrorMessage').css({'opacity': '1'});
+      }
+    });
+
+    $('#refCheck').on('change', function() {
+      let inputStake = $('#roiStake').val();
+      refreshRoiCalc(inputStake);
+    });
+
+    $('.currency-calc-input-wrapper input').on('input', function() {
+      let that = this;
+      let currValue = $(that).val() < 0 ? $(that).val(0) : $(that).val();
+      let fromCurrencyName = $(that).attr('data-currency-name'); 
+      if (validator.checkValidDigitalValue(currValue)) {
+        $.ajax({
+          method: 'GET',
+          url: "https://neuro.enecuum.com/api/v1/stats",
+          async: false,
+        }).success(function(stats) {
+            $('#currencyCalculatorWrapper').parent('.container').show();
+            let rate = fromCurrencyName === "USD"? 1/stats.cg_usd : stats.cg_usd;
+            let calculatedValue = currencyExchange.convertValue(currValue, rate);
+            $('.currency-calc-input-wrapper input').not(that).val(calculatedValue.toFixed(5));
+        }).error(function(stats) {
+            $('#currencyCalculatorWrapper').parent('.container').remove();
+        });
+      }
+    });
+    $('.currency-calc-input-wrapper input[data-currency-name="ENQ"]').val(1).trigger("input");
+    $('#switchCurrencyInputOrder').on('click', function() {
+      $('#currencyCalculatorWrapper').toggleClass('flex-column flex-md-row');
+      $('#currencyCalculatorWrapper').toggleClass('flex-column-reverse flex-md-row-reverse');    
+      $('.switch-input-order.flex-md-column').toggleClass('switch-input-order-transform-left switch-input-order-transform-right');
+      $('.switch-input-order.d-block').toggleClass('switch-input-order-transform-top switch-input-order-transform-down');
+    });
+    $('#currencyCalculatorWrapper').parent('.container').on('mouseleave', function(e) {
+      $('#switchCurrencyInputOrder').blur();
+    });
+
+
+  });
+
+
+</script>
+</body>
+</html>

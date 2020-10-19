@@ -1,0 +1,177 @@
+body {
+	background-color: rgb(22, 22, 31);
+		font-family: 'Montserrat';
+}
+
+.container {
+	max-width: 1200px;
+}
+
+#presentationTop {
+	height: 1000px;
+	width: 100%;
+    max-width: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-image: url(../img/enq/presentation/planet-background.png);
+	position: relative;
+}
+
+.presentation-top-gradient {
+  background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(22,22,31,0.54) 27%, rgb(22,22,31) 50%);
+  background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(22,22,31,0.54) 27%, rgb(22,22,31) 50%);
+  background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(22,22,31,0.54) 27%, rgb(22,22,31) 50%);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 941px;
+  z-index: 5;
+}
+
+#trinityTitle {
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+.presentation-top-content {
+	z-index: 9999;
+    position: relative;
+    color: white;
+}
+
+.fs-104 {
+	font-size: 104px;
+}
+
+.fs-40 {
+	font-size: 40px;
+}
+
+.fs-36 {
+	font-size: 36px;
+}
+
+.fs-34 {
+	font-size: 34px;
+}
+
+.fs-22 {
+	font-size: 22px;
+}
+
+.fs-23 {
+	font-size: 23px;
+}
+
+.fs-19 {
+	font-size: 19px;
+}
+
+.ff-monts-black {
+	font-weight: 900;
+}
+
+.ff-monts-bold {
+	font-weight: bold;
+}
+
+.ff-monts-medium {
+	font-weight: 500;
+}
+
+.text-blue {
+	color: rgb(0,139,255);
+}
+
+.separator-grey {
+	border-top: 1px solid rgb(204,204,204);
+	border-bottom: 1px solid rgb(164,164,164);
+}
+
+.w-40 {
+	width: 40%;
+}
+
+#presentationPOAImage {
+	max-width: 270px;
+    position: absolute;
+    transform: translate(-50%, -70px);
+}
+
+#presentationPOSImage {
+	max-width: 320px;
+    position: absolute;
+    transform: translate(-50%, -50px);
+}
+
+#presentationPOWImage {
+	max-width: 400px;
+    position: absolute;
+    transform: translate(-54%, -40px);
+}
+
+#presentationPOACard, #presentationPOWCard {
+	min-height: 480px;
+}
+
+#presentationFeaturesTitles {
+	max-width: 700px;
+	position: relative;
+	top: -40px;	
+}
+
+.presentation-feature-number {
+	font-size: 104px;
+	line-height: 104px;
+}
+
+.presentation-feature-descr {
+	position: relative;
+	top: -42px;
+	left: 30px;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+	#presentationPOACard, #presentationPOWCard, #presentationPOSCard {
+		width: 50%;
+		min-height: auto;
+		padding-bottom: 40px !important;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+
+	.presentation-feature-number {
+		padding-left: 20px;
+		font-size: 58px!important;
+		line-height: 58px!important;
+	}
+
+	.presentation-feature-descr {
+		top: -35px;
+		left: 70px;
+	}
+}
+
+@media (max-width: 767.99px){
+	#presentationPOACard, #presentationPOWCard, #presentationPOSCard {
+		width: 90%;
+		min-height: auto;
+		padding-bottom: 40px !important;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+
+	.presentation-feature-descr {
+		position: static;
+	}
+}
+
+@media (max-width: 992px) {
+	.presentation-feature-number {
+		font-size: 58px!important;
+		line-height: 58px!important;
+	}
+}
