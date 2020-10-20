@@ -8,7 +8,7 @@ body {
 }
 
 #presentationTop {
-	height: 1000px;
+	height: 100vh;
 	width: 100%;
     max-width: 100%;
     background-size: cover;
@@ -47,6 +47,10 @@ body {
 
 .fs-48 {
 	font-size: 48px;
+}
+
+.fs-46 {
+	font-size: 46px;
 }
 
 .fs-40 {
@@ -229,4 +233,22 @@ body {
 #smartObj_5 {
 	top: 0px;
 	right: calc(50% - 850px);
+}
+
+#presentationCurrentTPS_N, #presentationFutureTPS_N {
+	line-height: 104px;
+}
+
+#presentationCurrentTPSDescr {
+	position: relative;
+    top: -45px;
+    left: 45px;
+    width: 45%;
+}
+
+#presentationFutureTPSDescr {
+	position: relative;
+    top: -45px;
+    left: 395px;
+    width: 25%;
 }

@@ -61,7 +61,6 @@
         <div class="text-uppercase ff-monts-bold fs-36">{{__ 'PRESENTATION.TOP.TITLE.P2'}}</div>
       </div>      
     </div>
-
     <div class="container text-white py-8" id="presentationTrinity">
       <div class="float-lg-right mx-auto" style="max-width: 520px;">
         <img src="/img/enq/presentation/trinity.png" class="w-100">
@@ -213,7 +212,8 @@
         </div>
       </div>            
     </div>
-    <div class="position-relative">
+    <div id="presentationFeeInfo">
+      <div class="position-relative">
         <div id="smartObjWrapper_2">
           <div id="smartObj_4" class="smart-obj">
             <img src="/img/enq/presentation/sm-obj-4-token-sm.png" id="presentationsmartObj_4_image" alt="code">
@@ -225,9 +225,9 @@
         <div class="container text-white mx-auto mt-8">
           <div class="row pb-7">
             <div class="col-lg-11">
-                <span class="fs-34 ff-monts-semi-bold">{{__ 'PRESENTATION.FEE.DESCR_1.P1'}}</span>
-                <span class="fs-34 ff-monts-extra-bold text-blue">{{__ 'PRESENTATION.FEE.DESCR_1.P2'}}</span>
-                <span class="fs-34 ff-monts-semi-bold">{{__ 'PRESENTATION.FEE.DESCR_1.P3'}}</span>    
+              <span class="fs-34 ff-monts-semi-bold">{{__ 'PRESENTATION.FEE.DESCR_1.P1'}}</span>
+              <span class="fs-34 ff-monts-extra-bold text-blue">{{__ 'PRESENTATION.FEE.DESCR_1.P2'}}</span>
+              <span class="fs-34 ff-monts-semi-bold">{{__ 'PRESENTATION.FEE.DESCR_1.P3'}}</span>    
             </div>        
           </div>
           <div class="px-lg-8 my-10">
@@ -259,32 +259,54 @@
         <span class="fs-34 ff-monts-black">{{__ 'PRESENTATION.FEE.DESCR_2.P2'}}</span>
         <span class="fs-34 ff-monts-semi-bold">{{__ 'PRESENTATION.FEE.DESCR_2.P3'}}</span>
       </div>
-    </div>        
- 
-
-
-
-
-
-
-
-
-<!--   
-<img src="/img/enq/technology/poa-masternode-mobile.png" alt="poa masternode screen">
-<img src="/img/enq/technology/pos-node.png" alt="pos node server">
-<img src="/img/enq/technology/pow-videocard.png" alt="pow node videocard">
-
-  <div class="w-100 presentation-wide-container mx-auto" id="presentationTop">
-      <div class="presentation-top-gradient"></div>
-      <div class="presentation-top-content text-center">
-        <img class="presentation-logo mx-auto mt-10" src="/img/enq/presentation/presentation-logo.png">
-        <div class="text-uppercase pt-8 mt-8 ff-monts-black fs-40">{{__ 'PRESENTATION.TOP.TITLE.P1'}}</div>
-        <div class="text-uppercase ff-monts-bold fs-36">{{__ 'PRESENTATION.TOP.TITLE.P2'}}</div>         
+    </div>
+    <div class="container text-white my-8" id="presentationExchanges">
+      <div class="mx-8 mb-8">
+        <div class="mb-5">
+          <span class="ff-monts-black fs-34 mr-2">{{__ 'PRESENTATION.EXCHANGES.T_1.P1'}}</span>
+          <span class="ff-monts-semi-bold fs-34">{{__ 'PRESENTATION.EXCHANGES.T_1.P2'}}</span>
+        </div>
+        <div class="row mb-5">
+          <div class="col ff-monts-black fs-46 text-blue">{{__ 'PRESENTATION.EXCHANGES.EXCHANGES_LIST.KUKOIN'}}</div>
+          <div class="col ff-monts-black fs-46 text-blue">{{__ 'PRESENTATION.EXCHANGES.EXCHANGES_LIST.GRAVIEX'}}</div>
+          <div class="col ff-monts-black fs-46 text-blue">{{__ 'PRESENTATION.EXCHANGES.EXCHANGES_LIST.PROBIT'}}</div>
+        </div>
+        <div>
+          <span class="ff-monts-semi-bold fs-34 mr-2">{{__ 'PRESENTATION.EXCHANGES.PLANE.P1'}}</span>
+          <span class="ff-monts-semi-bold fs-34 text-blue">{{__ 'PRESENTATION.EXCHANGES.PLANE.P2'}}</span>
+        </div>
       </div>
-    </div> -->
-<!--     <div class="container presentation-wide-container mx-auto" id="presentationTrinity"> -->
-<!--  -->
-
+      <div class="ff-monts-semi-bold fs-34">{{__ 'PRESENTATION.EXCHANGES.RESUME'}}</div>
+    </div>
+    <div class="container text-white my-10" id="presentationNetworkInfo">
+      <div class="row">
+        <div class="col-xl-6 offset-xl-1 ff-monts-black fs-40">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.MOBILE_NODES_TX_PROCESSING'}}</div>
+      </div>
+      <div>
+        <div class="float-lg-right w-md-50 w-xl-40">
+          <img src="/img/enq/technology/poa-masternode-mobile.png" alt="pow masternode screen">
+        </div>
+        <div>
+          <div id="presentationCurrentTPS" class="my-10">
+            <div class="ff-monts-black fs-104 text-blue" id="presentationCurrentTPS_N">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.MAX_TPS_CURRENT.N'}}</div>
+            <div class="pl-5 ff-monts-medium fs-23" id="presentationCurrentTPSDescr">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.MAX_TPS_CURRENT.DESCR'}}</div>
+          </div>
+          <div id="presentationFutureTPS" class="my-10">
+            <div class="ff-monts-black fs-104 text-blue" id="presentationFutureTPS_N">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.NEXT_NETWORK_VERSION.TPS'}}</div>
+            <div class="ff-monts-medium fs-23" id="presentationFutureTPSDescr">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.NEXT_NETWORK_VERSION.DESCR'}}</div>
+          </div>          
+        </div>
+        <div>
+          <div class="ff-monts-bold fs-34">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.PLANE.P1'}}</div>
+          <div>
+            <span class="ff-monts-medium fs-34">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.PLANE.P2'}}</span>
+            <span class="ff-monts-black fs-34 text-blue">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.PLANE.P3'}}</span>
+            <span class="ff-monts-medium fs-34">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.PLANE.P4'}}</span>
+            <span class="ff-monts-black fs-34 text-blue">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.PLANE.P5'}}</span>
+            <span class="ff-monts-medium fs-34">{{__ 'PRESENTATION.VARIOUS_NETWORK_INFO.PLANE.P6'}}</span>
+          </div>
+        </div>
+      </div>
     </div>  
   </main>
 
