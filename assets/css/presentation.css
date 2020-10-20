@@ -53,6 +53,10 @@ body {
 	font-size: 46px;
 }
 
+.fs-45 {
+	font-size: 45px;
+}
+
 .fs-40 {
 	font-size: 40px;
 }
@@ -251,4 +255,8 @@ body {
     top: -45px;
     left: 395px;
     width: 25%;
+}
+
+#presentationFooter {
+	background-color: rgb(19,19,19); 
 }
