@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   if (req.baseUrl !== '') {
     res.redirect(301, '/');
   } else {
-  	res.render('index', { title: 'Express' });
+  	res.render('presentation', { title: 'Express' });
   }  
 });
 

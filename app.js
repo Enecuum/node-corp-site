@@ -9,23 +9,23 @@ var path = require('path');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var promoRouter = require('./routes/promo');
-var presentationRouter = require('./routes/presentation');
-var missionAndPurposeRouter = require('./routes/mission-and-purpose');
-var documentationRouter = require('./routes/documentation');
-var teamRouter = require('./routes/team');
-var roadmapRouter = require('./routes/roadmap');
-var partnersRouter = require('./routes/partners');
-var newsAndCommunityRouter = require('./routes/news-and-community');
-var marketSratsRouter = require('./routes/market-stats');
-var networkStatsRouter = require('./routes/network-stats');
-var buyRouter = require('./routes/buy');
-var earnRouter = require('./routes/earn');
-var holdRouter = require('./routes/hold');
-var utilityRouter = require('./routes/utility');
-var emissionModelRouter = require('./routes/emission-model');
-var technologyRouter = require('./routes/technology');
-var productsRouter = require('./routes/products');
+// var promoRouter = require('./routes/promo');
+// var presentationRouter = require('./routes/presentation');
+// var missionAndPurposeRouter = require('./routes/mission-and-purpose');
+// var documentationRouter = require('./routes/documentation');
+// var teamRouter = require('./routes/team');
+// var roadmapRouter = require('./routes/roadmap');
+// var partnersRouter = require('./routes/partners');
+// var newsAndCommunityRouter = require('./routes/news-and-community');
+// var marketSratsRouter = require('./routes/market-stats');
+// var networkStatsRouter = require('./routes/network-stats');
+// var buyRouter = require('./routes/buy');
+// var earnRouter = require('./routes/earn');
+// var holdRouter = require('./routes/hold');
+// var utilityRouter = require('./routes/utility');
+// var emissionModelRouter = require('./routes/emission-model');
+// var technologyRouter = require('./routes/technology');
+// var productsRouter = require('./routes/products');
 var allowedLocales = ['en', 'ru', 'ko', 'tr', 'es', 'pt'];
 
 i18n.configure({
@@ -167,23 +167,23 @@ app.use(function (req, res, next) {
 
 app.use('/{0,}', indexRouter);
 app.use('/index.html', indexRouter);
-app.use('/promo/{0,}', promoRouter);
-app.use('/presentation/{0,}', presentationRouter);
-app.use(['/mission-and-purpose/{0,}', '/Mission%20and%20purpose.html/{0,}'], missionAndPurposeRouter);
-app.use(['/documentation/{0,}', '/Documentation.html/{0,}'], documentationRouter);
-app.use(['/team/{0,}', '/Team.html/{0,}'], teamRouter);
-app.use(['/market-stats/{0,}', '/Marketstats.html/{0,}'], marketSratsRouter);
-app.use(['/network-stats/{0,}', '/Networkstats.html/{0,}'], networkStatsRouter);
-app.use(['/roadmap/{0,}', '/Roadmap.html/{0,}'], roadmapRouter);
-app.use(['/partners/{0,}', '/Partners.html/{0,}'], partnersRouter);
-app.use(['/news-and-community/{0,}', '/NewsAndCommunity.html/{0,}'], newsAndCommunityRouter);
-app.use(['/buy/{0,}', '/Buy.html/{0,}'], buyRouter);
-app.use(['/earn/{0,}', '/Earn.html/{0,}'], earnRouter);
-app.use(['/hold/{0,}', '/Hold.html/{0,}'], holdRouter);
-app.use(['/utility/{0,}', '/Utility.html/{0,}'], utilityRouter);
-app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}', '/emission.html/{0,}'], emissionModelRouter);
-app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
-app.use('/products/{0,}', productsRouter);
+// app.use('/promo/{0,}', promoRouter);
+// app.use('/presentation/{0,}', presentationRouter);
+// app.use(['/mission-and-purpose/{0,}', '/Mission%20and%20purpose.html/{0,}'], missionAndPurposeRouter);
+// app.use(['/documentation/{0,}', '/Documentation.html/{0,}'], documentationRouter);
+// app.use(['/team/{0,}', '/Team.html/{0,}'], teamRouter);
+// app.use(['/market-stats/{0,}', '/Marketstats.html/{0,}'], marketSratsRouter);
+// app.use(['/network-stats/{0,}', '/Networkstats.html/{0,}'], networkStatsRouter);
+// app.use(['/roadmap/{0,}', '/Roadmap.html/{0,}'], roadmapRouter);
+// app.use(['/partners/{0,}', '/Partners.html/{0,}'], partnersRouter);
+// app.use(['/news-and-community/{0,}', '/NewsAndCommunity.html/{0,}'], newsAndCommunityRouter);
+// app.use(['/buy/{0,}', '/Buy.html/{0,}'], buyRouter);
+// app.use(['/earn/{0,}', '/Earn.html/{0,}'], earnRouter);
+// app.use(['/hold/{0,}', '/Hold.html/{0,}'], holdRouter);
+// app.use(['/utility/{0,}', '/Utility.html/{0,}'], utilityRouter);
+// app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}', '/emission.html/{0,}'], emissionModelRouter);
+// app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
+// app.use('/products/{0,}', productsRouter);
 
 app.use(function (req, res, next) {
 	if ('/robots.txt' === req.url) {
