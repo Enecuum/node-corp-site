@@ -1,6 +1,7 @@
 body {
 	background-color: rgb(22, 22, 31);
 		font-family: 'Montserrat';
+		max-width: 3000px;
 }
 
 .container {
@@ -8,7 +9,7 @@ body {
 }
 
 #presentationTop {
-	height: 100vh;
+	height: 1200px;
 	width: 100%;
     max-width: 100%;
     background-size: cover;
@@ -30,11 +31,11 @@ body {
   z-index: 5;
 }
 
-#trinityTitle {
+/*#trinityTitle {
 	margin-top: 100px;
 	margin-bottom: 70px;
 }
-
+*/
 .presentation-top-content {
 	z-index: 9999;
     position: relative;
@@ -44,6 +45,14 @@ body {
 .fs-104 {
 	font-size: 104px;
 }
+
+	.fs-58 {
+		font-size: 58px;
+	}
+
+		.fs-54 {
+		font-size: 54px;
+	}
 
 .fs-48 {
 	font-size: 48px;
@@ -69,16 +78,28 @@ body {
 	font-size: 34px;
 }
 
-.fs-22 {
-	font-size: 22px;
+.fs-26 {
+	font-size: 26px;
 }
 
 .fs-23 {
 	font-size: 23px;
 }
 
+.fs-22 {
+	font-size: 22px;
+}
+
 .fs-19 {
 	font-size: 19px;
+}
+
+.fs-17 {
+	font-size: 17px;
+}
+
+.fs-15 {
+	font-size: 15px;
 }
 
 .fs-14 {
@@ -87,6 +108,10 @@ body {
 
 .fs-11 {
 	font-size: 11px;
+}
+
+.fs-9 {
+	font-size: 9px;
 }
 
 .ff-monts-black {
@@ -135,7 +160,6 @@ body {
 }
 
 #presentationPOWImage {
-	max-width: 400px;
     position: absolute;
     transform: translate(-54%, -40px);
 }
@@ -150,40 +174,243 @@ body {
 	top: -40px;	
 }
 
-.presentation-feature-number {
-	font-size: 104px;
-	line-height: 104px;
+@media (min-width: 576px) {
+	.fs-sm-104 {
+		font-size: 104px;
+	}
+
+		.fs-sm-58 {
+		font-size: 58px;
+	}
+
+	.fs-sm-54 {
+		font-size: 54px;
+	}
+
+	.fs-sm-48 {
+		font-size: 48px;
+	}
+
+	.fs-sm-46 {
+		font-size: 46px;
+	}
+
+	.fs-sm-45 {
+		font-size: 45px;
+	}
+
+	.fs-sm-40 {
+		font-size: 40px;
+	}
+
+	.fs-sm-36 {
+		font-size: 36px;
+	}
+
+	.fs-sm-34 {
+		font-size: 34px;
+	}
+
+	.fs-sm-26 {
+		font-size: 26px;
+	}
+
+	.fs-sm-23 {
+		font-size: 23px;
+	}
+
+	.fs-sm-22 {
+		font-size: 22px;
+	}
+
+	.fs-sm-19 {
+		font-size: 19px;
+	}
+
+	.fs-sm-17 {
+		font-size: 17px;
+	}
+
+	.fs-sm-15 {
+		font-size: 15px;
+	}
+
+	.fs-sm-14 {
+		font-size: 14px;
+	}
+
+	.fs-sm-11 {
+		font-size: 11px;
+	}
+
+	.fs-sm-9 {
+		font-size: 9px;
+	}
+}
+
+@media (min-width: 768px) {
+	.fs-md-104 {
+		font-size: 104px;
+	}
+
+		.fs-md-58 {
+		font-size: 58px;
+	}
+
+	.fs-md-54 {
+		font-size: 54px;
+	}
+
+	.fs-md-48 {
+		font-size: 48px;
+	}
+
+	.fs-md-46 {
+		font-size: 46px;
+	}
+
+	.fs-md-45 {
+		font-size: 45px;
+	}
+
+	.fs-md-40 {
+		font-size: 40px;
+	}
+
+	.fs-md-36 {
+		font-size: 36px;
+	}
+
+	.fs-md-34 {
+		font-size: 34px;
+	}
+
+	.fs-md-26 {
+		font-size: 26px;
+	}
+
+	.fs-md-23 {
+		font-size: 23px;
+	}
+
+	.fs-md-22 {
+		font-size: 22px;
+	}
+
+	.fs-md-19 {
+		font-size: 19px;
+	}
+
+	.fs-md-17 {
+		font-size: 17px;
+	}
+
+	.fs-md-15 {
+		font-size: 15px;
+	}
+
+	.fs-md-14 {
+		font-size: 14px;
+	}
+
+	.fs-md-11 {
+		font-size: 11px;
+	}
+
+	.fs-md-9 {
+		font-size: 9px;
+	}
+}
+
+@media (min-width: 992px) {
+	.fs-lg-104 {
+		font-size: 104px;
+	}
+
+		.fs-lg-58 {
+		font-size: 58px;
+	}
+
+	.fs-lg-54 {
+		font-size: 54px;
+	}
+
+	.fs-lg-48 {
+		font-size: 48px;
+	}
+
+	.fs-lg-46 {
+		font-size: 46px;
+	}
+
+	.fs-lg-45 {
+		font-size: 45px;
+	}
+
+	.fs-lg-40 {
+		font-size: 40px;
+	}
+
+	.fs-lg-36 {
+		font-size: 36px;
+	}
+
+	.fs-lg-34 {
+		font-size: 34px;
+	}
+
+	.fs-lg-26 {
+		font-size: 26px;
+	}
+
+	.fs-lg-23 {
+		font-size: 23px;
+	}
+
+	.fs-lg-22 {
+		font-size: 22px;
+	}
+
+	.fs-lg-19 {
+		font-size: 19px;
+	}
+
+	.fs-lg-17 {
+		font-size: 17px;
+	}
+
+	.fs-lg-15 {
+		font-size: 15px;
+	}
+
+	.fs-lg-14 {
+		font-size: 14px;
+	}
+
+	.fs-lg-11 {
+		font-size: 11px;
+	}
+
+	.fs-lg-9 {
+		font-size: 9px;
+	}
 }
 
 .presentation-feature-descr {
-	position: relative;
-	top: -42px;
-	left: 30px;
+	position: static;
 }
 
+@media (max-width: 767.99px) {
 
-@media (min-width: 768px) and (max-width: 992px) {
-	#presentationPOACard, #presentationPOWCard, #presentationPOSCard {
-		width: 50%;
-		min-height: auto;
-		padding-bottom: 40px !important;
-		margin-left: auto;
-		margin-right: auto; 
-	}
 
-	.presentation-feature-number {
-		padding-left: 20px;
-		font-size: 58px!important;
-		line-height: 58px!important;
-	}
-
-	.presentation-feature-descr {
-		top: -35px;
-		left: 70px;
-	}
+#presentationFooter img {
+	width: 65%;
 }
 
-@media (max-width: 767.99px){
+	#presentationPOWImage {
+		max-width: 300px;
+	}
+
 	#presentationPOACard, #presentationPOWCard, #presentationPOSCard {
 		width: 90%;
 		min-height: auto;
@@ -195,59 +422,190 @@ body {
 	.presentation-feature-descr {
 		position: static;
 	}
+}	
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+		#presentationPOWImage {
+		max-width: 400px;
+	}
+
+	#presentationCurrentTPS_N, #presentationFutureTPS_N {
+	line-height: 104px;
+}
+	#variousNetworkInfoMobileWrapper {
+		position: relative;
+	}
+
+	#variousNetworkInfoMobile {
+		position: absolute;
+		left: -160px;
+		width: 400px;
+
+	}
+
+
+	#presentationCurrentTPSDescr {
+    position: relative;
+    top: -56px;
+    left: 9px;
+    width: 45%;
 }
 
-@media (max-width: 992px) {
+#presentationFutureTPSDescr {
+    position: relative;
+    top: -55px;
+    left: 218px;
+    width: 35%;
+}
+
+	#presentationPOACard, #presentationPOWCard, #presentationPOSCard {
+		width: 50%;
+		min-height: auto;
+		padding-bottom: 40px !important;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+
 	.presentation-feature-number {
-		font-size: 58px!important;
-		line-height: 58px!important;
+		padding-left: 20px;
+	}
+
+	.presentation-feature-descr {
+		position: relative;
+		top: -35px;
+		left: 70px;
+	}
+
+	.presentation-feature-descr {
+		position: relative;
+		top: -40px;
+		left: 66px;
+	}
+
+	#presentationSmartContractsDescr {
+		padding-bottom: 100px;
+	}
+
+	#smartObj_2 {
+		top: -278px;
+	    left: -96px;
+	}
+
+	#smartObj_3 {
+		top: -129px;
+		left: 121px;
+	}
+
+	#smartObjWrapper_2 {
+		height: 600px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: -165px;
+		overflow: hidden;
+	}
+
+	#smartObj_4 img {
+		width: 130px!important;
+	}
+
+	#smartObj_5 img {
+		width: 300px!important;
+	}	
+
+	#smartObj_4 {
+		right: calc(50% - 326px);
+		top: 35px;
+	}
+
+	#smartObj_5 {
+	    top: 43px;
+	    right: calc(50% - 627px);
 	}
 }
 
-.smart-obj {
-	position: absolute;
-	z-index: -1;
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+			#presentationPOWImage {
+		max-width: 400px;
+	}
+
+	#presentationCurrentTPS_N, #presentationFutureTPS_N {
+	line-height: 104px;
 }
 
-#presentationSmartContractsDescr span {
-	line-height: 40px;
+	#presentationCurrentTPSDescr {
+	position: relative;
+    top: -45px;
+    left: 45px;
+    width: 45%;
 }
 
-#smartObjWrapper_2 {
-	height: 600px;
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 270px;
-	overflow: hidden;
+#presentationFutureTPSDescr {
+	position: relative;
+    top: -45px;
+    left: 395px;
+    width: 25%;
 }
 
-#smartObj_1 {
-	top: -165px;
-	left: 0px;
+	#presentationSmartContractsDescr {
+		padding-bottom: 140px;
+	}
+
+	#smartObj_1 {
+	    top: -332px;
+	    left: 123px;
+	}
+
+	#smartObj_2 {
+	    top: -274px;
+	    left: -130px;
+	}
+
+	#smartObj_3 {
+		top: -75px;
+		left: 61px;
+	}
+
+
+	#smartObjWrapper_2 {
+		height: 600px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: -165px;
+		overflow: hidden;
+	}
+
+	#smartObj_4 img {
+		width: 150px!important;
+	}
+
+	#smartObj_5 img {
+		width: 350px!important;
+	}	
+
+	#smartObj_4 {
+		right: calc(50% - 226px);
+		top: 5px;
+	}
+
+	#smartObj_5 {
+		top: 0px;
+		right: calc(50% - 600px);
+	}	
+
+
 }
 
-#smartObj_2 {
-	top: -15px;
-	left: -230px;
-}
+@media (min-width: 1200px) {
+		#presentationPOWImage {
+		max-width: 400px;
+	}
 
-#smartObj_3 {
-	top: 133px;
-	left: 0px;
-}
-
-#smartObj_4 {
-	right: calc(50% - 300px);
-	top: 15px;
-}
-
-#smartObj_5 {
-	top: 0px;
-	right: calc(50% - 850px);
-}
-
-#presentationCurrentTPS_N, #presentationFutureTPS_N {
+	#presentationCurrentTPS_N, #presentationFutureTPS_N {
 	line-height: 104px;
 }
 
@@ -265,6 +623,65 @@ body {
     width: 25%;
 }
 
+	#presentationSmartContractsDescr {
+		padding-bottom: 270px;
+	}
+
+	.fs-xl-104 {
+		font-size: 104px;
+	}
+
+	.presentation-feature-descr {
+		position: relative;
+		top: -68px;
+		left: 30px;
+	}
+
+
+	#smartObjWrapper_2 {
+		height: 600px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 270px;
+		overflow: hidden;
+	}
+
+	#smartObj_4 {
+		right: calc(50% - 300px);
+		top: 15px;
+	}
+
+	#smartObj_5 {
+		top: 0px;
+		right: calc(50% - 850px);
+	}
+
+	#smartObj_1 {
+		top: -165px;
+		left: 0px;
+	}
+
+	#smartObj_2 {
+		top: -15px;
+		left: -230px;
+	}
+
+	#smartObj_3 {
+		top: 133px;
+		left: 0px;
+	}
+}
+
+.smart-obj {
+	position: absolute;
+	z-index: -1;
+}
+
+#presentationSmartContractsDescr span {
+	line-height: 40px;
+}
+
 #presentationFooter {
 	background-color: rgb(19,19,19); 
 }
@@ -272,3 +689,4 @@ body {
 #presentationFooter .forklog-hub-icon svg path {
     fill: #ffffff;
 }
+
