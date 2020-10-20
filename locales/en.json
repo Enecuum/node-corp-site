@@ -760,128 +760,130 @@
 		"HOW_TO_RUN_POS":"how-to-run-pos",
 		"HOW_TO_RUN_POW":"how-to-run-pow"
 	},
-
 	"PRESENTATION": {
 		"TOP": {
 			"TITLE": {
-				"P1": "Децентрализованная блокчейн-платформа",
-				"P2": "нового поколения с уникальными функциями"
+				"P1": "ENECUUM IS A NEW GENERATION DECENTRALIZED",
+				"P2": "BLOCKCHAIN PLATFORM WITH UNIQUE FEATURES"
 			} 
 		},
 		"TRINITY": {
-			"TITLE": "Алгоритм TRINITY",
+			"TITLE": "TRINITY ALGORITHM",
 			"P1": {
-				"p1": "Благодаря уникальным функциям",
-				"p2": "Enecuum",
-				"p3": "возможно создавать безопасные и масштабируемые блокчейн-сервисы и децентрализованные приложения."
+				"p1": "Unique features that make it possible to create secure and scalable blockchain services and decentralized applications.",
+				"p2": "",
+				"p3": ""
 			},
 			"P2": {
-				"p1": "В основе сети Enecuum находится гибридный алгоритм консенсуса",
+				"p1": "The Enecuum network is based on the",
 				"p2": "Trinity",
-				"p3": "Алгоритм разработан командой исследователей-криптографов, протестирован и апробирован в рамках международных конференций и экспериментов."
+				"p3": "hybrid consensus algorithm. The algorithm was developed by a team of cryptographic researchers, tested and validated in international conferences and experiments."
 			}
 		},
 		"TOKEN_TYPES": {
-			"TITLE": "В СЕТИ ЕСТЬ 3 ОСНОВНЫХ ВИДА ТОКЕНОВ",
+			"TITLE": "There are 3 main types of tokens in the network",
 			"REISSUABLE": "Reissuable",
 			"NON_REISSUABLE": "Non-reissuable",
 			"MINEABLE": "Mineable"
 		},
 		"NODES_TYPES": {
-			"TITLE": "СЕТЬ СОСТОИТ ИЗ 3 ТИПОВ УЗЛОВ",
+			"TITLE": "The network consists of three types of nodes",
 			"POA": {
-				"TITLE": "Мобильная нода",
-				"SUBTITLE": "(PoA узел)",
-				"DESCR": "валидируют микроблоки, содержащие информацию о транзакциях сети."
+				"TITLE": "Mobile node",
+				"SUBTITLE": "(PoA node)",
+				"DESCR": "responsible for validating microblocks that contain information about network transactions."
 			},
 			"POS": {
-				"TITLE": "Валидатор",
-				"SUBTITLE": "(PoS узел)",
-				"DESCR": "отвечает за создание макроблоков. Валидаторы участвуют в выборе PoS лидера, получают и передают данные на основе ID based крипторграфии. Валидируют узлы PoA."
+				"TITLE": "Validator",
+				"SUBTITLE": "(PoS node)",
+				"DESCR": "responsible for creating macroblocks. Validators participate in the selection of a PoS leader, receive and transmit data with the use of ID-based cryptography. They also validate PoA nodes."
 			},
 			"POW": {
-				"TITLE": "Сервер распределенного времени",
-				"SUBTITLE": "(PoW узел)",
-				"DESCR": "создаёт ключевые блоки."
+				"TITLE": "Distributed Time Server",
+				"SUBTITLE": "(PoW node)",
+				"DESCR": "responsible for creating key blocks."
 			}
 		},
 		"FEATURES": {
-			"TITLE": "ОСНОВНЫЕ ОСОБЕННОСТИ БЛОКЧЕЙН ENECUUM",
+			"TITLE": "The main features of the Enecuum blockchain",
 			"ORDERED_LIST": {
 				"F_01": {
 					"N": "01.",
 					"DESCR": {
-						"P1": "гибридный протокол",
-						"P2": "Trinity"
+						"P1": "hybrid",
+						"P2": "Trinity",
+						"P3": "protocol"
 					}
 				},
 				"F_02": {
 					"N": "02.",
-					"DESCR": "возможность выпуска собственных токенов (в том числе майнинговых)"
+					"DESCR": "the ability to issue your own tokens (including mineable ones)"
 				},
 				"F_03": {
 					"N": "03.",
-					"DESCR": "эмитент токена самостоятельно рассчитывает токеномику и устанавливает комиссии выпускаемой монеты"
+					"DESCR": "the token issuer independently calculates the tokenomics and sets the fees of the issued coin"
 				},
 				"F_04": {
 					"N": "04.",
 					"DESCR": {
-						"P1": "стейкинг как нативных монет",
-						"P2": "ENQ"
+						"P1": "staking of the native",
+						"P2": "ENQ",
+						"P3": "coin"
 					}
 				},
 				"F_05": {
 					"N": "05.",
 					"DESCR": {
-						"P1": "реферальная программа для",
+						"P1": "referral program for both",
 						"P2": "ENQ",
-						"P3": "и токенов, которые выпущены на протоколе"
+						"P3": "and tokens that are issued on the protocol;"
 					}
 				},
 				"F_06": {
 					"N": "06.",
-					"DESCR": "экосистема приложений (blockchain explorer, web-кошелек, android мультимайнер, android кошелек, калькулятор экономической модели выпуска токенов, white label приложение)"
+					"DESCR": "application ecosystem (blockchain explorer, web-wallet, android multiminer, android wallet, token issue economic model calculator, white label application)"
 				}
 			}
 		},
 		"SMART_CONTRACTS": {
 			"DESCR": {
-				"P1": "Смарт-контракты в сети",
+				"P1": "Smart contracts on the",
 				"P2": "ENQ",
-				"P3": "основываются на сильно-типизированном, Тьюринг не полном функциональном языке программирования с использованием бизнес-ориентированной логики",
-				"P4": "SHARNELL"
+				"P3": "network are based on a strongly-typed, Turing incomplete functional programming language using business-oriented",
+				"P4": "SHARNELL",
+				"P5": "logic"
 			}
 		},
 		"FEE": {
 			"DESCR_1": {
-				"P1": "В сети",
+				"P1": "In the",
 				"P2": "Enecuum",
-				"P3": "существует несколько видов комиссий для операций по нативной монете и для токенов, которые выпущены на протоколе"
+				"P3": "network, there are several fee types for operations for the native coin and for custom tokens that are issued on the protocol"
 			},
 			"TYPES": {
 				"TYPE_1": {
 					"VALUE": "0,1 ENQ",
-					"DESCR": "комиссия с транзакции для нативных токенов (для текущей версии сети)"
+					"DESCR": "transaction fee for native tokens (for the current version of the network)"
 				},
 				"TYPE_2": {
 					"VALUE": "1000 ENQ",
-					"DESCR": "комиссия с выпуска собственного токена"
+					"DESCR": "commission from issue own token"
 				},
 				"TYPE_3": {
 					"VALUE": "500 ENQ",
-					"DESCR": "комиссия с выпуска PoS смарт-контракта"
+					"DESCR": "for issuing a PoS smart contract"
 				}				
 			},
 			"DESCR_2": {
-				"P1": "Для пользователей токенов, которые выпущены на протоколе",
+				"P1": "For users of custom tokens that are issued on the",
 				"P2": "Enecuum",
-				"P3": ", комиссия устанавливается эмитентом токена. При этом комиссии за транзакции, которые платят пользователи выпущенного токена поступают создателю токена. Что избавляет пользователей от необходимости оплаты в нативной монете ENQ"
+				"P3": "protocol, the fee is set by the token creator. Transaction fees that are paid by users of the issued token also go to the token creator. That saves users from having to pay the fee in the native ENQ coin"
 			}
 		},	
 		"EXCHANGES": {
 			"T_1": {
 				"P1": "Enecuum",
-				"P2": "присутствует на трех биржах:"
+				"P2": "is listed on three exchanges:"
 			},
 			"EXCHANGES_LIST": {
 				"KUKOIN": "KuCoin",
@@ -889,34 +891,34 @@
 				"PROBIT": "ProBit"
 			},
 			"PLANE": {
-				"P1": "в ближайших планах",
-				"P2": "листинг еще на 5 биржах"
+				"P1": "In the near future, ENQ",
+				"P2": "is planned to be listed on 5 more exchanges"
 			},
-			"RESUME": "Присутствие на различных биржах открывает возможности для листинга проектов выпущенных на протоколе ENQ"
+			"RESUME": "The presence on various exchanges opens up opportunities for listing projects issued on the ENQ protocol"
 		},
 		"VARIOUS_NETWORK_INFO": {
-			"MOBILE_NODES_TX_PROCESSING": "ТРАНЗАКЦИИ В СЕТИ ОБРАБАТЫВАЮТСЯ МОБИЛЬНЫМИ НОДАМИ",
+			"MOBILE_NODES_TX_PROCESSING": "Transactions on the network are processed by mobile nodes",
 			"MAX_TPS_CURRENT": {
 				"N": "10",
-				"DESCR": "- максимальное количество транзакций в секунду, в текущей версии сети"
+				"DESCR": "in the current version of the network, the maximum number of transactions per second is"
 			},
 			"NEXT_NETWORK_VERSION": {
 				"TPS": "100-300 TPS",
-				"DESCR": "- показатель для следующей версии сети"
+				"DESCR": "for the next version, this figure will be at the level of"
 			},
 			"PLANE": {
-				"P1": "В ближайшие планы входит:",
-				"P2": "запуск",
+				"P1": "The nearest plans include:",
+				"P2": "the launch of",
 				"P3": "DeFi",
-				"P4": "и выпуск",
+				"P4": "and the release of",
 				"P5": "Non Fungible",
 				"P6": "tokens"
 			}
 		},
 		"FOOTER": {
 			"THE_BLOCKCHAIN_OF_TOMORROW": "The blockchain of tomorrow",
-			"DOWNLOAD_ANDROID_MASTERNODE": "Скачать Android Masternode",
-			"WALLETS": "Кошельки"
+			"DOWNLOAD_ANDROID_MASTERNODE": "Download Android Masternode",
+			"WALLETS": "Wallets"
 		}		
 	}
 }
