@@ -53,12 +53,21 @@
 
 <body>
   <main id="content" role="main">
+
+
+
+
+
     <div class="text-white mx-auto" id="presentationTop">
       <div class="presentation-top-gradient"></div>
-      <div class="container text-center presentation-top-content">
-        <img class="presentation-logo mx-auto mt-10" src="/img/enq/presentation/presentation-logo.png">
-        <div class="text-uppercase pt-8 mt-8 ff-monts-black fs-23 fs-md-36 fs-lg-40">{{__ 'PRESENTATION.TOP.TITLE.P1'}}</div>
-        <div class="text-uppercase ff-monts-bold fs-22 fs-md-34 fs-lg-36">{{__ 'PRESENTATION.TOP.TITLE.P2'}}</div>
+      <div class="container text-center presentation-top-content h-100">
+        <img class="presentation-logo mx-auto mt-5" src="/img/enq/presentation/presentation-logo.png">
+        <div id="topTitleText" class="h-100 d-flex flex-column justify-content-center">
+          <div class="text-uppercase ff-monts-black fs-23 fs-md-36 fs-lg-40">{{__ 'PRESENTATION.TOP.TITLE.P1'}}</div>
+          <div class="text-uppercase ff-monts-bold fs-22 fs-md-34 fs-lg-36 pb-10 mb-10">{{__ 'PRESENTATION.TOP.TITLE.P2'}}</div>
+          <div class="py-10 mb-5"> </div>
+        </div>
+
       </div>      
     </div>
     <div class="container text-white py-lg-8" id="presentationTrinity">
@@ -315,7 +324,7 @@
 
 <!-- ========== FOOTER ========== -->
   <footer id="presentationFooter" class="w-100 py-3 py-md-10 text-center text-white">
-    <img class="presentation-logo mx-auto mt-8" src="/img/enq/presentation/presentation-logo.png">
+    <img class="presentation-logo mx-auto mt-8 mb-5" src="/img/enq/presentation/presentation-logo.png">
     <div class="ff-monts-bold fs-23 fs-md-34 fs-lg-45 my-0 my-md-10 py-3 py-md-8">{{__ 'PRESENTATION.FOOTER.THE_BLOCKCHAIN_OF_TOMORROW'}}</div>
     <div id="presentationAppMN" class="my-8">
       <div class="ff-monts-medium fs-23 fs-md-34 mb-5">{{__ 'PRESENTATION.FOOTER.DOWNLOAD_ANDROID_MASTERNODE'}}</div>
@@ -460,7 +469,22 @@
   <script src="/js/components/hs.header.js"></script>
   <script src="/js/components/hs.unfold.js"></script>
 <!-- JS Plugins Init. -->
+
+  <!-- JS Implementing Plugins -->
+<script src="/vendor/appear.js"></script>
+<script src="/vendor/hs-megamenu/src/hs.megamenu.js"></script>
 <script>
+
+
+    $(window).on('load', function () {
+    // initialization of HSMegaMenu component
+    $('.js-mega-menu').HSMegaMenu({
+      event: 'hover',
+      pageContainer: $('.container'),
+      breakpoint: 0,
+      hideTimeOut: 0
+    });    
+  });
   $(document).on('ready', function () {
         // initialization of header
     $.HSCore.components.HSHeader.init($('#headerWithDropdown'));

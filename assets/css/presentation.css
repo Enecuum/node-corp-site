@@ -8,7 +8,8 @@ body {
 }
 
 #presentationTop {
-	height: 1200px;
+	height: 100vh;
+	min-height: 500px; 
 	width: 100%;
     max-width: 100%;
     background-size: cover;
@@ -26,7 +27,7 @@ body {
   left: 0px;
   top: 0px;
   right: 0px;
-  height: 941px;
+  height: 75%;
   z-index: 5;
 }
 
@@ -404,6 +405,11 @@ body {
 
 #presentationFooter img {
 	width: 65%;
+}
+
+#presentationTop .presentation-logo {
+	width: 50%;
+	min-width: 150px;
 }
 
 	#presentationPOWImage {
