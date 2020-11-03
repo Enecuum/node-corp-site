@@ -213,23 +213,22 @@
       let tickersArray = response.tickers;
       let exchange_volume = 0;
 
-      exchangeNamesArray = ['kucoin','graviex','crex24'];
-      let kucoinVolume = 0;
-      let crex24Volume = 0;
-      let graviexVolume = 0;
-
+      let exchanges = {
+        probit: {
+          volume: 0
+        },
+        kucoin: {
+          volume: 0
+        },
+        graviex: {
+          volume: 0
+        }
+      }
 
       $.each(tickersArray, function(index, ticker) {
-        switch (ticker.market.identifier) {
-          case 'kucoin':
-            kucoinVolume += ticker.converted_volume.usd;
-            break;
-          case 'graviex':
-            graviexVolume += ticker.converted_volume.usd;
-            break;
-          case 'crex24':
-            crex24Volume += ticker.converted_volume.usd;
-            break;
+        for (item in exchanges) {
+          if (item === ticker.market.identifier)
+            $("[data-content=" + item + "-volume]").text('$'+usdFormatter.format(exchanges[item].volume += ticker.converted_volume.usd));
         }
       });
 
@@ -237,11 +236,6 @@
       $("[data-content='coin_volume']").text('$'+usdFormatter.format(marketStatsTitles.coin_volume));     
       $("[data-content='price_usd']").text(marketStatsTitles.price_usd);
       $("[data-content='price_btc']").text(marketStatsTitles.price_btc);
-
-      $("[data-content='kucoin-volume']").text('$'+usdFormatter.format(kucoinVolume));
-      $("[data-content='graviex-volume']").text('$'+usdFormatter.format(graviexVolume));
-      $("[data-content='crex24-volume']").text('$'+usdFormatter.format(crex24Volume));
-
     });
 
 
