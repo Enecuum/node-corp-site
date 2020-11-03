@@ -241,7 +241,25 @@ hbs.registerHelper('if_eq', function(a, b, opts) {
 });
 
 hbs.registerHelper('tradingViewWidget', function(lang = 'en') {
-	return lang === 'ru' ? 'tradingViewWidget_ru' : lang === 'ko' ? 'tradingViewWidget_ko' : 'tradingViewWidget';
+	let suffix = '';
+	switch (lang) {
+		case 'ru':
+			suffix = "ru"
+			break;
+		case 'ko':
+			suffix = "ko"
+			break;
+		case 'zh_CN':
+			suffix = "zh_CN"
+			break;
+		case 'zh_HK':
+			suffix = "zh_TW"
+			break;			
+		default:
+			suffix = "en"
+	}
+	
+	return 'tradingViewWidget' + (suffix === 'en' ? '' : '_' + suffix);
 });
 
 // catch 404 and forward to error handler
