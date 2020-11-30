@@ -1,0 +1,672 @@
+{
+    "LANGUAGE": "英语",
+    "UNITS": {
+        "SECONDS": "秒",
+        "S": "秒",
+        "TPS": "每秒交易传输速度",
+        "HOUR": "小时"
+    },
+    "MONTHS": {
+        "MAY": "5月",
+        "JULY": "7月",
+        "DECEMBER": "12月"
+    },
+    "CHART_CONTROLS": {
+        "M": "月",
+        "Y": "年",
+        "YTD": "年初至今",
+        "ALL": "全部"
+    },
+    "CHART_SERIES_TITLES": {
+        "ENQ_PRICE_USD": "ENQ 价格(美金)",
+        "BTC_PRICE_USD": "BTC 价格(美金)",
+        "TOTAL_VOLUME_USD": "全部数量(美金)"
+    },
+    "ERRORS": {
+        "SOMETHING_WENT_WRONG": "出问题了",
+        "ERR_404_DESCR": "抱歉，找不到所请求的资源。",
+        "LETS_GO_TO": "尝试访问网站",
+        "MAIN_PAGE": "主页面",
+        "ERR_500_DESCR": "发生错误",
+        "VISIT_WEBSITE_LATER": "稍后尝试访问网站"
+    },
+    "PROMO_TITLE_P1": "移动装置挖矿",
+    "PROMO_TITLE_P2": "给大家",
+    "ADVANTAGES": {
+        "EASY_TO_JOIN": "容易加入",
+        "EASY_TO_EARN": "容易赚",
+        "EXTREMELY_DECENTRALIZED": "极度去中心化",
+        "MAXIMUM_PRIVACY": "极度隐私",
+        "LOW_BATTERY_CONSUMPTION": "低电量消耗"
+    },
+    "HOW_DOES_IT_WORK": "它是如何运作的？",
+    "COOKIES_ALERT_TEXT": "继续浏览我们的网站，即表示您同意使用cookies以确保网站的正确运行。",
+    "I_AGREE": "我同意",
+    "MORE_DETAILS": "找到更多",
+    "ABOUT": "关于",
+    "MISSION_AND_PURPOSE": "使命与宗旨",
+    "DOCUMENTATION": "文献资料",
+    "TEAM": "团队",
+    "ROADMAP": "路线图",
+    "PARTNERS": "伙伴",
+    "NEWS_AND_COMMUNITY": "新闻与小区",
+    "STATS": "统计资料",
+    "MARKET_STATS": "市场统计",
+    "NETWORK_STATS": "网络统计",
+    "BLOCKCHAIN_EXPLORER": "区块链资源管理器",
+    "BUY": "购买",
+    "EARN": "赚",
+    "HOLD": "持有",
+    "SPEND": "花费",
+    "UTILITY": "效用",
+    "SWAP": "交换",
+    "EMISSION_MODEL": "配放模式",
+    "TECHNOLOGY": "技术",
+    "TRINITY": "三合一",
+    "BLOCK_DAG": "区块有向无环图",
+    "NETWORK": "网络",
+    "INFRASTRUCTURE": "基础设施",
+    "START_MINING": "开始挖矿",
+    "HOW_TO_MINE": "如何开挖",
+    "PRODUCTS": "产品",
+    "REFERRAL_PROGRAM": "推荐计划",
+    "FAQ": {
+        "TITLE": "常问问题",
+        "CONTENT": {
+            "THE_PROJECT": {
+                "TITLE": "该项目",
+                "QS": {
+                    "Q1_TITLE": "什么是Enecuum?",
+                    "Q1_ANSW_P1": "Enecuum是一个使用去中心化应用程序的区块链移动网络。创建它的目的是将区块炼和加密货币成为真正的主流，使拥有常规移动设备和桌面设备的人们进入区块炼网络。 Enecuum允许每个智能手机所有者成为我们全球网络的一部分。",
+                    "Q2_TITLE": "它是如何运作的？",
+                    "Q2_ANSW_P1": "在Enecuum中，共识是通过以下三种挖矿算法之间的互动来达成的：工作量证明（“ PoW”），活动证明（“ PoA”）和权益证明（“ PoS”）。这种结合使得可以实现高度的网络分散。目前，我们已经在移动应用程序中部署了PoA算法，并且PoW和PoS可在PC上进行公开测试。"
+                }
+            },
+            "START_MINING": {
+                "TITLE": "开始挖矿",
+                "QS": {
+                    "Q1_TITLE": "我怎么挖矿？",
+                    "Q1_ANSW_P1": "您需要做的就是拥有一个Android设备，在其中下载我们的应用程序并存入25 ENQ。",
+                    "Q2_TITLE": "我如何获得Enecuum的代币？",
+                    "Q2_ANSW_P1": "您可以通过信用卡或交易所（KuCoin，Graviex, ProBit）购买ENQ。请注意，如果您在交易所购买ENQ您需要先将代币转移到以太坊钱包。",
+                    "Q3_TITLE": "如何互换？",
+                    "Q3_ANSW_P1": "根据您使用的操作系统（OS），请使用MetaMask（桌机操作系统）或Trust Wallet（移动装置操作系统)的以太坊钱包。该软件已由Enecuum团队和小区进行了测试。阅读更多",
+                    "Q4_TITLE": "我可以使用那些设备进行挖矿？",
+                    "Q4_ANSW_P1": "您可以在运行Android的任何移动设备（手机，平板计算机）上进行挖矿。尽管Enecuum主要针对智能手机，但我们的小区也设法使用了IoT设备，电视盒和智能手表进行挖矿！",
+                    "Q5_TITLE": "我可以在多个设备上进行挖矿吗？",
+                    "Q5_ANSW_P1": "是的，但是您需要为每个设备创建一个单独的账户。",
+                    "Q6_TITLE": "我可以在仿真电话上挖矿吗？",
+                    "Q6_ANSW_P1": "是的你可以。目前，我们对此没有任何限制。"
+                }
+            },
+            "IMPACT_ON_DEVICE": {
+                "TITLE": "对设备的影响",
+                "QS": {
+                    "Q1_TITLE": "挖矿如何影响手机的电池？",
+                    "Q1_ANSW_P1_1": "电池电量消耗微不足道-放电是",
+                    "Q1_ANSW_P1_2": "快不到5％",
+                    "Q1_ANSW_P1_3": "与正常使用设备相比较。",
+                    "Q2_TITLE": "互联网使用情况如何？",
+                    "Q2_ANSW_P1": "我们建议您在挖矿时连接到Wi-Fi，但通常情况下，流量使用量少于Messenger或浏览器的流量使用量。"
+                }
+            }
+        }
+    },
+    "GUIDES": "指南",
+    "HOW_TO_USE_THE_APP": "如何使用应用程序",
+    "HOW_TO_BUY_ENQ_ON_EXCHANGE": "如何在交易所购买ENQ",
+    "HOW_TO_BUY_ENQ_USING_BANK_CARD": "如何使用银行卡购买ENQ",
+    "HOW_TO_SWAP_ENQ": "如何交换ENQ",
+    "HOW_TO_JOIN_THE_REFERRAL_PROGRAM": "如何加入推荐计划",
+    "HOW_DOES_ROI_CALCULATOR_WORK": "投资回报率计算器如何运作",
+    "RESEARCH_PAPERS": "研究报告",
+    "WHITEPAPER": "白皮书",
+    "TECHPAPER": "技术论文",
+    "PLAY_VIDEO": "播放视频",
+    "EASY_JOIN": "轻松加入",
+    "EASY_EARN": "轻松赚钱",
+    "ABOUT_S1_TITLE_P1": "区块链移动网络",
+    "ABOUT_S1_TITLE_P2": "去中心化应用",
+    "ABOUT_S1_P1": "我们认为，每个人都应该有机会成为区块链革命的一部分。",
+    "ABOUT_S1_P2": "当前，我们创建了一个去中心化的生态系统，能够将区块炼和加密货币带入真正的主流，使大量拥有一般移动设备和桌机设备的人加入到区块炼网络中，并为dApps开发人员提供强大的工具包，以快速而低成本地创建数百万人的应用程序。",
+    "ABOUT_S1_P3": "Enecuum允许每支智能手机所有者成为我们全球网络的一部分。",
+    "ABOUT_S2_TITLE": "由矿工创造的代币价值",
+    "ABOUT_S2": "Enecuum是世界上第一个将数百万智能手机和其他移动设备整合到单个网络中的区块链。在这里，每个智能手机都可以成为矿工，使Enecuum更强大，更可靠。使用我们的应用程序简单，安全，快速。",
+    "ABOUT_S3_C1_TITLE_P1": "极其",
+    "ABOUT_S3_C1_TITLE_P2": "去中心化网络",
+    "ABOUT_S3_C1": "设备连接到Enecuum区块链并共享未开发的数据处理能力。连接的设备越多，网络速度就越高，具有无限的可扩展性。连接数百万个分布式设备将创建一个真正的去中心化，安全和稳定的系统。",
+    "ABOUT_S3_C2": "移动设备的所有者只需下载我们的应用程序即可连接到加密货币世界，赚取代币，进行转账并快速，安全地支付商品和服务费用，而无需支付银行手续费。重要！ ENQ App不会耗尽移动设备的电池，并且只需要非常一般的手机规格-Android 4.4、1GHz处理器，1.5 GB RAM。",
+    "DAPPS_WEB_3_0_ECOSYSTEM_P1": "Dapps web 3.0",
+    "DAPPS_WEB_3_0_ECOSYSTEM_P2": "生态系统",
+    "FAST_AND_EASY_PAYMENTS": "快速便捷的付款方式。",
+    "FLEXIBLE_SYSTEM_STAKES_REWARD": "灵活的系统权益奖励。",
+    "DATA_PROTECTION": "数据保护。",
+    "TOKENIZATION_OF_VIRTUAL_ASSETS": "虚拟资产的代币化。",
+    "DECENTRALISED_FINANCE_INSTRUMENTS": "去中心化的金融工具。",
+    "MARKETPLACE_FOR_DIGITAL_RESOURCES": "数字资源市场。",
+    "JOIN_ENECUUM_NETWORK": "加入Enecuum网络",
+    "POA_NODES": "PoA节点",
+    "POW_NODES": "PoW节点",
+    "POS_NODES": "PoS节点",
+    "ACCOUNTS": "账户",
+    "CURRENT": "当前",
+    "MAX_TPS": "最大TPS",
+    "LAST_BLOCK": "最后一块区块",
+    "TOTAL_NODES": "总节点",
+    "VIEW_BLOCKS_LIVE": "在Blockchain Explorer中实时查看区块",
+    "EXPLORE_RIGHT": "立即探索！",
+    "EXCHANGES": "交易所",
+    "MEDIA_TITLE": "Enecuum使用移动主节点引导块块炼网络",
+    "MEDIA_PREVIEW": "Enecuum是用于去中心化应用程序的区块链移动网络，能够将区块炼和加密货币带入真正的主流，使移动设备的用户参与到区块炼网络中，并为dApps开发人员提供了功能强大的工具包，以创建快速且低成本的应用程序WEB 3.0给数以百万计的使用者。现在，Enecuum正在激活一个小区扩展计划。",
+    "LEGAL_ADVISOR": "法律顾问",
+    "WE_ARE_MEMBER_OF": "我们是会员",
+    "WHITEPAPER_DESCR": "本白皮书包含前瞻性陈述，这些陈述基于Enecuum HK Limited（一家在香港注册成立的公司（CR：2562183）（以下简称“公司”））的信念，以及公司做出的某些假设和信息。",
+    "TECHPAPER_DESCR": "货币对经济而言，语言对言语而言。它的复杂性和实用性与它的用户群，跟使它存活的“交易”量与其达尔文主义中适应，扩散和繁荣的能力成正比。",
+    "READ_MORE": "阅读更多",
+    "READ_MORE_ABOUT_TECHNOLOGY": "阅读有关技术的更多信息",
+    "RESEARCH_PAPERS_A1_TITLE": "智能手机和受限于物联网设备的区块链技术：未来的前景和实现",
+    "RESEARCH_PAPERS_A1_ABSTRACT": "区块链技术目前正在渗透现代ICT小区的不同方面。涉及区块链相关流程的大多数设备都是专门针对挖矿而专门设计的。同时，可穿戴和移动设备的使用也可能成为区块链操作的一部分，尤其是在充电期间。本文考虑使用大量受限设备来支持区块链操作的可能性。这种设备的使用有望提高系统的效率，并吸引更多的用户。作者提出了一种基于工作量证明（PoW），活动证明（PoA）和权益证明（PoS）组合的新颖共识算法。本文首先概述了现有策略，并进一步描述了用于构建涉及移动设备区块链的已开发密码原语。本文还对设计的系统进行了简要的数值评估。",
+    "RESEARCH_PAPERS_A1_PUBLISHED": "进程IEEE第21届商业信息学会议（CBI）会议",
+    "RESEARCH_PAPERS_A1_READ_THE_ARTICLE_ON_ IEEE_XPLORE": "阅读在IEEE Xplore的文章",
+    "DATE": "日期",
+    "AUTHORS": "作者",
+    "ABSTRACT": "摘要",
+    "PUBLISHED_IN": "出版于",
+    "CORE_TEAM": "核心团队",
+    "TEAM_CARDS": {
+        "MIKHAIL_SAYFULLIN": {
+            "NAME": "Mikhail Sayfullin",
+            "DESCR": "自2002年起成为企业家。建立并发展了一家营销公司，该公司成功地为大型国际公司提供了优质的服务。自2014年以来，Mikhail一直在IT领域成功地开展工作，并在娱乐领域开发了一个受欢迎的市场。自2017年以来，为Enecuum Limited的创始人之一和我们的战略经理。"
+        },
+        "KONSTANTIN_ZHIDANOV": {
+            "NAME": "Konstantin Zhidanov",
+            "DESCR": "Konstantin是一位具有基层编程和应用密码学技能的软件开发人员。此外，他还在圣彼得堡国立航空航天仪器大学教授计算器科学相关课程。",
+            "QUOTE": "教导某件事是确保您真正理解它的最佳方法。"
+        },
+        "ROMAN_BASHLAEV": {
+            "NAME": "Roman Bashlaev",
+            "DESCR": "自2014年以来从事营销和广告工作。在促进公司在线营销方面拥有丰富经验。此外，Roman参与了GIS的三维建模。拥有专利的一组地理信息系统三维数据分类器。"
+        },
+        "SERGEY_VANURIN": {
+            "NAME": "Sergey Vanurin",
+            "DESCR": "具有开发，支持，DevOps和交付实用背景的IT专家。作为项目经理，Sergey开发了在线3D地理信息系统，并成功地用于城市规划部门。 Sergey对数学和数据科学深感兴趣，认为Enecuum是个人成长和世界变化的理想之地。"
+        },
+        "SERGEY_BEZZATEEV": {
+            "NAME": "Sergey Bezzateev",
+            "DESCR": "计算机科学博士，圣彼得堡国立航天仪器大学信息安全系主任。 Sergey是著名的专家，在信息论，编码理论，InfoSec领域发表了40多篇论文，他是密码学领域的领先专家之一。"
+        },
+        "ALEKSANDRA_AFANASYEVA": {
+            "NAME": "Aleksandra Afanasyeva",
+            "DESCR": "圣彼得堡国立航空航天仪器大学信息系统安全系助理教授。 Aleksandra有硕士学位。 2003年获得IT博士学位，并在芬兰赫尔辛基的诺基亚研究中心接受了基于证据的安全性和加密协议验证方面的培训。 Aleksandra参与并领导了与三星，英特尔，戴尔EMC在InfoSec中的合作项目以及数据存储系统中资源管理算法的优化。"
+        },
+        "ALEKSANDR_OMETOV": {
+            "NAME": "Aleksandr Ometov",
+            "DESCR": "Aleksandr有博士（技术）学位 和理学硕士分别于2018年和2016年获得芬兰坦佩雷工业大学（TUT）电信专业的荣誉，并于2013年获得俄罗斯圣彼得堡圣彼得堡国立航空航天仪器大学的信息安全专业学位。他的主要研究兴趣是无线通信，信息安全，异构网络，协作通信和机器对机器应用程序。"
+        },
+        "HENOK_TEKLE": {
+            "NAME": "Henok \"Hen\" Tekle",
+            "DESCR": "AlphaChain的联合创始人兼执行合伙人，为著名的区块链天使投资人，顾问，内容创建者和公众演讲者。 Hen是代币经济和区块链技术带来颠覆性影响的热烈拥护者，并定期在全球会议上就这些主题发表演讲。 Hen的天使投资活动已为公司早期时带来了巨大的资本和战略价值，为促进区块链技术的发展和主流所采用。"
+        },
+        "MIKHAIL_VASILEV": {
+            "NAME": "Mikhail Vasilev",
+            "DESCR": "Mikhail是一位软件开发人员，毕业于圣彼得堡国立航空航天仪器大学信息安全系。为俄罗斯领先的第三方物流(3PL)运营商之一开发并交付了仓储管理系统(WMS)。"
+        },
+        "ANTON_PRUDANOV": {
+            "NAME": "Anton Prudanov",
+            "DESCR": "软件开发人员和I信息安全专家毕业于圣彼得堡国立航空航天仪器大学。 Anton具有广泛的IT相关技能，包括全站开发，IoT解决方案，密码学和系统管理。 Anton的重点是ENQ加密图书库。"
+        },
+        "YULIA_BARDINOVA": {
+            "NAME": "Yulia Bardinova",
+            "DESCR": "具有信息安全背景的质量确保工程师。在Enecuum中，Yulia设计和实施测试以确保为每个用户提供无错误的体验。"
+        },
+        "VLADIMIR_TSAREV": {
+            "NAME": "Vladimir Tsarev",
+            "DESCR": "具有网域应用程序，自动控制系统和地理信息系统（GIS）开发背景的IT专家。"
+        },
+        "STAN_PRIHODKO": {
+            "NAME": "Stan Prihodko",
+            "DESCR_P1": "Stan是加密资产管理负责人",
+            "DESCR_P2": "，这个基金的资产管理规模超过4亿美元。在加入GEM之前，Stan从事加密货币资产的信托管理以及为高净值个人投资ICO的咨询顾问。"
+        },
+        "ALEXANDER_RUGAEV": {
+            "NAME": "Alexander Rugaev",
+            "DESCR": "Alexander Rugaev是一位多系列企业家，也是早期的区块链支持者之一。他拥有创建工业级比特币和以太坊采矿场的经验。他在电子商务和在线营销方面拥有16年的经验。"
+        },
+        "SHELLY_HOD_MOYAL": {
+            "NAME": "Shelly Hod Moyal",
+            "DESCR": "Shelly Hod Moyal是iCapital的顾问，Juno Capital的投资组合经理和iAngels的创始合伙人，iAngels是高科技初创企业的创投平台，在各个部门和基金中管理着1.4亿美元的资产，专门从事多个技术行业领域。在加入iAngels之前，Shelly被高盛投资银行（Goldman Sachs Investment Bank）评为有前途的分析师。在此之前，Shelly在知名对冲基金Avenue Capital担任研究分析师，研究范围涉及银行，保险，房地产和金融机构。 Shelly在芝加哥的凯洛格（Kellogg）获得了MBA学位，并在纽约的亨特学院（Hunter College）获得了经济学学位（以优异成绩获得学位）。"
+        },
+        "MAXIM_SHULTE": {
+            "NAME": "Maxim Shulte",
+            "DESCR": "一位作家一个成功的交易员。一位加密货币爱好者。自2015年以来投入在加密货币行业中。"
+        },
+        "KELLY_IFALUYI": {
+            "NAME": "Kelly Ifaluyi",
+            "DESCR": "热心的专业小区经理和品牌大使，拥有超过2年的经验，并且对各种社交媒体渠道，策略和区块链技术有全面性的了解。"
+        }
+    },
+    "AMBASSADORS": "大使",
+    "AMBASSADORS_CARDS": {
+        "HAL_NKRUMAH": {
+            "NAME": "Hal Nkrumah",
+            "LANGUAGE": "英语，Twi",
+            "COUNTRY": "加纳"
+        },
+        "AZEEZ_OLANREWAJU_ABDULFATTAH": {
+            "NAME": "Azeez Olanrewaju Abdulfattáh",
+            "LANGUAGE": "英语",
+            "COUNTRY": "奈及利亚"
+        },
+        "ABDULWAHAB_MAYOWA": {
+            "NAME": "Abdulwahab Mayowa",
+            "LANGUAGE": "英语",
+            "COUNTRY": "奈及利亚"
+        },
+        "BARINEKA_MAAGBO": {
+            "NAME": "Barineka Maagbo",
+            "LANGUAGE": "英语",
+            "COUNTRY": "奈及利亚"
+        },
+        "RAFAEL_AREVALO": {
+            "NAME": "Rafael Arevalo",
+            "LANGUAGE": "英语,西班牙语",
+            "COUNTRY": "哥伦比亚"
+        },
+        "EMMANUEL_OMISADE": {
+            "NAME": "Emmanuel Omisade",
+            "LANGUAGE": "英语",
+            "COUNTRY": "奈及利亚"
+        },
+        "MARK_TUT": {
+            "NAME": "Mark Tut",
+            "LANGUAGE": "俄语，白俄罗斯语，英语",
+            "COUNTRY": "白俄罗斯"
+        }
+    },
+    "AMBASSADORS_ATTRIBUTES": {
+        "LANGUAGE": "语言"
+    },
+    "CEO": "首席执行官",
+    "CTO": "首席技术官",
+    "CMO": "首席营业营销官",
+    "PROJECT_MANAGER": "项目经理",
+    "HEAD_OF_RESEARCH": "研发负责人",
+    "RESEARCHER": "研究员",
+    "STRATEGIC_PARTNER": "策略合作伙伴",
+    "BUSINESS_ANALYST": "业务分析师",
+    "SOFTWARE_DEVELOPER": "软件开发师",
+    "SOFTWARE_ENGINEER": "软件工程师",
+    "QA_ENGINEER": "质量保障工程师",
+    "WEB_DEVELOPER": "网页开发人员",
+    "ADVISOR": "顾问",
+    "AMBASSADOR": "大使",
+    "COMMUNITY_MANAGER": "小区管理员",
+    "ROADMAP_CONTENT": {
+        "Q2_2017": {
+            "Q_NUMBER": "第2季",
+            "TASKS": {
+                "T_1": "研发现有区块链"
+            }
+        },
+        "Q3_2017": {
+            "Q_NUMBER": "第3季",
+            "TASKS": {
+                "T_1": "现况文件V.1",
+                "T_2": "描述系统架构"
+            }
+        },
+        "Q4_2017": {
+            "Q_NUMBER": "第4季",
+            "TASKS": {
+                "T_1": "组建核心开发团队"
+            }
+        },
+        "Q1_2018": {
+            "Q_NUMBER": "第1季",
+            "TASKS": {
+                "T_1": "实施网络协议"
+            }
+        },
+        "Q2_2018": {
+            "Q_NUMBER": "第2季",
+            "TASKS": {
+                "T_1": "实施PoW和PoA节点"
+            }
+        },
+        "Q3_2018": {
+            "Q_NUMBER": "第3季",
+            "TASKS": {
+                "T_1": "启动测试网络Alpha（创世纪）。",
+                "T_2": "PoA奖励测试。",
+                "T_3": "区块链资源管理器。",
+                "T_4": "空投阶段1"
+            }
+        },
+        "Q4_2018": {
+            "Q_NUMBER": "第4季",
+            "TASKS": {
+                "T_1": "测试网Beta版本的开发原型。",
+                "T_2": "学术研究：具有基于身分识别(ID)的加密和匿名交易的Trinity协议"
+            }
+        },
+        "Q1_2019": {
+            "Q_NUMBER": "第1季",
+            "TASKS": {
+                "T_1": "启动测试版Beta版本（神经网络）。",
+                "T_2": "PoW，PoA，PoS奖励。",
+                "T_3": "三位一体共识算法。",
+                "T_4": "实现基于身分识别(ID)的加密。",
+                "T_5": "为合作伙伴Dapp（VPN）创建第一个智能合约用例"
+            }
+        },
+        "Q2_2019": {
+            "Q_NUMBER": "第2季",
+            "TASKS": {
+                "T_1": "依出版周期发表学术论文刊在同行浏览期刊（WoS，Scopus)。",
+                "T_2": "PoA节点的权益质押系统。",
+                "T_3": "启动生态系统扩展程序。",
+                "T_4": "安卓矿工应用App发布。",
+                "T_5": "交换ENQ（ERC20）为原生ENQ。",
+                "T_6": "网络钱包。"
+            }
+        },
+        "Q3_2019": {
+            "Q_NUMBER": "第3季",
+            "TASKS": {
+                "T_1": "发布去中心化的推荐计划。",
+                "T_2": "收集统计数据。",
+                "T_3": "优化PoA算法，区块链浏览器，钱包。",
+                "T_4": "维护系统健康。",
+                "T_5": "安卓钱包（Play Market）发布。",
+                "T_6": "将ENQ（ERC20）令牌集成到冷，热钱包和付款提供商。",
+                "T_7": "Trinity协议加密曲线的定稿和测试"
+            }
+        },
+        "Q4_2019": {
+            "Q_NUMBER": "第4季",
+            "TASKS": {
+                "T_1": "iOS钱包发布。",
+                "T_2": "发行PoW v.1.0节点。",
+                "T_3": "释放PoS节点。",
+                "T_4": "释放主网Alpha版本（三位一体）。",
+                "T_5": "发布节点API和文件档。",
+                "T_6": "白皮书v2.0。"
+            }
+        },
+        "Q1_2020": {
+            "Q_NUMBER": "第1季",
+            "TASKS": {
+                "T_1": "SHARNELL智能合约。",
+                "T_2": "智能权益质押 v1.0（艾丽斯）。",
+                "T_3": "令牌发行（ENQ标准）。",
+                "T_4": "将ENQ标准令牌整合到加密货币交易所。",
+                "T_5": "开始烧毁 ERC20格式的ENQ令牌。"
+            }
+        },
+        "Q2_2020": {
+            "Q_NUMBER": "第2季",
+            "TASKS": {
+                "T_1": "发行PoW v.2.0（阻挡ASIC）。",
+                "T_2": "开发用于智能合约的SDK。",
+                "T_3": "发行采矿令牌（ENQ标准）。",
+                "T_4": "智能权益质押 v2.0（鲍伯）。",
+                "T_5": "发行Enecuum v1.0（Pulse）"
+            }
+        },
+        "Q3_2020": {
+            "Q_NUMBER": "第3季",
+            "TASKS": {
+                "T_1": "网上商店付款系统（无需服务器）。",
+                "T_2": "超级 DAG实施。",
+                "T_3": "数字资源市场解决方案（VPN，DEX，存储）。"
+            }
+        },
+        "Q4_2020": {
+            "Q_NUMBER": "第4季",
+            "TASKS": {
+                "T_1": "治理模型的发布。",
+                "T_2": "私有区块链解决方案。",
+                "T_3": "侧链站测试网。"
+            }
+        }
+    },
+    "BECOME_PARTNER_TITLE": "您想成为我们的合作伙伴吗？",
+    "LEAVE_YOUR_E_MAIL": "留下您的电子邮件和姓名，我们的经理将与您联系",
+    "BECOME_A_PARTNER": "成为合作伙伴",
+    "JOIN_OUR_COMMUNITY": "加入我们的小区",
+    "MARKET_CAP": "市值",
+    "VOLUME": "量",
+    "PRICE_USD": "价格美元",
+    "PRICE_BTC": "价格BTC",
+    "TRADING_PAIRS": "交易对",
+    "CALCULATOR": "计算器",
+    "ENQ_CHARTS": "ENQ图表",
+    "MOBILE_MN_ROI_CALCULATOR": "移动主节点投资回报率计算器",
+    "ROI_RANGE": "您可以在一个主节点(MN)上抵押25至25000 ENQ",
+    "IS_REFERRAL": "我是推荐人",
+    "ROI_STAKE_LITE_CALC": "ENQ可投资数额之权益",
+    "ANNUAL_ROI": "年收益率",
+    "ROI_STAKE": "您想权益质押多少ENQ？",
+    "INCORRECT_STAKE_RANGE_MESSAGE": "数量不正确。请从25到25000 ENQ做权益质押",
+    "DAILY": "每日",
+    "WEEKLY": "每周",
+    "MONTHLY": "每月",
+    "ANNUAL": "每年",
+    "24H_POW_REWARDS": "24小时PoW奖励",
+    "24H_POA_MN_REWARDS": "24小时PoA主节点奖励",
+    "MN_STAKE": "权益质押在PoA主节点的代币",
+    "CIRC_SUPPLY_SHORT": "流通供应量",
+    "OPEN_BE": "打开区块链资源管理器",
+    "BUY_ENQ": "购买ENQ",
+    "WAY_TO_BUY": "选择一种便利的方式购买ENQ",
+    "CURRENT_ENQ_PRICE": "当前的ENQ价格",
+    "OTC": "场外交易",
+    "BANK_CARD_NATIVE": "银行卡（原生）",
+    "BUY_COIN_BANK_CARD_P1": "您可以",
+    "BUY_COIN_BANK_CARD_P2": "购买原生币ENQ",
+    "BUY_COIN_BANK_CARD_P3": "使用银行卡并立即开始挖矿",
+    "EARN_ENQ": "赚取ENQ",
+    "TYPES_OF_TOKENS": "我们有两种令牌：ERC20和原生令牌。对于挖矿，您需要有原生ENQ。您也可以购买ERC20并将其交换为原生版本。",
+    "POA_MINING": "PoA挖矿",
+    "POA_MINING_STEPS": {
+        "STEP_1": "下载应用程序",
+        "STEP_2": "在应用程序中创建一个账户",
+        "STEP_3_OLD": "依循3a或3b步骤之后，至少存入25 ENQ",
+        "STEP_3": "存入至少25 ENQ。",
+        "STEP_3A": "通过银行卡购买原生币",
+        "STEP_3B_P2": "&",
+        "STEP_3B_P3": "交换",
+        "STEP_3B_P4": "到原生币网络",
+        "STEP_4": "在应用程序中，点击“开始启动”"
+    },
+    "KEEP_CALM_AND_START_MINING": "保持冷静并开始挖矿",
+    "SWAP_NATIVE_COINS_TO": "将原生币交换",
+    "VIDEO": "视频",
+    "HOLD_ENQ": "持有ENQ",
+    "HOLD_ENQ_DESCR": "使用官方的Enecuum钱包",
+    "NATIVE_ENQ": "原生ENQ",
+    "ERC20_WALLETS": "ERC20钱包",
+    "SPEND_ENQ": "花费ENQ",
+    "SPEND_ENQ_DESCR": "通过我们合作伙伴的网络您可以方便地在全球范围内支付ENQ（ERC 20）",
+    "SWAP_TO_ERC20": "如何将ERC20交换成原生币",
+    "BECOME_MERCHANT_TITLE": "想成为商人吗？",
+    "PAYMENTS_PROVIDERS": "付款提供商",
+    "PAYMENTS_PROVIDERS_FORM": "付款提供商表格",
+    "START_RECEIVING_ENQ_FORM": "开始接收ENQ表格",
+    "COMING_SOON": "快来了",
+    "TOKEN_UTILITY": "令牌实用程序",
+    "DISCLAIMER": "免责声明",
+    "COPYRIGHT_INFO_P1": "©2019 Enecuum HK Limited。公司注册号：2562183。保留所有权利。本文档中的任何内容均不构成任何形式的要约或建议。 ENQ和Enecuum自适应式去中心化环境可能并非在所有辖区和所有人中都适用。请看我们的",
+    "COPYRIGHT_INFO_P2": "隐私政策",
+    "COPYRIGHT_INFO_P3": "和",
+    "COPYRIGHT_INFO_P4": "网站条款及细则",
+    "TECHNOLOGY_PAGE_PROMO": {
+        "TRINITY_CONSENSUS": {
+            "P_1": "我们的三合一算法结合了PoA，PoW和PoS。这种用于达成共识的混合方法提供了高度的网络分散性，同时显着提高了网络安全性和事务执行速度。我们的集成式创新密码解决方案进一步增强了网络安全性。",
+            "P_2": "这些共识机制同时起作用：问题解决者（PoW节点）创建了区块链结构的骨干。发布者（PoA节点）完成并发布微区块。持有人（PoS节点）保持系统效率。通过加密，节点间变得可以互换。"
+        },
+        "BLOCK_DAG_STRUCTURE": {
+            "P_1": "每个分支都按照中本聪（BFT）的共识发展。",
+            "P_2": "允许的最大分支数取决于网络哈希率。",
+            "P_3": "分支按允许时间顺序排列巨块的方式交联。"
+        },
+        "NETWORK_PERFORMANCE_AND_TOPOLOGY": {
+            "P_1": "18000 tps（测试结果）",
+            "P_2": "延迟5-30秒",
+            "P_3": "数千个PoW和PoS节点",
+            "P_4": "数百万个PoA节点",
+            "P_5": "灵活的智能合约架构",
+            "P_6": "矿工动态奖励系统",
+            "P_7": "和弦算法",
+            "P_8": "路由",
+            "P_9": "分片"
+        },
+        "INFRASTRUCTURE_AND_ECOSYSTEM": {
+            "P_1": "PoS节点（服务器）",
+            "P_2": "PoW节点（计算器）",
+            "P_3": "PoA节点（移动设备）",
+            "P_4": "dApp（游戏，支付，去中心化交易和其他）",
+            "P_5": "交易所",
+            "P_6": "用户（手机，PC）"
+        }
+    },
+    "TECHNOLOGY_PAGE": {
+        "TRINITY_PROTOCOL": {
+            "H_1": "三合一协议",
+            "H_2": "（BFT混合共识算法）",
+            "P_1": "我们的三合一算法结合了PoA，PoW和PoS。这种用于达成共识的混合方法提供了高度的网络分散性，同时显着提高了网络安全性和事务执行速度。我们的集成式创新密码解决方案进一步增强了网络安全性。"
+        },
+        "POA_MOBILE_MASTERNODE": {
+            "H_1": "PoA移动主节点",
+            "P_1": "PoA（活动证明）节点通过验证存储交易信息的微区块，为网络做出了贡献。微区块包含交易。 PoA由PoS领导人验证。"
+        },
+        "POS_NODE": {
+            "H_1": "PoS节点",
+            "H_2": "（委派/验证）",
+            "P_1": "PoS（智能堆栈）节点通过发布巨区块的PoS领导者获得投票的奖励。 PoS节点角色的候选人必须排在余额的前100个钱包中，并根据相关的三合一协议从PoS联盟接收秘密密钥。"
+        },
+        "POW_NODE": {
+            "H_1": "PoW节点",
+            "P_1": "PoW（工作量证明）节点使用您的PC的CPU功能生成k区块，这些k区块构成了我们的区块链结构。 阻挡ASIC功能。"
+        },
+        "TOKEN_MACHINE": {
+            "H_1": "Enecuum令牌机器",
+            "H_2": "对用户友好和快速的界面，使用于创建令牌。",
+            "FUNGIBLE_TOKENS": {
+                "TITLE": "可替代的代币",
+                "DESCR": "设置个人费用，作为令牌用户的付款",
+                "FEATURES": {
+                    "F_1": "游戏积分",
+                    "F_2": "稳定币",
+                    "F_3": "众筹",
+                    "F_4": "系统积分",
+                    "F_5": "加密货币"
+                }
+            },
+            "NON_FUNGIBLE_TOKENS": {
+                "TITLE": "不可替代的代币",
+                "DESCR": "为每个令牌设置独特唯一值",
+                "FEATURES": {
+                    "F_1": "游戏内项目",
+                    "F_2": "供应链",
+                    "F_3": "房地产",
+                    "F_4": "身分识别",
+                    "F_5": "证明",
+                    "F_6": "收藏品",
+                    "F_7": "礼品卡"
+                }
+            },
+            "MINEABLE": {
+                "TITLE": "可挖",
+                "DESCR": "设置质押数量大小以开始铸造自己的令牌",
+                "FEATURES": {
+                    "F_1": "忠诚度积分",
+                    "F_2": "营销学",
+                    "F_3": "小区建造",
+                    "F_4": "DeFi 权益质押"
+                }
+            }
+        },
+        "FEE_PRINCIPLE": {
+            "H_1": "收费原则"
+        },
+        "SMART_CONTRACTS": {
+            "TITLE": "智能合约",
+            "DESCR": "智能合约使用业务导向的SHARNELL逻辑的高度典型化图灵其未完成的功能性编程语言。该逻辑将发生错误的可能性降到最低。",
+            "USE_CASES": {
+                "TITLE": "使用例：",
+                "F_1": "付款方式",
+                "F_2": "赌博",
+                "F_3": "DeFi",
+                "F_4": "游戏类",
+                "F_5": "众筹",
+                "F_6": "虚拟专用网",
+                "F_7": "去中心化交易"
+            }
+        }
+    },
+    "PRODUCTS_PAGE": {
+        "ANDROID_MASTERNODE": {
+            "H_1": "安卓 Enecuum主节点",
+            "P_1": "Enecuum团队为PoA挖矿开发了一个特殊的安卓应用程序。"
+        },
+        "MOBILE_WALLET": {
+            "H_1": "Enecuum手机钱包",
+            "P_1": "一个方便的应用程序，用于控制余额和进行Enecuum令牌转移。适用于安卓和iOS。"
+        },
+        "WEB_WALLET": {
+            "H_1": "Enecuum Web钱包",
+            "P_1": "使用网络版的Enecuum钱包可通过任何浏览器取得您的令牌。"
+        },
+        "BLOCKCHAIN_EXPLORER": {
+            "H_1": "区块链资源管理器",
+            "P_1": "允许：查看网络状态，最后一个区块，带宽，检查事务或钱包，检查活动节点地图。"
+        },
+        "SWAP_SERVICE": {
+            "H_1": "交换服务",
+            "P_1": "为了将ERC-20 ENQ转移到应用程序或出售ENQ，必须进行交换（转换）。交换是必须的，因为Enecuum是处于测试阶段（testnet）的项目，该项目使用无法交易的测试ENQ硬币。要进行交换，您必须有一个以太坊钱包和以太坊燃料费。"
+        },
+        "MOBILE_MULTIMINER": {
+            "H_1": "移动多矿机",
+            "P_1": "安卓应用程序，将包括以下功能：ENQ和自定义令牌挖矿，令牌发行（可替代，不可替代，可挖矿），令牌委派和验证（智能权益抵押），令牌转移，交易历史记录，区块浏览器。"
+        }
+    },
+    "TRINITY_CONSENSUS": "三合一共识",
+    "BLOCK_DAG_STRUCTURE": "区块DAG结构",
+    "NETWORK_PERFORMANCE_AND_TOPOLOGY": "网络性能和其拓扑",
+    "NODES": "节点",
+    "THROUGHPUT": "流通量",
+    "LATENCY": "延迟",
+    "PROOF": "证明",
+    "TEST_NET": "测试网",
+    "SIMULATION": "模拟",
+    "ANALYTICS": "分析工具",
+    "INFRASTRUCTURE_AND_ECOSYSTEM": "基础设施和生态系统",
+    "DOWNLOAD_ANDROID_MASTERNODE": "下载安卓主节点",
+    "ANDROID_MASTERNODE": "安卓主节点",
+    "WALLETS": "钱包",
+    "DOWNLOAD_APPLICATION": "下载应用程序",
+    "HOW_TO_START_MINING": "如何开始挖矿",
+    "WEB_WALLET": "网络钱包",
+    "TERMS_OF_SERVICE": "服务条款",
+    "PRIVACY_POLICY": "隐私政策",
+    "STAGE_1": "阶段1",
+    "STAGE_2": "阶段2",
+    "LINKS": {
+        "WHAT_IS_POA": "什么是poa",
+        "HOW_TO_RUN_POS": "如何运行PoS",
+        "HOW_TO_RUN_POW": "如何运行PoW"
+    },
+    "ENECUUM_ENVIRONMENT_FUNCTIONALITY": {
+        "PRE": "ENQ旨在成为实用的程序令牌。建议拥有ENQ，持有人可以使用Enecuum自适应去中心化环境的以下拟议功能：",
+        "P_A": "根据ENQ条款和条件以及适用法律累积和转让ENQ；",
+        "P_B": "采用收费制发布SHARNELL智能合约发布到全球Enecuum网络（费用则根据发布的字节码量确定）；",
+        "P_C": "发行由用户计算出的带有奖励的交易，发布该交易以刺激矿工验证该区块；",
+        "P_D": "通过“大量”智能合约获取复杂的计算。提议这种计算的奖励是由当前市场条件决定，在当前市场条件下，提出请求的用户会提供奖励，并等到具有足够计算能力的矿工（节点）运行这种“大量”智能合约后再予以同意。用户可以提高奖励以便更快地刺激此类矿工；",
+        "P_E": "使用网络上的其他节点（非用户本身的）获取并生成私有的“机票”分支。奖励是经过矿工同意为这些分支提供服务而单独决定的；",
+        "P_F": "并参与PoA和PoS挖矿。",
+        "FURTHER_DETAILS_P1": "参见 Enecuum",
+        "FURTHER_DETAILS_P2": "定位报告",
+        "FURTHER_DETAILS_P3": "或Enecuum网站了解更多详细信息。"
+    }
+}

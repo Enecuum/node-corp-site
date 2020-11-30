@@ -25,7 +25,7 @@ var utilityRouter = require('./routes/utility');
 var emissionModelRouter = require('./routes/emission-model');
 var technologyRouter = require('./routes/technology');
 var productsRouter = require('./routes/products');
-var allowedLocales = ['en', 'ru', 'ko', 'tr', 'es', 'pt'];
+var allowedLocales = ['en', 'ru', 'ko', 'zh_CN', 'zh_HK', 'tr', 'es', 'pt'];
 
 i18n.configure({
     locales: allowedLocales,
@@ -123,9 +123,10 @@ app.use(function (req, res, next) {
 			tr: 'tr',
 			es: 'es',
 			pt: 'pt',
-			ko: 'kr'
+			ko: 'kr',
+			zh_CN: 'cn',
+			zh_HK: 'hk'
 		};
-
 		
 		if (req.query.lang !== undefined && allowedLocales.indexOf(req.query.lang) !== -1) {
 			currentLang = req.query.lang;
@@ -141,7 +142,7 @@ app.use(function (req, res, next) {
 			}
 		}
 
-		if (allowedLocales.indexOf(currentLang) > 2 && req.path !== '/promo') {
+		if (allowedLocales.indexOf(currentLang) > 4 && req.path !== '/promo') {
 			currentLang = 'en';
 		}
 
@@ -240,7 +241,25 @@ hbs.registerHelper('if_eq', function(a, b, opts) {
 });
 
 hbs.registerHelper('tradingViewWidget', function(lang = 'en') {
-	return lang === 'ru' ? 'tradingViewWidget_ru' : lang === 'ko' ? 'tradingViewWidget_ko' : 'tradingViewWidget';
+	let suffix = '';
+	switch (lang) {
+		case 'ru':
+			suffix = "ru"
+			break;
+		case 'ko':
+			suffix = "ko"
+			break;
+		case 'zh_CN':
+			suffix = "zh_CN"
+			break;
+		case 'zh_HK':
+			suffix = "zh_TW"
+			break;			
+		default:
+			suffix = "en"
+	}
+	
+	return 'tradingViewWidget' + (suffix === 'en' ? '' : '_' + suffix);
 });
 
 // catch 404 and forward to error handler

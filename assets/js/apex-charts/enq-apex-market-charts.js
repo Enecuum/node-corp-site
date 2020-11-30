@@ -129,6 +129,116 @@
           "reset": "원래대로"
         }
       }
+    },
+    {
+      "name": "zh_CN",
+      "options": {
+        "months": [
+          "一月",
+          "二月",
+          "三月",
+          "四月",
+          "五月",
+          "六月",
+          "七月",
+          "八月",
+          "九月",
+          "十月",
+          "十一月",
+          "十二月"
+        ],
+        "shortMonths": [
+          "一月",
+          "二月",
+          "三月",
+          "四月",
+          "五月",
+          "六月",
+          "七月",
+          "八月",
+          "九月",
+          "十月",
+          "十一月",
+          "十二月"
+        ],
+        "days": [
+          "星期天",
+          "星期一",
+          "星期二",
+          "星期三",
+          "星期四",
+          "星期五",
+          "星期六"
+        ],
+        "shortDays": ["周日", "周一", "周二", "周三", "周四", "周五", "周六"],
+        "toolbar": {
+          "exportToSVG": "下载 SVG",
+          "exportToPNG": "下载 PNG",
+          "exportToCSV": "下载 CSV",
+          "menu": "菜单",
+          "selection": "选择",
+          "selectionZoom": "选择缩放",
+          "zoomIn": "放大",
+          "zoomOut": "缩小",
+          "pan": "平移",
+          "reset": "重置缩放"
+        }
+      }
+    },
+    {
+      "name": "zh_HK",
+      "options": {
+        "months": [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December"
+        ],
+        "shortMonths": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "shortDays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        "toolbar": {
+          "exportToSVG": "Download SVG",
+          "exportToPNG": "Download PNG",
+          "exportToCSV": "Download CSV",
+          "menu": "Menu",
+          "selection": "Selection",
+          "selectionZoom": "Selection Zoom",
+          "zoomIn": "Zoom In",
+          "zoomOut": "Zoom Out",
+          "pan": "Panning",
+          "reset": "Reset Zoom"
+        }
+      }
     }
   ];
 

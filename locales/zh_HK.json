@@ -1,0 +1,672 @@
+{
+    "LANGUAGE": "英語",
+    "UNITS": {
+        "SECONDS": "秒",
+        "S": "秒",
+        "TPS": "每秒交易傳輸速度",
+        "HOUR": "小時"
+    },
+    "MONTHS": {
+        "MAY": "5月",
+        "JULY": "7月",
+        "DECEMBER": "12月"
+    },
+    "CHART_CONTROLS": {
+        "M": "月",
+        "Y": "年",
+        "YTD": "年初至今",
+        "ALL": "全部"
+    },
+    "CHART_SERIES_TITLES": {
+        "ENQ_PRICE_USD": "ENQ 價格(美金)",
+        "BTC_PRICE_USD": "BTC 價格(美金)",
+        "TOTAL_VOLUME_USD": "全部數量(美金)"
+    },
+    "ERRORS": {
+        "SOMETHING_WENT_WRONG": "出問題了",
+        "ERR_404_DESCR": "抱歉，找不到所請求的資源。",
+        "LETS_GO_TO": "嘗試訪問網站",
+        "MAIN_PAGE": "主頁面",
+        "ERR_500_DESCR": "發生錯誤",
+        "VISIT_WEBSITE_LATER": "稍後嘗試訪問網站"
+    },
+    "PROMO_TITLE_P1": "移動裝置挖礦",
+    "PROMO_TITLE_P2": "給大家",
+    "ADVANTAGES": {
+        "EASY_TO_JOIN": "容易加入",
+        "EASY_TO_EARN": "容易賺",
+        "EXTREMELY_DECENTRALIZED": "極度去中心化",
+        "MAXIMUM_PRIVACY": "極度隱私",
+        "LOW_BATTERY_CONSUMPTION": "低電量消耗"
+    },
+    "HOW_DOES_IT_WORK": "它是如何運作的？",
+    "COOKIES_ALERT_TEXT": "繼續瀏覽我們的網站，即表示您同意使用cookies以確保網站的正確運行。",
+    "I_AGREE": "我同意",
+    "MORE_DETAILS": "找到更多",
+    "ABOUT": "關於",
+    "MISSION_AND_PURPOSE": "使命與宗旨",
+    "DOCUMENTATION": "文獻資料",
+    "TEAM": "團隊",
+    "ROADMAP": "路線圖",
+    "PARTNERS": "夥伴",
+    "NEWS_AND_COMMUNITY": "新聞與社區",
+    "STATS": "統計資料",
+    "MARKET_STATS": "市場統計",
+    "NETWORK_STATS": "網絡統計",
+    "BLOCKCHAIN_EXPLORER": "區塊鏈資源管理器",
+    "BUY": "購買",
+    "EARN": "賺",
+    "HOLD": "持有",
+    "SPEND": "花費",
+    "UTILITY": "效用",
+    "SWAP": "交換",
+    "EMISSION_MODEL": "配放模式",
+    "TECHNOLOGY": "技術",
+    "TRINITY": "三合一",
+    "BLOCK_DAG": "區塊有向無環圖",
+    "NETWORK": "網絡",
+    "INFRASTRUCTURE": "基礎設施",
+    "START_MINING": "開始挖礦",
+    "HOW_TO_MINE": "如何開挖",
+    "PRODUCTS": "產品",
+    "REFERRAL_PROGRAM": "推薦計劃",
+    "FAQ": {
+        "TITLE": "常問問題",
+        "CONTENT": {
+            "THE_PROJECT": {
+                "TITLE": "該項目",
+                "QS": {
+                    "Q1_TITLE": "什麼是Enecuum?",
+                    "Q1_ANSW_P1": "Enecuum是一個使用去中心化應用程序的區塊鏈移動網絡。創建它的目的是將區塊鍊和加密貨幣成為真正的主流，使擁有常規移動設備和桌面設備的人們進入區塊鍊網絡。 Enecuum允許每個智能手機所有者成為我們全球網絡的一部分。",
+                    "Q2_TITLE": "它是如何運作的？",
+                    "Q2_ANSW_P1": "在Enecuum中，共識是通過以下三種挖礦算法之間的互動來達成的：工作量證明（“ PoW”），活動證明（“ PoA”）和權益證明（“ PoS”）。這種結合使得可以實現高度的網絡分散。目前，我們已經在移動應用程序中部署了PoA算法，並且PoW和PoS可在PC上進行公開測試。"
+                }
+            },
+            "START_MINING": {
+                "TITLE": "開始挖礦",
+                "QS": {
+                    "Q1_TITLE": "我怎麼挖礦？",
+                    "Q1_ANSW_P1": "您需要做的就是擁有一個Android設備，在其中下載我們的應用程式並存入25 ENQ。",
+                    "Q2_TITLE": "我如何獲得Enecuum的代幣？",
+                    "Q2_ANSW_P1": "您可以通過信用卡或交易所（KuCoin，Graviex, ProBit）購買ENQ。請注意，如果您在交易所購買ENQ您需要先將代幣轉移到以太坊錢包。",
+                    "Q3_TITLE": "如何互換？",
+                    "Q3_ANSW_P1": "根據您使用的操作系統（OS），請使用MetaMask（桌機操作系統）或Trust Wallet（移動裝置操作系統)的以太坊錢包。該軟件已由Enecuum團隊和社區進行了測試。閱讀更多",
+                    "Q4_TITLE": "我可以使用那些設備進行挖礦？",
+                    "Q4_ANSW_P1": "您可以在運行Android的任何移動設備（手機，平板電腦）上進行挖礦。儘管Enecuum主要針對智能手機，但我們的社區也設法使用了IoT設備，電視盒和智能手錶進行挖礦！",
+                    "Q5_TITLE": "我可以在多個設備上進行挖礦嗎？",
+                    "Q5_ANSW_P1": "是的，但是您需要為每個設備創建一個單獨的帳戶。",
+                    "Q6_TITLE": "我可以在模擬電話上挖礦嗎？",
+                    "Q6_ANSW_P1": "是的你可以。目前，我們對此沒有任何限制。"
+                }
+            },
+            "IMPACT_ON_DEVICE": {
+                "TITLE": "對設備的影響",
+                "QS": {
+                    "Q1_TITLE": "挖礦如何影響手機的電池？",
+                    "Q1_ANSW_P1_1": "電池電量消耗微不足道-放電是",
+                    "Q1_ANSW_P1_2": "快不到5％",
+                    "Q1_ANSW_P1_3": "與正常使用設備相比較。",
+                    "Q2_TITLE": "互聯網使用情況如何？",
+                    "Q2_ANSW_P1": "我們建議您在挖礦時連接到Wi-Fi，但通常情況下，流量使用量少於Messenger或瀏覽器的流量使用量。"
+                }
+            }
+        }
+    },
+    "GUIDES": "指南",
+    "HOW_TO_USE_THE_APP": "如何使用應用程式",
+    "HOW_TO_BUY_ENQ_ON_EXCHANGE": "如何在交易所購買ENQ",
+    "HOW_TO_BUY_ENQ_USING_BANK_CARD": "如何使用銀行卡購買ENQ",
+    "HOW_TO_SWAP_ENQ": "如何交換ENQ",
+    "HOW_TO_JOIN_THE_REFERRAL_PROGRAM": "如何加入推薦計劃",
+    "HOW_DOES_ROI_CALCULATOR_WORK": "投資回報率計算器如何運作",
+    "RESEARCH_PAPERS": "研究報告",
+    "WHITEPAPER": "白皮書",
+    "TECHPAPER": "技術論文",
+    "PLAY_VIDEO": "播放視頻",
+    "EASY_JOIN": "輕鬆加入",
+    "EASY_EARN": "輕鬆賺錢",
+    "ABOUT_S1_TITLE_P1": "區塊鏈移動網絡",
+    "ABOUT_S1_TITLE_P2": "去中心化應用",
+    "ABOUT_S1_P1": "我們認為，每個人都應該有機會成為區塊鏈革命的一部分。",
+    "ABOUT_S1_P2": "當前，我們創建了一個去中心化的生態系統，能夠將區塊鍊和加密貨幣帶入真正的主流，使大量擁有一般移動設備和桌機設備的人加入到區塊鍊網絡中，並為dApps開發人員提供強大的工具包，以快速而低成本地創建數百萬人的應用程序。",
+    "ABOUT_S1_P3": "Enecuum允許每支智能手機所有者成為我們全球網絡的一部分。",
+    "ABOUT_S2_TITLE": "由礦工創造的代幣價值",
+    "ABOUT_S2": "Enecuum是世界上第一個將數百萬智能手機和其他移動設備整合到單個網絡中的區塊鏈。在這裡，每個智能手機都可以成為礦工，使Enecuum更強大，更可靠。使用我們的應用程序簡單，安全，快速。",
+    "ABOUT_S3_C1_TITLE_P1": "極其",
+    "ABOUT_S3_C1_TITLE_P2": "去中心化網絡",
+    "ABOUT_S3_C1": "設備連接到Enecuum區塊鏈並共享未開發的數據處理能力。連接的設備越多，網絡速度就越高，具有無限的可擴展性。連接數百萬個分佈式設備將創建一個真正的去中心化，安全和穩定的系統。",
+    "ABOUT_S3_C2": "移動設備的所有者只需下載我們的應用程序即可連接到加密貨幣世界，賺取代幣，進行轉賬並快速，安全地支付商品和服務費用，而無需支付銀行手續費。重要！ ENQ App不會耗盡移動設備的電池，並且只需要非常一般的手機規格-Android 4.4、1GHz處理器，1.5 GB RAM。",
+    "DAPPS_WEB_3_0_ECOSYSTEM_P1": "Dapps web 3.0",
+    "DAPPS_WEB_3_0_ECOSYSTEM_P2": "生態系統",
+    "FAST_AND_EASY_PAYMENTS": "快速便捷的付款方式。",
+    "FLEXIBLE_SYSTEM_STAKES_REWARD": "靈活的系統權益獎勵。",
+    "DATA_PROTECTION": "數據保護。",
+    "TOKENIZATION_OF_VIRTUAL_ASSETS": "虛擬資產的代幣化。",
+    "DECENTRALISED_FINANCE_INSTRUMENTS": "去中心化的金融工具。",
+    "MARKETPLACE_FOR_DIGITAL_RESOURCES": "數字資源市場。",
+    "JOIN_ENECUUM_NETWORK": "加入Enecuum網絡",
+    "POA_NODES": "PoA節點",
+    "POW_NODES": "PoW節點",
+    "POS_NODES": "PoS節點",
+    "ACCOUNTS": "帳戶",
+    "CURRENT": "當前",
+    "MAX_TPS": "最大TPS",
+    "LAST_BLOCK": "最後一塊區塊",
+    "TOTAL_NODES": "總節點",
+    "VIEW_BLOCKS_LIVE": "在Blockchain Explorer中實時查看區塊",
+    "EXPLORE_RIGHT": "立即探索！",
+    "EXCHANGES": "交易所",
+    "MEDIA_TITLE": "Enecuum使用移動主節點啟動區塊鍊網絡",
+    "MEDIA_PREVIEW": "Enecuum是用於去中心化應用程序的區塊鏈移動網絡，能夠將區塊鍊和加密貨幣帶入真正的主流，使移動設備的用戶參與到區塊鍊網絡中，並為dApps開發人員提供了功能強大的工具包，以創建快速且低成本的應用程序WEB 3.0給數以百萬計的使用者。現在，Enecuum正在啟動一個社區擴展計劃。",
+    "LEGAL_ADVISOR": "法律顧問",
+    "WE_ARE_MEMBER_OF": "我們是會員",
+    "WHITEPAPER_DESCR": "本白皮書包含前瞻性陳述，這些陳述基於Enecuum HK Limited（一家在香港註冊成立的公司（CR：2562183）（以下簡稱“公司”））的信念，以及公司做出的某些假設和信息。",
+    "TECHPAPER_DESCR": "貨幣對經濟而言，語言對言語而言。它的複雜性和實用性與它的用戶群，跟使它存活的“交易”量與其達爾文主義中適應，擴散和繁榮的能力成正比。",
+    "READ_MORE": "閱讀更多",
+    "READ_MORE_ABOUT_TECHNOLOGY": "閱讀有關技術的更多信息",
+    "RESEARCH_PAPERS_A1_TITLE": "智能手機和受限於物聯網設備的區塊鏈技術：未來的前景和實現",
+    "RESEARCH_PAPERS_A1_ABSTRACT": "區塊鏈技術目前正在滲透現代ICT社區的不同方面。涉及區塊鏈相關流程的大多數設備都是專門針對挖礦而專門設計的。同時，可穿戴和移動設備的使用也可能成為區塊鏈操作的一部分，尤其是在充電期間。本文考慮使用大量受限設備來支持區塊鏈操作的可能性。這種設備的使用有望提高系統的效率，並吸引更多的用戶。作者提出了一種基於工作量證明（PoW），活動證明（PoA）和權益證明（PoS）組合的新穎共識算法。本文首先概述了現有策略，並進一步描述了用於構建涉及移動設備區塊鏈的已開發密碼原語。本文還對設計的系統進行了簡要的數值評估。",
+    "RESEARCH_PAPERS_A1_PUBLISHED": "進程IEEE第21屆商業信息學會議（CBI）會議",
+    "RESEARCH_PAPERS_A1_READ_THE_ARTICLE_ON_ IEEE_XPLORE": "閱讀在IEEE Xplore的文章",
+    "DATE": "日期",
+    "AUTHORS": "作者",
+    "ABSTRACT": "摘要",
+    "PUBLISHED_IN": "出版於",
+    "CORE_TEAM": "核心團隊",
+    "TEAM_CARDS": {
+        "MIKHAIL_SAYFULLIN": {
+            "NAME": "Mikhail Sayfullin",
+            "DESCR": "自2002年起成為企業家。建立並發展了一家營銷公司，該公司成功地為大型國際公司提供了優質的服務。自2014年以來，Mikhail一直在IT領域成功地開展工作，並在娛樂領域開發了一個受歡迎的市場。自2017年以來，為Enecuum Limited的創始人之一和我們的戰略經理。"
+        },
+        "KONSTANTIN_ZHIDANOV": {
+            "NAME": "Konstantin Zhidanov",
+            "DESCR": "Konstantin是一位具有基層編程和應用密碼學技能的軟件開發人員。此外，他還在聖彼得堡國立航空航天儀器大學教授計算機科學相關課程。",
+            "QUOTE": "教導某件事是確保您真正理解它的最佳方法。"
+        },
+        "ROMAN_BASHLAEV": {
+            "NAME": "Roman Bashlaev",
+            "DESCR": "自2014年以來從事行銷和廣告工作。在促進公司在線行銷方面擁有豐富經驗。此外，Roman參與了GIS的三維建模。擁有專利的一組地理信息系統三維數據分類器。"
+        },
+        "SERGEY_VANURIN": {
+            "NAME": "Sergey Vanurin",
+            "DESCR": "具有開發，支持，DevOps和交付實用背景的IT專家。作為項目經理，Sergey開發了在線3D地理信息系統，並成功地用於城市規劃部門。 Sergey對數學和數據科學深感興趣，認為Enecuum是個人成長和世界變化的理想之地。"
+        },
+        "SERGEY_BEZZATEEV": {
+            "NAME": "Sergey Bezzateev",
+            "DESCR": "電腦科學博士，聖彼得堡國立航天儀器大學資訊安全系主任。 Sergey是著名的專家，在信息論，編碼理論，InfoSec領域發表了40多篇論文，他是密碼學領域的領先專家之一。"
+        },
+        "ALEKSANDRA_AFANASYEVA": {
+            "NAME": "Aleksandra Afanasyeva",
+            "DESCR": "聖彼得堡國立航空航天儀器大學信息系統安全系助理教授。 Aleksandra有碩士學位。 2003年獲得IT博士學位，並在芬蘭赫爾辛基的諾基亞研究中心接受了基於證據的安全性和加密協議驗證方面的培訓。 Aleksandra參與並領導了與三星，英特爾，戴爾EMC在InfoSec中的合作項目以及數據存儲系統中資源管理算法的優化。"
+        },
+        "ALEKSANDR_OMETOV": {
+            "NAME": "Aleksandr Ometov",
+            "DESCR": "Aleksandr有博士（技術）學位 和理學碩士分別於2018年和2016年獲得芬蘭坦佩雷工業大學（TUT）電信專業的榮譽，並於2013年獲得俄羅斯聖彼得堡聖彼得堡國立航空航天儀器大學的信息安全專業學位。他的主要研究興趣是無線通信，信息安全，異構網絡，協作通信和機器對機器應用程序。"
+        },
+        "HENOK_TEKLE": {
+            "NAME": "Henok \"Hen\" Tekle",
+            "DESCR": "AlphaChain的聯合創始人兼執行合夥人，為著名的區塊鏈天使投資人，顧問，內容創建者和公眾演講者。 Hen是代幣經濟和區塊鏈技術帶來顛覆性影響的熱烈擁護者，並定期在全球會議上就這些主題發表演講。 Hen的天使投資活動已為公司早期時帶來了巨大的資本和戰略價值，為促進區塊鏈技術的發展和主流所採用。"
+        },
+        "MIKHAIL_VASILEV": {
+            "NAME": "Mikhail Vasilev",
+            "DESCR": "Mikhail是一位軟件開發人員，畢業於聖彼得堡國立航空航天儀器大學信息安全系。為俄羅斯領先的第三方物流(3PL)運營商之一開發並交付了倉儲管理系統(WMS)。"
+        },
+        "ANTON_PRUDANOV": {
+            "NAME": "Anton Prudanov",
+            "DESCR": "軟件開發人員和I資訊安全專家畢業於聖彼得堡國立航空航天儀器大學。 Anton具有廣泛的IT相關技能，包括全站開發，IoT解決方案，密碼學和系統管理。 Anton的重點是ENQ加密圖書庫。"
+        },
+        "YULIA_BARDINOVA": {
+            "NAME": "Yulia Bardinova",
+            "DESCR": "具有信息安全背景的品質確保工程師。在Enecuum中，Yulia設計和實施測試以確保為每個用戶提供無錯誤的體驗。"
+        },
+        "VLADIMIR_TSAREV": {
+            "NAME": "Vladimir Tsarev",
+            "DESCR": "具有網域應用程序，自動控制系統和地理信息系統（GIS）開發背景的IT專家。"
+        },
+        "STAN_PRIHODKO": {
+            "NAME": "Stan Prihodko",
+            "DESCR_P1": "Stan是加密資產管理負責人",
+            "DESCR_P2": "，這個基金的資產管理規模超過4億美元。在加入GEM之前，Stan從事加密貨幣資產的信託管理以及為高淨值個人投資ICO的諮詢顧問。"
+        },
+        "ALEXANDER_RUGAEV": {
+            "NAME": "Alexander Rugaev",
+            "DESCR": "Alexander Rugaev是一位多系列企業家，也是早期的區塊鏈支持者之一。他擁有創建工業級比特幣和以太坊採礦場的經驗。他在電子商務和在線營銷方面擁有16年的經驗。"
+        },
+        "SHELLY_HOD_MOYAL": {
+            "NAME": "Shelly Hod Moyal",
+            "DESCR": "Shelly Hod Moyal是iCapital的顧問，Juno Capital的投資組合經理和iAngels的創始合夥人，iAngels是高科技初創企業的創投平台，在各個部門和基金中管理著1.4億美元的資產，專門從事多個技術行業領域。在加入iAngels之前，Shelly被高盛投資銀行（Goldman Sachs Investment Bank）評為有前途的分析師。在此之前，Shelly在知名對沖基金Avenue Capital擔任研究分析師，研究範圍涉及銀行，保險，房地產和金融機構。 Shelly在芝加哥的凱洛格（Kellogg）獲得了MBA學位，並在紐約的亨特學院（Hunter College）獲得了經濟學學位（以優異成績獲得學位）。"
+        },
+        "MAXIM_SHULTE": {
+            "NAME": "Maxim Shulte",
+            "DESCR": "一位作家一個成功的交易員。一位加密貨幣愛好者。自2015年以來投入在加密貨幣行業中。"
+        },
+        "KELLY_IFALUYI": {
+            "NAME": "Kelly Ifaluyi",
+            "DESCR": "熱心的專業社區經理和品牌大使，擁有超過2年的經驗，並且對各種社交媒體渠道，策略和區塊鏈技術有全面性的了解。"
+        }
+    },
+    "AMBASSADORS": "大使",
+    "AMBASSADORS_CARDS": {
+        "HAL_NKRUMAH": {
+            "NAME": "Hal Nkrumah",
+            "LANGUAGE": "英語，Twi",
+            "COUNTRY": "加納"
+        },
+        "AZEEZ_OLANREWAJU_ABDULFATTAH": {
+            "NAME": "Azeez Olanrewaju Abdulfattáh",
+            "LANGUAGE": "英語",
+            "COUNTRY": "奈及利亞"
+        },
+        "ABDULWAHAB_MAYOWA": {
+            "NAME": "Abdulwahab Mayowa",
+            "LANGUAGE": "英語",
+            "COUNTRY": "奈及利亞"
+        },
+        "BARINEKA_MAAGBO": {
+            "NAME": "Barineka Maagbo",
+            "LANGUAGE": "英語",
+            "COUNTRY": "奈及利亞"
+        },
+        "RAFAEL_AREVALO": {
+            "NAME": "Rafael Arevalo",
+            "LANGUAGE": "英語,西班牙語",
+            "COUNTRY": "哥倫比亞"
+        },
+        "EMMANUEL_OMISADE": {
+            "NAME": "Emmanuel Omisade",
+            "LANGUAGE": "英語",
+            "COUNTRY": "奈及利亞"
+        },
+        "MARK_TUT": {
+            "NAME": "Mark Tut",
+            "LANGUAGE": "俄語，白俄羅斯語，英語",
+            "COUNTRY": "白俄羅斯"
+        }
+    },
+    "AMBASSADORS_ATTRIBUTES": {
+        "LANGUAGE": "語言"
+    },
+    "CEO": "首席執行官",
+    "CTO": "首席技術官",
+    "CMO": "首席營業行銷官",
+    "PROJECT_MANAGER": "專案經理",
+    "HEAD_OF_RESEARCH": "研發負責人",
+    "RESEARCHER": "研究員",
+    "STRATEGIC_PARTNER": "策略合作夥伴",
+    "BUSINESS_ANALYST": "業務分析師",
+    "SOFTWARE_DEVELOPER": "軟件開發師",
+    "SOFTWARE_ENGINEER": "軟件工程師",
+    "QA_ENGINEER": "品質保障工程師",
+    "WEB_DEVELOPER": "網頁開發人員",
+    "ADVISOR": "顧問",
+    "AMBASSADOR": "大使",
+    "COMMUNITY_MANAGER": "社區管理員",
+    "ROADMAP_CONTENT": {
+        "Q2_2017": {
+            "Q_NUMBER": "第2季",
+            "TASKS": {
+                "T_1": "研發現有區塊鏈"
+            }
+        },
+        "Q3_2017": {
+            "Q_NUMBER": "第3季",
+            "TASKS": {
+                "T_1": "現況文件V.1",
+                "T_2": "描述系統架構"
+            }
+        },
+        "Q4_2017": {
+            "Q_NUMBER": "第4季",
+            "TASKS": {
+                "T_1": "組建核心開發團隊"
+            }
+        },
+        "Q1_2018": {
+            "Q_NUMBER": "第1季",
+            "TASKS": {
+                "T_1": "實施網絡協議"
+            }
+        },
+        "Q2_2018": {
+            "Q_NUMBER": "第2季",
+            "TASKS": {
+                "T_1": "實施PoW和PoA節點"
+            }
+        },
+        "Q3_2018": {
+            "Q_NUMBER": "第3季",
+            "TASKS": {
+                "T_1": "啟動測試網絡Alpha（創世紀）。",
+                "T_2": "PoA獎勵測試。",
+                "T_3": "區塊鏈資源管理器。",
+                "T_4": "空投階段1"
+            }
+        },
+        "Q4_2018": {
+            "Q_NUMBER": "第4季",
+            "TASKS": {
+                "T_1": "測試網Beta版本的開發原型。",
+                "T_2": "學術研究：具有基於身分識別(ID)的加密和匿名交易的Trinity協議"
+            }
+        },
+        "Q1_2019": {
+            "Q_NUMBER": "第1季",
+            "TASKS": {
+                "T_1": "啟動測試版Beta版本（神經網絡）。",
+                "T_2": "PoW，PoA，PoS獎勵。",
+                "T_3": "三位一體共識算法。",
+                "T_4": "實現基於身分識別(ID)的加密。",
+                "T_5": "為合作夥伴Dapp（VPN）創建第一個智能合約用例"
+            }
+        },
+        "Q2_2019": {
+            "Q_NUMBER": "第2季",
+            "TASKS": {
+                "T_1": "依出版週期發表學術論文刊在同行瀏覽期刊（WoS，Scopus)。",
+                "T_2": "PoA節點的權益質押系統。",
+                "T_3": "啟動生態系統擴展程序。",
+                "T_4": "安卓礦工應用App發布。",
+                "T_5": "交換ENQ（ERC20）為原生ENQ。",
+                "T_6": "網絡錢包。"
+            }
+        },
+        "Q3_2019": {
+            "Q_NUMBER": "第3季",
+            "TASKS": {
+                "T_1": "發布去中心化的推薦計劃。",
+                "T_2": "收集統計數據。",
+                "T_3": "優化PoA算法，區塊鏈瀏覽器，錢包。",
+                "T_4": "維護系統健康。",
+                "T_5": "安卓錢包（Play Market）發布。",
+                "T_6": "將ENQ（ERC20）令牌集成到冷，熱錢包和付款提供商。",
+                "T_7": "Trinity協議加密曲線的定稿和測試"
+            }
+        },
+        "Q4_2019": {
+            "Q_NUMBER": "第4季",
+            "TASKS": {
+                "T_1": "iOS錢包發布。",
+                "T_2": "發行PoW v.1.0節點。",
+                "T_3": "釋放PoS節點。",
+                "T_4": "釋放主網Alpha版本（三位一體）。",
+                "T_5": "發布節點API和文件檔。",
+                "T_6": "白皮書v2.0。"
+            }
+        },
+        "Q1_2020": {
+            "Q_NUMBER": "第1季",
+            "TASKS": {
+                "T_1": "SHARNELL智能合約。",
+                "T_2": "智能權益質押 v1.0（愛麗絲）。",
+                "T_3": "令牌發行（ENQ標準）。",
+                "T_4": "將ENQ標準令牌整合到加密貨幣交易所。",
+                "T_5": "開始燒毀 ERC20格式的ENQ令牌。"
+            }
+        },
+        "Q2_2020": {
+            "Q_NUMBER": "第2季",
+            "TASKS": {
+                "T_1": "發行PoW v.2.0（阻擋ASIC）。",
+                "T_2": "開發用於智能合約的SDK。",
+                "T_3": "發行採礦令牌（ENQ標準）。",
+                "T_4": "智能權益質押 v2.0（鮑伯）。",
+                "T_5": "發行Enecuum v1.0（Pulse）"
+            }
+        },
+        "Q3_2020": {
+            "Q_NUMBER": "第3季",
+            "TASKS": {
+                "T_1": "網上商店付款系統（無需服務器）。",
+                "T_2": "超級 DAG實施。",
+                "T_3": "數位資源市場解決方案（VPN，DEX，存儲）。"
+            }
+        },
+        "Q4_2020": {
+            "Q_NUMBER": "第4季",
+            "TASKS": {
+                "T_1": "治理模型的發布。",
+                "T_2": "私有區塊鏈解決方案。",
+                "T_3": "側鏈站測試網。"
+            }
+        }
+    },
+    "BECOME_PARTNER_TITLE": "您想成為我們的合作夥伴嗎？",
+    "LEAVE_YOUR_E_MAIL": "留下您的電子郵件和姓名，我們的經理將與您聯繫",
+    "BECOME_A_PARTNER": "成為合作夥伴",
+    "JOIN_OUR_COMMUNITY": "加入我們的社區",
+    "MARKET_CAP": "市值",
+    "VOLUME": "量",
+    "PRICE_USD": "價格美元",
+    "PRICE_BTC": "價格BTC",
+    "TRADING_PAIRS": "交易對",
+    "CALCULATOR": "計算器",
+    "ENQ_CHARTS": "ENQ圖表",
+    "MOBILE_MN_ROI_CALCULATOR": "移動主節點投資回報率計算器",
+    "ROI_RANGE": "您可以在一個主節點(MN)上抵押25至25000 ENQ",
+    "IS_REFERRAL": "我是推薦人",
+    "ROI_STAKE_LITE_CALC": "ENQ可投資數額之權益",
+    "ANNUAL_ROI": "年收益率",
+    "ROI_STAKE": "您想權益質押多少ENQ？",
+    "INCORRECT_STAKE_RANGE_MESSAGE": "數量不正確。請從25到25000 ENQ做權益質押",
+    "DAILY": "每日",
+    "WEEKLY": "每週",
+    "MONTHLY": "每月",
+    "ANNUAL": "每年",
+    "24H_POW_REWARDS": "24小時PoW獎勵",
+    "24H_POA_MN_REWARDS": "24小時PoA主節點獎勵",
+    "MN_STAKE": "權益質押在PoA主節點的代幣",
+    "CIRC_SUPPLY_SHORT": "流通供應量",
+    "OPEN_BE": "打開區塊鏈資源管理器",
+    "BUY_ENQ": "購買ENQ",
+    "WAY_TO_BUY": "選擇一種便利的方式購買ENQ",
+    "CURRENT_ENQ_PRICE": "當前的ENQ價格",
+    "OTC": "場外交易",
+    "BANK_CARD_NATIVE": "銀行卡（原生）",
+    "BUY_COIN_BANK_CARD_P1": "您可以",
+    "BUY_COIN_BANK_CARD_P2": "購買原生幣ENQ",
+    "BUY_COIN_BANK_CARD_P3": "使用銀行卡並立即開始挖礦",
+    "EARN_ENQ": "賺取ENQ",
+    "TYPES_OF_TOKENS": "我們有兩種令牌：ERC20和原生令牌。對於挖礦，您需要有原生ENQ。您也可以購買ERC20並將其交換為原生版本。",
+    "POA_MINING": "PoA挖礦",
+    "POA_MINING_STEPS": {
+        "STEP_1": "下載應用程式",
+        "STEP_2": "在應用程序中創建一個帳戶",
+        "STEP_3_OLD": "依循3a或3b步驟之後，至少存入25 ENQ",
+        "STEP_3": "存入至少25 ENQ。",
+        "STEP_3A": "通過銀行卡購買原生幣",
+        "STEP_3B_P2": "&",
+        "STEP_3B_P3": "交換",
+        "STEP_3B_P4": "到原生幣網絡",
+        "STEP_4": "在應用程式中，點擊“開始啟動”"
+    },
+    "KEEP_CALM_AND_START_MINING": "保持冷靜並開始挖礦",
+    "SWAP_NATIVE_COINS_TO": "將原生幣交換",
+    "VIDEO": "視頻",
+    "HOLD_ENQ": "持有ENQ",
+    "HOLD_ENQ_DESCR": "使用官方的Enecuum錢包",
+    "NATIVE_ENQ": "原生ENQ",
+    "ERC20_WALLETS": "ERC20錢包",
+    "SPEND_ENQ": "花費ENQ",
+    "SPEND_ENQ_DESCR": "通過我們合作夥伴的網絡您可以方便地在全球範圍內支付ENQ（ERC 20）",
+    "SWAP_TO_ERC20": "如何將ERC20交換成原生幣",
+    "BECOME_MERCHANT_TITLE": "想成為商人嗎？",
+    "PAYMENTS_PROVIDERS": "付款提供商",
+    "PAYMENTS_PROVIDERS_FORM": "付款提供商表格",
+    "START_RECEIVING_ENQ_FORM": "開始接收ENQ表格",
+    "COMING_SOON": "快來了",
+    "TOKEN_UTILITY": "令牌實用程序",
+    "DISCLAIMER": "免責聲明",
+    "COPYRIGHT_INFO_P1": "©2019 Enecuum HK Limited。公司註冊號：2562183。保留所有權利。本文檔中的任何內容均不構成任何形式的要約或建議。 ENQ和Enecuum自適應式去中心化環境可能並非在所有轄區和所有人中都適用。請看我們的",
+    "COPYRIGHT_INFO_P2": "隱私政策",
+    "COPYRIGHT_INFO_P3": "和",
+    "COPYRIGHT_INFO_P4": "網站條款及細則",
+    "TECHNOLOGY_PAGE_PROMO": {
+        "TRINITY_CONSENSUS": {
+            "P_1": "我們的三合一算法結合了PoA，PoW和PoS。這種用於達成共識的混合方法提供了高度的網絡分散性，同時顯著提高了網絡安全性和事務執行速度。我們的集成式創新密碼解決方案進一步增強了網絡安全性。",
+            "P_2": "這些共識機制同時起作用：問題解決者（PoW節點）創建了區塊鏈結構的骨幹。發布者（PoA節點）完成並發布微區塊。持有人（PoS節點）保持系統效率。通過加密，節點間變得可以互換。"
+        },
+        "BLOCK_DAG_STRUCTURE": {
+            "P_1": "每個分支都按照中本聰（BFT）的共識發展。",
+            "P_2": "允許的最大分支數取決於網絡哈希率。",
+            "P_3": "分支按允許時間順序排列巨塊的方式交聯。"
+        },
+        "NETWORK_PERFORMANCE_AND_TOPOLOGY": {
+            "P_1": "18000 tps（測試結果）",
+            "P_2": "延遲5-30秒",
+            "P_3": "數千個PoW和PoS節點",
+            "P_4": "數百萬個PoA節點",
+            "P_5": "靈活的智能合約架構",
+            "P_6": "礦工動態獎勵系統",
+            "P_7": "和弦演算法",
+            "P_8": "路由",
+            "P_9": "分片"
+        },
+        "INFRASTRUCTURE_AND_ECOSYSTEM": {
+            "P_1": "PoS節點（伺服器）",
+            "P_2": "PoW節點（計算機）",
+            "P_3": "PoA節點（移動設備）",
+            "P_4": "dApp（遊戲，支付，去中心化交易和其他）",
+            "P_5": "交易所",
+            "P_6": "用戶（手機，PC）"
+        }
+    },
+    "TECHNOLOGY_PAGE": {
+        "TRINITY_PROTOCOL": {
+            "H_1": "三合一協議",
+            "H_2": "（BFT混合共識演算法）",
+            "P_1": "我們的三合一演算法結合了PoA，PoW和PoS。這種用於達成共識的混合方法提供了高度的網絡分散性，同時顯著提高了網絡安全性和事務執行速度。我們的集成式創新密碼解決方案進一步增強了網絡安全性。"
+        },
+        "POA_MOBILE_MASTERNODE": {
+            "H_1": "PoA移動主節點",
+            "P_1": "PoA（活動證明）節點通過驗證存儲交易信息的微區塊，為網絡做出了貢獻。微區塊包含交易。 PoA由PoS領導人驗證。"
+        },
+        "POS_NODE": {
+            "H_1": "PoS節點",
+            "H_2": "（委派/驗證）",
+            "P_1": "PoS（智能堆疊）節點通過發布巨區塊的PoS領導者獲得投票的獎勵。 PoS節點角色的候選人必須排在餘額的前100個錢包中，並根據相關的三合一協議從PoS聯盟接收秘密密鑰。"
+        },
+        "POW_NODE": {
+            "H_1": "PoW節點",
+            "P_1": "PoW（工作量證明）節點使用您的PC的CPU功能生成k區塊，這些k區塊構成了我們的區塊鏈結構。 阻擋ASIC功能。"
+        },
+        "TOKEN_MACHINE": {
+            "H_1": "Enecuum令牌機器",
+            "H_2": "對用戶友好和快速的界面，使用於創建令牌。",
+            "FUNGIBLE_TOKENS": {
+                "TITLE": "可替代的代幣",
+                "DESCR": "設置個人費用，作為令牌用戶的付款",
+                "FEATURES": {
+                    "F_1": "遊戲積分",
+                    "F_2": "穩定幣",
+                    "F_3": "眾籌",
+                    "F_4": "系統積分",
+                    "F_5": "加密貨幣"
+                }
+            },
+            "NON_FUNGIBLE_TOKENS": {
+                "TITLE": "不可替代的代幣",
+                "DESCR": "為每個令牌設置獨特唯一值",
+                "FEATURES": {
+                    "F_1": "遊戲內項目",
+                    "F_2": "供應鏈",
+                    "F_3": "房地產",
+                    "F_4": "身分識別",
+                    "F_5": "証明",
+                    "F_6": "收藏品",
+                    "F_7": "禮品卡"
+                }
+            },
+            "MINEABLE": {
+                "TITLE": "可挖",
+                "DESCR": "設置質押數量大小以開始鑄造自己的令牌",
+                "FEATURES": {
+                    "F_1": "忠誠度積分",
+                    "F_2": "營銷學",
+                    "F_3": "社區建造",
+                    "F_4": "DeFi 權益質押"
+                }
+            }
+        },
+        "FEE_PRINCIPLE": {
+            "H_1": "收費原則"
+        },
+        "SMART_CONTRACTS": {
+            "TITLE": "智能合約",
+            "DESCR": "智能合約使用業務導向的SHARNELL邏輯的高度典型化圖靈其未完成的功能性編程語言。該邏輯將發生錯誤的可能性降到最低。",
+            "USE_CASES": {
+                "TITLE": "使用例：",
+                "F_1": "付款方式",
+                "F_2": "賭博",
+                "F_3": "DeFi",
+                "F_4": "遊戲類",
+                "F_5": "眾籌",
+                "F_6": "虛擬專用網",
+                "F_7": "去中心化交易"
+            }
+        }
+    },
+    "PRODUCTS_PAGE": {
+        "ANDROID_MASTERNODE": {
+            "H_1": "安卓 Enecuum主節點",
+            "P_1": "Enecuum團隊為PoA挖礦開發了一個特殊的安卓應用程序。"
+        },
+        "MOBILE_WALLET": {
+            "H_1": "Enecuum手機錢包",
+            "P_1": "一個方便的應用程序，用於控制餘額和進行Enecuum令牌轉移。適用於安卓和iOS。"
+        },
+        "WEB_WALLET": {
+            "H_1": "Enecuum Web錢包",
+            "P_1": "使用網絡版的Enecuum錢包可通過任何瀏覽器取得您的令牌。"
+        },
+        "BLOCKCHAIN_EXPLORER": {
+            "H_1": "區塊鏈資源管理器",
+            "P_1": "允許：查看網絡狀態，最後一個區塊，頻寬，檢查事務或錢包，檢查活動節點地圖。"
+        },
+        "SWAP_SERVICE": {
+            "H_1": "交換服務",
+            "P_1": "為了將ERC-20 ENQ轉移到應用程序或出售ENQ，必須進行交換（轉換）。交換是必須的，因為Enecuum是處於測試階段（testnet）的項目，該項目使用無法交易的測試ENQ硬幣。要進行交換，您必須有一個以太坊錢包和以太坊燃料費。"
+        },
+        "MOBILE_MULTIMINER": {
+            "H_1": "移動多礦機",
+            "P_1": "安卓應用程序，將包括以下功能：ENQ和自定義令牌挖礦，令牌發行（可替代，不可替代，可挖礦），令牌委派和驗證（智能權益抵押），令牌轉移，交易歷史記錄，區塊瀏覽器。"
+        }
+    },
+    "TRINITY_CONSENSUS": "三合一共識",
+    "BLOCK_DAG_STRUCTURE": "區塊DAG結構",
+    "NETWORK_PERFORMANCE_AND_TOPOLOGY": "網絡性能和其拓撲",
+    "NODES": "節點",
+    "THROUGHPUT": "流通量",
+    "LATENCY": "延遲",
+    "PROOF": "證明",
+    "TEST_NET": "測試網",
+    "SIMULATION": "模擬",
+    "ANALYTICS": "分析工具",
+    "INFRASTRUCTURE_AND_ECOSYSTEM": "基礎設施和生態系統",
+    "DOWNLOAD_ANDROID_MASTERNODE": "下載安卓主節點",
+    "ANDROID_MASTERNODE": "安卓主節點",
+    "WALLETS": "錢包",
+    "DOWNLOAD_APPLICATION": "下載應用程式",
+    "HOW_TO_START_MINING": "如何開始挖礦",
+    "WEB_WALLET": "網絡錢包",
+    "TERMS_OF_SERVICE": "服務條款",
+    "PRIVACY_POLICY": "隱私政策",
+    "STAGE_1": "階段1",
+    "STAGE_2": "階段2",
+    "LINKS": {
+        "WHAT_IS_POA": "什麼是poa",
+        "HOW_TO_RUN_POS": "如何運行PoS",
+        "HOW_TO_RUN_POW": "如何運行PoW"
+    },
+    "ENECUUM_ENVIRONMENT_FUNCTIONALITY": {
+        "PRE": "ENQ旨在成為實用的程序令牌。建議擁有ENQ，持有人可以使用Enecuum自適應去中心化環境的以下擬議功能：",
+        "P_A": "根據ENQ條款和條件以及適用法律累積和轉讓ENQ；",
+        "P_B": "採用收費制發布SHARNELL智能合約發佈到全球Enecuum網絡（費用則根據發布的字節碼量確定）；",
+        "P_C": "發行由用戶計算出的帶有獎勵的交易，發布該交易以刺激礦工驗證該區塊；",
+        "P_D": "通過“大量”智能合約獲取複雜的計算。提議這種計算的獎勵是由當前市場條件決定，在當前市場條件下，提出請求的用戶會提供獎勵，並等到具有足夠計算能力的礦工（節點）運行這種“大量”智能合約後再予以同意。用戶可以提高獎勵以便更快地刺激此類礦工；",
+        "P_E": "使用網絡上的其他節點（非用戶本身的）獲取並生成私有的“機票”分支。獎勵是經過礦工同意為這些分支提供服務而單獨決定的；",
+        "P_F": "並參與PoA和PoS挖礦。",
+        "FURTHER_DETAILS_P1": "參見 Enecuum",
+        "FURTHER_DETAILS_P2": "定位報告",
+        "FURTHER_DETAILS_P3": "或Enecuum網站了解更多詳細信息。"
+    }
+}

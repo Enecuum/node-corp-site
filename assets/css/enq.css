@@ -1181,6 +1181,8 @@ table.table-to-cards .scope-col {
     margin-right: 0rem;
 }
 
-#startMiningBlueMark.start-mining-ko {
+#startMiningBlueMark.start-mining-ko,
+#startMiningBlueMark.start-mining-zh_CN,
+#startMiningBlueMark.start-mining-zh_HK {
 	padding-top: 45px!important;	
 }
