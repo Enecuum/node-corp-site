@@ -389,8 +389,7 @@
                 "T_2": "PoW v.1.0 노드 출시.",
                 "T_3": "PoS 노드 출시.",
                 "T_4": "메인넷 알파 (Trinity) 출시.",
-                "T_5": "노드 API 및 문서 게시.",
-                "T_6": "백서 v2.0."
+                "T_5": "노드 API 및 문서 게시."
             }
         },
         "Q1_2020": {
@@ -398,35 +397,67 @@
             "TASKS": {
                 "T_1": "SHARNELL 스마트 계약.",
                 "T_2": "스마트 스테이킹 v1.0 (Alice).",
-                "T_3": "토큰 발행 (ENQ 표준).",
-                "T_4": "ENQ 표준 토큰을 크립토 거래소에 통합.",
-                "T_5": "ENQ 토큰 형식 ERC20 소각 시작."
+                "T_3": "토큰 발행 (ENQ 표준)."
             }
         },
         "Q2_2020": {
             "Q_NUMBER": "2분기",
             "TASKS": {
                 "T_1": "PoW v.2.0 출시 (ASIC 저항).",
-                "T_2": "스마트 계약용 SDK 개발.",
-                "T_3": "채굴 토큰 발행 (ENQ 표준).",
-                "T_4": "스마트 스테이킹 v2.0 (Bob).",
-                "T_5": "Enecuum v1.0 (Pulse)이 출시."
+                "T_2": "채굴 토큰 발행 (ENQ 표준)."
             }
         },
         "Q3_2020": {
             "Q_NUMBER": "3분기",
             "TASKS": {
-                "T_1": "온라인 상점을 위한 결제 시스템 (server less).",
-                "T_2": "Hyper DAG 구현.",
-                "T_3": "디지털 자원 시장 솔루션 (VPN, DEX, 스토리지)."
+                "T_1": "Enecuum v1.0 (Pulse)이 출시.",
+                "T_2": "ENQ 표준 토큰을 크립토 거래소에 통합.",
+                "T_3": "Full migration from Ethereum to Enecuum blockchain.",
+                "T_4": "ENQ 토큰 형식 ERC20 소각 시작.",
+                "T_5": "PoS challenge marketing campaign."
             }
         },
         "Q4_2020": {
             "Q_NUMBER": "4분기",
             "TASKS": {
-                "T_1": "거버넌스 모델 발표.",
-                "T_2": "프라이빗 블록체인 솔루션.",
-                "T_3": "사이드-체인 허브 테스트넷."
+                "T_1": "Release Android mining library",
+                "T_2": "Developing and supporting the Enecuum ecosystem - dapps collaboration."
+            }
+        },
+        "Q1_2021": {
+            "Q_NUMBER": "1분기",
+            "TASKS": {
+                "T_1": "AMM DEX v.1 (ENQ liquidity pool)",
+                "T_2": "Release centralized swap source code",
+                "T_3": "iOS app (with smart staking)",
+                "T_4": "WebENQlib (web3.js analogue)",
+                "T_5": "Payment system for online shops"
+            }
+        },
+        "Q2_2021": {
+            "Q_NUMBER": "2분기",
+            "TASKS": {
+                "T_1": "Farming tokens",
+                "T_2": "Smart contracts SHARNELL v. 2.0 (specification)",
+                "T_3": "Cold wallet integration",
+                "T_4": "Release multi blockchain wallet with multiminer for Android",
+                "T_5": "Release multi blockchain wallet for Google play / App store (Android / iOS)"
+            }
+        },
+        "Q3_2021": {
+            "Q_NUMBER": "3분기",
+            "TASKS": {
+                "T_1": "On-chain governance model public draft",
+                "T_2": "Smart contracts SHARNELL v. 2.0 SDK",
+                "T_3": "Cross blockchain & decentralised SWAP",
+                "T_4": "AMM DEX v.2"
+            }
+        },
+        "Q4_2021": {
+            "Q_NUMBER": "4분기",
+            "TASKS": {
+                "T_1": "NFT tokens",
+                "T_2": "On-chain governance model implementation"
             }
         }
     },
