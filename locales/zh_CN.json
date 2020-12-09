@@ -389,8 +389,7 @@
                 "T_2": "发行PoW v.1.0节点。",
                 "T_3": "释放PoS节点。",
                 "T_4": "释放主网Alpha版本（三位一体）。",
-                "T_5": "发布节点API和文件档。",
-                "T_6": "白皮书v2.0。"
+                "T_5": "发布节点API和文件档。"
             }
         },
         "Q1_2020": {
@@ -398,35 +397,67 @@
             "TASKS": {
                 "T_1": "SHARNELL智能合约。",
                 "T_2": "智能权益质押 v1.0（艾丽斯）。",
-                "T_3": "令牌发行（ENQ标准）。",
-                "T_4": "将ENQ标准令牌整合到加密货币交易所。",
-                "T_5": "开始烧毁 ERC20格式的ENQ令牌。"
+                "T_3": "令牌发行（ENQ标准）。"
             }
         },
         "Q2_2020": {
             "Q_NUMBER": "第2季",
             "TASKS": {
                 "T_1": "发行PoW v.2.0（阻挡ASIC）。",
-                "T_2": "开发用于智能合约的SDK。",
-                "T_3": "发行采矿令牌（ENQ标准）。",
-                "T_4": "智能权益质押 v2.0（鲍伯）。",
-                "T_5": "发行Enecuum v1.0（Pulse）"
+                "T_2": "发行采矿令牌（ENQ标准）。"
             }
         },
         "Q3_2020": {
             "Q_NUMBER": "第3季",
             "TASKS": {
-                "T_1": "网上商店付款系统（无需服务器）。",
-                "T_2": "超级 DAG实施。",
-                "T_3": "数字资源市场解决方案（VPN，DEX，存储）。"
+                "T_1": "发行Enecuum v1.0（Pulse）",
+                "T_2": "将ENQ标准令牌整合到加密货币交易所。",
+                "T_3": "Full migration from Ethereum to Enecuum blockchain.",
+                "T_4": "开始烧毁 ERC20格式的ENQ令牌。",
+                "T_5": "PoS challenge marketing campaign."
             }
         },
         "Q4_2020": {
             "Q_NUMBER": "第4季",
             "TASKS": {
-                "T_1": "治理模型的发布。",
-                "T_2": "私有区块链解决方案。",
-                "T_3": "侧链站测试网。"
+                "T_1": "Release Android mining library",
+                "T_2": "Developing and supporting the Enecuum ecosystem - dapps collaboration."
+            }
+        },
+        "Q1_2021": {
+            "Q_NUMBER": "第1季",
+            "TASKS": {
+                "T_1": "AMM DEX v.1 (ENQ liquidity pool)",
+                "T_2": "Release centralized swap source code",
+                "T_3": "iOS app (with smart staking)",
+                "T_4": "WebENQlib (web3.js analogue)",
+                "T_5": "Payment system for online shops"
+            }
+        },
+        "Q2_2021": {
+            "Q_NUMBER": "第2季",
+            "TASKS": {
+                "T_1": "Farming tokens",
+                "T_2": "Smart contracts SHARNELL v. 2.0 (specification)",
+                "T_3": "Cold wallet integration",
+                "T_4": "Release multi blockchain wallet with multiminer for Android",
+                "T_5": "Release multi blockchain wallet for Google play / App store (Android / iOS)"
+            }
+        },
+        "Q3_2021": {
+            "Q_NUMBER": "第3季",
+            "TASKS": {
+                "T_1": "On-chain governance model public draft",
+                "T_2": "Smart contracts SHARNELL v. 2.0 SDK",
+                "T_3": "Cross blockchain & decentralised SWAP",
+                "T_4": "AMM DEX v.2"
+            }
+        },
+        "Q4_2021": {
+            "Q_NUMBER": "第4季",
+            "TASKS": {
+                "T_1": "NFT tokens",
+                "T_2": "On-chain governance model implementation"
             }
         }
     },

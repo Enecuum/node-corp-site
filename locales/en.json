@@ -383,53 +383,84 @@
 				"T_7": "Finalization and tests of the crypto curve for Trinity protocol."
 			} 
 		},
-		"Q4_2019": { 
-			"Q_NUMBER": "q4",
-			"TASKS": {
-				"T_1": "iOS wallet release.",
-				"T_2": "Release PoW v.1.0 nodes.",
-				"T_3": "Release PoS nodes.",
-				"T_4": "Release main net alpha (Trinity).",
-				"T_5": "Publishing nodes API and documentation.",
-				"T_6": "White paper v2.0."
-			} 
-		},
-		"Q1_2020": { 
-			"Q_NUMBER": "q1",
-			"TASKS": {
-				"T_1": "SHARNELL smart contracts.",
-				"T_2": "Smart staking v1.0 (Alice).",
-				"T_3": "Tokens issue (ENQ standard).",
-				"T_4": "Integration ENQ standard tokens to crypto exchanges.",
-				"T_5": "Start burning ENQ tokens format ERC20."
-			} 
-		},
-		"Q2_2020": { 
-			"Q_NUMBER": "q2",
-			"TASKS": {
-				"T_1": "Release PoW v.2.0 (ASIC resistant).",
-				"T_2": "Developing SDK for Smart contracts.",
-				"T_3": "Mining token issue (ENQ standard).",
-				"T_4": "Smart staking v2.0 (Bob).",
-				"T_5": "Release Enecuum v1.0 (Pulse)."
-			} 
-		},
-		"Q3_2020": { 
-			"Q_NUMBER": "q3",
-			"TASKS": {
-				"T_1": "Payment system for online shops (server less).",
-				"T_2": "Hyper DAG implementation.",
-				"T_3": "Digital resources marketplace solutions (VPN, DEX, storage)."
-			} 
-		},
-		"Q4_2020": { 
-			"Q_NUMBER": "q4",
-			"TASKS": {
-				"T_1": "Publication of the governance model.",
-				"T_2": "Private blockchain solution.",
-				"T_3": "Side-chain Hub test net."
-			} 
-		}				
+ 		"Q4_2019": {
+            "Q_NUMBER": "q4",
+            "TASKS": {
+                "T_1": "iOS wallet release.",
+                "T_2": "Release PoW v.1.0 nodes (SHA256). ",
+                "T_3": "Release PoS nodes.",
+                "T_4": "Release test net alpha (Trinity).",
+                "T_5": "Publishing nodes API and documentation."
+            }
+        },
+        "Q1_2020": {
+            "Q_NUMBER": "q1",
+            "TASKS": {
+                "T_1": "SHARNELL smart contracts v1.0.",
+                "T_2": "Smart staking v1.0 (Alice).",
+                "T_3": "Tokens issue (ENQ standard)."
+            }
+        },
+        "Q2_2020": {
+            "Q_NUMBER": "q2",
+            "TASKS": {
+                "T_1": "Release PoW v.2.0 (ASIC resistant).",
+                "T_2": "Release miniable tokens functionality (ENQ standard)."
+            }
+        },
+        "Q3_2020": {
+            "Q_NUMBER": "q3",
+            "TASKS": {
+                "T_1": "Release Enecuum v1.0 (Pulse).",
+                "T_2": "Integration ENQ standard tokens to crypto exchanges. ",
+                "T_3": "Full migration from Ethereum to Enecuum blockchain.",
+                "T_4": "Start burning ENQ tokens format ERC20.",
+                "T_5": "PoS challenge marketing campaign."
+            }
+        },
+        "Q4_2020": {
+            "Q_NUMBER": "q4",
+            "TASKS": {
+                "T_1": "Release Android mining library",
+                "T_2": "Developing and supporting the Enecuum ecosystem - dapps collaboration."
+            }
+        },
+        "Q1_2021": {
+            "Q_NUMBER": "q1",
+            "TASKS": {
+                "T_1": "AMM DEX v.1 (ENQ liquidity pool) ",
+                "T_2": "Release centralized swap source code",
+                "T_3": "iOS app (with smart staking)",
+                "T_4": "WebENQlib (web3.js analogue) ",
+                "T_5": "Payment system for online shops"
+            }
+        },
+        "Q2_2021": {
+            "Q_NUMBER": "q2",
+            "TASKS": {
+                "T_1": "Farming tokens",
+                "T_2": "Smart contracts SHARNELL v. 2.0 (specification)",
+                "T_3": "Cold wallet integration",
+                "T_4": "Release multi blockchain wallet with multiminer for Android ",
+                "T_5": "Release multi blockchain wallet for Google play / App store (Android / iOS)"
+            }
+        },
+        "Q3_2021": {
+            "Q_NUMBER": "q3",
+            "TASKS": {
+                "T_1": "On-chain governance model public draft",
+                "T_2": "Smart contracts SHARNELL v. 2.0 SDK",
+                "T_3": "Cross blockchain & decentralised SWAP",
+                "T_4": "AMM DEX v.2"
+            }
+        },
+        "Q4_2021": {
+            "Q_NUMBER": "q4",
+            "TASKS": {
+                "T_1": "NFT tokens",
+                "T_2": "On-chain governance model implementation"
+            }
+        }
 	},
 	"BECOME_PARTNER_TITLE": "Do you want to become our partner?",
 	"LEAVE_YOUR_E_MAIL": "Leave your e-mail and name, our manager will contact you",
