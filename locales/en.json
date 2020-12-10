@@ -405,7 +405,7 @@
             "Q_NUMBER": "q2",
             "TASKS": {
                 "T_1": "Release PoW v.2.0 (ASIC resistant).",
-                "T_2": "Release miniable tokens functionality (ENQ standard)."
+                "T_2": "Release mineable tokens functionality (ENQ standard)."
             }
         },
         "Q3_2020": {
@@ -441,7 +441,7 @@
                 "T_1": "Farming tokens",
                 "T_2": "Smart contracts SHARNELL v. 2.0 (specification)",
                 "T_3": "Cold wallet integration",
-                "T_4": "Release multi blockchain wallet with multiminer for Android ",
+                "T_4": "Release multi blockchain wallet with multi miner for Android ",
                 "T_5": "Release multi blockchain wallet for Google play / App store (Android / iOS)"
             }
         },
@@ -761,7 +761,7 @@
 			"P_1": "In order to transfer the ERC-20 ENQ to an application or sell the ENQ, a swap (conversion) must be made. Swap is obligatory, because Enecuum is a project at the testing stage (testnet), which uses test ENQ coins that cannot be traded. To swap, you must have an Ethereum Wallet and ETH for gas fee."			
 		},
 		"MOBILE_MULTIMINER": {
-			"H_1":"Mobile multiminer",		
+			"H_1":"Mobile multi miner",		
 			"P_1": "Android application, which will include the following functionalities: ENQ and custom tokens mining, token issue (fungible, non-fungible, mineable), Token Delegating and Validating (smart staking), Token Transfers, Transaction History, Block Explorer."			
 		}
 	},
