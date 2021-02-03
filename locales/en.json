@@ -285,7 +285,12 @@
 			"NAME": "Mark Tut",
 			"LANGUAGE": "Russian, Belarusian, English",
 			"COUNTRY": "Belarus"
-		}		
+		},
+		"ANDRE_CLAASEN": {
+			"NAME": "Andre Claasen",
+			"LANGUAGE": "English",
+			"COUNTRY": "Australia"
+		}
 	},
 	"AMBASSADORS_ATTRIBUTES": {
 		"LANGUAGE": "Language"

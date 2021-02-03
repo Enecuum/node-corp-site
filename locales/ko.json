@@ -285,6 +285,11 @@
             "NAME": "Mark Tut",
             "LANGUAGE": "러시아어, 벨로루시어, 영어",
             "COUNTRY": "벨라루스"
+        },
+        "ANDRE_CLAASEN": {
+            "NAME": "Andre Claasen",
+            "LANGUAGE": "영어",
+            "COUNTRY": "호주"
         }
     },
     "AMBASSADORS_ATTRIBUTES": {
