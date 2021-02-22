@@ -708,5 +708,10 @@
         "WHAT_IS_POA": "what-is-poa",
         "HOW_TO_RUN_POS": "how-to-run-pos",
         "HOW_TO_RUN_POW": "how-to-run-pow"
-    }
+    },
+    "CRYPTO_EXCHANGE_PLATFORMS": "Cryptocurrency exchange platforms",
+    "PLATFORMS": "Platforms",
+    "EXCHANGE_OPTIONS": "Exchange options",
+    "CIS_BANKS": "CIS banks",
+    "CRYPTOCURRENCIES": "Cryptocurrencies"
 }
