@@ -221,7 +221,7 @@
 		},
 		"VLADIMIR_TSAREV": {
 			"NAME": "Vladimir Tsarev",
-			"DESCR": "IT specialist with a background in the development of web applications, automated control systems, and geographic information systems (GIS)."
+			"DESCR": "IT specialist with a background in the development of web applications, automated control systems and geographic information systems (GIS)."
 		},
 		"STAN_PRIHODKO": {
 			"NAME": "Stan Prihodko",
@@ -799,5 +799,6 @@
 		"WHAT_IS_POA": "what-is-poa",
 		"HOW_TO_RUN_POS":"how-to-run-pos",
 		"HOW_TO_RUN_POW":"how-to-run-pow"
-	}
+	},
+	"ENECUUM_ECOSYSTEM_EVOLUTION": "Enecuum ecosystem evolution"
 }
