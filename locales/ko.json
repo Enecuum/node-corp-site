@@ -709,5 +709,10 @@
         "HOW_TO_RUN_POS": "how-to-run-pos",
         "HOW_TO_RUN_POW": "how-to-run-pow"
     },
-    "ENECUUM_ECOSYSTEM_EVOLUTION": "Enecuum ecosystem evolution"
+    "ENECUUM_ECOSYSTEM_EVOLUTION": "Enecuum ecosystem evolution",
+    "CRYPTO_EXCHANGE_PLATFORMS": "Cryptocurrency exchange platforms",
+    "PLATFORMS": "Platforms",
+    "EXCHANGE_OPTIONS": "Exchange options",
+    "CIS_BANKS": "CIS banks",
+    "CRYPTOCURRENCIES": "Cryptocurrencies"
 }
