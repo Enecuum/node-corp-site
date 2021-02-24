@@ -663,19 +663,19 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	margin-bottom: 0px;
 }
 
-#exchangesTable {
+.exchange-table {
 	font-weight: 400;
 }
 
-#exchangesTable .table-row:first-child {
+.exchange-table .table-row:first-child {
 	border: none;
 }
 
-#exchangesTable .table-row:first-child, #exchangesTable .table-row:hover {
+.exchange-table .table-row:first-child, .exchange-table .table-row:hover {
 	background: #F8F9FA;
 }
 
-#exchangesTable .table-row {
+.exchange-table .table-row {
 	height: 66px;
 	border-radius: 9px;
 	border-top: 1px solid #CDCDCD;
@@ -683,35 +683,35 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 	border-right: 1px solid #CDCDCD;
 }
 
-#exchangesTable .table-row:last-child {
+.exchange-table .table-row:last-child {
 	border-bottom: 1px solid #CDCDCD;
 }
 
 @media (max-width: 767.98px) {
-	#exchangesTable .table-row {
+	.exchange-table .table-row {
 		height: auto;
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
 		border: none;
 	}
 
-	#exchangesTable .table-row:not(:last-child) {
+	.exchange-table .table-row:not(:last-child) {
 		margin-bottom: 1rem;
 	}
 
 
-	#exchangesTable .table-row:last-child {
+	.exchange-table .table-row:last-child {
 		border-bottom: none;
 	}
 
-	#exchangesTable .table-row>div {
+	.exchange-table .table-row>div {
 		margin-top: 0.5rem;
 		margin-bottom: 0.5rem;
 	}
 
 }
 
-#exchangesTable a:not(:hover) {
+.exchange-table a:not(:hover) {
 	color: #1e2022;
 }
 

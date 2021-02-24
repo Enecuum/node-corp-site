@@ -708,5 +708,10 @@
         "FURTHER_DETAILS_P1": "參見 Enecuum",
         "FURTHER_DETAILS_P2": "定位報告",
         "FURTHER_DETAILS_P3": "或Enecuum網站了解更多詳細信息。"
-    }
+    },
+    "CRYPTO_EXCHANGE_PLATFORMS": "Cryptocurrency exchange platforms",
+    "PLATFORMS": "Platforms",
+    "EXCHANGE_OPTIONS": "Exchange options",
+    "CIS_BANKS": "CIS banks",
+    "CRYPTOCURRENCIES": "Cryptocurrencies"
 }
