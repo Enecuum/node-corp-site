@@ -1,5 +1,5 @@
 {
-    "LANGUAGE": "英语",
+    "LANGUAGE": "中国人",
     "UNITS": {
         "SECONDS": "秒",
         "S": "秒",
@@ -298,6 +298,7 @@
     "CEO": "首席执行官",
     "CTO": "首席技术官",
     "CMO": "首席营业营销官",
+    "COO": "首席运营官",
     "PROJECT_MANAGER": "项目经理",
     "HEAD_OF_RESEARCH": "研发负责人",
     "RESEARCHER": "研究员",
