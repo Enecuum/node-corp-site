@@ -806,5 +806,7 @@
 	"PLATFORMS": "Platforms",
 	"EXCHANGE_OPTIONS": "Exchange options",
 	"CIS_BANKS": "CIS banks",
-	"CRYPTOCURRENCIES": "Cryptocurrencies"
+	"CRYPTOCURRENCIES": "Cryptocurrencies",
+	"AUDIT_REPORT" : "Audit report",
+	"AUDIT_REPORT_RESUME" : "The system reviewed contains two parts: C++ library and NodeJS wrapper. They were reviewed separately and as a whole. The security and reliability of the C++ part was rated \"High\". One critical and one major flaws were found and fixed. Several warnings were given about particular pieces of code and architecture decisions. All of the warnings given were fixed. The security and reliability of the NodeJS part (excluding NAPI wrapper - it is related to C++ part) was rated \"High\". No major flaws were spotted."
 }
