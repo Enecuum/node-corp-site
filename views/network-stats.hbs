@@ -62,7 +62,7 @@
     <div class="container position-relative z-index-2 d-flex align-items-center">
       <div class="w-lg-50 text-center mx-auto pt-5">
           <h2 class="text-white mb-4">{{__ 'NETWORK_STATS'}}</h2>
-          <a class="btn btn-white-text-blue transition-3d-hover font-size-03" href="https://neuro.enecuum.com" target="_blank">{{__ 'BLOCKCHAIN_EXPLORER'}}</a>
+          <a class="btn btn-white-text-blue transition-3d-hover font-size-03" href="https://pulse.enecuum.com" target="_blank">{{__ 'BLOCKCHAIN_EXPLORER'}}</a>
         </div>
       </div>
       <!-- End Content -->
@@ -207,7 +207,7 @@
 
     $.ajax({
       method: 'GET',
-      url: "https://neuro.enecuum.com/api/v1/stats",
+      url: "https://pulse.enecuum.com/api/v1/stats",
       async: true,
     })
     .success(function(networkStats) {
@@ -253,7 +253,7 @@
     // initialization of slick carousel
     $.ajax({
       method: 'GET',
-      url: "https://neuro.enecuum.com/api/v1/height",
+      url: "https://pulse.enecuum.com/api/v1/height",
       async: true,
     }).success(function(response) {
        $("[data-content='lastBlockValue']").text(response.height);
@@ -262,7 +262,7 @@
 
     $.ajax({
       method: 'GET',
-      url: "https://neuro.enecuum.com/api/v1/peer_map",
+      url: "https://pulse.enecuum.com/api/v1/peer_map",
       async: true,
     })
     .error(function() {
@@ -465,13 +465,13 @@
     function refreshRoiCalc(stake) {
       $.ajax({
         method: 'GET',
-        url: "https://neuro.enecuum.com/api/v1/roi",
+        url: "https://pulse.enecuum.com/api/v1/roi",
         async: true,
       }).success(function(roi) {
           scope.rois = roi;
           $.ajax({
               method: 'GET',
-              url: "https://neuro.enecuum.com/api/v1/stats",
+              url: "https://pulse.enecuum.com/api/v1/stats",
               async: true,
           }).success(function(stats) {
               scope.stats = stats;
@@ -532,7 +532,7 @@
       if (validator.checkValidDigitalValue(currValue)) {
         $.ajax({
           method: 'GET',
-          url: "https://neuro.enecuum.com/api/v1/stats",
+          url: "https://pulse.enecuum.com/api/v1/stats",
           async: true,
         }).success(function(stats) {
             $('#currencyCalculatorWrapper').parent('.container').show();

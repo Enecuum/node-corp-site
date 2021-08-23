@@ -496,13 +496,13 @@
     function refreshRoiCalc(stake) {
       $.ajax({
         method: 'GET',
-        url: "https://neuro.enecuum.com/api/v1/roi",
+        url: "https://pulse.enecuum.com/api/v1/roi",
         async: true,
       }).success(function(roi) {
           scope.rois = roi;
           $.ajax({
               method: 'GET',
-              url: "https://neuro.enecuum.com/api/v1/stats",
+              url: "https://pulse.enecuum.com/api/v1/stats",
               async: true,
           }).success(function(stats) {
               scope.stats = stats;
@@ -563,7 +563,7 @@
       if (validator.checkValidDigitalValue(currValue)) {
         $.ajax({
           method: 'GET',
-          url: "https://neuro.enecuum.com/api/v1/stats",
+          url: "https://pulse.enecuum.com/api/v1/stats",
           async: true,
         }).success(function(stats) {
             $('#currencyCalculatorWrapper').parent('.container').show();
