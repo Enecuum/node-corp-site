@@ -169,13 +169,6 @@
       </div>
       <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
         <noindex>
-          <a rel="nofollow" href="https://bigcoinvietnam.com/" target="_blank">
-            <img src="/img/enq/partners-logo/enq-partner-bigcoin.png" alt="Bigcoin Vietnam">
-          </a>
-        </noindex>  
-      </div>
-      <div class="partners-item d-flex justify-content-center align-items-center bg-light rounded py-7 px-3">
-        <noindex>
           <a rel="nofollow" href="https://hapi.one/" target="_blank">
             <img src="/img/enq/partners-logo/enq-partner-unicorn-hapi.svg" alt="Unicorn HAPI" style="height: 70px;">
           </a>
@@ -210,7 +203,7 @@
 
     <div class="container pb-8 text-center">
       <h3 class="mb-3">{{__ 'VIEW_BLOCKS_LIVE'}}</h3>
-      <a role="button" class="btn btn-primary transition-3d-hover" href="https://neuro.enecuum.com/" target="_blank">{{__ 'EXPLORE_RIGHT'}}</a>
+      <a role="button" class="btn btn-primary transition-3d-hover" href="https://pulse.enecuum.com/" target="_blank">{{__ 'EXPLORE_RIGHT'}}</a>
     </div>
   </div>
 
@@ -502,7 +495,7 @@
     
     $.ajax({
       method: 'GET',
-      url: "https://neuro.enecuum.com/api/v1/stats",
+      url: "https://pulse.enecuum.com/api/v1/stats",
       async: true,
     })
     .success(function(networkStats) {
@@ -548,7 +541,7 @@
     // initialization of slick carousel
     $.ajax({
       method: 'GET',
-      url: "https://neuro.enecuum.com/api/v1/height",
+      url: "https://pulse.enecuum.com/api/v1/height",
       async: true,
     }).success(function(response) {
        $("[data-content='lastBlockValue']").text(response.height);
@@ -557,7 +550,7 @@
 
     $.ajax({
       method: 'GET',
-      url: "https://neuro.enecuum.com/api/v1/peer_map",
+      url: "https://pulse.enecuum.com/api/v1/peer_map",
       async: true,
     })
     .error(function() {
@@ -676,7 +669,7 @@
     function refreshRoiCalc(stake) {
       $.ajax({
         method: 'GET',
-        url: "https://neuro.enecuum.com/api/v1/roi",
+        url: "https://pulse.enecuum.com/api/v1/roi",
         async: true,
       }).success(function(roi) {
           scope.rois = roi;
