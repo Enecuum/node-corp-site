@@ -12,7 +12,6 @@ var indexRouter = require('./routes/index');
 var promoRouter = require('./routes/promo');
 var missionAndPurposeRouter = require('./routes/mission-and-purpose');
 var documentationRouter = require('./routes/documentation');
-var teamRouter = require('./routes/team');
 var roadmapRouter = require('./routes/roadmap');
 var partnersRouter = require('./routes/partners');
 var newsAndCommunityRouter = require('./routes/news-and-community');
@@ -170,7 +169,9 @@ app.use('/index.html', indexRouter);
 app.use('/promo/{0,}', promoRouter);
 app.use(['/mission-and-purpose/{0,}', '/Mission%20and%20purpose.html/{0,}'], missionAndPurposeRouter);
 app.use(['/documentation/{0,}', '/Documentation.html/{0,}'], documentationRouter);
-app.use(['/team/{0,}', '/Team.html/{0,}'], teamRouter);
+app.use(['/team/{0,}', '/Team.html/{0,}'], function(request, response) {
+	response.redirect(301, "/news-and-community")
+});
 app.use(['/market-stats/{0,}', '/Marketstats.html/{0,}'], marketSratsRouter);
 app.use(['/network-stats/{0,}', '/Networkstats.html/{0,}'], networkStatsRouter);
 app.use(['/roadmap/{0,}', '/Roadmap.html/{0,}'], roadmapRouter);

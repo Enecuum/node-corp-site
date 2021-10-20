@@ -46,7 +46,6 @@
     "ABOUT": "关于",
     "MISSION_AND_PURPOSE": "使命与宗旨",
     "DOCUMENTATION": "文献资料",
-    "TEAM": "团队",
     "ROADMAP": "路线图",
     "PARTNERS": "伙伴",
     "NEWS_AND_COMMUNITY": "新闻与小区",
@@ -172,83 +171,6 @@
     "AUTHORS": "作者",
     "ABSTRACT": "摘要",
     "PUBLISHED_IN": "出版于",
-    "CORE_TEAM": "核心团队",
-    "TEAM_CARDS": {
-        "MIKHAIL_SAYFULLIN": {
-            "NAME": "Mikhail Sayfullin",
-            "DESCR": "自2002年起成为企业家。建立并发展了一家营销公司，该公司成功地为大型国际公司提供了优质的服务。自2014年以来，Mikhail一直在IT领域成功地开展工作，并在娱乐领域开发了一个受欢迎的市场。自2017年以来，为Enecuum Limited的创始人之一和我们的战略经理。"
-        },
-        "KONSTANTIN_ZHIDANOV": {
-            "NAME": "Konstantin Zhidanov",
-            "DESCR": "Konstantin是一位具有基层编程和应用密码学技能的软件开发人员。此外，他还在圣彼得堡国立航空航天仪器大学教授计算器科学相关课程。",
-            "QUOTE": "教导某件事是确保您真正理解它的最佳方法。"
-        },
-        "ROMAN_BASHLAEV": {
-            "NAME": "Roman Bashlaev",
-            "DESCR": "自2014年以来从事营销和广告工作。在促进公司在线营销方面拥有丰富经验。此外，Roman参与了GIS的三维建模。拥有专利的一组地理信息系统三维数据分类器。"
-        },
-        "SERGEY_VANURIN": {
-            "NAME": "Sergey Vanurin",
-            "DESCR": "具有开发，支持，DevOps和交付实用背景的IT专家。作为项目经理，Sergey开发了在线3D地理信息系统，并成功地用于城市规划部门。 Sergey对数学和数据科学深感兴趣，认为Enecuum是个人成长和世界变化的理想之地。"
-        },
-        "SERGEY_BEZZATEEV": {
-            "NAME": "Sergey Bezzateev",
-            "DESCR": "计算机科学博士，圣彼得堡国立航天仪器大学信息安全系主任。 Sergey是著名的专家，在信息论，编码理论，InfoSec领域发表了40多篇论文，他是密码学领域的领先专家之一。"
-        },
-        "ALEKSANDRA_AFANASYEVA": {
-            "NAME": "Aleksandra Afanasyeva",
-            "DESCR": "圣彼得堡国立航空航天仪器大学信息系统安全系助理教授。 Aleksandra有硕士学位。 2003年获得IT博士学位，并在芬兰赫尔辛基的诺基亚研究中心接受了基于证据的安全性和加密协议验证方面的培训。 Aleksandra参与并领导了与三星，英特尔，戴尔EMC在InfoSec中的合作项目以及数据存储系统中资源管理算法的优化。"
-        },
-        "ALEKSANDR_OMETOV": {
-            "NAME": "Aleksandr Ometov",
-            "DESCR": "Aleksandr有博士（技术）学位 和理学硕士分别于2018年和2016年获得芬兰坦佩雷工业大学（TUT）电信专业的荣誉，并于2013年获得俄罗斯圣彼得堡圣彼得堡国立航空航天仪器大学的信息安全专业学位。他的主要研究兴趣是无线通信，信息安全，异构网络，协作通信和机器对机器应用程序。"
-        },
-        "HENOK_TEKLE": {
-            "NAME": "Henok \"Hen\" Tekle",
-            "DESCR": "AlphaChain的联合创始人兼执行合伙人，为著名的区块链天使投资人，顾问，内容创建者和公众演讲者。 Hen是代币经济和区块链技术带来颠覆性影响的热烈拥护者，并定期在全球会议上就这些主题发表演讲。 Hen的天使投资活动已为公司早期时带来了巨大的资本和战略价值，为促进区块链技术的发展和主流所采用。"
-        },
-        "MIKHAIL_VASILEV": {
-            "NAME": "Mikhail Vasilev",
-            "DESCR": "Mikhail是一位软件开发人员，毕业于圣彼得堡国立航空航天仪器大学信息安全系。为俄罗斯领先的第三方物流(3PL)运营商之一开发并交付了仓储管理系统(WMS)。"
-        },
-        "ANTON_PRUDANOV": {
-            "NAME": "Anton Prudanov",
-            "DESCR": "软件开发人员和I信息安全专家毕业于圣彼得堡国立航空航天仪器大学。 Anton具有广泛的IT相关技能，包括全站开发，IoT解决方案，密码学和系统管理。 Anton的重点是ENQ加密图书库。"
-        },
-        "YULIA_BARDINOVA": {
-            "NAME": "Yulia Bardinova",
-            "DESCR": "具有信息安全背景的质量确保工程师。在Enecuum中，Yulia设计和实施测试以确保为每个用户提供无错误的体验。"
-        },
-        "VLADIMIR_TSAREV": {
-            "NAME": "Vladimir Tsarev",
-            "DESCR": "具有网域应用程序，自动控制系统和地理信息系统（GIS）开发背景的IT专家。"
-        },
-        "STAN_PRIHODKO": {
-            "NAME": "Stan Prihodko",
-            "DESCR_P1": "Stan是加密资产管理负责人",
-            "DESCR_P2": "，这个基金的资产管理规模超过4亿美元。在加入GEM之前，Stan从事加密货币资产的信托管理以及为高净值个人投资ICO的咨询顾问。"
-        },
-        "IVAN_V_IVANOV": {
-            "NAME": "Ivan V. Ivanov",
-            "DESCR": "Ivan is a Founding Partner of a venture studio and consulting firm <noindex><a rel='nofollow' href='https://uvecon.pro/' target='_blank'>Uvecon.PRO</a></noindex> based in Hong Kong and serving clients in venture capital, startup and business development space helping companies to expand in Hong Kong and Asia."
-        },
-        "ALEXANDER_RUGAEV": {
-            "NAME": "Alexander Rugaev",
-            "DESCR": "Alexander Rugaev是一位多系列企业家，也是早期的区块链支持者之一。他拥有创建工业级比特币和以太坊采矿场的经验。他在电子商务和在线营销方面拥有16年的经验。"
-        },
-        "SHELLY_HOD_MOYAL": {
-            "NAME": "Shelly Hod Moyal",
-            "DESCR": "Shelly Hod Moyal是iCapital的顾问，Juno Capital的投资组合经理和iAngels的创始合伙人，iAngels是高科技初创企业的创投平台，在各个部门和基金中管理着1.4亿美元的资产，专门从事多个技术行业领域。在加入iAngels之前，Shelly被高盛投资银行（Goldman Sachs Investment Bank）评为有前途的分析师。在此之前，Shelly在知名对冲基金Avenue Capital担任研究分析师，研究范围涉及银行，保险，房地产和金融机构。 Shelly在芝加哥的凯洛格（Kellogg）获得了MBA学位，并在纽约的亨特学院（Hunter College）获得了经济学学位（以优异成绩获得学位）。"
-        },
-        "MAXIM_SHULTE": {
-            "NAME": "Maxim Shulte",
-            "DESCR": "一位作家一个成功的交易员。一位加密货币爱好者。自2015年以来投入在加密货币行业中。"
-        },
-        "KELLY_IFALUYI": {
-            "NAME": "Kelly Ifaluyi",
-            "DESCR": "热心的专业小区经理和品牌大使，拥有超过2年的经验，并且对各种社交媒体渠道，策略和区块链技术有全面性的了解。"
-        }
-    },
     "AMBASSADORS": "大使",
     "AMBASSADORS_CARDS": {
         "HAL_NKRUMAH": {

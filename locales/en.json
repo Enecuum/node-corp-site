@@ -46,7 +46,6 @@
 	"ABOUT": "About",
 	"MISSION_AND_PURPOSE": "Mission and purpose",
 	"DOCUMENTATION": "Documentation",
-	"TEAM": "Team",
 	"ROADMAP": "Roadmap",
 	"PARTNERS": "Partners",
     "NEWS_AND_COMMUNITY": "News and community",
@@ -172,83 +171,6 @@
 	"AUTHORS": "Authors",
 	"ABSTRACT": "Abstract",
 	"PUBLISHED_IN": "Published in",
-	"CORE_TEAM": "Core team",
-	"TEAM_CARDS": {
-		"MIKHAIL_SAYFULLIN": {
-			"NAME": "Mikhail Sayfullin",
-			"DESCR": "Entrepreneur since 2002. Founded and developed a marketing agency that successfully delivered high quality services to the largest international corporations. Since 2014, Mikhail has been successfully working in the IT field launching a popular marketplace in the entertainment sector. One of the founders of Enecuum Limited and our strategic manager since 2017."
-		},
-		"KONSTANTIN_ZHIDANOV": {
-			"NAME": "Konstantin Zhidanov",
-			"DESCR": "Konstantin is a software developer with the skills on low-level programming and applied cryptography. Besides, he teaches computer science related courses at Saint-Petersburg State University of Aerospace Instrumentation.",
-			"QUOTE": "To teach something is the best way to be sure that you really understand it."
-		},
-		"ROMAN_BASHLAEV": {
-			"NAME": "Roman Bashlaev",
-			"DESCR": "In marketing and advertising since 2014. Extensive experience in promoting companies in online marketing. In addition, Roman was engaged in three-dimensional modeling for GIS. Patented a set of classifiers of three-dimensional data for geoinformation system."
-		},
-		"SERGEY_VANURIN": {
-			"NAME": "Sergey Vanurin",
-			"DESCR": "IT specialist with a background in development, support, DevOps and delivery. As a project manager, Sergey developed an online 3D geoinformation system with successful adoption in the city planning department. Interested in mathematics and data science Sergey finds Enecuum as the perfect place for personal growth and the world-changing."
-		},
-		"SERGEY_BEZZATEEV": {
-			"NAME": "Sergey Bezzateev",
-			"DESCR": "Sc.D. in CS, head of the Department of IT Security of the Saint Petersburg State University of Aerospace Instrumentation. Sergey is a renown specialist with over 40 materials published in the field of Information Theory, Coding Theory, InfoSec, and he is one of the leading experts in cryptography."
-		},
-		"ALEKSANDRA_AFANASYEVA": {
-			"NAME": "Aleksandra Afanasyeva",
-			"DESCR": "Assistant professor of the Department of information systems security of the St.Petersburg State University of Aerospace Instrumentation. Aleksandra received her M.Sc. in IT in 2003 and trained in the Nokia Research Center in Helsinki, Finland, on Evidence Based Security and Verification of Cryptographic Protocols. Aleksandra has participated in and led collaborative projects with Samsung, Intel, Dell EMC in InfoSec and Optimization of Resource Management Algorithms in Data Storage Systems."
-		},
-		"ALEKSANDR_OMETOV": {
-			"NAME": "Aleksandr Ometov",
-			"DESCR": "Aleksandr received the D.Sc. (Tech.) and M.Sc. with distinction in Telecommunications from Tampere University of Technology (TUT), Finland, in 2018 and 2016, and the Specialist degree in Information Security from the Saint Petersburg State University of Aerospace Instrumentation, Saint Petersburg, Russia, in 2013. His major research interests are wireless communications, information security, heterogeneous networking, cooperative communications, and machine-to-machine applications."
-		},
-		"HENOK_TEKLE": {
-			"NAME": "Henok \"Hen\" Tekle",
-			"DESCR": "Co-founder and Managing Partner of AlphaChain, a notable blockchain angel investor, advisor, content creator and public speaker. Hen is a passionate advocate for the disruption brought by token economies and blockchain technology, and regularly speaks at conferences worldwide about these topics. Hen’s angel investment activities have delivered substantial capital and strategic value to early-stage companies in promotion of the development and mainstream adoption of blockchain technology."
-		},
-		"MIKHAIL_VASILEV": {
-			"NAME": "Mikhail Vasilev",
-			"DESCR": "Mikhail is a software developer who graduated St. Petersburg State University of Aerospace Instrumentation, Information Security Department. Developed and delivered WMS for one of the leading 3PL-operators in Russia."
-		},
-		"ANTON_PRUDANOV": {
-			"NAME": "Anton Prudanov",
-			"DESCR": "Software developer and InfoSec specialist graduated from Saint-Petersburg State University of Aerospace Instrumentation. Anton has a wide range of IT-related skills including fullstack development, IoT solutions, cryptography and system administration. Anton's key focus is ENQ cryptography library."
-		},
-		"YULIA_BARDINOVA": {
-			"NAME": "Yulia Bardinova",
-			"DESCR": "QA Engineer with an Information Security background. In Enecuum, Yulia designs and implements tests to ensure a bug-free experience for every user."
-		},
-		"VLADIMIR_TSAREV": {
-			"NAME": "Vladimir Tsarev",
-			"DESCR": "IT specialist with a background in the development of web applications, automated control systems and geographic information systems (GIS)."
-		},
-		"STAN_PRIHODKO": {
-			"NAME": "Stan Prihodko",
-			"DESCR_P1": "Stan is head of Crypto asset management in",
-			"DESCR_P2": ", a fund with over $400m AUM. Prior to joining GEM Stan was engaged in trust management of cryptocurrency assets and consultations on investing in ICOs for high net worth individuals."
-		},
-		"IVAN_V_IVANOV": {
-			"NAME": "Ivan V. Ivanov",
-			"DESCR": "Ivan is a Founding Partner of a venture studio and consulting firm <noindex><a rel='nofollow' href='https://uvecon.pro/' target='_blank'>Uvecon.PRO</a></noindex> based in Hong Kong and serving clients in venture capital, startup and business development space helping companies to expand in Hong Kong and Asia."
-		},
-		"ALEXANDER_RUGAEV": {
-			"NAME": "Alexander Rugaev",
-			"DESCR": "Alexander Rugaev is a serial entrepreneur and one of the early blockchain supporters. He has experience in creating industrial grade Bitcoin and Ethereum mining farms. He has 16 years of experience in e-commerce and online marketing."
-		},
-		"SHELLY_HOD_MOYAL": {
-			"NAME": "Shelly Hod Moyal",
-			"DESCR": "Shelly Hod Moyal is an Advisor to iCapital, Portfolio Manager of Juno Capital and Founding Partner of iAngels, a VC platform for high-tech startups, with $140M assets under management in divisions and funds that specialize in several tech industry sectors. Prior to iAngels, Shelly was recognized as a promising analyst at Goldman Sachs Investment Bank. Prior to that, Shelly worked as a Research Analyst at a renowned hedge fund, Avenue Capital, covering banks, insurance, real estate and financial institutions. Shelly earned her MBA at Kellogg, Chicago and holds a degree in Economics (summa cum laude) at Hunter College, New York."
-		},
-		"MAXIM_SHULTE": {
-			"NAME": "Maxim Shulte",
-			"DESCR": "A writer. A successful trader. A cryptocurrency enthusiast. In the cryptocurrency industry since 2015."
-		},
-		"KELLY_IFALUYI": {
-			"NAME": "Kelly Ifaluyi",
-			"DESCR": "An enthusiastic professional community manager and Brand ambassador with over 2 years experience and comprehensive knowledge of diverse social media channels, strategies and blockchain technology."
-		}
-	},
 	"AMBASSADORS": "Ambassadors",
 	"AMBASSADORS_CARDS": {
 		"HAL_NKRUMAH": {
