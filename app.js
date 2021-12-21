@@ -24,7 +24,7 @@ var utilityRouter = require('./routes/utility');
 var emissionModelRouter = require('./routes/emission-model');
 var technologyRouter = require('./routes/technology');
 var productsRouter = require('./routes/products');
-var allowedLocales = ['en', 'ru', 'ko', 'zh_CN', 'zh_HK', 'tr', 'es', 'pt'];
+var allowedLocales = ['en', 'ru', 'ko', 'zh_CN', 'zh_HK', 'es', 'tr', 'pt'];
 
 i18n.configure({
     locales: allowedLocales,
@@ -141,7 +141,7 @@ app.use(function (req, res, next) {
 			}
 		}
 
-		if (allowedLocales.indexOf(currentLang) > 4 && req.path !== '/promo') {
+		if (allowedLocales.indexOf(currentLang) > 5 && req.path !== '/promo') {
 			currentLang = 'en';
 		}
 

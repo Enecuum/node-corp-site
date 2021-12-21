@@ -1,560 +1,733 @@
 {
-	"LANGUAGE": "Español",
-	"UNITS": {
-		"SECONDS": "seconds",
-		"S": "s",
-		"TPS": "tps",
-		"HOUR": "h"
-	},	
-	"MONTHS": {
-		"MAY": "puede",
-		"JULY": "July",
-		"DECEMBER": "diciembre"
-	},
-	"CHART_CONTROLS": {
-		"M": "M",
-		"Y": "Y",
-		"YTD": "YTD",
-		"ALL": "ALL"
-	},
-	"CHART_SERIES_TITLES": {
-		"ENQ_PRICE_USD": "ENQ price (USD)",
-		"BTC_PRICE_USD": "BTC price (USD)",
-		"TOTAL_VOLUME_USD": "Total volume (USD)"
-	},
-	"ERRORS": {
-		"SOMETHING_WENT_WRONG": "Something went wrong...",
-		"ERR_404_DESCR": "Sorry, requested resource cannot be found.",
-		"LETS_GO_TO": "Try to visit website",
-		"MAIN_PAGE": "main page",
-		"ERR_500_DESCR": "An error occurred.",
-		"VISIT_WEBSITE_LATER": "Try to visit website later"
-	},
-	"PROMO_TITLE_P1": "Minería móvil",
-	"PROMO_TITLE_P2": "para todos",
-	"ADVANTAGES": {
-		"EASY_TO_JOIN": "Es fácil unirse",
-		"EASY_TO_EARN": "Fácil de ganar",
-		"EXTREMELY_DECENTRALIZED": "Extremadamente descentralizado",
-		"MAXIMUM_PRIVACY": "Máxima privacidad",
-		"LOW_BATTERY_CONSUMPTION": "Bajo consumo de batería"
-	},	
-	"HOW_DOES_IT_WORK": "¿Cómo funciona?",
-	"COOKIES_ALERT_TEXT": "Al continuar navegando por nuestro sitio web, usted acepta el uso de cookies que aseguran el correcto funcionamiento del sitio web.",
-	"I_AGREE": "Estoy de acuerdo",
-	"MORE_DETAILS": "Averigua más",
-	"ABOUT": "Acerca de",
-	"MISSION_AND_PURPOSE": "Mission and purpose",
-	"DOCUMENTATION": "Documentation",
-	"ROADMAP": "Roadmap",
-	"PARTNERS": "Partners",
-    "NEWS_AND_COMMUNITY": "News and community",
-    "STATS": "Estadísticas",
-    "MARKET_STATS": "Market stats",
-    "NETWORK_STATS": "Network stats",
-    "BLOCKCHAIN_EXPLORER": "Blockchain Explorer",
-    "BUY": "Buy",
-    "EARN": "Earn",
+    "LANGUAGE": "Español",
+    "UNITS": {
+        "SECONDS": "segundos",
+        "S": "s",
+        "TPS": "tps",
+        "HOUR": "h"
+    },
+    "MONTHS": {
+        "MAY": "mayo",
+        "JULY": "julio",
+        "DECEMBER": "Diciembre"
+    },
+    "CHART_CONTROLS": {
+        "M": "M",
+        "Y": "Y",
+        "YTD": "YTD",
+        "ALL": "TODO"
+    },
+    "CHART_SERIES_TITLES": {
+        "ENQ_PRICE_USD": "Precio ENQ  (USD)",
+        "BTC_PRICE_USD": "Precio BTC  (USD)",
+        "TOTAL_VOLUME_USD": "Volumen Total (USD)"
+    },
+    "ERRORS": {
+        "SOMETHING_WENT_WRONG": "Algo salió mal...",
+        "ERR_404_DESCR": "Lo sentimos, no se puede encontrar el recurso solicitado.",
+        "LETS_GO_TO": "Intenta visitar el sitio web",
+        "MAIN_PAGE": "pagina principal",
+        "ERR_500_DESCR": "Ocurrió un error.",
+        "VISIT_WEBSITE_LATER": "Intente visitar el sitio web más tarde"
+    },
+    "PROMO_TITLE_P1": "Minería móvil",
+    "PROMO_TITLE_P2": "Para todo el mundo",
+    "ADVANTAGES": {
+        "EASY_TO_JOIN": "Facil de entrar",
+        "EASY_TO_EARN": "Facil de ganar",
+        "EXTREMELY_DECENTRALIZED": "Extremadamente descentralizada",
+        "MAXIMUM_PRIVACY": "Máxima privacidad",
+        "LOW_BATTERY_CONSUMPTION": "Bajo consumo de batería"
+    },
+    "HOW_DOES_IT_WORK": "¿Como funciona?",
+    "COOKIES_ALERT_TEXT": "Al continuar navegando en nuestro sitio web, acepta el uso de cookies que garantizan el correcto funcionamiento del sitio web.",
+    "I_AGREE": "estoy de acuerdo",
+    "MORE_DETAILS": "Saber más",
+    "ABOUT": "Acerca de",
+    "MISSION_AND_PURPOSE": "Misión y propósito",
+    "DOCUMENTATION": "Documentación",
+    "ROADMAP": "Hoja de Ruta",
+    "PARTNERS": "Socios",
+    "NEWS_AND_COMMUNITY": "Noticias y comunidad",
+    "STATS": "Estadisticas",
+    "MARKET_STATS": "Estadísticas de mercado",
+    "NETWORK_STATS": "Estadísticas de red",
+    "BLOCKCHAIN_EXPLORER": "Explorador de blockchain",
+    "BUY": "Comprar",
+    "EARN": "Ganar",
     "HOLD": "Hold",
-    "SPEND": "Spend",
-    "UTILITY": "Utility",
-    "SWAP": "Swap",
-    "EMISSION_MODEL": "Emission model",
+    "SPEND": "Gastar",
+    "UTILITY": "Utilidad",
+    "SWAP": "Intercambio",
+    "EMISSION_MODEL": "Modelo de emisión",
     "TECHNOLOGY": "Tecnología",
     "TRINITY": "Trinity",
-    "BLOCK_DAG": "Block DAG",
-    "NETWORK": "Network",
-    "INFRASTRUCTURE": "Infrastructure",
-    "START_MINING": "Empieza la minería",
-    "HOW_TO_MINE": "Cómo a la mía",
-	"REFERRAL_PROGRAM": "Referral program",
-	"FAQ": {
-		"TITLE": "FAQ",
-		"CONTENT": {
-			"THE_PROJECT": {
-				"TITLE": "El proyecto",
-				"QS": {
-					"Q1_TITLE": "¿Qué es Enecuum?",
-					"Q1_ANSW_P1": "Enecuum es una red móvil de cadena de bloques para aplicaciones descentralizadas. Fue creada con el propósito de llevar la cadena de bloqueo y las criptocracias a la verdadera corriente principal, involucrando a una multitud con dispositivos móviles y de escritorio regulares en la red de la cadena de bloqueo. Enecuum permite a cada propietario de un teléfono inteligente ser parte de nuestra red global.",
-					"Q2_TITLE": "¿Cómo funciona?",
-					"Q2_ANSW_P1": "En Enecuum, el consenso se logra a través de la interacción entre los siguientes tres algoritmos de minería: Prueba de trabajo (\"PoW\"), Prueba de actividad (\"PoA\"), y Prueba de participación (\"PoS\"). Esta combinación permite lograr un alto grado de descentralización de la red. Actualmente, hemos desplegado el algoritmo PoA en nuestra aplicación móvil, y el PoW y PoS están disponibles en PC para su prueba pública."
-				}
-			},
-			"START_MINING": {
-				"TITLE": "Empieza la minería",
-				"QS": {
-					"Q1_TITLE": "¿Cómo hago la mina?",
-					"Q1_ANSW_P1": "Todo lo que necesitas es tener un dispositivo Android, descargar nuestra aplicación en él y depositar 25 ENQ.",
-					"Q2_TITLE": "¿Cómo consigo los tokens de Enecuum?",
-					"Q2_ANSW_P1": "Puedes comprar ENQ por tarjeta o en las bolsas (KuCoin, Crex24, Graviex). Tenga en cuenta que si compra ENQ en un intercambio, primero debe transferir sus fichas a una cartera Ethereum.",
-					"Q3_TITLE": "¿Cómo intercambiar?",
-					"Q3_ANSW_P1": "Dependiendo del sistema operativo (OS) que tengas, por favor usa las carteras Ethereum de MetaMask (Desktop OS) o Trust Wallet (Mobile OS). Este software ha sido probado por el equipo de Enecuum y la comunidad. Lea más en",
-					"Q4_TITLE": "¿Qué dispositivos puedo utilizar para la extracción?",
-					"Q4_ANSW_P1": "Puede realizar la extracción en cualquier dispositivo móvil que funcione con Android (teléfonos, tabletas). Aunque Enecuum está dirigido principalmente a los teléfonos inteligentes, nuestra comunidad también ha logrado realizar la minería en dispositivos de IO, cajas de TV y relojes inteligentes!",
-					"Q5_TITLE": "¿Puedo hacer la minería en varios dispositivos?",
-					"Q5_ANSW_P1": "Sí, pero tienes que crear una cuenta separada para cada dispositivo.",
-					"Q6_TITLE": "¿Puedo hacer la minería en un teléfono emulado?",
-					"Q6_ANSW_P1": "Sí, puedes. Actualmente, no tenemos ninguna restricción al respecto."
-				}
-			},
-			"IMPACT_ON_DEVICE": {
-				"TITLE": "Impacto en el dispositivo",
-				"QS": {
-					"Q1_TITLE": "¿Cómo afecta la minería a la batería de mi teléfono?",
-					"Q1_ANSW_P1_1": "La descarga de la batería es insignificante - la descarga es",
-					"Q1_ANSW_P1_2": "menos de un 5% más rápido",
-					"Q1_ANSW_P1_3": "en comparación con el uso normal del dispositivo.",
-					"Q2_TITLE": "¿Qué hay del uso de Internet?",
-					"Q2_ANSW_P1": "Recomendamos conectarse a Wi-Fi cuando se está minando, pero en general, el uso de tráfico es menor que el de un mensajero o un navegador."
-				}
-			}
-		}
-	},
-	"GUIDES": "Guías",
-	"HOW_TO_USE_THE_APP": "How to use the app",
-	"HOW_TO_BUY_ENQ_ON_EXCHANGE": "How to buy ENQ on exchange",
-	"HOW_TO_BUY_ENQ_USING_BANK_CARD": "How to Buy ENQ using bank card",
-	"HOW_TO_SWAP_ENQ": "How to swap ENQ",
-	"HOW_TO_JOIN_THE_REFERRAL_PROGRAM": "How to Join the referral program",
-	"HOW_DOES_ROI_CALCULATOR_WORK": "How does ROI calculator work",
-	"RESEARCH_PAPERS": "Research papers",
-	"WHITEPAPER": "Whitepaper",
-	"TECHPAPER": "Techpaper",
-	"PLAY_VIDEO": "Reproducir video",
-	"EASY_JOIN": "Easy join",
-	"EASY_EARN": "Easy earn",	
-	"ABOUT_S1_TITLE_P1": "Blockchain Mobile Network",
-	"ABOUT_S1_TITLE_P2": "for decentralized application",
-	"ABOUT_S1_P1": "Creemos que todo el mundo debería tener la oportunidad de formar parte de la revolución de la cadena de bloques.",
-	"ABOUT_S1_P2": "Actualmente, creamos un ecosistema descentralizado capaz de llevar la cadena de bloques y las criptocracias a la corriente principal real, involucrando a una multitud con dispositivos móviles y de escritorio regulares en la red de la cadena de bloques, así como proporcionando el poderoso conjunto de herramientas para que los desarrolladores de dApps creen aplicaciones rápidas y de bajo costo para millones de personas.",
-	"ABOUT_S1_P3": "Enecuum permite a cada propietario de un teléfono inteligente formar parte de nuestra red global.",
-	"ABOUT_S2_TITLE": "El valor de las fichas creadas por los mineros",
-	"ABOUT_S2": "Enecuum es la primera cadena de bloqueo en el mundo que une millones de teléfonos inteligentes y otros dispositivos móviles en una sola red. Aquí cada teléfono inteligente puede convertirse en un minero y hacer a Enecuum más fuerte y más fiable. Simple, seguro y rápido usando nuestra aplicación.",
-	"ABOUT_S3_C1_TITLE_P1": "Extremely",
-	"ABOUT_S3_C1_TITLE_P2": "decentralized network",
-	"ABOUT_S3_C1":"Devices connect to the Enecuum blockchain and share untapped data processing capacity. The more devices connected, the higher the network speed, with uncapped scalability potential. Connecting millions of distributed devices will create a truly decentralized, secure and stable system.",
-	"ABOUT_S3_C2": "The owner of the mobile device just needs to download our app to connect to the cryptocurrencies world, earn coins, make transfers and pay for the goods and services fast, secure and without banking fees. Important! ENQ App will not drain the battery of the mobile device and requires very regular specification of the phone – Android 4.4, 1GHz processor, 1.5 GB of RAM.",
-	"DAPPS_WEB_3_0_ECOSYSTEM_P1": "Dapps web 3.0",
-	"DAPPS_WEB_3_0_ECOSYSTEM_P2": "Ecosystem",
-	"FAST_AND_EASY_PAYMENTS": "Fast & easy payments.",
-	"FLEXIBLE_SYSTEM_STAKES_REWARD": "Flexible system stakes reward.",
-	"DATA_PROTECTION": "Data protection.",
-	"TOKENIZATION_OF_VIRTUAL_ASSETS": "Tokenization of virtual assets.",
-	"DECENTRALISED_FINANCE_INSTRUMENTS": "Decentralised finance instruments.",
-	"MARKETPLACE_FOR_DIGITAL_RESOURCES": "Marketplace for digital resources.",
-	"JOIN_ENECUUM_NETWORK": "Join Enecuum network",
-	"POA_NODES": "Nodos PoA",
-	"POW_NODES": "Nodos PoW",
-	"POS_NODES": "Nodos PoS",
-	"ACCOUNTS": "Cuentas",
-	"CURRENT": "Actual",
-	"MAX_TPS": "Max TPS",
-	"LAST_BLOCK": "El último bloque",
-	"TOTAL_NODES": "Nodos totales",
-	"VIEW_BLOCKS_LIVE": "Vea los bloques en vivo en Blockchain Explorer",
-	"EXPLORE_RIGHT": "¡Explora ahora mismo!",
-	"EXCHANGES": "Intercambios",
-	"MEDIA_TITLE": "Enecuum Launches Blockchain Network with Mobile Masternodes",
-	"MEDIA_PREVIEW": "Enecuum, a blockchain mobile network for decentralized applications which is able to bring blockchain and cryptocurrencies to the real mainstream, involves mobile devices users into a blockchain network, and provides a powerful toolkit for the dApps developers to create fast and low cost applications WEB 3.0 for millions of people. Now, Enecuum is starting a scaling community program.",
-	"LEGAL_ADVISOR": "Legal advisor",
-	"WE_ARE_MEMBER_OF": "We are a member of",
-	"WHITEPAPER_DESCR": "Este documento contiene declaraciones sobre el futuro que se basan en las creencias de Enecuum HK Limited, una empresa constituida en Hong Kong (CR: 2562183) (\"la empresa\"), así como ciertas suposiciones hechas por la empresa y la información de que dispone.",
-	"TECHPAPER_DESCR": "La moneda es a la economía lo que el lenguaje es al discurso. Su sofisticación y utilidad evolucionan en proporción directa a su base de usuarios, al volumen de \"transacciones\" que la mantienen viva y a su capacidad darwinista de adaptarse, proliferar y prosperar.",
-	"READ_MORE": "Más información",
-	"READ_MORE_ABOUT_TECHNOLOGY": "Lea más sobre la tecnología",
-	"RESEARCH_PAPERS_A1_TITLE": "Blockchain Technology for Smartphones and Constrained IoT Devices: A Future Perspective and Implementation",
-	"RESEARCH_PAPERS_A1_ABSTRACT": "The blockchain technology is currently penetrating different sides of modern ICT community. Most of the devices involved in blockchain-related processes are specially designed targeting only the mining aspect. At the same time, the use of wearable and mobile devices may also become a part of blockchain operation, especially during the charging time. The paper considers the possibility of using a large number of constrained devices supporting the operation of the blockchain. The utilization of such devices is expected to improve the efficiency of the system and also to attract a more substantial number of users. Authors propose a novel consensus algorithm based on a combination of Proof-of-Work (PoW), Proof-of-Activity (PoA), and Proof-of-Stake (PoS). The paper first overviews the existing strategies and further describes the developed cryptographic primitives used to build a blockchain involving mobile devices. A brief numerical evaluation of the designed system is also provided in the paper.",
-	"RESEARCH_PAPERS_A1_PUBLISHED": "Proc. of IEEE 21st Conference on Business Informatics (CBI)",
-	"RESEARCH_PAPERS_A1_READ_THE_ARTICLE_ON_ IEEE_XPLORE": "Read the Article on IEEE Xplore",
-	"DATE": "Date",
-	"AUTHORS": "Authors",
-	"ABSTRACT": "Abstract",
-	"PUBLISHED_IN": "Published in",
-	"AMBASSADORS": "Ambassadors",
-	"AMBASSADORS_CARDS": {
-		"HAL_NKRUMAH": {
-			"NAME": "Hal Nkrumah",
-			"LANGUAGE": "English and Twi",
-			"COUNTRY": "Ghana"
-		},
-		"AZEEZ_OLANREWAJU_ABDULFATTAH": {
-			"NAME": "Azeez Olanrewaju Abdulfattáh",
-			"LANGUAGE": "English",
-			"COUNTRY": "Nigeria"
-		},
-		"ABDULWAHAB": {
-			"NAME": "Abdulwahab",
-			"LANGUAGE": "English",
-			"COUNTRY": "Nigeria"
-		}		
-	},
-	"AMBASSADORS_ATTRIBUTES": {
-		"NAME": "Name",
-		"LANGUAGE": "Language",
-		"COUNTRY": "Country"
-	},	
-	"CEO": "CEO",
-	"CTO": "CTO",
-	"COO": "COO",
-	"PROJECT_MANAGER": "Project manager",
-	"HEAD_OF_RESEARCH": "Head of research",
-	"RESEARCHER": "Researcher",
-	"STRATEGIC_PARTNER": "Strategic partner",
-	"BUSINESS_ANALYST": "Business analyst",
-	"SOFTWARE_DEVELOPER": "Software developer",
-	"SOFTWARE_ENGINEER": "Software engineer",
-	"QA_ENGINEER": "QA engineer",
-	"WEB_DEVELOPER": "Web developer",
-	"ADVISOR": "Advisor",
-	"COMMUNITY_MANAGER": "Community manager",
-	"ROADMAP_CONTENT": {
-		"Q2_2017": { 
-			"Q_NUMBER": "q2",
-			"TASKS": {
-				"T_1": "R&D existing blockchains" 
-			}
-
-		},
-		"Q3_2017": { 
-			"Q_NUMBER": "q3",
-			"TASKS": {
-				"T_1": "Position paper V.1",
-				"T_2": "Describe system architecture"
-			} 
-		},
-		"Q4_2017": { 
-			"Q_NUMBER": "q4",
-			"TASKS": {
-				"T_1": "Assemble the core dev team"
-			} 
-		},
-		"Q1_2018": { 
-			"Q_NUMBER": "q1",
-			"TASKS": {
-				"T_1": "Implement the network protocol"
-			} 
-		},
-		"Q2_2018": { 
-			"Q_NUMBER": "q2",
-			"TASKS": {
-				"T_1": "Implement PoW and PoA nodes"
-			} 
-		},
-		"Q3_2018": { 
-			"Q_NUMBER": "q3",
-			"TASKS": {
-				"T_1": "Launch the test net alpha (Genesis).",
-				"T_2": "PoA rewards tests.",
-				"T_3": "Blockchain explorer.",
-				"T_4": "Airdrop phase 1"
-			} 
-		},
-		"Q4_2018": { 
-			"Q_NUMBER": "q4",
-			"TASKS": {
-				"T_1": "Development prototype for test net beta.",
-				"T_2": "Academical research: Trinity protocol with ID based cryptography and anonymous transactions"
-			} 
-		},
-		"Q1_2019": { 
-			"Q_NUMBER": "q1",
-			"TASKS": {
-				"T_1": "Launch the test net beta (Neuro).",
-				"T_2": "PoW, PoA, PoS rewards.",
-				"T_3": "Trinity consensus algorithm.",
-				"T_4": "Implementation ID based cryptography.",
-				"T_5": "Create first smart contracts use cases for partner Dapps (VPN)"
-			} 
-		},
-		"Q2_2019": { 
-			"Q_NUMBER": "q2",
-			"TASKS": {
-				"T_1": "Publishing cycle of academic papers in peer-reviewed journals (WoS, Scopus).",
-				"T_2": "Staking system for PoA nodes.",
-				"T_3": "Launching an ecosystem scaling program.",
-				"T_4": "Android miner app release.",
-				"T_5": "SWAP ENQ native to ENQ (ERC20).",
-				"T_6": "Web wallet."
-			} 
-		},
-		"Q3_2019": { 
-			"Q_NUMBER": "q3",
-			"TASKS": {
-				"T_1": "Release decentralized referral program.",
-				"T_2": "Collect statistical data.",
-				"T_3": "Optimization PoA algorithm, blockchain explorer, wallets.",
-				"T_4": "Maintaining system health.",
-				"T_5": "Android wallet (Play Market) release.",
-				"T_6": "Integration ENQ(ERC20) token to cold, hot wallets and payments providers.",
-				"T_7": "Finalization and tests of the crypto curve for Trinity protocol."
-			} 
-		},
-		"Q4_2019": { 
-			"Q_NUMBER": "q4",
-			"TASKS": {
-				"T_1": "iOS wallet release.",
-				"T_2": "Release PoW v.1.0 nodes.",
-				"T_3": "Release PoS nodes.",
-				"T_4": "Release main net alpha (Trinity).",
-				"T_5": "Publishing nodes API and documentation.",
-				"T_6": "White paper v2.0."
-			} 
-		},
-		"Q1_2020": { 
-			"Q_NUMBER": "q1",
-			"TASKS": {
-				"T_1": "SHARNELL smart contracts.",
-				"T_2": "Smart staking v1.0 (Alice).",
-				"T_3": "Tokens issue (ENQ standard).",
-				"T_4": "Integration ENQ standard tokens to crypto exchanges.",
-				"T_5": "Start burning ENQ tokens format ERC20."
-			} 
-		},
-		"Q2_2020": { 
-			"Q_NUMBER": "q2",
-			"TASKS": {
-				"T_1": "Release PoW v.2.0 (ASIC resistant).",
-				"T_2": "Developing SDK for Smart contracts.",
-				"T_3": "Mining token issue (ENQ standard).",
-				"T_4": "Smart staking v2.0 (Bob).",
-				"T_5": "Release Enecuum v1.0 (Pulse)."
-			} 
-		},
-		"Q3_2020": { 
-			"Q_NUMBER": "q3",
-			"TASKS": {
-				"T_1": "Payment system for online shops (server less).",
-				"T_2": "Hyper DAG implementation.",
-				"T_3": "Digital resources marketplace solutions (VPN, DEX, storage)."
-			} 
-		},
-		"Q4_2020": { 
-			"Q_NUMBER": "q4",
-			"TASKS": {
-				"T_1": "Publication of the governance model.",
-				"T_2": "Private blockchain solution.",
-				"T_3": "Side-chain Hub test net."
-			} 
-		}				
-	},
-	"BECOME_PARTNER_TITLE": "Do you want to become our partner?",
-	"LEAVE_YOUR_E_MAIL": "Leave your e-mail and name, our manager will contact you",
-	"BECOME_A_PARTNER": "Become a partner",
-	"JOIN_OUR_COMMUNITY": "Join our community",
-	"MARKET_CAP": "La capitalización del mercado",
-	"VOLUME": "Volumen",
-	"PRICE_USD": "Precio en USD",
-	"PRICE_BTC": "Precio BTC",
-	"TRADING_PAIRS": "Intercambio de parejas",
-	"CALCULATOR": "Calculator",
-	"ENQ_CHARTS": "ENQ Charts",
-	"MOBILE_MN_ROI_CALCULATOR": "Calculadora de ROI del masternode móvil",
-	"ROI_RANGE": "Puedes apostar de 25 a 25000 ENQ por un MN",
-	"IS_REFERRAL": "Soy una referencia",
-	"ROI_STAKE_LITE_CALC": "Cantidad de ENQ a apostar",
-	"ANNUAL_ROI": "Tasa de rendimiento anual",
-	"ROI_STAKE": "¿Cuántos ENQ quieres apostar?",
-	"INCORRECT_STAKE_RANGE_MESSAGE": "Valor incorrecto. Por favor, apuesta de 25 a 25000 ENQ",
-	"DAILY": "Diario",
-	"WEEKLY": "Semanal",
-	"MONTHLY": "Mensual",
-	"ANNUAL": "Anual",
-	"24H_POW_REWARDS": "24h PoW rewards",
-	"24H_POA_MN_REWARDS": "24h PoA MN rewards",
-	"MN_STAKE": "Coins stake on PoA MN",
-	"CIRC_SUPPLY_SHORT": "Circ. Supply",
-	"OPEN_BE": "Open Blockchain Explorer",
-	"BUY_ENQ": "Buy ENQ",
-	"WAY_TO_BUY": "Choose a convenient way to buy ENQ",
-	"CURRENT_ENQ_PRICE": "Current ENQ price",
-	"OTC": "OTC",
-	"BANK_CARD_NATIVE": "Bank card (native)",
-	"BUY_COIN_BANK_CARD_P1": "You can",
-	"BUY_COIN_BANK_CARD_P2": "buy a native coin ENQ",
-	"BUY_COIN_BANK_CARD_P3": "using a bank card and immediately start mining",
-	"EARN_ENQ": "Earn ENQ",
-	"TYPES_OF_TOKENS": "We have two types of tokens: ERC20 and native. For mining you need to have native ENQ. You can also buy ERC20 and SWAP it to native.",
-	"POA_MINING": "PoA mining",
-	"POA_MINING_STEPS": {
-		"STEP_1": "Descargue la aplicación",
-		"STEP_2": "Crear una cuenta en la aplicación",
-		"STEP_3_OLD": "Deposite al menos 25 ENQ siguiendo los pasos 3a o 3b",
-		"STEP_3": "Deposite al menos 25 ENQ.",		
-		"STEP_3A": "Comprar monedas nativas por tarjeta",
-		"STEP_3B_P1": "Compra fichas ERC20",
-		"STEP_3B_P2": "e",
-		"STEP_3B_P3": "intercámbialas",
-		"STEP_3B_P4": "por la red nativa",
-		"STEP_4": "En la aplicación, toque \"Iniciar actividad\""
-	},
-	"KEEP_CALM_AND_START_MINING": "Mantén la calma y empieza a extraer",
-	"SWAP_NATIVE_COINS_TO": "Swap native coins to",
-	"VIDEO": "Video",
-	"HOLD_ENQ": "Hold ENQ",
-	"HOLD_ENQ_DESCR": "Use official Enecuum wallets",
-	"NATIVE_ENQ": "Native ENQ",
-	"ERC20_WALLETS": "ERC20 wallets",
-	"SPEND_ENQ": "Spend ENQ",
-	"SPEND_ENQ_DESCR": "You can conveniently pay ENQ (ERC 20) all over the world through our partner's network",
-	"SWAP_TO_ERC20": "How to swap native coins to ERC20",
-	"BECOME_MERCHANT_TITLE": "Want to become a merchant?",
-	"PAYMENTS_PROVIDERS": "Payments providers",
-	"PAYMENTS_PROVIDERS_FORM": "Payments providers form",
-	"START_RECEIVING_ENQ_FORM": "Start receiving ENQ form",
-	"COMING_SOON": "Coming soon",
-	"TOKEN_UTILITY": "Token utility",
-	"ENQ_ERC20_TOKENS": "ENQ(ERC-20) tokens",
-	"ENQ_ERC20_TOKENS_DESCR": "It is intended that possession of the ENQ(ERC-20) token grants its holder a future right to exchange it to the ENQ cryptocurrency at the rate of 1:1, if and when the Enecuum adaptive decentralized environment becomes operational. The exchange is proposed to be made through the Enecuum exchange mechanism. Further details about the Enecuum exchange mechanism will be provided in due course. ENQ(ERC-20) is not intended to be a security, regulated product or a financial instrument of any kind.",
-	"ENECUUM_ENVIRONMENT_FUNCTIONALITY": {
-		"PRE": "ENQ is intended to be a utility token. Possession of ENQ is proposed to grant a holder access to the following proposed functionality of the Enecuum adaptive decentralized environment:",
-		"P_A": "accumulate and transfer ENQ subject to the ENQ terms and conditions, and applicable laws;",
-		"P_B": "publish SHARNELL Smart Contracts with a fee for publication to the global Enecuum network (the fee is determined according to the volume of the published byte code);",
-		"P_C": "publish transactions with a reward calculated by the user publishing such transactions to stimulate the miners to validate such block;",
-		"P_D": "access complex computations via the \"heavy\" smart contracts. The reward for such computations is proposed to be dictated by the current market conditions where the user who places the request offers a reward and waits until miners (nodes) with enough computational power to run such “heavy” smart contract agree to it. The user may raise the reward to faster stimulate such miners;",
-		"P_E": "access and generate private ‘ticket’ branches using other nodes on the network (not the user’s). The reward is determined individually by the miner agreeing to service such branches;",
-		"P_F": "and participation in the PoA and PoS mining.",
-		"FURTHER_DETAILS_P1": "See the Enecuum",
-		"FURTHER_DETAILS_P2": "Position Paper",
-		"FURTHER_DETAILS_P3": "or the Enecuum Website for further details."
-	},
-	"DISCLAIMER": "Disclaimer",
-	"COPYRIGHT_INFO_P1": "© 2019 Enecuum HK Limited. Company registration number : 2562183. All rights reserved. Nothing in this document constitutes an offer or advice of any kind. ENQ and the Enecuum adaptive decentralized environment may not be available in all jurisdictions and to all persons. Please see our",
-	"COPYRIGHT_INFO_P2": "Privacy Policy",
-	"COPYRIGHT_INFO_P3": "and",
-	"COPYRIGHT_INFO_P4": "Website Terms and Conditions",
-	"EMISSION_MODEL_PAGE": {
-		"DISCLAIMER": {
-			"S_1": {
-				"P_1": "ENQ, the token sale and the Enecuum adaptive decentralized environment are under development. They may be subject to change. No representation or warranty is given as to the achievement or reasonableness of any plans, future projections or prospects and nothing in this document is or should be relied upon as a promise or representation as to the future.",
-				"P_2": "This document also cross-refers to the disclaimer from the Enecuum’s whitepaper. The disclaimer from the whitepaper is included below to cover emergency cases with the official Enecuum’s site.",
-				"DISCLAIMER_TITLE": "The disclaimer from the above-mentioned Enecuum’s whitepaper.",
-				"DISCLAIMER": "This whitepaper and any other documents published in association with this whitepaper relate to the intended development and use of the Enecuum platform (“Enecuum”). They are for information purposes only and may be subject to change."
-			},
-			"S_2": {
-				"ACCORDION": {
-					"S_1": {
-						"TITLE": "This whitepaper describes a future project",
-						"P_1": "This whitepaper contains forward-looking statements that are based on the beliefs of Enecuum HK Limited, a Hong Kong incorporated company (CR: 2562183) (“Company”), as well as certain assumptions made by and information available to the Company.",
-						"P_2": "Enecuum as envisaged in this whitepaper is under development and is being constantly updated, including but not limited to key governance and technical features. The ENQ token (“ENQ”) involves and relates to the development and use of experimental platforms (software) and technologies that may not come to fruition or achieve the objectives specified in this whitepaper.",
-						"P_3": "If and when Enecuum is completed, it may differ significantly from the network set out in this whitepaper. No representation or warranty is given as to the achievement or reasonableness of any plans, future projections or prospects and nothing in this document is or should be relied upon as a promise or representation as to the future."
-					},
-					"S_2": {
-						"TITLE": "No offer of regulated products",
-						"P_1": "ENQ is not intended to represent a security or any other regulated product in any jurisdiction.",
-						"P_2": "This document does not constitute an offer or solicitation of securities or any other regulated product, nor a promotion, invitation or solicitation for investment purposes. The terms of the purchase are not intended to be a financial service offering document or a prospectus of any sort.",
-						"P_3": "ENQ does not represent equity, shares, units, royalties or rights to capital, profit, returns or income in the platform or software or in the Company or any other company or intellectual property associated with the platform or any other public or private enterprise, corporation, foundation or other entity in any jurisdiction."
-					},
-					"S_3": {
-						"TITLE": "This whitepaper is not advice",
-						"P_1": "This whitepaper does not constitute advice to purchase ENQ. It must not be relied upon in connection with any contract or purchasing decision."
-					},
-					"S_4": {
-						"TITLE": "Risk warning",
-						"P_1": "The purchase of ENQ and participation in Enecuum carries with it significant risks.", 
-						"P_2": "Prior to purchasing ENQ, you should carefully assess and take into account the risks, including those listed in any other documentation."
-					},
-					"S_5": {
-						"TITLE": "Views of the Company",
-						"P_1": "The views and opinions expressed in this whitepaper are those of Enecuum and do not reflect the official policy or position of any government, quasi-government, authority or public body (including but not limited to any regulatory body of any jurisdiction) in any jurisdiction.",
-						"P_2": "Information contained in this whitepaper is based on sources considered reliable by the Company but there is no assurance as to their accuracy or completeness."
-					},
-					"S_6": {
-						"TITLE": "No third party affiliation or endorsements",
-						"P_1": "References in this whitepaper to specific companies and platforms are for illustrative purposes only. The use of any company and/or platform names and trademarks does not imply any affiliation with, or endorsement by, any of those parties."
-					},
-					"S_7": {
-						"TITLE": "You must obtain all necessary professional advice",
-						"P_1": "You must consult a lawyer, accountant, tax professional and/or any other professional advisors as necessary prior to determining whether to purchase ENQ or otherwise participate in the Enecuum network."
-					}
-				}
-			}
-		},
-		"DISTRIBUTION": {
-			"TITLE": "Token distribution and conversion plan",
-			"S_1": {
-				"P_1_1": "As the Enecuum adaptive decentralized environment is still under development, we aim to conduct the ENQ Token Sale on Ethereum using an Ethereum-based",
-				"P_1_2": "smart contract.",
-				"P_1_3": "It is proposed that ENQ(ERC-20) will initially be issued as part of the ENQ Token Sale. The total amount of ENQ(ERC-20) will make 126,880,563.75 ENQ",
-				"P_2": "The upper limit of all ENQ in the system is proposed to be 845,870,425 ENQ. The two stages to the release of ENQ are intended as follows."
-			},
-			"S_2": {
-				"STAGE_1": {
-					"ALLOCATION_ENQ_ERC20": "The allocation of the ENQ(ERC-20) is proposed to be as follows:",
-					"P_A": "33,834,817 ENQ(ERC-20) are proposed to be available for sale under the ENQ Token Sale, which will be subject to the ENQ Token Sale terms and conditions. The price for the sale is proposed to be 1 ENQ(ERC-20) = 0.04 USD until 31.10.2018; 1 ENQ(ERC-20) = 0.05 USD until 30.11.2018 and 1 ENQ(ERC-20) = 0.06 USD until 31.12.2018. It is intended that it will be possible to exchange ENQ(ERC-20) for ENQ at a rate of 1:1, once the Enecuum adaptive decentralized environment is operational;",
-					"P_B": "25,376,112.75 ENQ(ERC-20) are proposed to be reserved for advisers and partners. It is intended that it will be possible to exchange ENQ(ERC-20) for ENQ at a rate of 1:1, once the Enecuum adaptive decentralized environment is operational;",
-					"P_C": "16,917,408.50 ENQ(ERC-20) are proposed to be reserved as a reward in test net and airdrop programme. It is intended that it will be possible to exchange ENQ(ERC-20) for ENQ at a rate of 1:1, once the Enecuum adaptive decentralized environment is operational;",
-					"P_D": "50,752,225.50 ENQ (ERC-20) is proposed to reserve seed investors. It is intended that it will be possible to exchange ENQ(ERC-20) for ENQ at a rate of 1:1, once the Enecuum adaptive decentralized environment is operational."
-				},
-				"STAGE_2": {
-					"DISTRIBUTION_ENQ": "The distribution of ENQ (after the main net will be launched) is proposed as follows:",
-					"P_A": "42,293,521.25 ENQ are proposed to be reserved as a team reward with lock up period of 1 year after the main net will be launched;",
-					"P_B": "169,174,085 ENQ are proposed to be reserved as a reserve fund with lock up period 1 year after main net will be launched;",
-					"P_C": "507,522,255 ENQ is intended to be available to be mined within 25 years after the launch of the main network and as a program of attracting new miners to the network."
-				}
-			}
-		},
-		"EMISSION_MODEL": {
-			"S_1": {
-				"P_1": "The ENQ emission model is proposed to progress in two stages. It is proposed that ENQ emission will grow in a linear progression as shown in Diagram, where the horizontal axis represents years, and the vertical axis represents the percentage of the total ENQ to be generated.",
-				"P_2": "The upper limit of all ENQ in the system is proposed to be 845,870,425 ENQ."
-			},
-			"S_2": {
-				"STAGE_1": {
-					"P_1": "15% of the total emission of ENQ is proposed to be pre-mined as ENQ(ERC20) tokens in Ethereum network by the Enecuum development team in order to create an initial distribution pool. This equates to 126,880,563.75 ENQ.",
-					"P_2": "This initial pool is intended to be used in the future for exchange of ENQ(ERC-20) to ENQ upon the launch of Enecuum adaptive decentralized environment."
-				},
-				"STAGE_2": {
-					"P_1": "During the 25 years following the end of Stage 1, a further 60% of the total ENQ emission is intended to be available to be mined, and 25% of the total ENQ emission will be premined intended to be used for the Enecuum development team and the reserve fund."
-				}
-			}
-		}
-	},
-	"TECHNOLOGY_PAGE_PROMO": {
-		"TRINITY_CONSENSUS": {			
-			"P_1": "Nuestro algoritmo Trinity combina PoA, PoW y PoS. Este enfoque híbrido del consenso proporciona un alto grado de descentralización de la red, a la vez que aumenta significativamente tanto la seguridad de la red como la velocidad de ejecución de las transacciones. La seguridad de la red se mejora aún más gracias a nuestras innovadoras soluciones criptográficas integradas.",
-			"P_2": "Estos mecanismos de consenso funcionan simultáneamente: Los solucionadores de problemas (nodos PoW) crean la columna vertebral de la estructura de la cadena de bloques. Los editores (nodos PoA) completan y publican los microbloques. Los poseedores (nodos PoS) mantienen la eficiencia del sistema. A través de la criptografía, los nodos pueden llegar a ser intercambiables."
-		},
-		"BLOCK_DAG_STRUCTURE": {
-			"P_1": "Cada rama crece según el consenso de Nakamoto (BFT).",
-			"P_2": "El número máximo de ramas permitidas depende del hashrate de la red.",
-			"P_3": "Las ramas se entrecruzan de forma que permiten ordenar los macrobloques en orden cronológico."
-		},
-		"NETWORK_PERFORMANCE_AND_TOPOLOGY": {
-			"P_1": "18 000 tps (resultados de la prueba)",
-			"P_2": "Latencia 5 - 30 segundos",
-			"P_3": "Miles de nodos PoW y PoS",
-			"P_4": "Millones de nodos del PoA",
-			"P_5": "Arquitectura de contrato inteligente y flexible",
-			"P_6": "Sistema de recompensa dinámico para los mineros",
-			"P_7": "Algoritmo de acordes",
-			"P_8": "Enrutamiento",
-			"P_9": "Sharding"			
-		},
-		"INFRASTRUCTURE_AND_ECOSYSTEM": {
-			"P_1": "Nodos PoS (servidores)",
-			"P_2": "Nodos PoW (computadoras)",
-			"P_3": "Nodos PoA (dispositivos móviles)",
-			"P_4": "dApps (juegos, pagos, dex y otros)",
-			"P_5": "Intercambios",
-			"P_6": "Usuarios (móviles, PC)"			
-		}
-	},
-	"TRINITY_CONSENSUS": "El consenso de la Trinidad",
-	"BLOCK_DAG_STRUCTURE": "Estructura de los bloques",
-	"NETWORK_PERFORMANCE_AND_TOPOLOGY": "Rendimiento y topología de la red",
-	"NODES": "Nodos",
-	"THROUGHPUT": "Rendimiento",
-	"LATENCY": "Latencia",
-	"PROOF": "Prueba",
-	"TEST_NET": "Red de prueba",
-	"SIMULATION": "Simulación",
-	"ANALYTICS": "Analítica",
-	"INFRASTRUCTURE_AND_ECOSYSTEM": "Infraestructura y ecosistema",
-	"DOWNLOAD_ANDROID_MASTERNODE": "Download Android Masternode",
-	"ANDROID_MASTERNODE": "Androide Masternode",
-	"WALLETS": "Carteras",
-	"TERMS_OF_SERVICE": "Condiciones del servicio",
-	"PRIVACY_POLICY": "Política de privacidad|",
-	"STAGE_1": "Stage 1",
-	"STAGE_2": "Stage 2"
+    "BLOCK_DAG": "Bloquear DAG",
+    "NETWORK": "Red",
+    "INFRASTRUCTURE": "Infraestructura",
+    "START_MINING": "Comienza a minar",
+    "HOW_TO_MINE": "Como minar",
+    "PRODUCTS": "Producto",
+    "REFERRAL_PROGRAM": "Programa de referidos",
+    "FAQ": {
+        "TITLE": "FAQ",
+        "CONTENT": {
+            "THE_PROJECT": {
+                "TITLE": "El proyecto",
+                "QS": {
+                    "Q1_TITLE": "¿Qué es Enecuum?",
+                    "Q1_ANSW_P1": "Enecuum es una red móvil blockchain para aplicaciones descentralizadas. Fue creado con el propósito de llevar la cadena de bloques y las criptomonedas a la corriente principal real, involucrando a una multitud con dispositivos móviles y de escritorio regulares en la red de la cadena de bloques. Enecuum permite que cada propietario de un teléfono inteligente sea parte de nuestra red global.",
+                    "Q2_TITLE": "¿Como funciona?",
+                    "Q2_ANSW_P1": "En Enecuum, el consenso se logra mediante la interacción entre los siguientes tres algoritmos de minería: Prueba de trabajo (\"PoW\"), Prueba de actividad (\"PoA\") y Prueba de participación (\"PoS\"). Esta combinación permite lograr un alto grado de descentralización de la red. Actualmente, hemos implementado el algoritmo PoA en nuestra aplicación móvil, y PoW y PoS están disponibles en PC para pruebas públicas."
+                }
+            },
+            "START_MINING": {
+                "TITLE": "Comienza a minar",
+                "QS": {
+                    "Q1_TITLE": "Como hago para minar?",
+                    "Q1_ANSW_P1": "Todo lo que necesita hacer es tener un dispositivo Android, descargar nuestra aplicación y depositar 25 ENQ.",
+                    "Q2_TITLE": "¿Como obtengo los tokens de Enecuum?",
+                    "Q2_ANSW_P1": "Puede comprar ENQ con tarjeta o en intercambios (KuCoin, Crex24, Graviex). Tenga en cuenta que si compra ENQ en un intercambio, primero debe transferir sus tokens a una billetera Ethereum.",
+                    "Q3_TITLE": "¿Cómo intercambiar?",
+                    "Q3_ANSW_P1": "Dependiendo del sistema operativo (SO) que tenga, utilice las carteras Ethereum MetaMask (SO de escritorio) o Trust Wallet (SO móvil). Este software ha sido probado por el equipo de Enecuum y la comunidad. Leer más en el",
+                    "Q4_TITLE": "¿Qué dispositivos puedo usar para minar?",
+                    "Q4_ANSW_P1": "Puede minar en cualquier dispositivo móvil que ejecute Android (teléfonos, tabletas). Aunque Enecuum apunta principalmente a teléfonos inteligentes, nuestra comunidad también ha logrado minar en dispositivos IoT, TV box y relojes inteligentes.",
+                    "Q5_TITLE": "¿Puedo minar en varios dispositivos?",
+                    "Q5_ANSW_P1": "Sí, pero debe crear una cuenta separada para cada dispositivo.",
+                    "Q6_TITLE": "¿Puedo minar en un teléfono emulado?",
+                    "Q6_ANSW_P1": "Sí tu puedes. Actualmente, no tenemos ninguna restricción al respecto."
+                }
+            },
+            "IMPACT_ON_DEVICE": {
+                "TITLE": "Impacto en el dispositivo",
+                "QS": {
+                    "Q1_TITLE": "¿Cómo afecta la minería la batería de mi teléfono?",
+                    "Q1_ANSW_P1_1": "La descarga de la batería es insignificante - la descarga es",
+                    "Q1_ANSW_P1_2": "menos del 5% más rápido",
+                    "Q1_ANSW_P1_3": "en comparación con el uso normal del dispositivo.",
+                    "Q2_TITLE": "¿Qué pasa con el uso de Internet?",
+                    "Q2_ANSW_P1": "Recomendamos conectarse a Wi-Fi al minar, pero en general, el uso de tráfico es menor que el de una plataforma de mensajeria o un navegador."
+                }
+            }
+        }
+    },
+    "GUIDES": "Guias",
+    "HOW_TO_USE_THE_APP": "Cómo usar la aplicación",
+    "HOW_TO_BUY_ENQ_ON_EXCHANGE": "Cómo comprar ENQ en Exchanges",
+    "HOW_TO_BUY_ENQ_USING_BANK_CARD": "Cómo comprar ENQ con tarjeta bancaria",
+    "HOW_TO_SWAP_ENQ": "Cómo intercambiar ENQ",
+    "HOW_TO_JOIN_THE_REFERRAL_PROGRAM": "Cómo unirse al programa de referidos",
+    "HOW_DOES_ROI_CALCULATOR_WORK": "¿Cómo funciona la calculadora de ROI?",
+    "RESEARCH_PAPERS": "Trabajos de investigación",
+    "WHITEPAPER": "Whitepaper",
+    "TECHPAPER": "Techpaper",
+    "PLAY_VIDEO": "Reproduce el video",
+    "EASY_JOIN": "Facil de entrar",
+    "EASY_EARN": "Facil de ganar",
+    "ABOUT_S1_TITLE_P1": "Red móvil blockchain",
+    "ABOUT_S1_TITLE_P2": "Para aplicaciones descentralizadas",
+    "ABOUT_S1_P1": "Creemos que todos deberían tener la oportunidad de convertirse en parte de la revolución blockchain.",
+    "ABOUT_S1_P2": "Actualmente, creamos un ecosistema descentralizado capaz de llevar la cadena de bloques y las criptomonedas a la corriente principal real, involucrando a una multitud con dispositivos móviles y de escritorio regulares en la red de la cadena de bloques, además de proporcionar el poderoso kit de herramientas para que los desarrolladores de dApps creen rápido y de bajo costo. aplicaciones para millones de personas.",
+    "ABOUT_S1_P3": "Enecuum permite que cada propietario de un teléfono inteligente sea parte de nuestra red global.",
+    "ABOUT_S2_TITLE": "Valor del token creado por los mineros.",
+    "ABOUT_S2": "Enecuum es la primera cadena de bloques del mundo que une millones de teléfonos inteligentes y otros dispositivos móviles en una sola red. Aquí, cada teléfono inteligente puede convertirse en un minero y hacer que Enecuum sea más fuerte y confiable. Sencillo, seguro y rápido con nuestra aplicación.",
+    "ABOUT_S3_C1_TITLE_P1": "Extremadamente",
+    "ABOUT_S3_C1_TITLE_P2": "red descentralizada",
+    "ABOUT_S3_C1": "Los dispositivos se conectan a la cadena de bloques Enecuum y comparten la capacidad de procesamiento de datos sin explotar. Cuantos más dispositivos estén conectados, mayor será la velocidad de la red, con un potencial de escalabilidad ilimitado. La conexión de millones de dispositivos distribuidos creará un sistema verdaderamente descentralizado, seguro y estable.",
+    "ABOUT_S3_C2": "El propietario del dispositivo móvil solo necesita descargar nuestra aplicación para conectarse al mundo de las criptomonedas, ganar monedas, realizar transferencias y pagar los bienes y servicios de forma rápida, segura y sin comisiones bancarias. ¡Importante! La aplicación ENQ no agota la batería del dispositivo móvil y requiere una especificación muy regular del teléfono: Android 4.4, procesador de 1GHz, 1.5 GB de RAM.",
+    "DAPPS_WEB_3_0_ECOSYSTEM_P1": "Dapps web 3.0",
+    "DAPPS_WEB_3_0_ECOSYSTEM_P2": "Ecosistema",
+    "FAST_AND_EASY_PAYMENTS": "Pagos rápidos y sencillos.",
+    "FLEXIBLE_SYSTEM_STAKES_REWARD": "Recompensa de Stakes del sistema flexible.",
+    "DATA_PROTECTION": "Protección de Datos.",
+    "TOKENIZATION_OF_VIRTUAL_ASSETS": "Tokenización de activos virtuales.",
+    "DECENTRALISED_FINANCE_INSTRUMENTS": "Instrumentos financieros descentralizados.",
+    "MARKETPLACE_FOR_DIGITAL_RESOURCES": "Mercado de recursos digitales.",
+    "JOIN_ENECUUM_NETWORK": "Únete a la red Enecuum",
+    "POA_NODES": "Nodos PoA",
+    "POW_NODES": "Nodos  PoW ",
+    "POS_NODES": "Nodos PoS ",
+    "ACCOUNTS": "Cuentas",
+    "CURRENT": "Actuales",
+    "MAX_TPS": "TPS máximo",
+    "LAST_BLOCK": "Último bloque",
+    "TOTAL_NODES": "Nodos totales",
+    "VIEW_BLOCKS_LIVE": "Ver bloques en vivo en Blockchain Explorer",
+    "EXPLORE_RIGHT": "¡Explora ahora mismo!",
+    "EXCHANGES": "Intercambios",
+    "MEDIA_TITLE": "Enecuum lanza una red blockchain con masternodes móviles",
+    "MEDIA_PREVIEW": "Enecuum, una red móvil blockchain para aplicaciones descentralizadas que es capaz de llevar blockchain y las criptomonedas a la corriente principal real, involucra a los usuarios de dispositivos móviles en una red blockchain y proporciona un poderoso kit de herramientas para que los desarrolladores de dApps creen aplicaciones WEB 3.0 rápidas y de bajo costo para millones de personas. Ahora, Enecuum está comenzando un programa comunitario de escalado.",
+    "LEGAL_ADVISOR": "Asesor legal",
+    "WE_ARE_MEMBER_OF": "Nosotros somos miembros de",
+    "WHITEPAPER_DESCR": "Este Whitepaper contiene declaraciones prospectivas que se basan en las creencias de Enecuum HK Limited, una compañía incorporada de Hong Kong (CR: 2562183) (\"Compañía\"), así como ciertas suposiciones e información disponible para la Compañía.",
+    "TECHPAPER_DESCR": "La moneda es para la economía lo que el lenguaje es para el habla. Su sofisticación y utilidad evolucionan en proporción directa a su base de usuarios, al volumen de \"transacciones\" que lo mantienen vivo ya su capacidad darwinista para adaptarse, proliferar y prosperar.",
+    "READ_MORE": "Leer mas",
+    "READ_MORE_ABOUT_TECHNOLOGY": "Leer más sobre tecnología",
+    "RESEARCH_PAPERS_A1_TITLE": "Tecnología Blockchain para teléfonos inteligentes y dispositivos de IoT restringidos: una perspectiva e implementación futuras",
+    "RESEARCH_PAPERS_A1_ABSTRACT": "La tecnología blockchain está penetrando actualmente en diferentes lados de la comunidad TIC moderna. La mayoría de los dispositivos involucrados en los procesos relacionados con blockchain están especialmente diseñados y tienen como objetivo solo el aspecto de la minería. Al mismo tiempo, el uso de dispositivos portátiles y móviles también puede convertirse en parte de la operación de blockchain, especialmente durante el tiempo de carga. El documento considera la posibilidad de utilizar una gran cantidad de dispositivos restringidos que respalden el funcionamiento de la cadena de bloques. Se espera que la utilización de tales dispositivos mejore la eficiencia del sistema y también atraiga a un número más sustancial de usuarios. Los autores proponen un algoritmo de consenso novedoso basado en una combinación de Prueba de trabajo (PoW), Prueba de actividad (PoA) y Prueba de participación (PoS). El documento primero revisa las estrategias existentes y describe con más detalle las primitivas criptográficas desarrolladas que se utilizan para construir una cadena de bloques que involucra dispositivos móviles. En el artículo también se proporciona una breve evaluación numérica del sistema diseñado.",
+    "RESEARCH_PAPERS_A1_PUBLISHED": "Proc. de la 21a Conferencia de Informática Empresarial (CBI) de IEEE",
+    "RESEARCH_PAPERS_A1_READ_THE_ARTICLE_ON_ IEEE_XPLORE": "Lea el artículo sobre IEEE Xplore",
+    "DATE": "Fecha",
+    "AUTHORS": "Autores",
+    "ABSTRACT": "Abstracto",
+    "PUBLISHED_IN": "Publicado en",
+    "AMBASSADORS": "Embajadores",
+    "AMBASSADORS_CARDS": {
+        "HAL_NKRUMAH": {
+            "NAME": "Hal Nkrumah",
+            "LANGUAGE": "Inglés, Twi",
+            "COUNTRY": "Ghana"
+        },
+        "AZEEZ_OLANREWAJU_ABDULFATTAH": {
+            "NAME": "Azeez Olanrewaju Abdulfattáh",
+            "LANGUAGE": "Inglés",
+            "COUNTRY": "Nigeria"
+        },
+        "ABDULWAHAB_MAYOWA": {
+            "NAME": "Abdulwahab Mayowa",
+            "LANGUAGE": "Inglés",
+            "COUNTRY": "Nigeria"
+        },
+        "BARINEKA_MAAGBO": {
+            "NAME": "Barineka Maagbo",
+            "LANGUAGE": "Inglés",
+            "COUNTRY": "Nigeria"
+        },
+        "RAFAEL_AREVALO": {
+            "NAME": "Rafael Arevalo",
+            "LANGUAGE": "Inglés, Español",
+            "COUNTRY": "Colombia"
+        },
+        "EMMANUEL_OMISADE": {
+            "NAME": "Emmanuel Omisade",
+            "LANGUAGE": "Inglés",
+            "COUNTRY": "Nigeria"
+        },
+        "MARK_TUT": {
+            "NAME": "Mark Tut",
+            "LANGUAGE": "Ruso, Bielorruso, Ingles",
+            "COUNTRY": "Belarus"
+        },
+        "ANDRE_CLAASEN": {
+            "NAME": "Andre Claasen",
+            "LANGUAGE": "Inglés",
+            "COUNTRY": "Australia"
+        }
+    },
+    "AMBASSADORS_ATTRIBUTES": {
+        "LANGUAGE": "Lenguaje"
+    },
+    "CEO": "CEO",
+    "CTO": "CTO",
+    "CMO": "CMO",
+    "COO": "COO",
+    "PROJECT_MANAGER": "Gerente de proyecto",
+    "HEAD_OF_RESEARCH": "Jefe de investigación",
+    "RESEARCHER": "Investigador",
+    "STRATEGIC_PARTNER": "Compañero estratégico",
+    "BUSINESS_ANALYST": "Analista de negocios",
+    "SOFTWARE_DEVELOPER": "Desarrollador de software",
+    "SOFTWARE_ENGINEER": "Ingeniero de software",
+    "QA_ENGINEER": "Ingeniero de control de calidad",
+    "WEB_DEVELOPER": "desarrollador web",
+    "ADVISOR": "Tutor",
+    "AMBASSADOR": "Embajador",
+    "COMMUNITY_MANAGER": "Community manager",
+    "ROADMAP_CONTENT": {
+        "Q2_2017": {
+            "Q_NUMBER": "q2",
+            "TASKS": {
+                "T_1": "Cadenas de bloques existentes de R&D"
+            }
+        },
+        "Q3_2017": {
+            "Q_NUMBER": "q3",
+            "TASKS": {
+                "T_1": "Documento de posición V.1",
+                "T_2": "Describir la arquitectura del sistema."
+            }
+        },
+        "Q4_2017": {
+            "Q_NUMBER": "q4",
+            "TASKS": {
+                "T_1": "Reunir al equipo de desarrollo central"
+            }
+        },
+        "Q1_2018": {
+            "Q_NUMBER": "q1",
+            "TASKS": {
+                "T_1": "Implementar el protocolo de red"
+            }
+        },
+        "Q2_2018": {
+            "Q_NUMBER": "q2",
+            "TASKS": {
+                "T_1": "Implementar nodos PoW y PoA"
+            }
+        },
+        "Q3_2018": {
+            "Q_NUMBER": "q3",
+            "TASKS": {
+                "T_1": "Inicie la prueba net alpha (Genesis).",
+                "T_2": "PoA premia las pruebas.",
+                "T_3": "Explorador de blockchain.",
+                "T_4": "fase 1 Airdrop"
+            }
+        },
+        "Q4_2018": {
+            "Q_NUMBER": "q4",
+            "TASKS": {
+                "T_1": "Prototipo de desarrollo para prueba net beta.",
+                "T_2": "Investigación académica: protocolo Trinity con criptografía basada en ID y transacciones anónimas"
+            }
+        },
+        "Q1_2019": {
+            "Q_NUMBER": "q1",
+            "TASKS": {
+                "T_1": "Inicie la prueba net beta (Neuro).",
+                "T_2": "Recompensas PoW, PoA, PoS.",
+                "T_3": "Algoritmo de consenso Trinity.",
+                "T_4": "Implementación de criptografía basada en ID.",
+                "T_5": "Cree los primeros casos de uso de contratos inteligentes para Dapps (VPN) de socios"
+            }
+        },
+        "Q2_2019": {
+            "Q_NUMBER": "q2",
+            "TASKS": {
+                "T_1": "Ciclo de publicación de artículos académicos en revistas arbitradas (WoS, Scopus).",
+                "T_2": "Sistema staking para nodos PoA.",
+                "T_3": "Lanzamiento de un programa de escalado de ecosistemas.",
+                "T_4": "Lanzamiento de la aplicación de minero de Android.",
+                "T_5": "SWAP ENQ nativo de ENQ (ERC20).",
+                "T_6": "Billetera web."
+            }
+        },
+        "Q3_2019": {
+            "Q_NUMBER": "q3",
+            "TASKS": {
+                "T_1": "Lanzamiento del programa de referencia descentralizado.",
+                "T_2": "Recopila datos estadísticos.",
+                "T_3": "Optimización del algoritmo de PoA, explorador de blockchain, carteras.",
+                "T_4": "Mantener la salud del sistema.",
+                "T_5": "Lanzamiento de la billetera Android (Play Market).",
+                "T_6": "Token de integración ENQ (ERC20) para billeteras frías y calientes y proveedores de pagos.",
+                "T_7": "Finalización y pruebas de la criptocurva para el protocolo Trinity."
+            }
+        },
+        "Q4_2019": {
+            "Q_NUMBER": "q4",
+            "TASKS": {
+                "T_1": "Lanzamiento de la billetera iOS.",
+                "T_2": "Lanzamiento de nodos PoW v.1.0 (SHA256).",
+                "T_3": "Lanzamiento los nodos PoS.",
+                "T_4": "Lanzamiento de la prueba net alpha (Trinity).",
+                "T_5": "Publicación de API y documentación de nodos."
+            }
+        },
+        "Q1_2020": {
+            "Q_NUMBER": "q1",
+            "TASKS": {
+                "T_1": "Contratos inteligentes SHARNELL v1.0.",
+                "T_2": "Staking inteligente v1.0 (Alice).",
+                "T_3": "Emisión de tokens (estándar ENQ)."
+            }
+        },
+        "Q2_2020": {
+            "Q_NUMBER": "q2",
+            "TASKS": {
+                "T_1": "Lanzamiento de PoW v.2.0 (resistente a ASIC).",
+                "T_2": "Lanzamiento de la funcionalidad de tokens extraíbles (estándar ENQ)."
+            }
+        },
+        "Q3_2020": {
+            "Q_NUMBER": "q3",
+            "TASKS": {
+                "T_1": "Lanzamiento de Enecuum v1.0 (Pulse).",
+                "T_2": "Integración de tokens estándar ENQ a intercambios de cifrado.",
+                "T_3": "Migración completa de Ethereum a Enecuum blockchain.",
+                "T_4": "Inicio de la quema ENQ tokens formato ERC20.",
+                "T_5": "Campaña de marketing de desafío de PoS."
+            }
+        },
+        "Q4_2020": {
+            "Q_NUMBER": "q4",
+            "TASKS": {
+                "T_1": "Lanzamiento de la biblioteca de minería de Android",
+                "T_2": "Desarrollando y apoyando el ecosistema Enecuum - colaboración dapps."
+            }
+        },
+        "Q1_2021": {
+            "Q_NUMBER": "q1",
+            "TASKS": {
+                "T_1": "AMM DEX v.1 (grupo de liquidez de ENQ)",
+                "T_2": "Liberar código fuente de intercambio centralizado",
+                "T_3": "Aplicación iOS (con replanteo inteligente)",
+                "T_4": "WebENQlib (análogo de web3.js)",
+                "T_5": "Sistema de pago para tiendas online"
+            }
+        },
+        "Q2_2021": {
+            "Q_NUMBER": "q2",
+            "TASKS": {
+                "T_1": "Agrecultura de tokens",
+                "T_2": "Contratos inteligentes SHARNELL v. 2.0 (especificación)",
+                "T_3": "Integración de billetera fría",
+                "T_4": "Lanzamiento de billetera multi blockchain con multi miner para Android",
+                "T_5": "Lanzamiento de billetera multi blockchain para Google Play / App Store (Android / iOS)"
+            }
+        },
+        "Q3_2021": {
+            "Q_NUMBER": "q3",
+            "TASKS": {
+                "T_1": "Borrador público del modelo de gobernanza en cadena",
+                "T_2": "Contratos inteligentes SHARNELL v. 2.0 SDK",
+                "T_3": "Cross blockchain y SWAP descentralizado",
+                "T_4": "AMM DEX v.2"
+            }
+        },
+        "Q4_2021": {
+            "Q_NUMBER": "q4",
+            "TASKS": {
+                "T_1": "NFT tokens",
+                "T_2": "Implementación del modelo de gobernanza en cadena"
+            }
+        }
+    },
+    "BECOME_PARTNER_TITLE": "¿Quieres convertirte en nuestro socio?",
+    "LEAVE_YOUR_E_MAIL": "Deje su e-mail y nombre, nuestro gerente se comunicará con usted",
+    "BECOME_A_PARTNER": "Convertirse en un Socio",
+    "JOIN_OUR_COMMUNITY": "Únete a nuestra comunidad",
+    "MARKET_CAP": "Capitalizacion de mercado",
+    "VOLUME": "Volume",
+    "PRICE_USD": "Precio en USD",
+    "PRICE_BTC": "Precio en BTC",
+    "TRADING_PAIRS": "Pares comerciales",
+    "CALCULATOR": "Calculadora",
+    "ENQ_CHARTS": "Gráficos ENQ",
+    "MOBILE_MN_ROI_CALCULATOR": "Calculadora de ROI de masternode móvil",
+    "ROI_RANGE": "Puede delegar desde 25 a 25000 ENQ en un MN",
+    "IS_REFERRAL": "Soy un referido",
+    "ROI_STAKE_LITE_CALC": "Cantidad de ENQ a delegar",
+    "ANNUAL_ROI": "Tasa de rendimiento anual",
+    "ROI_STAKE": "¿Cuántos ENQ quieres delegar?",
+    "INCORRECT_STAKE_RANGE_MESSAGE": "Valor incorrecto. Por favor, apuesta de 25 a 25000 ENQ",
+    "DAILY": "Diario",
+    "WEEKLY": "Semanal",
+    "MONTHLY": "Mensual",
+    "ANNUAL": "Anual",
+    "24H_POW_REWARDS": "Recompensas PoW en  24 horas ",
+    "24H_POA_MN_REWARDS": "Recompensas PoA MN en 24 horas ",
+    "MN_STAKE": "Participación de monedas en PoA MN",
+    "CIRC_SUPPLY_SHORT": "Circ. Suministro",
+    "OPEN_BE": "Abrir el Explorador de Blockchain",
+    "BUY_ENQ": "Comprar ENQ",
+    "WAY_TO_BUY": "Elija una forma conveniente de comprar ENQ",
+    "CURRENT_ENQ_PRICE": "Precio actual de ENQ",
+    "OTC": "OTC",
+    "BANK_CARD_NATIVE": "Tarjeta bancaria (nativo)",
+    "BUY_COIN_BANK_CARD_P1": "Usted puede",
+    "BUY_COIN_BANK_CARD_P2": "comprar una moneda nativa ENQ",
+    "BUY_COIN_BANK_CARD_P3": "usando una tarjeta bancaria e inmediatamente comience a minar",
+    "EARN_ENQ": "Gana ENQ",
+    "TYPES_OF_TOKENS": "Tenemos dos tipos de tokens: ERC20 y nativos. Para la minería, debe tener ENQ nativo. También puede comprar ERC20 y CAMBIARLO a nativo.",
+    "POA_MINING": "Minería PoA",
+    "POA_MINING_STEPS": {
+        "STEP_1": "Descargar la aplicación",
+        "STEP_2": "Crea una cuenta en la aplicación",
+        "STEP_3_OLD": "Deposite al menos 25 ENQ siguiendo los pasos 3a O 3b",
+        "STEP_3": "Deposite al menos 25 ENQ.",
+        "STEP_3A": "Compra monedas nativas con tarjeta",
+        "STEP_3B_P1": "Comprar tokens ERC20",
+        "STEP_3B_P2": "&",
+        "STEP_3B_P3": "intercambio",
+        "STEP_3B_P4": "ellos a la red nativa",
+        "STEP_4": "En la aplicación, toca \"Iniciar actividad\""
+    },
+    "KEEP_CALM_AND_START_MINING": "Mantenga la calma y comience a minar",
+    "SWAP_NATIVE_COINS_TO": "Cambiar monedas nativas por",
+    "VIDEO": "Video",
+    "HOLD_ENQ": "Mantenga ENQ",
+    "HOLD_ENQ_DESCR": "Utilice carteras oficiales de Enecuum",
+    "NATIVE_ENQ": "ENQ nativo",
+    "ERC20_WALLETS": "Carteras ERC20",
+    "SPEND_ENQ": "Gastar ENQ",
+    "SPEND_ENQ_DESCR": "Puede pagar cómodamente ENQ (ERC 20) en todo el mundo a través de la red de nuestros socios",
+    "SWAP_TO_ERC20": "Cómo intercambiar monedas nativas a ERC20",
+    "BECOME_MERCHANT_TITLE": "¿Quieres convertirte en comerciante?",
+    "PAYMENTS_PROVIDERS": "Proveedores de pagos",
+    "PAYMENTS_PROVIDERS_FORM": "Formulario de proveedores de pagos",
+    "START_RECEIVING_ENQ_FORM": "Comience a recibir el formulario ENQ",
+    "COMING_SOON": "Próximamente",
+    "TOKEN_UTILITY": "Utilidad de token",
+    "ENQ_ERC20_TOKENS": "Fichas ENQ (ERC-20)",
+    "ENQ_ERC20_TOKENS_DESCR": "Se pretende que la posesión del token ENQ (ERC-20) otorgue a su poseedor un derecho futuro a intercambiarlo por la criptomoneda ENQ a una tasa de 1: 1, siempre y cuando el entorno descentralizado adaptativo de Enecuum entre en funcionamiento. Se propone que el intercambio se realice a través del mecanismo de intercambio Enecuum. A su debido tiempo, se proporcionarán más detalles sobre el mecanismo de intercambio de Enecuum. ENQ (ERC-20) no pretende ser un valor, un producto regulado o un instrumento financiero de ningún tipo.",
+    "ENECUUM_ENVIRONMENT_FUNCTIONALITY": {
+        "PRE": "ENQ está destinado a ser un token de utilidad. Se propone la posesión de ENQ para otorgar a un titular acceso a la siguiente funcionalidad propuesta del entorno descentralizado adaptativo de Enecuum:",
+        "P_A": "acumular y transferir ENQ sujeto a los términos y condiciones de ENQ y las leyes aplicables;",
+        "P_B": "publicar los contratos inteligentes de SHARNELL con una tarifa de publicación en la red global de Enecuum (la tarifa se determina de acuerdo con el volumen del código de bytes publicado);",
+        "P_C": "publicar transacciones con una recompensa calculada por el usuario que publica dichas transacciones para estimular a los mineros a validar dicho bloqueo;",
+        "P_D": "acceder a cálculos complejos a través de los contratos inteligentes \"pesados\". Se propone que la recompensa por tales cálculos sea dictada por las condiciones actuales del mercado donde el usuario que realiza la solicitud ofrece una recompensa y espera hasta que los mineros (nodos) con suficiente poder computacional para ejecutar un contrato inteligente tan \"pesado\" lo acepten. El usuario puede aumentar la recompensa para estimular más rápidamente a dichos mineros;",
+        "P_E": "acceder y generar sucursales privadas de \"tickets\" utilizando otros nodos de la red (no los del usuario). La recompensa la determina individualmente el minero que acepta prestar servicio a dichas sucursales;",
+        "P_F": "y participación en la minería PoA y PoS.",
+        "FURTHER_DETAILS_P1": "Ver el Enecuum",
+        "FURTHER_DETAILS_P2": "Documento de posición",
+        "FURTHER_DETAILS_P3": "o el sitio web de Enecuum para obtener más detalles."
+    },
+    "DISCLAIMER": "Descargo de responsabilidad",
+    "COPYRIGHT_INFO_P1": "© 2019 Enecuum HK Limited. Número de registro de la empresa: 2562183. Todos los derechos reservados. Nada en este documento constituye una oferta o consejo de ningún tipo. Es posible que ENQ y el entorno descentralizado adaptativo de Enecuum no estén disponibles en todas las jurisdicciones y para todas las personas. Por favor vea el nuestro",
+    "COPYRIGHT_INFO_P2": "Política de privacidad",
+    "COPYRIGHT_INFO_P3": "y",
+    "COPYRIGHT_INFO_P4": "Términos y condiciones del sitio web",
+    "EMISSION_MODEL_PAGE": {
+        "DISCLAIMER": {
+            "S_1": {
+                "P_1": "ENQ, la venta de tokens y el entorno descentralizado adaptativo de Enecuum están en desarrollo. Pueden estar sujetos a cambios. No se da ninguna representación o garantía en cuanto al logro o la razonabilidad de los planes, proyecciones futuras o perspectivas y nada en este documento es ni debe ser considerado como una promesa o representación en cuanto al futuro.",
+                "P_2": "Este documento también hace referencia cruzada al descargo de responsabilidad del Whitepaper de Enecuum. El descargo de responsabilidad del Whitepaper se incluye a continuación para cubrir los casos de emergencia en el sitio oficial de Enecuum.",
+                "DISCLAIMER_TITLE": "El descargo de responsabilidad del Whitepaper de Enecuum mencionado anteriormente.",
+                "DISCLAIMER": "Este Whitepaper y cualquier otro documento publicado en asociación con este Whitepaper se relacionan con el desarrollo y uso previstos de la plataforma Enecuum (\"Enecuum\"). Son solo para fines informativos y pueden estar sujetos a cambios."
+            },
+            "S_2": {
+                "ACCORDION": {
+                    "S_1": {
+                        "TITLE": "Este Whitepaper describe un proyecto futuro",
+                        "P_1": "Este Whitepaper contiene declaraciones prospectivas que se basan en las creencias de Enecuum HK Limited, una compañía incorporada de Hong Kong (CR: 2562183) (\"Compañía\"), así como ciertas suposiciones e información disponible para la Compañía.",
+                        "P_2": "Enecuum, como se prevé en este Whitepaper, está en desarrollo y se actualiza constantemente, incluidas, entre otras, las características clave de gobernanza y técnicas. El token ENQ (“ENQ”) involucra y se relaciona con el desarrollo y uso de plataformas experimentales (software) y tecnologías que pueden no llegar a buen término o alcanzar los objetivos especificados en este documento técnico.",
+                        "P_3": "Cuando se complete Enecuum, puede diferir significativamente de la red establecida en este documento técnico. No se da ninguna representación o garantía en cuanto al logro o la razonabilidad de los planes, proyecciones futuras o perspectivas y nada en este documento es ni debe ser considerado como una promesa o representación en cuanto al futuro."
+                    },
+                    "S_2": {
+                        "TITLE": "Sin oferta de productos regulados",
+                        "P_1": "ENQ no pretende representar un valor ni ningún otro producto regulado en ninguna jurisdicción.",
+                        "P_2": "Este documento no constituye una oferta o solicitud de valores o cualquier otro producto regulado, ni una promoción, invitación o solicitud con fines de inversión. Los términos de la compra no pretenden ser un documento de oferta de servicios financieros ni un prospecto de ningún tipo.",
+                        "P_3": "ENQ no representa capital social, acciones, unidades, regalías o derechos de capital, ganancias, retornos o ingresos en la plataforma o software o en la Compañía o cualquier otra compañía o propiedad intelectual asociada con la plataforma o cualquier otra empresa pública o privada, corporación. , fundación u otra entidad en cualquier jurisdicción."
+                    },
+                    "S_3": {
+                        "TITLE": "Este Whitepaper no es un consejo",
+                        "P_1": "Este Whitepaper no constituye un consejo para la compra de ENQ. No se debe confiar en él en relación con ningún contrato o decisión de compra."
+                    },
+                    "S_4": {
+                        "TITLE": "Advertencia de riesgo",
+                        "P_1": "La compra de ENQ y la participación en Enecuum conlleva riesgos importantes.",
+                        "P_2": "Antes de comprar ENQ, debe evaluar cuidadosamente y tener en cuenta los riesgos, incluidos los que se enumeran en cualquier otra documentación."
+                    },
+                    "S_5": {
+                        "TITLE": "Puntos de vista de la empresa",
+                        "P_1": "Los puntos de vista y opiniones expresados en este documento técnico son los de Enecuum y no reflejan la política o posición oficial de ningún gobierno, cuasi gobierno, autoridad u organismo público (incluido, entre otros, cualquier organismo regulador de cualquier jurisdicción) en ninguna jurisdicción.",
+                        "P_2": "La información contenida en este whitepaper se basa en fuentes consideradas confiables por la Compañía, pero no hay garantía de su precisión o integridad."
+                    },
+                    "S_6": {
+                        "TITLE": "Sin afiliaciones ni respaldos de terceros",
+                        "P_1": "Las referencias en este whitepaper a compañías y plataformas específicas son solo para fines ilustrativos. El uso de los nombres y marcas comerciales de cualquier empresa y / o plataforma no implica ninguna afiliación ni respaldo por parte de ninguna de esas partes."
+                    },
+                    "S_7": {
+                        "TITLE": "Debe obtener todos los consejos profesionales necesarios.",
+                        "P_1": "Debe consultar a un abogado, contador, profesional de impuestos y / o cualquier otro asesor profesional según sea necesario antes de determinar si comprar ENQ o participar en la red Enecuum."
+                    }
+                }
+            }
+        },
+        "DISTRIBUTION": {
+            "TITLE": "Plan de conversión y distribución de tokens",
+            "S_1": {
+                "P_1_1": "Como el entorno descentralizado adaptativo de Enecuum aún está en desarrollo, nuestro objetivo es realizar la venta de tokens ENQ en Ethereum utilizando un sistema basado en Ethereum.",
+                "P_1_2": "contrato inteligente.",
+                "P_1_3": "Se propone que ENQ (ERC-20) se emita inicialmente como parte de la Venta de tokens ENQ. La cantidad total de ENQ (ERC-20) compondrá 126,880,563.75 ENQ",
+                "P_2": "Se propone que el límite superior de todas las ENQ del sistema sea 845,870,425 ENQ. Las dos etapas para el lanzamiento de ENQ están pensadas de la siguiente manera."
+            },
+            "S_2": {
+                "STAGE_1": {
+                    "ALLOCATION_ENQ_ERC20": "The allocation of the ENQ(ERC-20) is proposed to be as follows:",
+                    "P_A": "Se propone que 33,834,817 ENQ (ERC-20) estén disponibles para la venta bajo la Venta de Token ENQ, que estará sujeta a los términos y condiciones de Venta de Token ENQ. Se propone que el precio de venta sea 1 ENQ (ERC-20) = 0.04 USD hasta el 31.10.2018; 1 ENQ (ERC-20) = 0.05 USD hasta el 30.11.2018 y 1 ENQ (ERC-20) = 0.06 USD hasta el 31.12.2018. Se prevé que será posible intercambiar ENQ (ERC-20) por ENQ a una tasa de 1: 1, una vez que el entorno descentralizado adaptativo de Enecuum esté operativo;",
+                    "P_B": "Se propone reservar 25.376.112,75 ENQ (ERC-20) para asesores y socios. Se prevé que será posible intercambiar ENQ (ERC-20) por ENQ a una tasa de 1: 1, una vez que el entorno descentralizado adaptativo de Enecuum esté operativo;",
+                    "P_C": "Se propone reservar 16,917,408.50 ENQ (ERC-20) como recompensa en la red de prueba y el programa de lanzamiento aéreo. Se prevé que será posible intercambiar ENQ (ERC-20) por ENQ a una tasa de 1: 1, una vez que el entorno descentralizado adaptativo de Enecuum esté operativo;",
+                    "P_D": "Se propone 50,752,225.50 ENQ (ERC-20) para reservar inversores semilla. Se prevé que será posible intercambiar ENQ (ERC-20) por ENQ a una tasa de 1: 1, una vez que el entorno descentralizado adaptativo de Enecuum esté operativo."
+                },
+                "STAGE_2": {
+                    "DISTRIBUTION_ENQ": "La distribución de ENQ (después de que se lance la red principal) se propone de la siguiente manera:",
+                    "P_A": "Se propone reservar 42,293,521.25 ENQ como recompensa de equipo con un período de bloqueo de 1 año después del lanzamiento de la red principal;",
+                    "P_B": "Se propone que 169,174,085 ENQ se reserven como un fondo de reserva con un período de bloqueo 1 año después del lanzamiento de la red principal;",
+                    "P_C": "507,522,255 ENQ está destinado a estar disponible para ser extraído dentro de los 25 años posteriores al lanzamiento de la red principal y como un programa para atraer nuevos mineros a la red."
+                }
+            }
+        },
+        "EMISSION_MODEL": {
+            "S_1": {
+                "P_1": "Se propone que el modelo de emisiones ENQ avance en dos etapas. Se propone que la emisión de ENQ crezca en una progresión lineal como se muestra en el Diagrama, donde el eje horizontal representa años y el eje vertical representa el porcentaje del ENQ total a generar.",
+                "P_2": "Se propone que el límite superior de todas las ENQ del sistema sea 845,870,425 ENQ."
+            },
+            "S_2": {
+                "STAGE_1": {
+                    "P_1": "Se propone que el 15% de la emisión total de ENQ se extraiga previamente como tokens ENQ (ERC20) en la red Ethereum por parte del equipo de desarrollo de Enecuum para crear un grupo de distribución inicial. Esto equivale a 126.880.563,75 ENQ.",
+                    "P_2": "This initial pool is intended to be used in the future for exchange of ENQ(ERC-20) to ENQ upon the launch of Enecuum adaptive decentralized environment."
+                },
+                "STAGE_2": {
+                    "P_1": "Durante los 25 años siguientes al final de la Etapa 1, se espera que un 60% adicional de la emisión total de ENQ esté disponible para ser extraído, y el 25% de la emisión total de ENQ se eliminará para ser utilizado por el equipo de desarrollo de Enecuum y el fondo de reserva."
+                }
+            }
+        }
+    },
+    "TECHNOLOGY_PAGE_PROMO": {
+        "TRINITY_CONSENSUS": {
+            "P_1": "Nuestro algoritmo Trinity combina PoA, PoW y PoS. Este enfoque híbrido del consenso proporciona un alto grado de descentralización de la red, al tiempo que aumenta significativamente la seguridad de la red y la velocidad de ejecución de las transacciones. La seguridad de la red se ve reforzada por nuestras innovadoras soluciones criptográficas integradas.",
+            "P_2": "Estos mecanismos de consenso funcionan simultáneamente: los solucionadores de problemas (nodos PoW) crean la columna vertebral de la estructura de la cadena de bloques. Los editores (nodos PoA) completan y publican microbloques. Los titulares (nodos de PoS) mantienen la eficiencia del sistema. A través de la criptografía, los nodos pueden volverse intercambiables."
+        },
+        "BLOCK_DAG_STRUCTURE": {
+            "P_1": "Cada rama crece de acuerdo con el consenso de Nakamoto (BFT).",
+            "P_2": "El número máximo de ramas permitidas depende de la tasa de hash de la red.",
+            "P_3": "Las ramas están reticuladas de una manera que permite organizar macrobloques en orden cronológico."
+        },
+        "NETWORK_PERFORMANCE_AND_TOPOLOGY": {
+            "P_1": "18 000 tps (resultados de la prueba)",
+            "P_2": "Latencia 5 - 30 segundos",
+            "P_3": "Miles de nodos PoW y PoS",
+            "P_4": "Millones de nodos PoA",
+            "P_5": "Arquitectura de contrato inteligente flexible",
+            "P_6": "Sistema de recompensa dinámico para mineros.",
+            "P_7": "Algoritmo de acordes",
+            "P_8": "Enrutamiento",
+            "P_9": "Fragmentación"
+        },
+        "INFRASTRUCTURE_AND_ECOSYSTEM": {
+            "P_1": "Nodos  PoS (servidores)",
+            "P_2": "Nodos  PoW (computadoras)",
+            "P_3": "Nodos d PoA (dispositivos móviles)",
+            "P_4": "dApps (juegos, pagos, dex y otros)",
+            "P_5": "Intercambios",
+            "P_6": "Usuarios (móvil, PC)"
+        }
+    },
+    "TECHNOLOGY_PAGE": {
+        "TRINITY_PROTOCOL": {
+            "H_1": "Protocolo Trinity",
+            "H_2": "(Algoritmo de consenso híbrido BFT)",
+            "P_1": "Nuestro algoritmo Trinity combina PoA, PoW y PoS. Este enfoque híbrido del consenso proporciona un alto grado de descentralización de la red, al tiempo que aumenta significativamente la seguridad de la red y la velocidad de ejecución de las transacciones. La seguridad de la red se ve reforzada por nuestras innovadoras soluciones criptográficas integradas."
+        },
+        "POA_MOBILE_MASTERNODE": {
+            "H_1": "Masternode móvil PoA",
+            "P_1": "Los nodos PoA (Prueba de actividad) contribuyen a la red validando los bloques m donde se almacena la información de la transacción. Los microbloques contienen transacciones. PoA está validado por el líder de PoS."
+        },
+        "POS_NODE": {
+            "H_1": "Nodo PoS",
+            "H_2": "(Delegar / Validar)",
+            "P_1": "Los nodos de PoS (apilamiento inteligente) son recompensados por votar por un líder de PoS que publica macrobloques. El candidato para el rol de nodo de PoS debe estar entre las 100 mejores billeteras en el balance y recibir una clave secreta compartida de la coalición de PoS de acuerdo con el protocolo Trinity relevante."
+        },
+        "POW_NODE": {
+            "H_1": "Nodo PoW",
+            "P_1": "Los nodos PoW (Prueba de trabajo) generan k-bloques que componen la estructura de nuestra cadena de bloques utilizando la potencia de la CPU de su PC. Resistencia ASIC."
+        },
+        "TOKEN_MACHINE": {
+            "H_1": "Maquina de Enecuum Token",
+            "H_2": "Interfaz fácil de usar y rápida para crear tokens.",
+            "FUNGIBLE_TOKENS": {
+                "TITLE": "TOKENS FUNGIBLES",
+                "DESCR": "Configure una tarifa individual, como pago de los usuarios del token",
+                "FEATURES": {
+                    "F_1": "En puntos de juego",
+                    "F_2": "Monedas estables",
+                    "F_3": "Recaudación de fondos",
+                    "F_4": "Créditos del sistema",
+                    "F_5": "CRIPTOMONEDAS"
+                }
+            },
+            "NON_FUNGIBLE_TOKENS": {
+                "TITLE": "NO FUNGIBLES TOKENS",
+                "DESCR": "Establecer un valor único para cada token",
+                "FEATURES": {
+                    "F_1": "En los elementos del juego",
+                    "F_2": "Cadena de suministro",
+                    "F_3": "Bienes raíces",
+                    "F_4": "Identidad",
+                    "F_5": "Certificaciones",
+                    "F_6": "Coleccionables",
+                    "F_7": "Tarjetas regalo"
+                }
+            },
+            "MINEABLE": {
+                "TITLE": "MINEABLE",
+                "DESCR": "Configure el tamaño de la pila para comenzar a moldear su propia ficha",
+                "FEATURES": {
+                    "F_1": "Puntos de lealtad",
+                    "F_2": "Márketing",
+                    "F_3": "Construcción comunitaria",
+                    "F_4": "Staking de DeFi"
+                }
+            }
+        },
+        "FEE_PRINCIPLE": {
+            "H_1": "Principios de tarifas"
+        },
+        "SMART_CONTRACTS": {
+            "TITLE": "Contratos inteligentes",
+            "DESCR": "Los contratos inteligentes se basan en un lenguaje de programación funcional no completo de Turing fuertemente tipificado que utiliza la lógica SHARNELL orientada a los negocios. Esta lógica minimiza el potencial de error.",
+            "USE_CASES": {
+                "TITLE": "Casos de uso:",
+                "F_1": "Pagos",
+                "F_2": "Juego",
+                "F_3": "DeFi",
+                "F_4": "Juegos",
+                "F_5": "Recaudación de fondos",
+                "F_6": "VPN",
+                "F_7": "DEX"
+            }
+        }
+    },
+    "PRODUCTS_PAGE": {
+        "ANDROID_MASTERNODE": {
+            "H_1": "Masternode de Android Enecuum",
+            "P_1": "El equipo de Enecuum desarrolló una aplicación especial de Android para la minería de PoA."
+        },
+        "MOBILE_WALLET": {
+            "H_1": "Cartera móvil Enecuum",
+            "P_1": "Una práctica aplicación para controlar el saldo y realizar transferencias de fichas Enecuum. Disponible para Android e iOS."
+        },
+        "WEB_WALLET": {
+            "H_1": "Enecuum Web Wallet",
+            "P_1": "Use la versión web de la billetera Enecuum para acceder a sus tokens a través de cualquier navegador."
+        },
+        "BLOCKCHAIN_EXPLORER": {
+            "H_1": "Explorador de blockchain",
+            "P_1": "Permite: ver el estado de la red, último bloque, ancho de banda, verificar transacción o cartera, examinar mapa de nodos activos."
+        },
+        "SWAP_SERVICE": {
+            "H_1": "Servicio SWAP",
+            "P_1": "Para transferir el ERC-20 ENQ a una aplicación o vender el ENQ, se debe realizar un intercambio (conversión). El intercambio es obligatorio, porque Enecuum es un proyecto en etapa de prueba (testnet), que utiliza monedas ENQ de prueba que no se pueden intercambiar. Para cambiar, debe tener una billetera Ethereum y ETH para la tarifa de gas."
+        },
+        "MOBILE_MULTIMINER": {
+            "H_1": "Multi minero móvil",
+            "P_1": "Aplicación para Android, que incluirá las siguientes funcionalidades: ENQ y minería de tokens personalizados, emisión de tokens (fungible, no fungible, minable), delegación y validación de tokens (apuesta inteligente), Transferencias de tokens, Historial de transacciones, Explorador de bloques."
+        }
+    },
+    "TRINITY_CONSENSUS": "Consenso de la trinity",
+    "BLOCK_DAG_STRUCTURE": "Estructura Block-DAG",
+    "NETWORK_PERFORMANCE_AND_TOPOLOGY": "Topología y rendimiento de la red",
+    "NODES": "Nodos",
+    "THROUGHPUT": "Rendimiento",
+    "LATENCY": "Latencia",
+    "PROOF": "Prueba",
+    "TEST_NET": "Red de prueba",
+    "SIMULATION": "Simulación",
+    "ANALYTICS": "Analítica",
+    "INFRASTRUCTURE_AND_ECOSYSTEM": "Infraestructura y ecosistema",
+    "DOWNLOAD_ANDROID_MASTERNODE": "Descarga Android Masternode",
+    "ANDROID_MASTERNODE": "Masternode de Android",
+    "WALLETS": "Carteras",
+    "DOWNLOAD_APPLICATION": "Descargar aplicación",
+    "HOW_TO_START_MINING": "Cómo empezar a minar",
+    "WEB_WALLET": "Billetera web",
+    "TERMS_OF_SERVICE": "Términos de servicio",
+    "PRIVACY_POLICY": "Política de privacidad",
+    "STAGE_1": "Nivel 1",
+    "STAGE_2": "Etapa 2",
+    "LINKS": {
+        "WHAT_IS_POA": "que-es-poa",
+        "HOW_TO_RUN_POS": "cómo-ejecutar-pos",
+        "HOW_TO_RUN_POW": "cómo-ejecutar-pow"
+    },
+    "ENECUUM_ECOSYSTEM_EVOLUTION": "Evolución del ecosistema del vacío",
+    "CRYPTO_EXCHANGE_PLATFORMS": "Plataformas de intercambio de criptomonedas",
+    "PLATFORMS": "Plataformas",
+    "EXCHANGE_OPTIONS": "Opciones de intercambio",
+    "CIS_BANKS": "Bancos CIS",
+    "CRYPTOCURRENCIES": "CRIPTOMONEDAS",
+    "AUDIT_REPORT": "Informe de auditoria",
+    "AUDIT_REPORT_RESUME": "El sistema revisado contiene dos partes: biblioteca C ++ y contenedor NodeJS. Fueron revisados por separado y en su conjunto. La seguridad y confiabilidad de la parte C ++ fue calificada como \"Alta\". Se encontraron y corrigieron una falla crítica y otra mayor. Se dieron varias advertencias sobre piezas particulares de código y decisiones de arquitectura. Todas las advertencias dadas fueron corregidas. La seguridad y confiabilidad de la parte NodeJS (excluyendo el contenedor NAPI, está relacionada con la parte C ++) se calificó como \"Alta\". No se detectaron fallas importantes."
 }
