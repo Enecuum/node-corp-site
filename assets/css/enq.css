@@ -1186,3 +1186,92 @@ table.table-to-cards .scope-col {
 #startMiningBlueMark.start-mining-zh_HK {
 	padding-top: 45px!important;	
 }
+
+
+
+.roadmap-content .roadmap-subtask {
+	padding-left: 50px;
+}
+
+
+.roadmap-content .roadmap-subtask ul>li {
+	position: relative;
+	font-size: 15px;
+	border-bottom: 2px dotted #e7eaf3;
+	font-weight: bolder;
+}
+
+.roadmap-content .card-header>h5:after,
+.roadmap-content .roadmap-subtask ul>li:after {
+	display: block;
+	content: "0%";
+	position: absolute;
+	right: 0px;
+	color: #888;
+	font-size: 17px;
+}
+
+.roadmap-content .card-header>h5:after {
+	top: 15px;
+}
+
+.roadmap-content .roadmap-subtask ul>li:after {
+	top: -4px;
+}
+
+.roadmap-content .card-header>h5>button {
+	padding: 0px;
+	border: none;
+}
+
+
+.roadmap-content .card-header {
+	border-bottom: none;
+}
+
+.roadmap-content .card {
+	border: none;
+}
+
+.roadmap-content .card-header>h5 {
+	border-bottom: 2px dotted #e7eaf3;
+}
+
+.roadmap-content .card-body {
+	padding-right: 0px;
+}
+
+.roadmap-content .card .card-body.tasks-card {
+	padding-left: 70px;
+}
+
+.roadmap-content #roadmapAccordionY2022 .card .card-header h5 .btn-link {
+	color: inherit;
+}
+
+.roadmap-content .tasks-card .card-header [data-toggle="collapse"][aria-expanded="false"].btn-link:before {
+	display: block;
+	content: "+";
+	position: absolute;
+	left: 0px;
+	color: #000;
+	top: 20px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.roadmap-content .tasks-card .card-header [data-toggle="collapse"][aria-expanded="true"].btn-link:before {
+	display: block;
+	content: "-";
+	position: absolute;
+	left: 0px;
+	color: #000;
+	top: 20px;
+	font-size: 17px;
+	font-weight: bold
+}
+
+.roadmap-content .card-header [aria-expanded="false"].btn-link:hover,
+.roadmap-content .card-header [aria-expanded="true"].btn-link:hover {
+	cursor: pointer;
+}
