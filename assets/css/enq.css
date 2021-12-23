@@ -1199,6 +1199,8 @@ table.table-to-cards .scope-col {
 	font-size: 15px;
 	border-bottom: 2px dotted #e7eaf3;
 	font-weight: bolder;
+	padding-right: 50px;
+	margin-bottom: 1rem;
 }
 
 .roadmap-content .card-header>h5:after,
@@ -1284,6 +1286,7 @@ table.table-to-cards .scope-col {
 
 .old-roadmap ul>li {
 	position: relative;
+	padding-right: 50px;
 }
 
 .old-roadmap ul>li:after {
