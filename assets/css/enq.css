@@ -1287,6 +1287,7 @@ table.table-to-cards .scope-col {
 .old-roadmap ul>li {
 	position: relative;
 	padding-right: 50px;
+	margin-bottom: 15px;
 }
 
 .old-roadmap ul>li:after {
@@ -1294,7 +1295,7 @@ table.table-to-cards .scope-col {
 	content: "Done";
 	position: absolute;
 	right: 0px;
-	top: 5px;
+	bottom: -2px;
 	color: #377dff;
 	font-size: 17px;
 }
