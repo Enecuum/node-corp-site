@@ -1203,6 +1203,10 @@ table.table-to-cards .scope-col {
 	margin-bottom: 1rem;
 }
 
+.roadmap-content .card-header>h5 {
+	position: relative;
+}
+
 .roadmap-content .card-header>h5:after,
 .roadmap-content .roadmap-subtask ul>li:after {
 	display: block;
@@ -1214,7 +1218,7 @@ table.table-to-cards .scope-col {
 }
 
 .roadmap-content .card-header>h5:after {
-	top: 15px;
+	bottom: 0px;
 }
 
 .roadmap-content .roadmap-subtask ul>li:after {
@@ -1229,6 +1233,7 @@ table.table-to-cards .scope-col {
 
 .roadmap-content .card-header {
 	border-bottom: none;
+	padding-right: 0px
 }
 
 .roadmap-content .card {
@@ -1250,15 +1255,17 @@ table.table-to-cards .scope-col {
 
 .roadmap-content #roadmapAccordionY2022 .card .card-header h5 .btn-link {
 	color: inherit;
+	text-align: start;
+	padding-right: 50px;
 }
 
 .roadmap-content .tasks-card .card-header [data-toggle="collapse"][aria-expanded="false"].btn-link:before {
 	display: block;
 	content: "+";
 	position: absolute;
-	left: 0px;
+	left: -15px;
 	color: #000;
-	top: 20px;
+	top: 4px;
 	font-size: 17px;
 	font-weight: bold;
 }
@@ -1267,9 +1274,9 @@ table.table-to-cards .scope-col {
 	display: block;
 	content: "-";
 	position: absolute;
-	left: 0px;
+	left: -15px;
 	color: #000;
-	top: 20px;
+	top: 4px;
 	font-size: 17px;
 	font-weight: bold
 }
