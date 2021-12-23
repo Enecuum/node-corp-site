@@ -1218,7 +1218,7 @@ table.table-to-cards .scope-col {
 }
 
 .roadmap-content .roadmap-subtask ul>li:after {
-	top: -4px;
+	bottom: 2px;
 }
 
 .roadmap-content .card-header>h5>button {
