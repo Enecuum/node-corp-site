@@ -1233,7 +1233,8 @@ table.table-to-cards .scope-col {
 	border: none;
 }
 
-.roadmap-content .card-header>h5 {
+.roadmap-content .card-header>h5,
+.old-roadmap ul li {
 	border-bottom: 2px dotted #e7eaf3;
 }
 
@@ -1274,4 +1275,23 @@ table.table-to-cards .scope-col {
 .roadmap-content .card-header [aria-expanded="false"].btn-link:hover,
 .roadmap-content .card-header [aria-expanded="true"].btn-link:hover {
 	cursor: pointer;
+}
+
+.old-roadmap ul {
+	list-style-type: none;
+	padding-inline-start: 1rem;
+}
+
+.old-roadmap ul>li {
+	position: relative;
+}
+
+.old-roadmap ul>li:after {
+	display: block;
+	content: "Done";
+	position: absolute;
+	right: 0px;
+	top: 5px;
+	color: #377dff;
+	font-size: 17px;
 }
