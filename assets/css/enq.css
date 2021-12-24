@@ -1186,3 +1186,123 @@ table.table-to-cards .scope-col {
 #startMiningBlueMark.start-mining-zh_HK {
 	padding-top: 45px!important;	
 }
+
+
+
+.roadmap-content .roadmap-subtask {
+	padding-left: 50px;
+}
+
+
+.roadmap-content .roadmap-subtask ul>li {
+	position: relative;
+	font-size: 15px;
+	border-bottom: 2px dotted #e7eaf3;
+	font-weight: bolder;
+	padding-right: 50px;
+	margin-bottom: 1rem;
+}
+
+.roadmap-content .card-header>h5 {
+	position: relative;
+}
+
+.roadmap-content .card-header>h5:after,
+.roadmap-content .roadmap-subtask ul>li:after {
+	display: block;
+	content: "0%";
+	position: absolute;
+	right: 0px;
+	color: #888;
+	font-size: 17px;
+}
+
+.roadmap-content .card-header>h5:after {
+	bottom: 0px;
+}
+
+.roadmap-content .roadmap-subtask ul>li:after {
+	bottom: 2px;
+}
+
+.roadmap-content .card-header>h5>button {
+	padding: 0px;
+	border: none;
+}
+
+
+.roadmap-content .card-header {
+	border-bottom: none;
+	padding-right: 0px
+}
+
+.roadmap-content .card {
+	border: none;
+}
+
+.roadmap-content .card-header>h5,
+.old-roadmap ul li {
+	border-bottom: 2px dotted #e7eaf3;
+}
+
+.roadmap-content .card-body {
+	padding-right: 0px;
+}
+
+.roadmap-content .card .card-body.tasks-card {
+	padding-left: 70px;
+}
+
+.roadmap-content #roadmapAccordionY2022 .card .card-header h5 .btn-link {
+	color: inherit;
+	text-align: start;
+	padding-right: 50px;
+}
+
+.roadmap-content .tasks-card .card-header [data-toggle="collapse"][aria-expanded="false"].btn-link:before {
+	display: block;
+	content: "+";
+	position: absolute;
+	left: -15px;
+	color: #000;
+	top: 4px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.roadmap-content .tasks-card .card-header [data-toggle="collapse"][aria-expanded="true"].btn-link:before {
+	display: block;
+	content: "-";
+	position: absolute;
+	left: -15px;
+	color: #000;
+	top: 4px;
+	font-size: 17px;
+	font-weight: bold
+}
+
+.roadmap-content .card-header [aria-expanded="false"].btn-link:hover,
+.roadmap-content .card-header [aria-expanded="true"].btn-link:hover {
+	cursor: pointer;
+}
+
+.old-roadmap ul {
+	list-style-type: none;
+	padding-inline-start: 1rem;
+}
+
+.old-roadmap ul>li {
+	position: relative;
+	padding-right: 50px;
+	margin-bottom: 15px;
+}
+
+.old-roadmap ul>li:after {
+	display: block;
+	content: "Done";
+	position: absolute;
+	right: 0px;
+	bottom: -2px;
+	color: #377dff;
+	font-size: 17px;
+}

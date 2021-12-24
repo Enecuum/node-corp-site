@@ -24,7 +24,7 @@ var utilityRouter = require('./routes/utility');
 var emissionModelRouter = require('./routes/emission-model');
 var technologyRouter = require('./routes/technology');
 var productsRouter = require('./routes/products');
-var allowedLocales = ['en', 'ru', 'ko', 'zh_CN', 'zh_HK', 'tr', 'es', 'pt'];
+var allowedLocales = ['en', 'ru', 'ko', 'zh_CN', 'zh_HK', 'es', 'tr', 'pt'];
 
 i18n.configure({
     locales: allowedLocales,
@@ -43,6 +43,8 @@ i18n.configure({
 app.set('views', path.join(__dirname, 'views'));
 app.set("view engine", "hbs");
 hbs.registerPartials(__dirname + "/views/partials");
+hbs.registerPartials(__dirname + "/views/partials/roadmap");
+hbs.registerPartials(__dirname + "/views/partials/roadmap/y2022");
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -141,7 +143,7 @@ app.use(function (req, res, next) {
 			}
 		}
 
-		if (allowedLocales.indexOf(currentLang) > 4 && req.path !== '/promo') {
+		if (allowedLocales.indexOf(currentLang) > 5 && req.path !== '/promo') {
 			currentLang = 'en';
 		}
 
