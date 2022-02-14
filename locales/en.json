@@ -730,5 +730,25 @@
 	"CIS_BANKS": "CIS banks",
 	"CRYPTOCURRENCIES": "Cryptocurrencies",
 	"AUDIT_REPORT" : "Audit report",
-	"AUDIT_REPORT_RESUME" : "The system reviewed contains two parts: C++ library and NodeJS wrapper. They were reviewed separately and as a whole. The security and reliability of the C++ part was rated \"High\". One critical and one major flaws were found and fixed. Several warnings were given about particular pieces of code and architecture decisions. All of the warnings given were fixed. The security and reliability of the NodeJS part (excluding NAPI wrapper - it is related to C++ part) was rated \"High\". No major flaws were spotted."
+	"AUDIT_REPORT_RESUME" : "The system reviewed contains two parts: C++ library and NodeJS wrapper. They were reviewed separately and as a whole. The security and reliability of the C++ part was rated \"High\". One critical and one major flaws were found and fixed. Several warnings were given about particular pieces of code and architecture decisions. All of the warnings given were fixed. The security and reliability of the NodeJS part (excluding NAPI wrapper - it is related to C++ part) was rated \"High\". No major flaws were spotted.",
+	"PROJECTS" : "Projects",
+	"DEFI" : "DeFi",
+	"E_COMMERCE" : "E-commerce",
+	"ART_/_NFT" : "Art/NFT",
+	"COMMUNITY_PROJECTS" : "Community Projects",
+	"PROJECTS_CONTENT": {
+		"DEFI_ENEX" : "First decentralized exchange powered by Enecuum Network. Improved AMM algorithm. Liquidity pools. Any pairs and any tokens — A2A. Initial token offering based on locked pools smart contract and funds withdraw protection — defended fundraise. Enecuum Token Machine integrations.",
+		"E_COMMERCE" : "In creating the loyalty Token landscape efficient and user-friendly, they aim to engage the audience and stimulate the experience as a streamlined venture for B2C & B2B and convert them into acquired consumers in the token ecosystem which will benefit all our partners accordingly",
+		"ARTHESIS_NFT" : "ARTHESIS - international streaming (OTT) service for original content as well as NFT marketplace for trading of related content made by an initiative of a group of people interested in movies along with TV series and who are pursuing a goal to open up a world of original content for the whole world.",		
+		"FRENCH_BULLDOG" : "Community driven memecoin which have real usecases and utility" 
+	},
+	"TRINITY_LAB_ACCELERATOR" : {
+		"TITLE" : "Trinity Lab Accelerator",
+		"DESCR" : {
+			"P_1" : "Trinity Lab Accelerator  is focused on the support of the projects built on top of Enecuum Network. Founded by Trinity Lab and Uvecon. Trinity Lab is a blockchain software researchers and engineering team. Our technology and products help developers to build next-generation networks and applications.",
+			"P_2" : "UVECON Is a venture studio, accelerator, and consulting firm, based in Hong Kong. We are helping our clients, partners, and portfolio companies to expand and grow in Hong Kong and Asia. With a unique business network we've built through a decade, we are able to connect overseas companies with local market."
+		}
+	},
+	"LEARN_MORE" : "Learn more",
+	"DEFI_PLATFORM" : "DeFi platform"
 }

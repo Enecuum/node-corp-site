@@ -1306,3 +1306,62 @@ table.table-to-cards .scope-col {
 	color: #377dff;
 	font-size: 17px;
 }
+
+.flip-wrapper .project-item {
+	background: #5B7EF9;
+	transition: all 1.5s;
+	transform: rotateY(360deg);
+	min-height: 320px;
+}
+
+.flip-wrapper .project-item .flip-1 {
+	display: block;
+	transition: all 1.5s;
+	opacity: 1;
+}
+
+.flip-wrapper .project-item .flip-2 {
+	transition: all 1.5s;
+	opacity: 0;
+	display: none;
+	color: white;
+}
+
+.flip-wrapper .project-item .flip-2 .h3 a {
+	color: white;
+	font-weight: bolder;
+}
+
+/*.flip-wrapper:hover .project-item,*/
+.flip-wrapper.flipped .project-item {
+	transition: all 1.5s;
+	transform: rotateY(180deg);
+	cursor: pointer;
+}
+
+/*.flip-wrapper:hover .project-item .flip-1,*/
+.flip-wrapper.flipped .project-item .flip-1 {
+	display: none;
+/*	transition: all 1.5s;
+	opacity: 0;*/
+}
+
+/*.flip-wrapper:hover .project-item .flip-2,*/
+.flip-wrapper.flipped .project-item .flip-2 {
+	display: block;
+	opacity: 1;
+	transition: all 1.5s;
+	transform: rotateY(180deg);
+}
+
+.flip-wrapper .project-item .flip-2 .h3:hover a  {
+	color: blue;
+}
+
+.project-item img {
+	max-width: 100%;
+}
+
+.project-item img {
+	max-width: 100%;
+}
