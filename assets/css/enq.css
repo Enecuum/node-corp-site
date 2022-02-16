@@ -310,6 +310,19 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 }
 
 @media (max-width: 1199.98px) {
+	#mainHeaderWithDropdown .u-header__section.bg-dark, #mainHeaderWithDropdown  .navbar-expand-xl .u-header__nav-link, #mainHeaderWithDropdown  .navbar-expand-xl .u-header__sub-menu-nav-link,
+	#mainHeaderWithDropdown .navbar-expand-xl .u-header__nav-link, #mainHeaderWithDropdown  .navbar-expand-xl .u-header__sub-menu-nav-link, #mainHeaderWithDropdown .navbar-expand-xl .u-header__sub-menu:not(.u-header__promo) {
+		background: rgba(0,0,0,0.8)!important;
+	}
+
+	#headerWithDropdown .u-header__section.bg-dark, .navbar-expand-xl .u-header__nav-link, .navbar-expand-xl .u-header__sub-menu-nav-link,
+	.navbar-expand-xl .u-header__nav-link, .navbar-expand-xl .u-header__sub-menu-nav-link, .navbar-expand-xl .u-header__sub-menu:not(.u-header__promo) {
+		background: #02387b!important;
+	}
+
+	.u-header__sub-menu-nav-link {
+		color: white;
+	}	
 	.get-documentation-content {
 		position: relative;
 	}
@@ -605,19 +618,7 @@ nav.js-sticky-block-faq .list-group .list-group-item {
 
 @media (max-width: 991.98px) {
 
-	#mainHeaderWithDropdown .u-header__section.bg-dark, #mainHeaderWithDropdown  .navbar-expand-lg .u-header__nav-link, #mainHeaderWithDropdown  .navbar-expand-lg .u-header__sub-menu-nav-link,
-	#mainHeaderWithDropdown .navbar-expand-lg .u-header__nav-link, #mainHeaderWithDropdown  .navbar-expand-lg .u-header__sub-menu-nav-link, #mainHeaderWithDropdown .navbar-expand-lg .u-header__sub-menu:not(.u-header__promo) {
-		background: rgba(0,0,0,0.8)!important;
-	}
 
-	#headerWithDropdown .u-header__section.bg-dark, .navbar-expand-lg .u-header__nav-link, .navbar-expand-lg .u-header__sub-menu-nav-link,
-	.navbar-expand-lg .u-header__nav-link, .navbar-expand-lg .u-header__sub-menu-nav-link, .navbar-expand-lg .u-header__sub-menu:not(.u-header__promo) {
-		background: #02387b!important;
-	}
-
-	.u-header__sub-menu-nav-link {
-		color: white;
-	}
 
 	#becomePartner, #trinityConsensus, #blockDagStructure,
 	#networkPerformance, #infrastructureAndEcosystem, #conversionPlanPie {
@@ -1364,4 +1365,11 @@ table.table-to-cards .scope-col {
 
 .project-item img {
 	max-width: 100%;
+}
+
+
+@media (max-width: 992px) {
+	.bg-light-to-md {
+		background-color: #f8f9fa;
+	}
 }

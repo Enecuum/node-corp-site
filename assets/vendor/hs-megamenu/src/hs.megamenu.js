@@ -105,7 +105,7 @@
   MegaMenu.defaults = {
     event: 'hover',
     direction: 'horizontal',
-    breakpoint: 991,
+    breakpoint: 1200,
     animationIn: false,
     animationOut: false,
 
