@@ -29,7 +29,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@f3c886e26b64d7e5ef5ff5f574efc88b317b8451
         with:
-          images: ${{ secrets.GITLAB_SERVER }}/reg/${{ github.event.repository.name }}/${{ github.event.repository.name }}
+          images: gitlab-registry.enecuum.com/reg/node-corp-site/${{ github.event.repository.name }}
           tags: type=sha,prefix={{branch}}-
 
       - name: Build and push
