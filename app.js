@@ -24,18 +24,22 @@ var utilityRouter = require('./routes/utility');
 var emissionModelRouter = require('./routes/emission-model');
 var technologyRouter = require('./routes/technology');
 var productsRouter = require('./routes/products');
+var projectsRouter = require('./routes/projects');
+var videoguidesRouter = require('./routes/videoguides');
 var allowedLocales = ['en', 'ru', 'ko', 'zh_CN', 'zh_HK', 'es', 'tr', 'pt'];
 
 i18n.configure({
     locales: allowedLocales,
     register: global,
     directory: __dirname + '/locales',
-    fallbacks:{'ru': 'en'},
+    fallbacks: {ru: 'en'},
     queryParameter: 'lang',
     objectNotation: true,
     autoReload: false,
     updateFiles: false,
-    syncFiles: false
+    syncFiles: false,
+	defaultLocale: 'en',
+	retryInDefaultLocale: true
 });
 
 
@@ -186,6 +190,8 @@ app.use(['/utility/{0,}', '/Utility.html/{0,}'], utilityRouter);
 app.use(['/emission-model/{0,}', '/Emission%20model.html/{0,}', '/emission.html/{0,}'], emissionModelRouter);
 app.use(['/technology/{0,}', '/Technology.html/{0,}'], technologyRouter);
 app.use('/products/{0,}', productsRouter);
+app.use('/projects/{0,}', projectsRouter);
+app.use('/videoguides/{0,}', videoguidesRouter);
 
 app.use(function (req, res, next) {
 	if ('/robots.txt' === req.url) {
