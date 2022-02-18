@@ -1373,3 +1373,16 @@ table.table-to-cards .scope-col {
 		background-color: #f8f9fa;
 	}
 }
+
+.video-guide-item-wrapper {
+	position: relative;
+	padding: 28% 0 28% 0;
+}
+
+.video-guide-item-wrapper iframe {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
