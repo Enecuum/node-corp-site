@@ -764,6 +764,13 @@
 		"VIDEO_2" : {
 			"TITLE" : "How to buy ENQ",
 			"DESCR" : "In this video guide, our major focus and area of concentration will be on \"the easiest ways to buy ENQ\". Enecuum has made life pretty much easy for its users by making ENQ tokens easily accessible through four major and trending exchanges: KuCoin, Probit, and Graviex. ENQ purchased on the aforementioned exchanges can easily be withdrawn to the wallet in the Enecuum network"
+		},
+		"VIDEO_3" : {
+			"TITLE" : "Mobile Masternode features",
+			"DESCR" : {
+				"P_1": "This video guide's outline is focused on the \"Enecuum Mobile Masternode features.\"",
+				"P_2": "Masternode is a governing hub in some cryptocurrency networks. It requires initial collateral of tokens to operate. The Enecuum master node features consist of 5 significant tabs displayed on the screen regarding which are notably. Furthermore, there are other minor tabs displayed on the screen. All of the above is described in this video guide!"
+			}
 		}	
 	},
 	"NEW_VIDEOGUIDES_ARE_COMING_SOON": "New video-guides are coming soon"
