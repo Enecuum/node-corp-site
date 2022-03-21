@@ -72,7 +72,95 @@
   <div class="container space-3 space-lg-3">
     <div class="mx-auto">
       <div class="mb-5">
-        {{> y2022}}
+        <div class="roadmap-content mb-5">  
+          {{#each roadmapModel.roadmap.periods as |p periodIndex|}}
+          <div class="h2">{{p.period}}</div>
+            <div id="roadmapAccordion{{p.period}}">
+              {{#each this.content as |epic epicIndex|}}
+                <div class="card">
+                  <div class="card-header" id="heading{{p.period}}_e{{epicIndex}}">
+                    <h5 class="mb-0 d-flex align-items-center justify-content-between">
+                      <button class="btn btn-link mr-3" data-toggle="collapse" data-target="#collapse{{p.period}}_e{{epicIndex}}" aria-expanded="false" aria-controls="collapse{{p.period}}_e{{epicIndex}}">
+                        {{epic.title}}
+                      </button>
+                      <div class="d-flex align-items-center justify-content-between">
+                        {{#if epic.link}}
+                          <a href="{{epic.link}}" class="mr-1" target="_blank">Read more</a>
+                        {{else}}
+                          {{#if epic.entity_id}}
+                            <a href="{{getRedditLink epic.entity_id}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                          {{/if}}
+                        {{/if}}
+                        <div class="roadmap-item-readiness">
+                          {{getEpicReadiness epic.content}}                        
+                        </div>                        
+                      </div>
+                    </h5>
+                  </div>
+                  {{#if epic.content.length}}
+                  <div id="collapse{{p.period}}_e{{epicIndex}}" class="collapse" aria-labelledby="heading{{p.period}}_e{{epicIndex}}" data-parent="#roadmapAccordion{{p.period}}">
+                    <div class="card-body tasks-card">
+                      {{#each this.content as |story storyIndex|}}
+                        <div id="roadmapAccordion{{p.period}}_e{{epicIndex}}_s{{storyIndex}}">
+                          <div class="card">
+                            <div class="card-header" id="heading{{p.period}}_e{{epicIndex}}">
+                              <h5 class="mb-0 d-flex align-items-center justify-content-between">
+                                <button class="btn btn-link mr-3" data-toggle="collapse" data-target="#collapse{{p.period}}_e{{epicIndex}}_s{{storyIndex}}" aria-expanded="false" aria-controls="collapse{{p.period}}_e{{epicIndex}}_s{{storyIndex}}">
+                                  {{story.title}}
+                                </button>
+                                <div class="d-flex align-items-center justify-content-between">
+                                  {{#if story.link}}
+                                    <a href="{{story.link}}" class="mr-1" target="_blank">Read more</a>
+                                  {{else}}
+                                    {{#if story.entity_id}}
+                                      <a href="{{getRedditLink story.entity_id}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                                    {{/if}}
+                                  {{/if}}
+                                  <div class="roadmap-item-readiness">
+                                    {{story.readiness}}%                        
+                                  </div> 
+                                </div>                            
+                              </h5>
+                            </div>
+                            {{#if story.content.length}}
+                            <div id="collapse{{p.period}}_e{{epicIndex}}_s{{storyIndex}}" class="collapse" aria-labelledby="heading{{p.period}}_e{{epicIndex}}_s{{storyIndex}}" data-parent="#roadmapAccordion{{p.period}}_e{{epicIndex}}_s{{storyIndex}}">
+                              <div class="card-body roadmap-subtask">
+                                <ul>
+                                  {{#each this.content as |task index|}}
+                                    <li>
+                                      <div class="d-flex align-items-center justify-content-between">
+                                        <div class="mr-3">{{task.title}}</div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                          {{#if task.link}}
+                                            <a href="{{task.link}}" class="mr-1" target="_blank">Read more</a>
+                                          {{else}}
+                                            {{#if task.entity_id}}
+                                              <a href="{{getRedditLink task.entity_id}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                                            {{/if}}
+                                          {{/if}}
+                                          <div class="roadmap-item-readiness">
+                                            {{getTaskStatus task.status}}                        
+                                          </div>
+                                        </div>                                    
+                                      </div>
+                                    </li>                                  
+                                  {{/each}}
+                                </ul>
+                              </div>
+                            </div>
+                            {{/if}}
+                          </div>
+                        </div>
+                      {{/each}}
+                    </div>
+                  </div>
+                  {{/if}}
+                </div>
+              {{/each}}
+            </div>
+          {{/each}}
+        </div>  
+
         <div class="old-roadmap">
           {{> olderYears}}
         </div>        

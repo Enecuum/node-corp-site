@@ -249,6 +249,40 @@ hbs.registerHelper('if_eq', function(a, b, opts) {
 	}
 });
 
+hbs.registerHelper('getRedditLink', function(entity_id) {
+	let id = entity_id.replace('#','');
+	return `https://www.reddit.com/r/EnecuumDev/search?q=%22%23${id}%22&restrict_sr=true&sort=relevance`
+});
+
+hbs.registerHelper('getEpicReadiness', function(storiesArray) {
+	let readiness = 0;
+	if (storiesArray.length > 0) {
+		let totalReadiness = 0;
+		storiesArray.forEach(function(story) {
+			totalReadiness += story.readiness;
+		});
+		readiness = totalReadiness/storiesArray.length;
+	}
+
+	return readiness == 100 ? 'Done' : `${readiness.toFixed(0)}%`
+});
+
+hbs.registerHelper('getTaskStatus', function(status) {
+	let statusStr = 'N/A';
+	switch (status) {
+	  case "todo":
+	    statusStr = 'ToDo';
+	    break;
+	  case "wip":
+	    statusStr = 'WIP';
+	    break;
+	  case "done":
+	    statusStr = 'Done';
+	    break;	  
+	}	
+	return statusStr
+});
+
 hbs.registerHelper('tradingViewWidget', function(lang = 'en') {
 	let suffix = '';
 	switch (lang) {
