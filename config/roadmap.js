@@ -9,7 +9,7 @@ let config = {
 						entityId  : '#TrinityGrandFinale',
 						title     : 'Trinity Grand Finale',
 						link      : undefined,
-                        redditBtn : false,
+						redditBtn : false,
 						content   : [
 							{
 								entityId  : '#PoW_in_Pulse',
@@ -70,7 +70,7 @@ let config = {
 								entityId  : '#PoW_ASIC_protection',
 								title     : 'Enabling full RandomX ASIC protection',
 								link      : undefined,
-                     			redditBtn : false,
+								redditBtn : false,
 								content   : [
 									{
 										entityId  : '#PoW_MA_change',
