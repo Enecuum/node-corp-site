@@ -155,7 +155,7 @@ let config = {
 								readiness : 0									
 							},
 							{
-								entity_id : '#CDS',
+								entity_id : '#CmtDS',
 								title     : 'Community driven support',
 								link      : undefined,
 								redditBtn : false,
