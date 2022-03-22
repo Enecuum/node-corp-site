@@ -249,8 +249,8 @@ hbs.registerHelper('if_eq', function(a, b, opts) {
 	}
 });
 
-hbs.registerHelper('getRedditLink', function(entity_id) {
-	let id = entity_id.replace('#','');
+hbs.registerHelper('getRedditLink', function(entityId) {
+	let id = entityId.replace('#','');
 	return `https://www.reddit.com/r/EnecuumDev/search?q=%22%23${id}%22&restrict_sr=true&sort=relevance`
 });
 

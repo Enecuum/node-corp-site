@@ -95,8 +95,8 @@
                           <a href="{{epic.link}}" class="mr-1" target="_blank">Read more</a>
                         {{else}}
                           {{#if epic.redditBtn}}
-                            {{#if epic.entity_id}}
-                              <a href="{{getRedditLink epic.entity_id}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                            {{#if epic.entityId}}
+                              <a href="{{getRedditLink epic.entityId}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
                             {{/if}}
                           {{/if}}
                         {{/if}}
@@ -129,9 +129,9 @@
                                     <a href="{{story.link}}" class="mr-1" target="_blank">Read more</a>
                                   {{else}}
                                     {{#if story.redditBtn}}
-                                      {{#if story.entity_id}}
+                                      {{#if story.entityId}}
                                         <a
-                                          href="{{getRedditLink story.entity_id}}"
+                                          href="{{getRedditLink story.entityId}}"
                                           class="mr-1"
                                           target="_blank"
                                           role="button">
@@ -159,8 +159,8 @@
                                             <a href="{{task.link}}" class="mr-1" target="_blank">Read more</a>
                                           {{else}}
                                             {{#if task.redditBtn}}
-                                              {{#if task.entity_id}}
-                                                <a href="{{getRedditLink task.entity_id}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                                              {{#if task.entityId}}
+                                                <a href="{{getRedditLink task.entityId}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
                                               {{/if}}
                                             {{/if}}
                                           {{/if}}
