@@ -1246,7 +1246,7 @@ table.table-to-cards .scope-col {
 	position: absolute;
 	left: -15px;
 	color: #000;
-	top: 4px;
+	top: 0px;
 	font-size: 17px;
 	font-weight: bold;
 }
@@ -1257,7 +1257,7 @@ table.table-to-cards .scope-col {
 	position: absolute;
 	left: -15px;
 	color: #000;
-	top: 4px;
+	top: 0px;
 	font-size: 17px;
 	font-weight: bold
 }

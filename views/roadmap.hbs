@@ -80,15 +80,24 @@
                 <div class="card">
                   <div class="card-header" id="heading{{p.period}}_e{{epicIndex}}">
                     <h5 class="mb-0 d-flex align-items-center justify-content-between">
-                      <button class="btn btn-link mr-3" data-toggle="collapse" data-target="#collapse{{p.period}}_e{{epicIndex}}" aria-expanded="false" aria-controls="collapse{{p.period}}_e{{epicIndex}}">
+                      <button
+                        class="btn btn-link mr-3"
+                        {{#if epic.content.length}}
+                          data-toggle="collapse"
+                          data-target="#collapse{{p.period}}_e{{epicIndex}}"
+                          aria-expanded="false"
+                          aria-controls="collapse{{p.period}}_e{{epicIndex}}"
+                        {{/if}}>
                         {{epic.title}}
                       </button>
                       <div class="d-flex align-items-center justify-content-between">
                         {{#if epic.link}}
                           <a href="{{epic.link}}" class="mr-1" target="_blank">Read more</a>
                         {{else}}
-                          {{#if epic.entity_id}}
-                            <a href="{{getRedditLink epic.entity_id}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                          {{#if epic.redditBtn}}
+                            {{#if epic.entity_id}}
+                              <a href="{{getRedditLink epic.entity_id}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                            {{/if}}
                           {{/if}}
                         {{/if}}
                         <div class="roadmap-item-readiness">
@@ -105,16 +114,31 @@
                           <div class="card">
                             <div class="card-header" id="heading{{p.period}}_e{{epicIndex}}">
                               <h5 class="mb-0 d-flex align-items-center justify-content-between">
-                                <button class="btn btn-link mr-3" data-toggle="collapse" data-target="#collapse{{p.period}}_e{{epicIndex}}_s{{storyIndex}}" aria-expanded="false" aria-controls="collapse{{p.period}}_e{{epicIndex}}_s{{storyIndex}}">
+                                <button
+                                  class="btn btn-link mr-3"
+                                  {{#if story.content.length}}
+                                    data-toggle="collapse"
+                                    data-target="#collapse{{p.period}}_e{{epicIndex}}_s{{storyIndex}}"
+                                    aria-expanded="false"
+                                    aria-controls="collapse{{p.period}}_e{{epicIndex}}_s{{storyIndex}}"
+                                  {{/if}}>
                                   {{story.title}}
                                 </button>
                                 <div class="d-flex align-items-center justify-content-between">
                                   {{#if story.link}}
                                     <a href="{{story.link}}" class="mr-1" target="_blank">Read more</a>
                                   {{else}}
-                                    {{#if story.entity_id}}
-                                      <a href="{{getRedditLink story.entity_id}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
-                                    {{/if}}
+                                    {{#if story.redditBtn}}
+                                      {{#if story.entity_id}}
+                                        <a
+                                          href="{{getRedditLink story.entity_id}}"
+                                          class="mr-1"
+                                          target="_blank"
+                                          role="button">
+                                            <i class="fab fa-reddit-alien"></i>
+                                          </a>                                          
+                                      {{/if}}
+                                    {{/if}}  
                                   {{/if}}
                                   <div class="roadmap-item-readiness">
                                     {{story.readiness}}%                        
@@ -134,8 +158,10 @@
                                           {{#if task.link}}
                                             <a href="{{task.link}}" class="mr-1" target="_blank">Read more</a>
                                           {{else}}
-                                            {{#if task.entity_id}}
-                                              <a href="{{getRedditLink task.entity_id}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                                            {{#if task.redditBtn}}
+                                              {{#if task.entity_id}}
+                                                <a href="{{getRedditLink task.entity_id}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                                              {{/if}}
                                             {{/if}}
                                           {{/if}}
                                           <div class="roadmap-item-readiness">
