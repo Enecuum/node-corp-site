@@ -32,7 +32,6 @@ jobs:
           images: gitlab-registry.enecuum.com/reg/node-corp-site/${{ github.event.repository.name }}
           tags: |
               type=sha,prefix={{branch}}-,event=branch
-              # pull request event
               type=ref,suffix=-{{sha}},event=pr
 
       - name: Build and push
