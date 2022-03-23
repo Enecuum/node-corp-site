@@ -30,7 +30,10 @@ jobs:
         uses: docker/metadata-action@f3c886e26b64d7e5ef5ff5f574efc88b317b8451
         with:
           images: gitlab-registry.enecuum.com/reg/node-corp-site/${{ github.event.repository.name }}
-          tags: type=sha,prefix={{branch}}-
+          tags: |
+              type=sha,prefix={{branch}}-,event=branch
+              # pull request event
+              type=ref,suffix=-{{sha}},event=pr
 
       - name: Build and push
         id: docker_build
