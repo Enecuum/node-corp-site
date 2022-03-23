@@ -1370,19 +1370,28 @@ table.table-to-cards .scope-col {
 .roadmap-item-readiness {
 	flex-grow: 0;
 	flex-shrink: 0;
-	flex-basis: 4rem;
-	width: 4rem;
+	flex-basis: 4.5rem;
+	width: 4.5rem;
 	text-align: right;
 	color: #888;
 	font-size: 18px!important;
 	font-weight: normal!important;
 }
 
-.roadmap-content a .fa-reddit-alien {
-	font-size: 1.5rem;
-	color: #FF4500;
+.roadmap-item-external-link .conf-direct-link {
+	font-size: 1rem;
 }
 
-.roadmap-content .fa-reddit-alien:hover {
+.roadmap-content a .fa-reddit,
+.roadmap-content .fa-reddit:hover {
+	font-size: 1.5rem;
 	color: #377dff;
+} 
+
+.roadmap-content a .fa-reddit {	
+	opacity: 0.7;	
+}
+
+.roadmap-content .fa-reddit:hover {
+	opacity: 1;
 }

@@ -90,16 +90,18 @@
                         {{/if}}>
                         {{epic.title}}
                       </button>
-                      <div class="d-flex align-items-center justify-content-between">
+                      <div class="roadmap-item-external-link mr-3 text-nowrap d-flex align-items-center">
                         {{#if epic.link}}
-                          <a href="{{epic.link}}" class="mr-1" target="_blank">Read more</a>
+                          <a href="{{epic.link}}" class="mr-1 conf-direct-link" target="_blank">Read more</a>
                         {{else}}
                           {{#if epic.redditBtn}}
                             {{#if epic.entityId}}
-                              <a href="{{getRedditLink epic.entityId}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                              <a href="{{getRedditLink epic.entityId}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit"></i></a>
                             {{/if}}
                           {{/if}}
                         {{/if}}
+                      </div>                      
+                      <div class="ml-auto">
                         <div class="roadmap-item-readiness">
                           {{getEpicReadiness epic.content}}                        
                         </div>                        
@@ -124,9 +126,9 @@
                                   {{/if}}>
                                   {{story.title}}
                                 </button>
-                                <div class="d-flex align-items-center justify-content-between">
+                                <div class="roadmap-item-external-link mr-3 text-nowrap d-flex align-items-center">
                                   {{#if story.link}}
-                                    <a href="{{story.link}}" class="mr-1" target="_blank">Read more</a>
+                                    <a href="{{story.link}}" class="mr-1 conf-direct-link" target="_blank">Read more</a>
                                   {{else}}
                                     {{#if story.redditBtn}}
                                       {{#if story.entityId}}
@@ -135,11 +137,13 @@
                                           class="mr-1"
                                           target="_blank"
                                           role="button">
-                                            <i class="fab fa-reddit-alien"></i>
+                                            <i class="fab fa-reddit"></i>
                                           </a>                                          
                                       {{/if}}
                                     {{/if}}  
-                                  {{/if}}
+                                  {{/if}}                                  
+                                </div>  
+                                <div class="ml-auto">
                                   <div class="roadmap-item-readiness">
                                     {{story.readiness}}%                        
                                   </div> 
@@ -154,16 +158,18 @@
                                     <li>
                                       <div class="d-flex align-items-center justify-content-between">
                                         <div class="mr-3">{{task.title}}</div>
-                                        <div class="d-flex align-items-center justify-content-between">
+                                        <div class="roadmap-item-external-link mr-3 text-nowrap d-flex align-items-center">
                                           {{#if task.link}}
-                                            <a href="{{task.link}}" class="mr-1" target="_blank">Read more</a>
+                                            <a href="{{task.link}}" class="mr-1 conf-direct-link" target="_blank">Read more</a>
                                           {{else}}
                                             {{#if task.redditBtn}}
                                               {{#if task.entityId}}
-                                                <a href="{{getRedditLink task.entityId}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit-alien"></i></a>
+                                                <a href="{{getRedditLink task.entityId}}" class="mr-1" target="_blank" role="button"><i class="fab fa-reddit"></i></a>
                                               {{/if}}
                                             {{/if}}
                                           {{/if}}
+                                        </div>  
+                                        <div class="ml-auto">
                                           <div class="roadmap-item-readiness">
                                             {{getTaskStatus task.status}}                        
                                           </div>
