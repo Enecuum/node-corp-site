@@ -687,6 +687,13 @@
                 "P_1": "This video guide's outline is focused on the \"Trinity Protocol\"",
                 "P_2": "We'll tell you about the concept of the \"Trinity Protocol\" and everything that is necessary to gain comprehensive nowledge about it, smart contracts and Blockchain explorer functions. Enecuum has taken a different approach to the consensus mechanisms by using a Trinity algorithm that combines PoA(Proof of Activity), PoW(Proof of Work), and PoS(Proof of Stake), giving it an upper hand over several blockchains. All of the above is described in this video guide!"
             }
+        },
+        "VIDEO_5" : {
+            "TITLE" : "Blockchain Explorer Features",
+            "DESCR" : {
+                "P_1": "Let's take an in-depth look at the Enecuum blockchain explorer, Enecuum blockchain explorer features, explaining what it is all about and breaking down the use cases and functions of the blockchain explorer features. Watching this video all the way through will be to your advantage so try not to miss out on anything. To begin with, what is a blockchain explorer?",
+                "P_2": "A blockchain explorer is a tool designed to enable crypto traders and investors to surf the present and previous information about the development and accomplishment of blockchain blocks, transactions, and addresses."
+            }
         }
     },
     "NEW_VIDEOGUIDES_ARE_COMING_SOON": "New video-guides are coming soon"
