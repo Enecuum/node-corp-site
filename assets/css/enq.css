@@ -1200,30 +1200,11 @@ table.table-to-cards .scope-col {
 	font-size: 15px;
 	border-bottom: 2px dotted #e7eaf3;
 	font-weight: bolder;
-	padding-right: 50px;
 	margin-bottom: 1rem;
 }
 
 .roadmap-content .card-header>h5 {
 	position: relative;
-}
-
-.roadmap-content .card-header>h5:after,
-.roadmap-content .roadmap-subtask ul>li:after {
-	display: block;
-	content: "0%";
-	position: absolute;
-	right: 0px;
-	color: #888;
-	font-size: 17px;
-}
-
-.roadmap-content .card-header>h5:after {
-	bottom: 0px;
-}
-
-.roadmap-content .roadmap-subtask ul>li:after {
-	bottom: 2px;
 }
 
 .roadmap-content .card-header>h5>button {
@@ -1254,10 +1235,9 @@ table.table-to-cards .scope-col {
 	padding-left: 70px;
 }
 
-.roadmap-content #roadmapAccordionY2022 .card .card-header h5 .btn-link {
+.roadmap-content #roadmapAccordion2022 .card .card-header h5 .btn-link {
 	color: inherit;
 	text-align: start;
-	padding-right: 50px;
 }
 
 .roadmap-content .tasks-card .card-header [data-toggle="collapse"][aria-expanded="false"].btn-link:before {
@@ -1266,7 +1246,7 @@ table.table-to-cards .scope-col {
 	position: absolute;
 	left: -15px;
 	color: #000;
-	top: 4px;
+	top: 0px;
 	font-size: 17px;
 	font-weight: bold;
 }
@@ -1277,7 +1257,7 @@ table.table-to-cards .scope-col {
 	position: absolute;
 	left: -15px;
 	color: #000;
-	top: 4px;
+	top: 0px;
 	font-size: 17px;
 	font-weight: bold
 }
@@ -1385,4 +1365,33 @@ table.table-to-cards .scope-col {
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+
+.roadmap-item-readiness {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 4.5rem;
+	width: 4.5rem;
+	text-align: right;
+	color: #888;
+	font-size: 18px!important;
+	font-weight: normal!important;
+}
+
+.roadmap-item-external-link .conf-direct-link {
+	font-size: 1rem;
+}
+
+.roadmap-content a .fa-reddit,
+.roadmap-content .fa-reddit:hover {
+	font-size: 1.5rem;
+	color: #377dff;
+} 
+
+.roadmap-content a .fa-reddit {	
+	opacity: 0.7;	
+}
+
+.roadmap-content .fa-reddit:hover {
+	opacity: 1;
 }
