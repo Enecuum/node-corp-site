@@ -168,6 +168,17 @@
     ENQCookies.normalFlowExecute();
     //Cookies alert workflow end
 
+
+    $('.roadmap-content .card-header>h5, .roadmap-content .roadmap-subtask ul>li').each(function(index) {
+      var percentage = $(this).attr('data-percentage');
+      if (percentage !== undefined) {
+        $(this).append(`<div class='roadmap-item-percentage'>${percentage}%</div>`)
+      } else {
+        $(this).append(`<div class='roadmap-item-percentage'>0%</div>`)
+      }
+
+    });
+
   });
 </script>
 </body>

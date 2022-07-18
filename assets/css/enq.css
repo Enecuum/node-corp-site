@@ -1208,7 +1208,7 @@ table.table-to-cards .scope-col {
 	position: relative;
 }
 
-.roadmap-content .card-header>h5:after,
+/*.roadmap-content .card-header>h5:after,
 .roadmap-content .roadmap-subtask ul>li:after {
 	display: block;
 	content: "0%";
@@ -1216,13 +1216,22 @@ table.table-to-cards .scope-col {
 	right: 0px;
 	color: #888;
 	font-size: 17px;
+}*/
+
+.roadmap-item-percentage {
+	display: block;
+	content: "0%";
+	position: absolute;
+	right: 0px;
+	color: #888;
+	font-size: 17px;	
 }
 
-.roadmap-content .card-header>h5:after {
+.roadmap-content .card-header>h5 .roadmap-item-percentage {
 	bottom: 0px;
 }
 
-.roadmap-content .roadmap-subtask ul>li:after {
+.roadmap-content .roadmap-subtask ul>li .roadmap-item-percentage {
 	bottom: 2px;
 }
 
