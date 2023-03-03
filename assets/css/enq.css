@@ -1263,7 +1263,8 @@ table.table-to-cards .scope-col {
 	padding-left: 70px;
 }
 
-.roadmap-content #roadmapAccordionY2022 .card .card-header h5 .btn-link {
+.roadmap-content #roadmapAccordionY2022 .card .card-header h5 .btn-link,
+.roadmap-content #roadmapAccordionTrinity2 .card .card-header h5 .btn-link {
 	color: inherit;
 	text-align: start;
 	padding-right: 50px;

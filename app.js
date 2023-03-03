@@ -49,7 +49,7 @@ app.set("view engine", "hbs");
 hbs.registerPartials(__dirname + "/views/partials");
 hbs.registerPartials(__dirname + "/views/partials/roadmap");
 hbs.registerPartials(__dirname + "/views/partials/roadmap/y2022");
-
+hbs.registerPartials(__dirname + "/views/partials/roadmap/trinity2");
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
