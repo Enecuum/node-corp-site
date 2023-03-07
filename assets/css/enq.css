@@ -1270,7 +1270,7 @@ table.table-to-cards .scope-col {
 	padding-right: 50px;
 }
 
-.roadmap-content .tasks-card .card-header [data-toggle="collapse"][aria-expanded="false"].btn-link:before {
+.roadmap-content .card-header [data-toggle="collapse"][aria-expanded="false"].btn-link:before {
 	display: block;
 	content: "+";
 	position: absolute;
@@ -1281,7 +1281,7 @@ table.table-to-cards .scope-col {
 	font-weight: bold;
 }
 
-.roadmap-content .tasks-card .card-header [data-toggle="collapse"][aria-expanded="true"].btn-link:before {
+.roadmap-content .card-header [data-toggle="collapse"][aria-expanded="true"].btn-link:before {
 	display: block;
 	content: "-";
 	position: absolute;
@@ -1395,4 +1395,8 @@ table.table-to-cards .scope-col {
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+
+.done-item {
+	color: #377dff;
 }

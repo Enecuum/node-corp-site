@@ -172,13 +172,23 @@
 
     $('.roadmap-content .card-header>h5, .roadmap-content .roadmap-subtask ul>li').each(function(index) {
       var percentage = $(this).attr('data-percentage');
+      let res = '0%';
+      let className = '';
       if (percentage !== undefined) {
-        $(this).append(`<div class='roadmap-item-percentage'>${percentage}%</div>`)
-      } else {
-        $(this).append(`<div class='roadmap-item-percentage'>0%</div>`)
+        if (percentage == 'paused' || percentage == 'Paused')
+          res = 'Paused';
+        else if (percentage == '100') {
+          res = 'Done';
+          className='done-item';
+        }
+        else if (!isNaN(percentage))
+          res = percentage + '%'
+        // $(this).append(`<div class='roadmap-item-percentage'>${percentage}%</div>`)
       }
-
+      $(this).append(`<div class='roadmap-item-percentage ${className}'>${res}</div>`);
     });
+
+    
 
   });
 </script>
