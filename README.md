@@ -6,5 +6,5 @@ Corp site with node.js backend.
 * launch console (e.g. cmd)
 * execute this command: **nodemon --ext js,hbs,css,json**
 
-###### How to see the results of code changes with ***nodemon***
+###### How to see the results of code changes with ***nodemon***:
 After making changes to files with extensions js, hbs, css, json, the changes will be applied after the page is refreshed. Rebuilding the application in this case is not required.
