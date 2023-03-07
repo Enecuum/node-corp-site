@@ -1396,3 +1396,7 @@ table.table-to-cards .scope-col {
 	left: 0;
 	right: 0;
 }
+
+.done-item {
+	color: #377dff;
+}
