@@ -207,7 +207,7 @@
 
     $.ajax({
       method: 'GET',
-      url: "https://pulse2.enecuum.com/api/v1/stats",
+      url: "https://pulse3.enecuum.com/api/v1/stats",
       async: true,
     })
     .success(function(networkStats) {
@@ -253,7 +253,7 @@
     // initialization of slick carousel
     $.ajax({
       method: 'GET',
-      url: "https://pulse.enecuum.com/api/v1/height",
+      url: "https://pulse3.enecuum.com/api/v1/height",
       async: true,
     }).success(function(response) {
        $("[data-content='lastBlockValue']").text(response.height);
@@ -262,7 +262,7 @@
 
     $.ajax({
       method: 'GET',
-      url: "https://pulse2.enecuum.com/api/v1/peer_map",
+      url: "https://pulse3.enecuum.com/api/v1/peer_map",
       async: true,
     })
     .error(function() {
@@ -471,7 +471,7 @@
           scope.rois = roi;
           $.ajax({
               method: 'GET',
-              url: "https://pulse.enecuum.com/api/v1/stats",
+              url: "https://pulse3.enecuum.com/api/v1/stats",
               async: true,
           }).success(function(stats) {
               scope.stats = stats;
@@ -532,7 +532,7 @@
       if (validator.checkValidDigitalValue(currValue)) {
         $.ajax({
           method: 'GET',
-          url: "https://pulse.enecuum.com/api/v1/stats",
+          url: "https://pulse3.enecuum.com/api/v1/stats",
           async: true,
         }).success(function(stats) {
             $('#currencyCalculatorWrapper').parent('.container').show();

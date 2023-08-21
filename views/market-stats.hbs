@@ -505,7 +505,7 @@
           scope.rois = roi;
           $.ajax({
               method: 'GET',
-              url: "https://pulse.enecuum.com/api/v1/stats",
+              url: "https://pulse3.enecuum.com/api/v1/stats",
               async: true,
           }).success(function(stats) {
               scope.stats = stats;
@@ -566,7 +566,7 @@
       if (validator.checkValidDigitalValue(currValue)) {
         $.ajax({
           method: 'GET',
-          url: "https://pulse.enecuum.com/api/v1/stats",
+          url: "https://pulse3.enecuum.com/api/v1/stats",
           async: true,
         }).success(function(stats) {
             $('#currencyCalculatorWrapper').parent('.container').show();
